@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.mobicents.servers.jainslee.tools",
+    "name": "restcomm-slee-tools-management-console-server",
+    "version": "7.1.77",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Restcomm :: Tools :: slee-management-console-server",
+    "release_date": "2017-05-24T15:25:04Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/tools/restcomm-slee-tools-management-console-server/7.1.77/restcomm-slee-tools-management-console-server-7.1.77.jar",
+    "size": 141746,
+    "md5": null,
+    "sha1": "f627ea22a84d5c2a388fcdd8f40865b332a1ffa6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mobicents.servers.jainslee.tools/restcomm-slee-tools-management-console-server@7.1.77?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.mobicents.servers.jainslee.tools/restcomm-slee-tools-management-console-rpc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.slee/jain-slee",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-fileupload/commons-fileupload",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-servlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.as/jboss-as-ejb-client-bom",
+            "extracted_requirement": "7.2.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.as/jboss-as-jms-client-bom",
+            "extracted_requirement": "7.2.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-user",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.remotingjmx/remoting-jmx",
+            "extracted_requirement": "1.1.0.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.remoting3/jboss-remoting",
+            "extracted_requirement": "3.2.14.GA",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mobicents.servers.jainslee.tools/restcomm-slee-tools-management-console-server@7.1.77?uuid=93e8575a-ffab-450f-8662-66af5cd81b41",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mobicents.servers.jainslee.tools/restcomm-slee-tools-management-console-server@7.1.77",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/tools/restcomm-slee-tools-management-console-server/7.1.77/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/tools/restcomm-slee-tools-management-console-server/7.1.77/restcomm-slee-tools-management-console-server-7.1.77.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mobicents/servers/jainslee/tools/restcomm-slee-tools-management-console-server/7.1.77/restcomm-slee-tools-management-console-server-7.1.77.pom",
+    "file_references": []
+}

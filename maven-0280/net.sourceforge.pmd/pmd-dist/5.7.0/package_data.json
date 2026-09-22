@@ -1,0 +1,248 @@
+{
+    "type": "maven",
+    "namespace": "net.sourceforge.pmd",
+    "name": "pmd-dist",
+    "version": "5.7.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "PMD Distribution Packages",
+    "release_date": "2017-05-20T20:45:29Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-dist/5.7.0/pmd-dist-5.7.0.jar",
+    "size": 2418,
+    "md5": null,
+    "sha1": "5c523e4f91abef53110d81efe996458654d21e59",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sourceforge.pmd/pmd-dist@5.7.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-core",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-cpp",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-cs",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-fortran",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-go",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-groovy",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-java",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-javascript",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-jsp",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-visualforce",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-matlab",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-perl",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-objectivec",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-php",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-plsql",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-python",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-ruby",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-swift",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-vm",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-xml",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-apex",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-ui",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.pmd/pmd-scala",
+            "extracted_requirement": "5.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-compress",
+            "extracted_requirement": "1.13",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.sourceforge.pmd/pmd-dist@5.7.0?uuid=d6016133-ca47-4601-a6d0-81cd56c58fcb",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.sourceforge.pmd/pmd-dist@5.7.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-dist/5.7.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-dist/5.7.0/pmd-dist-5.7.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-dist/5.7.0/pmd-dist-5.7.0.pom",
+    "file_references": []
+}

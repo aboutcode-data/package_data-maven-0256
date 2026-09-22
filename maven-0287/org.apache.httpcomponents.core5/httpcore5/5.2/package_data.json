@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.httpcomponents.core5",
+    "name": "httpcore5",
+    "version": "5.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "44d62e38-07b8-4d70-ad50-6857b6082387",
+            "packages": [
+                "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2?uuid=f3a93be4-0f69-4f4b-a58b-3092d1e0adc0",
+                "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2?classifier=sources&uuid=8af80026-c7a7-41a7-b6cb-dfd3e09a0f77"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache HttpComponents Core HTTP/1.1\nApache HttpComponents HTTP/1.1 core components",
+    "release_date": "2022-11-03T12:18:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9c701e330a33690077c7788251f9b061ee7cec28",
+    "sha256": "a01ff4e7f7817f42bda29ad12fa5a9356f55164063f98b0bb76235effa75559e",
+    "sha512": "62b6a09c9455a1646b2cbf9c62211f9a5b7a7e8e7832bd90e51653e6c24a03ad8357a141ca79b7e73d3772edbc07af16fdd202b0bacb2fc60ad4c93b11609ec2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@27",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@27",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@27"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2?classifier=sources&uuid=8af80026-c7a7-41a7-b6cb-dfd3e09a0f77",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.pom",
+    "file_references": []
+}

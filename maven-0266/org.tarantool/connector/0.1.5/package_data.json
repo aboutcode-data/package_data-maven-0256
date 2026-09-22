@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.tarantool",
+    "name": "connector",
+    "version": "0.1.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Tarantool Connector for Java\nTarantool client for java",
+    "release_date": "2017-05-25T15:02:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dmitry Grytsovets",
+            "email": "dmitry.grytsovets@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/tarantool/tarantool-java",
+    "download_url": "https://repo1.maven.org/maven2/org/tarantool/connector/0.1.5/connector-0.1.5.jar",
+    "size": 135246,
+    "md5": null,
+    "sha1": "b718dce92a5668c3bb7144e7edd81d8c5814a086",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new AND unknown",
+    "declared_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The BSD licence\nhttp://opensource.org/licenses/BSD-3-Clause",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.tarantool/connector@0.1.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.msgpack/msgpack",
+            "extracted_requirement": "0.6.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "1.2.17",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/apache-log4j-extras",
+            "extracted_requirement": "1.2.17",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.tarantool/connector@0.1.5?uuid=776469f9-08b9-4772-94db-d3a165214d19",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.tarantool/connector@0.1.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/tarantool/connector/0.1.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/tarantool/connector/0.1.5/connector-0.1.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/tarantool/connector/0.1.5/connector-0.1.5.pom",
+    "file_references": []
+}

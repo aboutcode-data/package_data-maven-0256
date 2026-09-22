@@ -1,0 +1,166 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.security",
+    "name": "spring-security-web",
+    "version": "5.8.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "981b0e55-7bf3-46da-8887-b706a0bdeddc",
+            "packages": [
+                "pkg:maven/org.springframework.security/spring-security-web@5.8.3?uuid=b1b4a924-4452-4855-9978-bfe1583b2565",
+                "pkg:maven/org.springframework.security/spring-security-web@5.8.3?classifier=sources&uuid=cc217648-c39d-4ec2-985b-c6bd7c20695b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "spring-security-web\nSpring Security",
+    "release_date": "2023-04-17T15:57:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pivotal",
+            "email": "info@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "https://spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://spring.io/projects/spring-security",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-web/5.8.3/spring-security-web-5.8.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "191ede9482de552e5e07d1af628fd366aac3ab9f",
+    "sha256": "510006d9deb0464c34a1adedf84afc2a10d7d41f78211523cf6a6554cccd05c3",
+    "sha512": "0f7ed5eeab852c2683f05a2e7d6031fd0aeef68be4555feef49e74d662dbf70a70f9cccc71375a33ad7ea36f03e1c1c9f5607a01c7a918798ef58dca3d9eab80",
+    "bug_tracking_url": "https://github.com/spring-projects/spring-security/issues",
+    "code_view_url": "https://github.com/spring-projects/spring-security",
+    "vcs_url": "git://github.com/spring-projects/spring-security.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-94d22364-f545-7f7f-6e63-bddee6ac17fe",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.security/spring-security-web@5.8.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core@5.8.3",
+            "extracted_requirement": "5.8.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@5.3.27",
+            "extracted_requirement": "5.3.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop@5.3.27",
+            "extracted_requirement": "5.3.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@5.3.27",
+            "extracted_requirement": "5.3.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@5.3.27",
+            "extracted_requirement": "5.3.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-expression@5.3.27",
+            "extracted_requirement": "5.3.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web@5.3.27",
+            "extracted_requirement": "5.3.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.security/spring-security-web@5.8.3?classifier=sources&uuid=cc217648-c39d-4ec2-985b-c6bd7c20695b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.security/spring-security-web@5.8.3?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,109 @@
+{
+    "type": "maven",
+    "namespace": "org.easymock",
+    "name": "easymock",
+    "version": "3.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4b7a9e7e-011f-481e-82b8-43e77a344c56",
+            "packages": [
+                "pkg:maven/org.easymock/easymock@3.6?uuid=b6030195-7a1b-4a75-a1a2-a7ff370bf1f0",
+                "pkg:maven/org.easymock/easymock@3.6?classifier=sources&uuid=36da688c-0c66-463d-aa02-94587b05141a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "EasyMock\nEasyMock provides an easy way to create Mock Objects for interfaces and classes generating them on the fly",
+    "release_date": "2018-04-09T03:35:07Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tammo Freese",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Tremblay",
+            "email": null,
+            "url": "http://blog.tremblay.pro/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://easymock.org",
+    "download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.6/easymock-3.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "798ee7f836cf3620bcd4d45da3b9f2810efeb328",
+    "sha256": "e05a8e0c10c8beb6d81842ea30deb5c2ca87d700f25de1db29e12e1d33877323",
+    "sha512": "4d9af3f337af9ebf4e060d068c76be5457997ba2a0ec20f4def340fd86162e13caf0f3c1ab8fd817f43b2fb65e052c762314864760c020049e2fc1febd01c11e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) http://easymock.org/contributors.html",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.easymock/easymock@3.6?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.easymock/easymock-parent@3.6",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.easymock/easymock-parent@3.6"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.objenesis/objenesis@2.6",
+            "extracted_requirement": "2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.droidparts.dexmaker/dexmaker@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng@6.14.2",
+            "extracted_requirement": "6.14.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.easymock/easymock@3.6?classifier=sources&uuid=36da688c-0c66-463d-aa02-94587b05141a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.easymock/easymock@3.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.6/easymock-3.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.6/easymock-3.6.pom",
+    "file_references": []
+}

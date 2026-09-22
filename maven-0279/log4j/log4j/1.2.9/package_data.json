@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "log4j",
+    "name": "log4j",
+    "version": "1.2.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e1c75b8f-0722-47c6-9413-6ad529a27a43",
+            "packages": [
+                "pkg:maven/log4j/log4j@1.2.9?uuid=1c605cbe-c143-4f65-8478-c6cdf4029195",
+                "pkg:maven/log4j/log4j@1.2.9?classifier=sources&uuid=3f4cc0ad-2709-4738-9b68-6c84cf254d67"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2005-06-03T16:55:23Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b70470eb359ebea0bff6525c0bdec37528348ec0",
+    "sha256": "5155d6919dba0dca31cd7238a6c29b52f7e43a3110294ee9e6ab8afc2604a08f",
+    "sha512": "42efac93bd288ce9693d60471e0a4528677b259d323bcf5401fbd9f999217308b4a20459a6c10bba5f1dd606b81f40719a05fd129ef91076a85592dc3d669cf1",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-1.1 AND apache-2.0",
+    "other_license_expression_spdx": "Apache-1.1 AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/log4j/log4j@1.2.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/log4j/log4j@1.2.9?classifier=sources&uuid=3f4cc0ad-2709-4738-9b68-6c84cf254d67",
+    "datasource_id": null,
+    "purl": "pkg:maven/log4j/log4j@1.2.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.9/log4j-1.2.9.pom",
+    "file_references": []
+}

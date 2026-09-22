@@ -1,0 +1,107 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.classfilewriter",
+    "name": "jboss-classfilewriter",
+    "version": "1.1.2.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fa59dbd4-55b2-485b-9e63-34dc9f5a3105",
+            "packages": [
+                "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.1.2.Final?uuid=03e89588-0fda-4d45-a14f-235fd5b9ec6a",
+                "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.1.2.Final?classifier=sources&uuid=b656bcd6-cf17-40c7-8e05-fcc651fcd806"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "classfilewriter\nA bytecode writer that creates .class files at runtime",
+    "release_date": "2015-06-11T07:31:53Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stuart Douglas",
+            "email": "sdouglas@redhat.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/jbossas/jboss-classfilewriter",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/classfilewriter/jboss-classfilewriter/1.1.2.Final/jboss-classfilewriter-1.1.2.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "431f642fc522e77c8ec427733763e2ca017a6749",
+    "sha256": "926e6ac68a5a747b09bcb6a5c15a123fdc2720c229a2d7cc488e057444ef8fb9",
+    "sha512": "ff6a8eac24506a47d1825e06f5050b8b0d87338e0711b04f7c9017ec1e40df3bb9da684b6d94c6f521fa0244ea1344837018b865fe505054748d330b78b7a639",
+    "bug_tracking_url": null,
+    "code_view_url": "scm:git:git://github.com/jbossas/jboss-classfilewriter.git",
+    "vcs_url": "git://github.com/jbossas/jboss-classfilewriter.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.1.2.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.1.2.Final?classifier=sources&uuid=b656bcd6-cf17-40c7-8e05-fcc651fcd806",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.1.2.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/classfilewriter/jboss-classfilewriter/1.1.2.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/classfilewriter/jboss-classfilewriter/1.1.2.Final/jboss-classfilewriter-1.1.2.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/classfilewriter/jboss-classfilewriter/1.1.2.Final/jboss-classfilewriter-1.1.2.Final.pom",
+    "file_references": []
+}

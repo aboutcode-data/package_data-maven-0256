@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "javax.measure",
+    "name": "jsr-275",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5db3b187-c245-4451-84f3-9a254d8c9dad",
+            "packages": [
+                "pkg:maven/javax.measure/jsr-275@1.0.0?uuid=fa85236f-58ba-4bed-963d-66630ca719fb",
+                "pkg:maven/javax.measure/jsr-275@1.0.0?classifier=sources&uuid=3cc4b489-f7d9-42f3-87bf-fc6a13301a00"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jsr-275\nThe version 1.0 is not official yet and points to the latest draft release.",
+    "release_date": "2010-05-20T00:51:21Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/1.0.0/jsr-275-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "994bef1882c96c888a3db41a80c853872e16c544",
+    "sha256": "7b480c9f976b4036361e86b80e6256c970af97e5890551525f51a8a3808816bf",
+    "sha512": "389025483c722ef70e6a3d1072063aa0e4923bda93899135ec640f4190fa18f847869915253e5fb5d4cde0f325f359c6730cd64af680203f1c3fb45621a286c7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.measure/jsr-275@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.measure/jsr-275@0.9.1",
+            "extracted_requirement": "0.9.1",
+            "scope": "relocation",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.measure/jsr-275@1.0.0?classifier=sources&uuid=3cc4b489-f7d9-42f3-87bf-fc6a13301a00",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.measure/jsr-275@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/1.0.0/jsr-275-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/1.0.0/jsr-275-1.0.0.pom",
+    "file_references": []
+}

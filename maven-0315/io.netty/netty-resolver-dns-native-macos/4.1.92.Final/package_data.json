@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-resolver-dns-native-macos",
+    "version": "4.1.92.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Netty/Resolver/DNS/Native/MacOS",
+    "release_date": "2023-04-25T08:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.92.Final/netty-resolver-dns-native-macos-4.1.92.Final.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d9b7f7a9e8e7fcfd98cddecbfbb268f8b5070a1e",
+    "sha256": "1ab17abb0c6ec3ab8ec42dc0241877ee59924792cc501b5d472f79e9a53a67d9",
+    "sha512": "acccb57becf41ec933ac955818a1097bf887417a73feaf9492109f23722ca543e63cb2ef597e9d713092b89e56071a6dc6c2f206f680f76d4935e21184004363",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.92.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.92.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.92.Final"
+        ],
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-resolver-dns-classes-macos@4.1.92.Final",
+            "extracted_requirement": "4.1.92.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.92.Final?uuid=d0c2ced9-eef3-48b7-bbe5-79a1f9873f58",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-resolver-dns-native-macos@4.1.92.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.92.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.92.Final/netty-resolver-dns-native-macos-4.1.92.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.92.Final/netty-resolver-dns-native-macos-4.1.92.Final.pom",
+    "file_references": []
+}

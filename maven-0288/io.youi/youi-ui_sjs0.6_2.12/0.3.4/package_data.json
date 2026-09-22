@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "io.youi",
+    "name": "youi-ui_sjs0.6_2.12",
+    "version": "0.3.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "youi-ui",
+    "release_date": "2017-05-18T16:20:38Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Matt Hicks",
+            "email": null,
+            "url": "http://matthicks.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "io.youi",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/outr/youi",
+    "download_url": "https://repo1.maven.org/maven2/io/youi/youi-ui_sjs0.6_2.12/0.3.4/youi-ui_sjs0.6_2.12-0.3.4.jar",
+    "size": 1056118,
+    "md5": null,
+    "sha1": "c79c86fc971a8a2890147cbe82ae89cf60f1e5cf",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttps://raw.githubusercontent.com/outr/youi/master/LICENSE",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.youi/youi-ui_sjs0.6_2.12@0.3.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.youi/youi-core_sjs0.6_2.12",
+            "extracted_requirement": "0.3.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.youi/youi-dom_sjs0.6_2.12",
+            "extracted_requirement": "0.3.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-library_2.12",
+            "extracted_requirement": "0.6.16",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.outr/scalajs-pixijs_sjs0.6_2.12",
+            "extracted_requirement": "4.5.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.outr/canvg-scala-js_sjs0.6_2.12",
+            "extracted_requirement": "1.4.0_1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.outr/opentype-scala-js_sjs0.6_2.12",
+            "extracted_requirement": "0.7.1_2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-js/scalajs-test-interface_2.12",
+            "extracted_requirement": "0.6.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.youi/youi-ui_sjs0.6_2.12@0.3.4?uuid=8c6a9ddf-26c1-49a4-92ec-cf078f558386",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.youi/youi-ui_sjs0.6_2.12@0.3.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/youi/youi-ui_sjs0.6_2.12/0.3.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/youi/youi-ui_sjs0.6_2.12/0.3.4/youi-ui_sjs0.6_2.12-0.3.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/youi/youi-ui_sjs0.6_2.12/0.3.4/youi-ui_sjs0.6_2.12-0.3.4.pom",
+    "file_references": []
+}

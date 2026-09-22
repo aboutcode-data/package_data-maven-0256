@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.weld.examples.jsf",
+    "name": "weld-jsf-login",
+    "version": "2.2.7.Final",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Weld Examples: Login (JSF)",
+    "release_date": "2014-11-21T11:40:39Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://weld.cdi-spec.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/weld/examples/jsf/weld-jsf-login/2.2.7.Final/weld-jsf-login-2.2.7.Final.war",
+    "size": 18490,
+    "md5": null,
+    "sha1": "00c16087882c7c0f2a485adb5336d1935d0f9368",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.weld.examples.jsf/weld-jsf-login@2.2.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.faces/jsf-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.persistence/persistence-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/jta",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.ejb/jboss-ejb-api_3.1_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.junit/arquillian-junit-container",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.graphene/graphene-webdriver",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.weld.examples.jsf/weld-jsf-login@2.2.7.Final?type=war&uuid=d5fceeb7-30e1-4f80-88c7-79e44233ca64",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.weld.examples.jsf/weld-jsf-login@2.2.7.Final?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/weld/examples/jsf/weld-jsf-login/2.2.7.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/weld/examples/jsf/weld-jsf-login/2.2.7.Final/weld-jsf-login-2.2.7.Final.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/weld/examples/jsf/weld-jsf-login/2.2.7.Final/weld-jsf-login-2.2.7.Final.pom",
+    "file_references": []
+}

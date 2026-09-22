@@ -1,0 +1,256 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.play",
+    "name": "play-jdbc_2.10",
+    "version": "2.4.0-RC3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Play-JDBC",
+    "release_date": "2015-05-14T07:02:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Guillaume Bort",
+            "email": null,
+            "url": "http://guillaume.bort.fr"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Peter Hausel",
+            "email": null,
+            "url": "https://twitter.com/pk11"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sadek Drobi",
+            "email": null,
+            "url": "http://sadache.tumblr.com"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Erwan Loisant",
+            "email": null,
+            "url": "http://caffeinelab.net/"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "James Roper",
+            "email": null,
+            "url": "https://jazzy.id.au"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Christopher Hunt",
+            "email": null,
+            "url": "http://christopherhunt-software.blogspot.com.au/"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Rich Dougherty",
+            "email": null,
+            "url": "http://www.richdougherty.com/"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Peter Vlugter",
+            "email": null,
+            "url": "https://github.com/pvlugter"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Will Sargent",
+            "email": null,
+            "url": "https://github.com/wsargent"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Julien Richard-Foy",
+            "email": null,
+            "url": "http://julien.richard-foy.fr"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Arthur Gautier",
+            "email": null,
+            "url": "https://twitter.com/baloose"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "C\u00e9dric Chantepie",
+            "email": null,
+            "url": "https://twitter.com/cchantep"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ben McCann",
+            "email": null,
+            "url": "http://www.benmccann.com"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Pascal Voitot",
+            "email": null,
+            "url": "http://www.mandubian.com"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Nilanjan Raychaudhuri",
+            "email": null,
+            "url": "http://www.manning.com/raychaudhuri/"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Greg Methvin",
+            "email": null,
+            "url": "http://methvin.net"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.typesafe.play",
+            "email": null,
+            "url": "https://playframework.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://playframework.com",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.10/2.4.0-RC3/play-jdbc_2.10-2.4.0-RC3.jar",
+    "size": 103522,
+    "md5": null,
+    "sha1": "f3184c050871c74d8b337db4812082ede57a938c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.play/play-jdbc_2.10@2.4.0-RC3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-jdbc-api_2.10",
+            "extracted_requirement": "2.4.0-RC3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.jolbox/bonecp",
+            "extracted_requirement": "0.8.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.zaxxer/HikariCP",
+            "extracted_requirement": "2.3.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2",
+            "extracted_requirement": "1.4.187",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/tyrex/tyrex",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-specs2_2.10",
+            "extracted_requirement": "2.4.0-RC3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eu.acolyte/jdbc-driver",
+            "extracted_requirement": "1.0.33-j7p",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.10",
+            "extracted_requirement": "3.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-junit_2.10",
+            "extracted_requirement": "3.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-mock_2.10",
+            "extracted_requirement": "3.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.play/play-jdbc_2.10@2.4.0-RC3?uuid=e0619790-a046-4b11-a6a5-5b7e361a77f8",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.play/play-jdbc_2.10@2.4.0-RC3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.10/2.4.0-RC3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.10/2.4.0-RC3/play-jdbc_2.10-2.4.0-RC3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.10/2.4.0-RC3/play-jdbc_2.10-2.4.0-RC3.pom",
+    "file_references": []
+}

@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.kohsuke.jinterop",
+    "name": "j-interopdeps",
+    "version": "2.0.6-kohsuke-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9ddb239b-ecd5-48c9-9139-52d7ba297cc4",
+            "packages": [
+                "pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.6-kohsuke-1?uuid=e554eddd-545f-4976-9399-5056f5c146d2",
+                "pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.6-kohsuke-1?classifier=sources&uuid=db80733d-e76f-4212-8cb2-840d4eb1c1f1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Pure Java - COM bridge",
+    "release_date": "2010-05-20T00:21:52Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/kohsuke/jinterop/j-interopdeps/2.0.6-kohsuke-1/j-interopdeps-2.0.6-kohsuke-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8a89def58bb69f7f61761bbc139ae001884b478b",
+    "sha256": "dd91d74d82f61f9556a093cd89681ad800211f87ae74c1a2c105f88b9fd12509",
+    "sha512": "007dbfd89da2a48d71e62194ec9aa79f55c16ff160cd8efb4d618e255db2f0faf17e361b916c2cbf9d8392cfef356de313a2f3f8e7c6479869a87dae2acbc8bc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus AND (gpl-2.0-plus AND classpath-exception-2.0)",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND (GPL-2.0-or-later AND Classpath-exception-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.6-kohsuke-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.samba.jcifs/jcifs@1.2.19",
+            "extracted_requirement": "1.2.19",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.6-kohsuke-1?classifier=sources&uuid=db80733d-e76f-4212-8cb2-840d4eb1c1f1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.6-kohsuke-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kohsuke/jinterop/j-interopdeps/2.0.6-kohsuke-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kohsuke/jinterop/j-interopdeps/2.0.6-kohsuke-1/j-interopdeps-2.0.6-kohsuke-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kohsuke/jinterop/j-interopdeps/2.0.6-kohsuke-1/j-interopdeps-2.0.6-kohsuke-1.pom",
+    "file_references": []
+}

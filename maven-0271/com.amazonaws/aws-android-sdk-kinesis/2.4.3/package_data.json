@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-android-sdk-kinesis",
+    "version": "2.4.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "AWS SDK for Android - Amazon Kinesis\nThe AWS Android SDK for Amazon Kinesis module holds the client classes that are used for communicating with Amazon Kinesis Service",
+    "release_date": "2017-05-18T01:32:58Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://aws.amazon.com/sdkforandroid",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-android-sdk-kinesis/2.4.3/aws-android-sdk-kinesis-2.4.3.jar",
+    "size": 204206,
+    "md5": null,
+    "sha1": "2a3ff9fbca0716dc6b6a543d1202eb9f3e1169b8",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-android-sdk-kinesis@2.4.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-android-sdk-core",
+            "extracted_requirement": "2.4.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "1.10.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": "2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.robolectric/robolectric",
+            "extracted_requirement": "2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-android-sdk-kinesis@2.4.3?uuid=3370a4ce-93c9-4386-bca9-d4ccf982c56f",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-android-sdk-kinesis@2.4.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-android-sdk-kinesis/2.4.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-android-sdk-kinesis/2.4.3/aws-android-sdk-kinesis-2.4.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-android-sdk-kinesis/2.4.3/aws-android-sdk-kinesis-2.4.3.pom",
+    "file_references": []
+}

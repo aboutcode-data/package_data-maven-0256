@@ -1,0 +1,200 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty.aggregate",
+    "name": "jetty-all",
+    "version": "8.1.0.RC5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Jetty :: Aggregate :: All core Jetty",
+    "release_date": "2012-01-20T19:10:19Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.0.RC5/jetty-all-8.1.0.RC5.jar",
+    "size": 1801664,
+    "md5": null,
+    "sha1": "f7176861b5e847e3d7b8f899e1a258c17f13f1e2",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.0.RC5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-client",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-deploy",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-websocket",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-ajp",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-rewrite",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-nested",
+            "extracted_requirement": "8.1.0.RC5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bservlet.spec.groupId%7D/%24%7Bservlet.spec.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.activation/activation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.0_spec",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/asm/asm-commons",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.0.RC5?uuid=e064d8db-cadb-4603-b4fc-4b0c7207a49e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.0.RC5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.0.RC5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.0.RC5/jetty-all-8.1.0.RC5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.0.RC5/jetty-all-8.1.0.RC5.pom",
+    "file_references": []
+}

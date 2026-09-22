@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.sonar.runner",
+    "name": "sonar-runner-batch",
+    "version": "2.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1fd74729-a02a-4568-8555-ec8681d84357",
+            "packages": [
+                "pkg:maven/org.codehaus.sonar.runner/sonar-runner-batch@2.4?uuid=61876159-2936-439a-b92d-c73bbcbe4d41",
+                "pkg:maven/org.codehaus.sonar.runner/sonar-runner-batch@2.4?classifier=sources&uuid=67435d40-38e0-47e0-a5fa-3531946303f6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SonarQube Runner - Batch",
+    "release_date": "2014-04-24T09:22:25Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "SonarSource",
+            "email": null,
+            "url": "http://www.sonarsource.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://sonar-plugins.codehaus.org",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-batch/2.4/sonar-runner-batch-2.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "df2bebbf906cf9959599b1b2c96495abe90f12ef",
+    "sha256": "6051ff748e15863ac5c406a58a75ad32166c4ad537d86a3c202dcc925a37d728",
+    "sha512": "586a3e82fded40d44ea883c011889ac77ade20cd9104f2cad27a84838c346b5919b9fc1c19e268420b5798b65c24e6e04f8c0819b52b6ab4bcedbcbea31139e9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-3.0 AND lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-3.0-only AND LGPL-2.0-or-later",
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.sonar.runner/sonar-runner-batch@2.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@0.9.15",
+            "extracted_requirement": "0.9.15",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.sonar/sonar-batch@3.7",
+            "extracted_requirement": "3.7",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.sonar/sonar-testing-harness@3.7",
+            "extracted_requirement": "3.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easytesting/fest-assert",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.sonar.runner/sonar-runner-batch@2.4?classifier=sources&uuid=67435d40-38e0-47e0-a5fa-3531946303f6",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.sonar.runner/sonar-runner-batch@2.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-batch/2.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-batch/2.4/sonar-runner-batch-2.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/sonar/runner/sonar-runner-batch/2.4/sonar-runner-batch-2.4.pom",
+    "file_references": []
+}

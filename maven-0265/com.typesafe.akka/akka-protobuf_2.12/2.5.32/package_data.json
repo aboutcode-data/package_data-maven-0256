@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.akka",
+    "name": "akka-protobuf_2.12",
+    "version": "2.5.32",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3ede4c32-ce14-4dcf-a139-e33c43ebe10a",
+            "packages": [
+                "pkg:maven/com.typesafe.akka/akka-protobuf_2.12@2.5.32?uuid=01e24232-15a2-4e67-9c3a-766ef9843b04",
+                "pkg:maven/com.typesafe.akka/akka-protobuf_2.12@2.5.32?classifier=sources&uuid=b02c57b1-65ea-4cc0-bd12-b8f87fa954ee"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "akka-protobuf\nAkka is a toolkit for building highly concurrent, distributed, and resilient message-driven applications for Java and Scala.",
+    "release_date": "2020-10-15T15:05:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Akka Contributors",
+            "email": "akka-dev@googlegroups.com",
+            "url": "https://github.com/akka/akka/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Lightbend Inc.",
+            "email": null,
+            "url": "https://www.lightbend.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://akka.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.32/akka-protobuf_2.12-2.5.32-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9662de8b4bf831cdf5930e6a16d8b617bd8e546a",
+    "sha256": "cd0e92d1caca5e8fc659b63ff3bc479d7191255687768b3daeaf97f260b8c065",
+    "sha512": "06c3472dd40667e6994601fbdd281ab3a2905d0d8ea4455fc5915e2fd02974d7973387e1f6f78e3f7643abb4aef3cdea2a41149288b96f30a537b5872bbd4867",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/akka/akka",
+    "vcs_url": "git+https://github.com/akka/akka.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d19d6db-5271-9183-f2fe-699732078833",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.akka/akka-protobuf_2.12@2.5.32?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.8",
+            "extracted_requirement": "2.12.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.ghik/silencer-lib_2.12.8@1.4.4",
+            "extracted_requirement": "1.4.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.akka/akka-protobuf_2.12@2.5.32?classifier=sources&uuid=b02c57b1-65ea-4cc0-bd12-b8f87fa954ee",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.akka/akka-protobuf_2.12@2.5.32?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

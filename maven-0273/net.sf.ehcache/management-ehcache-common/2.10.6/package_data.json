@@ -1,0 +1,200 @@
+{
+    "type": "maven",
+    "namespace": "net.sf.ehcache",
+    "name": "management-ehcache-common",
+    "version": "2.10.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1564eda7-b72a-46cd-9a73-11028e70eaec",
+            "packages": [
+                "pkg:maven/net.sf.ehcache/management-ehcache-common@2.10.6?uuid=404687c4-a71f-476b-95bb-0407981191de",
+                "pkg:maven/net.sf.ehcache/management-ehcache-common@2.10.6?classifier=sources&uuid=0a0766ab-9c1f-4a8d-a843-9f4b0c67e815"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "management-ehcache-common\nA common library shared between different management-ehcache implementation versions",
+    "release_date": "2018-10-23T12:42:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Luck",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Surya Suravarapu",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Gavin King",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mauro Talevi",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adam Murdoch",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ben Houston",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Claus Ibsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jody Brownell",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Terracotta, Inc.",
+            "email": null,
+            "url": "http://www.terracotta.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://ehcache.org",
+    "download_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache-common/2.10.6/management-ehcache-common-2.10.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "16ca4798f9aa1f8202b291c02712f54c3781edd5",
+    "sha256": "8aa3749f2ec562c5d9ad5a30c38e6fa0131ab78b408cad4d40ab7f598e43af60",
+    "sha512": "7303c22e7fc778eaf836bce4fdbc61388ec63f5bd212a391878b1377bfb4b347e4f321ec5993aa48c3abd43ae495a03be4e6dec96d617fb5fbd328c9b8f32257",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sf.ehcache/management-ehcache-common@2.10.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.terracotta/management-core-resources",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/gf-40/gf.javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache.internal/ehcache-core@2.10.6",
+            "extracted_requirement": "2.10.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.6",
+            "extracted_requirement": "2.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-api-easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-module-junit4",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.sf.ehcache/management-ehcache-common@2.10.6?classifier=sources&uuid=0a0766ab-9c1f-4a8d-a843-9f4b0c67e815",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.sf.ehcache/management-ehcache-common@2.10.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache-common/2.10.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache-common/2.10.6/management-ehcache-common-2.10.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache-common/2.10.6/management-ehcache-common-2.10.6.pom",
+    "file_references": []
+}

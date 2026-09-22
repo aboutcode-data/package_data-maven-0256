@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.yangtools",
+    "name": "openconfig-model-api",
+    "version": "8.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1f6cb480-015d-4b4f-aaae-15479b958f18",
+            "packages": [
+                "pkg:maven/org.opendaylight.yangtools/openconfig-model-api@8.0.6?uuid=6f9a1a3d-a344-46ec-ab96-8b1855697112",
+                "pkg:maven/org.opendaylight.yangtools/openconfig-model-api@8.0.6?classifier=sources&uuid=cd12ba15-bfc4-44c1-a2a9-3d03298cf328"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "openconfig-model-api\nOpenConfig extensions metamodel",
+    "release_date": "2022-05-25T13:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/yangtools/openconfig-model-api/8.0.6/openconfig-model-api-8.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "825abab6cd4eef9287c09d4aa31e4b7f093953ff",
+    "sha256": "05617d4a8b462e973179e83a5fbe68e24b601aee80342db007422e466c66c24d",
+    "sha512": "5cbc78a4204d114c53f8884c866f4ac89c354296c51b42389f0b9e539da72ff7f014799f77d3c6669b6362a03afd40b473174d08572ecfd17655ec7e32fdc976",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.yangtools/openconfig-model-api@8.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/concepts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-repo-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.yangtools/openconfig-model-api@8.0.6?classifier=sources&uuid=cd12ba15-bfc4-44c1-a2a9-3d03298cf328",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.yangtools/openconfig-model-api@8.0.6?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

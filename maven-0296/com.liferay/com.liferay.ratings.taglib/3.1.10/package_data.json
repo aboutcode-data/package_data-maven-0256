@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.ratings.taglib",
+    "version": "3.1.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d613da3e-61ed-4dc5-b4c9-1945436dfd6a",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.ratings.taglib@3.1.10?uuid=e3f7f741-17a8-48d4-a68e-7a1baa73f941",
+                "pkg:maven/com.liferay/com.liferay.ratings.taglib@3.1.10?classifier=sources&uuid=573ba050-2e70-4a5c-9471-67cf479ab4e6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Ratings Taglib",
+    "release_date": "2023-04-20T19:33:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.ratings.taglib/3.1.10/com.liferay.ratings.taglib-3.1.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ebacdff30c6d8e268b79774fd61e89a646ef4e98",
+    "sha256": "4b73c0b7aa0d49867c22a71f45ef0359d22f6ca0c7181d1f8a0cef51d8d61a0c",
+    "sha512": "5d8e14d4ac2be6ff573f88b08bed5af6172fd790895335860c4573828af102621f41a8fcedb9140d922fab563d51ba8cc4aa518da5db8fcdbe4f0dc8e16e84b7",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.ratings.taglib@3.1.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.ratings.taglib@3.1.10?classifier=sources&uuid=573ba050-2e70-4a5c-9471-67cf479ab4e6",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.ratings.taglib@3.1.10?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

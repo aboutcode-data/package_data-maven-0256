@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.shrinkwrap.descriptors",
+    "name": "shrinkwrap-descriptors-impl-base",
+    "version": "2.0.0-alpha-3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b4103c1d-7a5a-4e5c-97b2-45f33e38ff93",
+            "packages": [
+                "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-3?uuid=1bbecae3-4c49-4a93-afeb-9c8407c3a1bc",
+                "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-3?classifier=sources&uuid=49ddbec0-3310-4185-b2c4-8f40ccaeb322"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ShrinkWrap Descriptors Implementation\nImplementation of the ShrinkWrap Descriptors Project",
+    "release_date": "2012-05-10T06:44:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-impl-base/2.0.0-alpha-3/shrinkwrap-descriptors-impl-base-2.0.0-alpha-3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "438266c3cb833527b6ed47d5d1917b746ecad964",
+    "sha256": "efb219efba72616a1284641af3e39ba60063874f1cc9ac5c1b3e986a2b15e728",
+    "sha512": "083c4da999d5e6aac1ba82ec96e323730a9764aaca67fda523688fe2ebc0b11621db12f6752fedfb248db23bffd86e1374e02de34dec895a3287cec3c8fb43c5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain",
+    "license_detections": [],
+    "other_license_expression": "(cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0 AND (epl-1.0 OR bsd-new) AND lgpl-2.1-plus",
+    "other_license_expression_spdx": "(CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0 AND (EPL-1.0 OR BSD-3-Clause) AND LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-spi@2.0.0-alpha-3",
+            "extracted_requirement": "2.0.0-alpha-3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-3?classifier=sources&uuid=49ddbec0-3310-4185-b2c4-8f40ccaeb322",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-impl-base@2.0.0-alpha-3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-impl-base/2.0.0-alpha-3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-impl-base/2.0.0-alpha-3/shrinkwrap-descriptors-impl-base-2.0.0-alpha-3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-impl-base/2.0.0-alpha-3/shrinkwrap-descriptors-impl-base-2.0.0-alpha-3.pom",
+    "file_references": []
+}

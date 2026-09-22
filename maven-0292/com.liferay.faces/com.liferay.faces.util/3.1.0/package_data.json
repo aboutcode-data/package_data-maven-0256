@@ -1,0 +1,221 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay.faces",
+    "name": "com.liferay.faces.util",
+    "version": "3.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a990e04f-7275-4d6b-bd19-f4c92eea8f9b",
+            "packages": [
+                "pkg:maven/com.liferay.faces/com.liferay.faces.util@3.1.0?uuid=624a6a2a-be8e-464a-922e-0ab2b57b73a6",
+                "pkg:maven/com.liferay.faces/com.liferay.faces.util@3.1.0?classifier=sources&uuid=0a160d39-23f5-47ef-843c-aeb6a1cad555"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Faces Util\nLiferay Faces Utilities",
+    "release_date": "2017-09-07T17:19:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Neil Griffin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vernon Singleton",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kyle Stiemann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juan Gonzalez",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Philip White",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bruno Basto",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Liferay, Inc.",
+            "email": null,
+            "url": "http://www.liferay.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.liferay.com/community/liferay-projects/liferay-faces",
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.util/3.1.0/com.liferay.faces.util-3.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5b6df2af94609043fc5a3a99c85739225376a959",
+    "sha256": "e71d7e66c3eff9bb4a9eced308d580e2566d76f462347021f2ef904297aa9f8f",
+    "sha512": "6d9d12d763e818447c53dccece59c0973bd6a52c6639c1ad04ab751065db50cc52da48e58b54b33dc426987d67e2312a022319ae7bf253e09b12374866b48615",
+    "bug_tracking_url": "http://issues.liferay.com/browse/FACES",
+    "code_view_url": "scm:git:https://github.com/liferay/liferay-faces-util",
+    "vcs_url": "git+https://github.com/liferay/liferay-faces-util",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d19d6db-5271-9183-f2fe-699732078833",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND lgpl-2.1-plus",
+    "other_license_expression_spdx": "Apache-2.0 AND LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay.faces/com.liferay.faces.util@3.1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-fileupload/commons-fileupload@1.3.1",
+            "extracted_requirement": "1.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.el/javax.el-api@2.2.1",
+            "extracted_requirement": "2.2.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.faces/javax.faces-api@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+            "extracted_requirement": "3.0.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.2.1",
+            "extracted_requirement": "2.2.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+            "extracted_requirement": "1.7.25",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.25",
+            "extracted_requirement": "1.7.25",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay.faces/com.liferay.faces.util@3.1.0?classifier=sources&uuid=0a160d39-23f5-47ef-843c-aeb6a1cad555",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay.faces/com.liferay.faces.util@3.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.util/3.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.util/3.1.0/com.liferay.faces.util-3.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.util/3.1.0/com.liferay.faces.util-3.1.0.pom",
+    "file_references": []
+}

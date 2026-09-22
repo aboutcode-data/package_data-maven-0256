@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.olingo",
+    "name": "odata-server-api",
+    "version": "4.7.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "49de037d-aa28-44e2-98b0-07a80ab99690",
+            "packages": [
+                "pkg:maven/org.apache.olingo/odata-server-api@4.7.1?uuid=7c6bdd87-6c51-4df7-b90a-073f8de7fc8d",
+                "pkg:maven/org.apache.olingo/odata-server-api@4.7.1?classifier=sources&uuid=163f8806-8807-4ba4-a775-35687c9e5488"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "odata-server-api",
+    "release_date": "2019-12-25T05:27:52Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/olingo/odata-server-api/4.7.1/odata-server-api-4.7.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b22becbbba7dd267964eb6a903a4f7966c6dfb05",
+    "sha256": "9199a7e085fd991755bd796175c466167acd087df47d1b453aff044056d968ed",
+    "sha512": "e7b5eb4ae7bf8792de0b001f0cdcf9b1b2acf482703115681102e3e147ac6a63cf28a1cffa9517508089c9372f1103d1c34feaff5cec18abdf3aef410bd0aa7d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.olingo/odata-server-api@4.7.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.olingo/odata-commons-api@4.7.1",
+            "extracted_requirement": "4.7.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.5",
+            "extracted_requirement": "2.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.olingo/odata-server-api@4.7.1?classifier=sources&uuid=163f8806-8807-4ba4-a775-35687c9e5488",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.olingo/odata-server-api@4.7.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/olingo/odata-server-api/4.7.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/olingo/odata-server-api/4.7.1/odata-server-api-4.7.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/olingo/odata-server-api/4.7.1/odata-server-api-4.7.1.pom",
+    "file_references": []
+}

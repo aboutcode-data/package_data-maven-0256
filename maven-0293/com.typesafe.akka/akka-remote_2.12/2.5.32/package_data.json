@@ -1,0 +1,216 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.akka",
+    "name": "akka-remote_2.12",
+    "version": "2.5.32",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6d44a1d9-2fac-4e71-9b17-d1a1844ac41c",
+            "packages": [
+                "pkg:maven/com.typesafe.akka/akka-remote_2.12@2.5.32?uuid=23e0f447-0750-433a-86e0-06e2f8b55af0",
+                "pkg:maven/com.typesafe.akka/akka-remote_2.12@2.5.32?classifier=sources&uuid=3f1e6f7a-7950-460a-ae00-11fa6cd5c825"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "akka-remote\nAkka is a toolkit for building highly concurrent, distributed, and resilient message-driven applications for Java and Scala.",
+    "release_date": "2020-10-15T15:13:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Akka Contributors",
+            "email": "akka-dev@googlegroups.com",
+            "url": "https://github.com/akka/akka/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Lightbend Inc.",
+            "email": null,
+            "url": "https://www.lightbend.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://akka.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.12/2.5.32/akka-remote_2.12-2.5.32-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9d46d6980a8c48cd50dc41250d462ff375a30344",
+    "sha256": "b31ab676f0388d0bb4c9f05202acb2259391ca7dae68d1823da0984ae9d9e183",
+    "sha512": "40df3826b4de6a0dd2e07c817341a642f79f28d3b4e6b54304d2781a7542c29d469fc8c890e0a9b23ed6c9a46cd0ab2226a4a24461f9e00b46fc97fe4898328e",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/akka/akka",
+    "vcs_url": "git+https://github.com/akka/akka.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d19d6db-5271-9183-f2fe-699732078833",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.akka/akka-remote_2.12@2.5.32?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.8",
+            "extracted_requirement": "2.12.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor_2.12@2.5.32",
+            "extracted_requirement": "2.5.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream_2.12@2.5.32",
+            "extracted_requirement": "2.5.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-protobuf_2.12@2.5.32",
+            "extracted_requirement": "2.5.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty@3.10.6.Final",
+            "extracted_requirement": "3.10.6.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.aeron/aeron-driver@1.15.1",
+            "extracted_requirement": "1.15.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.aeron/aeron-client@1.15.1",
+            "extracted_requirement": "1.15.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor-tests_2.12@2.5.32",
+            "extracted_requirement": "2.5.32",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-testkit_2.12@2.5.32",
+            "extracted_requirement": "2.5.32",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream-testkit_2.12@2.5.32",
+            "extracted_requirement": "2.5.32",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12@3.0.8",
+            "extracted_requirement": "3.0.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.jimfs/jimfs@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.ghik/silencer-lib_2.12.8@1.4.4",
+            "extracted_requirement": "1.4.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.akka/akka-remote_2.12@2.5.32?classifier=sources&uuid=3f1e6f7a-7950-460a-ae00-11fa6cd5c825",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.akka/akka-remote_2.12@2.5.32?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

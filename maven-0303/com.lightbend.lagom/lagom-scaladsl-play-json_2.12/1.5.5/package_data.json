@@ -1,0 +1,248 @@
+{
+    "type": "maven",
+    "namespace": "com.lightbend.lagom",
+    "name": "lagom-scaladsl-play-json_2.12",
+    "version": "1.5.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e8231b37-8859-4d7c-95df-1c5dafb494b7",
+            "packages": [
+                "pkg:maven/com.lightbend.lagom/lagom-scaladsl-play-json_2.12@1.5.5?uuid=02a6e3af-5e22-4f3d-ab12-dc1a5df7124e",
+                "pkg:maven/com.lightbend.lagom/lagom-scaladsl-play-json_2.12@1.5.5?classifier=sources&uuid=d5975946-d9bb-4117-b84f-b5bee0d6b377"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "lagom-scaladsl-play-json",
+    "release_date": "2019-12-05T09:42:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Lagom Contributors",
+            "email": null,
+            "url": "https://github.com/lagom"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lightbend.lagom",
+            "email": null,
+            "url": "https://www.lagomframework.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.lagomframework.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-play-json_2.12/1.5.5/lagom-scaladsl-play-json_2.12-1.5.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b0a6ebb9491d6f71423b5f7c9ddf58fba445583f",
+    "sha256": "7b7112b598c9c5d3ff29c2766700ec5dd5999c03ed63519ea72943ddbc21adb1",
+    "sha512": "33cdf3971a25ba65c074bb96fd6fa8523f3dabc3dd4f3e689ec63459812be93209a2c65efdcfccccefaf5b7a7806ca49ee23d74db0a394f5c86798706e4d4fe1",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/lagom/lagom",
+    "vcs_url": "git+https://github.com/lagom/lagom.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bcefe950-fdcf-2a12-721d-7f0d69b15c83",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lightbend.lagom/lagom-scaladsl-play-json_2.12@1.5.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.9",
+            "extracted_requirement": "2.12.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-json_2.12@2.7.4",
+            "extracted_requirement": "2.7.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor_2.12@2.5.26",
+            "extracted_requirement": "2.5.26",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect@2.12.9",
+            "extracted_requirement": "2.12.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.12@0.9.0",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.pcollections/pcollections@2.2.0",
+            "extracted_requirement": "2.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10",
+            "extracted_requirement": "2.9.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10",
+            "extracted_requirement": "2.9.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.1",
+            "extracted_requirement": "2.9.10.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.10",
+            "extracted_requirement": "2.9.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.9.10",
+            "extracted_requirement": "2.9.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.9.10",
+            "extracted_requirement": "2.9.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-pcollections@2.9.10",
+            "extracted_requirement": "2.9.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@27.1-jre",
+            "extracted_requirement": "27.1-jre",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-testkit_2.12@2.5.26",
+            "extracted_requirement": "2.5.26",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12@3.0.5",
+            "extracted_requirement": "3.0.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-xml_2.12@1.2.0",
+            "extracted_requirement": "1.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-parser-combinators_2.12@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.lightbend.lagom/lagom-scaladsl-play-json_2.12@1.5.5?classifier=sources&uuid=d5975946-d9bb-4117-b84f-b5bee0d6b377",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lightbend.lagom/lagom-scaladsl-play-json_2.12@1.5.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-play-json_2.12/1.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-play-json_2.12/1.5.5/lagom-scaladsl-play-json_2.12-1.5.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-scaladsl-play-json_2.12/1.5.5/lagom-scaladsl-play-json_2.12-1.5.5.pom",
+    "file_references": []
+}

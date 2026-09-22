@@ -1,0 +1,99 @@
+{
+    "type": "maven",
+    "namespace": "com.jolira",
+    "name": "asm",
+    "version": "3.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b2e1b82b-5b55-45bd-957c-e626a7b6d48d",
+            "packages": [
+                "pkg:maven/com.jolira/asm@3.3.0?uuid=df7ad2d7-130a-4b08-bae5-482303ab78e5",
+                "pkg:maven/com.jolira/asm@3.3.0?classifier=sources&uuid=5ceb929c-23f2-4dd2-8e3c-bfe72b1340c2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "asm\nRedistribution of version 3.3 of the ASM Java bytecode manipulation framework (http://forge.ow2.org/projects/asm/), complete with source code and javadoc.",
+    "release_date": "2010-06-28T15:31:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joachim Kainz",
+            "email": "jfk@jolira.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Gabe Hopper",
+            "email": "gabe@jolira.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://forge.ow2.org/projects/asm/",
+    "download_url": "https://repo1.maven.org/maven2/com/jolira/asm/3.3.0/asm-3.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d7a69662cf0d8eb24b51b79cf0a80bd26cec16ff",
+    "sha256": "b9c0aca964bff49ed02d11a2f09136f1113d6950da6553b4f86b7965e678e04b",
+    "sha512": "e078991fadb0fa0a93f99e63091e9977b95c7798b539c23a0deeabdccaab2a1e0da7679feaeee6efb078e5c6863b98c492b1bfceb4e7597deb1d254a288414e3",
+    "bug_tracking_url": null,
+    "code_view_url": "https://jolira-tools.googlecode.com/svn/superpom/tags/asm-3.3.0",
+    "vcs_url": "svn+https://jolira-tools.googlecode.com/svn/superpom/tags/asm-3.3.0",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 99.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_26.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: BSD License",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 99,
+                    "rule_identifier": "bsd-new_26.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-3be3d96b-de79-5d03-4d9a-5166a036a0bf",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD License\n  url: http://cvs.forge.objectweb.org/cgi-bin/viewcvs.cgi/*checkout*/asm/asm/LICENSE.txt\n  comments: Copyright (c) 2000-2005 INRIA, France Telecom\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.jolira/asm@3.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.8.1",
+            "extracted_requirement": "4.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.jolira/asm@3.3.0?classifier=sources&uuid=5ceb929c-23f2-4dd2-8e3c-bfe72b1340c2",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.jolira/asm@3.3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/jolira/asm/3.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/jolira/asm/3.3.0/asm-3.3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/jolira/asm/3.3.0/asm-3.3.0.pom",
+    "file_references": []
+}

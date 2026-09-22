@@ -1,0 +1,57 @@
+{
+    "type": "maven",
+    "namespace": "log4j",
+    "name": "log4j",
+    "version": "1.2.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6f543c28-f439-4071-b1e3-6f61d12f766e",
+            "packages": [
+                "pkg:maven/log4j/log4j@1.2.8?uuid=458ff4ea-3ecc-48a7-b946-f3edce66eb28",
+                "pkg:maven/log4j/log4j@1.2.8?classifier=sources&uuid=fd94ba85-5f64-47f1-b0b2-7dbaccc43081"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2004-03-05T10:49:58Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.8/log4j-1.2.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7f17ad740ac6a28a174ea13fac8d9b51e2a5c8b2",
+    "sha256": "941df149bb449c82ff560ad07c2e04d8a56d5889876aa5edef231b0f1d3c27f8",
+    "sha512": "6b6b18e6b6a32fc7e84c64aa4b50335c6c1ad47a832ef9ee289e305f5c4117689202611ed08373af04a86a1c5fa154b242b98e1ed3685c758f715dc1e855a062",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-1.1",
+    "other_license_expression_spdx": "Apache-1.1",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/log4j/log4j@1.2.8?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/log4j/log4j@1.2.8?classifier=sources&uuid=fd94ba85-5f64-47f1-b0b2-7dbaccc43081",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/log4j/log4j@1.2.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.8/log4j-1.2.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.8/log4j-1.2.8.pom",
+    "file_references": []
+}

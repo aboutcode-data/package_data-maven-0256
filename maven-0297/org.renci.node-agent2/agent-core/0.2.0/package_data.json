@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.renci.node-agent2",
+    "name": "agent-core",
+    "version": "0.2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "core",
+    "release_date": "2017-05-26T15:24:15Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://maven.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/renci/node-agent2/agent-core/0.2.0/agent-core-0.2.0.jar",
+    "size": 18008,
+    "md5": null,
+    "sha1": "56027ea523bacb5c9cb0350883865a9f5528c437",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.renci.node-agent2/agent-core@0.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.renci.node-agent2/agentlib",
+            "extracted_requirement": "0.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.renci.node-agent2/agent-config",
+            "extracted_requirement": "0.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.renci.node-agent2/agent-core@0.2.0?uuid=08cbeae2-b960-4b4d-98fa-42223fc1e0cc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.renci.node-agent2/agent-core@0.2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/renci/node-agent2/agent-core/0.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/renci/node-agent2/agent-core/0.2.0/agent-core-0.2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/renci/node-agent2/agent-core/0.2.0/agent-core-0.2.0.pom",
+    "file_references": []
+}

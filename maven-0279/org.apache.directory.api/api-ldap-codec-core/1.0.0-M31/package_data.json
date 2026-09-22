@@ -1,0 +1,144 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.directory.api",
+    "name": "api-ldap-codec-core",
+    "version": "1.0.0-M31",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4794e61c-96cb-44ac-a724-4e68e0cdcc21",
+            "packages": [
+                "pkg:maven/org.apache.directory.api/api-ldap-codec-core@1.0.0-M31?uuid=c7985edd-0265-4fe2-bd2c-2a6e64f33b4c",
+                "pkg:maven/org.apache.directory.api/api-ldap-codec-core@1.0.0-M31?classifier=sources&uuid=348ded36-a1a2-4a0f-8282-7d1d93105da8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Directory LDAP API Codec Core\nLDAP Codec used by clients and servers",
+    "release_date": "2015-06-30T16:49:34Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-core/1.0.0-M31/api-ldap-codec-core-1.0.0-M31-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a5a7e03916a000ca8ae4876103620b2e4d74d96e",
+    "sha256": "662e99e197ee59f7e590d208fcd51f6aad1025054e5561da9e93fdaf9bd3ca57",
+    "sha512": "d357ac15884f871c6a5220e05e735dd622e0523305209ff0015400b76a66bc2c437235f8c80a521f33b267a1bd43269bcbbaef3163e650b0aaec539ff3946474",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.directory.api/api-ldap-codec-core@1.0.0-M31?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.directory.junit/junit-addons",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-asn1-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-asn1-ber",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-i18n",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-ldap-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.mina/mina-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-collections/commons-collections",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.directory.api/api-ldap-codec-core@1.0.0-M31?classifier=sources&uuid=348ded36-a1a2-4a0f-8282-7d1d93105da8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.directory.api/api-ldap-codec-core@1.0.0-M31?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-core/1.0.0-M31/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-core/1.0.0-M31/api-ldap-codec-core-1.0.0-M31-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-core/1.0.0-M31/api-ldap-codec-core-1.0.0-M31.pom",
+    "file_references": []
+}

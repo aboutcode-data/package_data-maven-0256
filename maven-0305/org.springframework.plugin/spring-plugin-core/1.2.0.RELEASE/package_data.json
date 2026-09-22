@@ -1,0 +1,110 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.plugin",
+    "name": "spring-plugin-core",
+    "version": "1.2.0.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ee275d8a-4a32-41fd-8347-3416e41d12b8",
+            "packages": [
+                "pkg:maven/org.springframework.plugin/spring-plugin-core@1.2.0.RELEASE?uuid=70ebb34b-fb1c-4322-a37b-8446a59c13c9",
+                "pkg:maven/org.springframework.plugin/spring-plugin-core@1.2.0.RELEASE?classifier=sources&uuid=5aead6cf-03ec-4d6d-882f-4ce1853baae8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Plugin - Core\nCore plugin infrastructure",
+    "release_date": "2015-03-05T10:13:58Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Oliver Gierke",
+            "email": "ogierke@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "http://www.spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/spring-projects/spring-plugin",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "112d82259202fa909d51cf7ccefae0c5523f1373",
+    "sha256": "455d1edda64e919ffd52a341ec6f3cd45eba19f3ef238030d34e40a4d48de7fb",
+    "sha512": "bbd4eb24c824a5fc30a8bc08c372e88b8a94f6e7a197e6f14ce82fd22b69325f26ad2e043b55fc1b80d85f2996ce441c9f4d64e30f05e7d7eca49ab25f9f0f6f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.plugin/spring-plugin-core@1.2.0.RELEASE?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.springframework.plugin/spring-plugin@1.2.0.RELEASE",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.springframework.plugin/spring-plugin@1.2.0.RELEASE",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.springframework.plugin/spring-plugin@1.2.0.RELEASE"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans",
+            "extracted_requirement": "${spring.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": "${spring.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop",
+            "extracted_requirement": "${spring.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": "${spring.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.plugin/spring-plugin-core@1.2.0.RELEASE?classifier=sources&uuid=5aead6cf-03ec-4d6d-882f-4ce1853baae8",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.springframework.plugin/spring-plugin-core@1.2.0.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.pom",
+    "file_references": []
+}

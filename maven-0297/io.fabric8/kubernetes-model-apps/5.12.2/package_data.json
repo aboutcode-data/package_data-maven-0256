@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8",
+    "name": "kubernetes-model-apps",
+    "version": "5.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f8a7ec1d-6cb7-441e-961a-25e8c11700ab",
+            "packages": [
+                "pkg:maven/io.fabric8/kubernetes-model-apps@5.12.2?uuid=3efc6011-694c-4c24-a724-b668fd9efe77",
+                "pkg:maven/io.fabric8/kubernetes-model-apps@5.12.2?classifier=sources&uuid=ddba9333-f954-4305-828a-02cfbaac64ce",
+                "pkg:github/fabric8io/kubernetes-client@v5.12.2?uuid=6af039a5-977e-45b8-90e8-aaf8698c1854"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Fabric8 :: Kubernetes Model :: Apps",
+    "release_date": "2022-04-06T09:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Fabric8 Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Red Hat",
+            "email": null,
+            "url": "http://redhat.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fabric8.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-apps/5.12.2/kubernetes-model-apps-5.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "725acc2440632fc6b4233cf0ce963da6b89676cd",
+    "sha256": "057e3799b883c2871aa774ecc8d6e9b6a3475e01da193b7ba6a3aa3d39f7d9d0",
+    "sha512": "9994cc43f6a97cde2f55c8b9122823a49a0327c151f34c5dbea04228e4ff5de3ffe76aba0ad763ed104cad0b46958f8d3b5497a7833743268510d396324c9c74",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8/kubernetes-model-apps@5.12.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8/kubernetes-model-apps@5.12.2?classifier=sources&uuid=ddba9333-f954-4305-828a-02cfbaac64ce",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.fabric8/kubernetes-model-apps@5.12.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-apps/5.12.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-apps/5.12.2/kubernetes-model-apps-5.12.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-apps/5.12.2/kubernetes-model-apps-5.12.2.pom",
+    "file_references": []
+}

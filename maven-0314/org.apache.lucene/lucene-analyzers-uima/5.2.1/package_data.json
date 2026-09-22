@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-analyzers-uima",
+    "version": "5.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6b2ee92a-6798-4f82-a341-b7f2c33c7ed0",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-analyzers-uima@5.2.1?uuid=5ea58243-3282-4d75-bd99-e6cdc2c23c7c",
+                "pkg:maven/org.apache.lucene/lucene-analyzers-uima@5.2.1?classifier=sources&uuid=8c9a2e59-96e5-4406-840d-93fa564774bb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene UIMA Analysis Components\nLucene Integration with UIMA for extracting metadata from arbitrary (text)\n    fields and enrich document with features extracted from UIMA types \n    (language, sentences, concepts, named entities, etc.)",
+    "release_date": "2015-06-14T22:22:10Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-uima/5.2.1/lucene-analyzers-uima-5.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9e3a4ac80f663a2d0c60ca931cf9ce85615aaf95",
+    "sha256": "2b5bba9e1bdfdb43c58d98cb8d3d1d2282e790988d1c3fe01d9b15bfa7fb6822",
+    "sha512": "8dad916ba653fe6555413abd9f4d9ee520ba6690e0624a0dd1bcf0187c07ce1fec1d62de8d1859e4440c6dccfb4d31249218137b2dd45203b4d4db9cd0638ff4",
+    "bug_tracking_url": null,
+    "code_view_url": "/lucene/analysis/uima",
+    "vcs_url": "svn+/lucene/analysis/uima",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (apache-2.0 AND cpl-1.0 AND bsd-new) AND bsd-simplified AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND (mit AND unicode AND bsd-new) AND (mit AND x11) AND naist-2003 AND python AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND unicode-mappings AND x11",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (Apache-2.0 AND CPL-1.0 AND BSD-3-Clause) AND BSD-2-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (MIT AND ICU) AND NAIST-2003 AND Python-2.0 AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND LicenseRef-scancode-unicode-mappings AND ICU",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-analyzers-uima@5.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-test-framework",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-codecs",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-analyzers-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/Tagger",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/WhitespaceTokenizer",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-analyzers-uima@5.2.1?classifier=sources&uuid=8c9a2e59-96e5-4406-840d-93fa564774bb",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.lucene/lucene-analyzers-uima@5.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-uima/5.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-uima/5.2.1/lucene-analyzers-uima-5.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-uima/5.2.1/lucene-analyzers-uima-5.2.1.pom",
+    "file_references": []
+}

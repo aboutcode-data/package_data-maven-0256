@@ -1,0 +1,134 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.jaxb",
+    "name": "jaxb-jxc",
+    "version": "2.3.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0525557b-2a94-4516-89b5-ee6c63204b42",
+            "packages": [
+                "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.3.4?uuid=18ee93e3-8811-4d58-914a-04cccd20eab8",
+                "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.3.4?classifier=sources&uuid=f6ed86d9-53b6-4d6e-9725-1f01cd33727c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JAXB JXC\nJAXB schema generator.The *tool* to generate XML schema based on java classes.",
+    "release_date": "2021-04-09T05:20:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eclipse EE4J Developers",
+            "email": "ee4j-pmc@eclipse.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse Foundation",
+            "email": null,
+            "url": "https://www.eclipse.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://projects.eclipse.org/projects/ee4j",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-jxc/2.3.4/jaxb-jxc-2.3.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "26908313b1029ecad90766fc856ee9a7d720b409",
+    "sha256": "617fa31c2ff24212079ac837757d793718ad163e82b03fa3a3d405b8949efb55",
+    "sha512": "5ad7ff693c7900cd7696df80d5428bbec963e583bf33d0aadaa24176466b8d0654944242db35155e4cab7d27acc0a45c1f7f51d6cafe73180522bf2a8f1995d9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "(epl-1.0 AND (epl-2.0 OR gpl-2.0 WITH classpath-exception-2.0) AND epl-2.0) AND unknown",
+    "declared_license_expression_spdx": "(EPL-1.0 AND (EPL-2.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND EPL-2.0) AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND public-domain-disclaimer AND (apache-2.0 AND (mit OR gpl-1.0-plus) AND gpl-1.0-plus) AND (apache-2.0 AND apache-1.1 AND public-domain AND indiana-extreme-1.2 AND bsd-new AND sax-pd) AND (apache-2.0 AND public-domain AND mit AND apache-1.1) AND (epl-2.0 AND apache-2.0) AND (public-domain AND generic-export-compliance)",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain-disclaimer AND (Apache-2.0 AND (MIT OR GPL-1.0-or-later) AND GPL-1.0-or-later) AND (Apache-2.0 AND Apache-1.1 AND LicenseRef-scancode-public-domain AND xpp AND BSD-3-Clause AND SAX-PD) AND (Apache-2.0 AND LicenseRef-scancode-public-domain AND MIT AND Apache-1.1) AND (EPL-2.0 AND Apache-2.0) AND (LicenseRef-scancode-public-domain AND LicenseRef-scancode-generic-export-compliance)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.3.4?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.ee4j/project@1.0.7",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.ee4j/project@1.0.7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.ee4j/project@1.0.7"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jakarta.activation/jakarta.activation-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.org.apache.xml.internal/resolver",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.checkerframework/compiler",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jaxb/jaxb-xjc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmockit/jmockit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.3.4?classifier=sources&uuid=f6ed86d9-53b6-4d6e-9725-1f01cd33727c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.glassfish.jaxb/jaxb-jxc@2.3.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-jxc/2.3.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-jxc/2.3.4/jaxb-jxc-2.3.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-jxc/2.3.4/jaxb-jxc-2.3.4.pom",
+    "file_references": []
+}

@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "com.github.swissquote",
+    "name": "zet-maven-plugin",
+    "version": "1.2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-07-17T09:26:32Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/github/swissquote/zet-maven-plugin/1.2.0/zet-maven-plugin-1.2.0.jar",
+    "size": 42071,
+    "md5": null,
+    "sha1": "1e0099246852b68e48caddcded87101d18914394",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.swissquote/zet-maven-plugin@1.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.github.swissquote/carnotzet-core",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.swissquote/carnotzet-orchestrator-docker-compose",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-interactivity-api",
+            "extracted_requirement": "1.0-alpha-6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j",
+            "extracted_requirement": "1.7.25",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations",
+            "extracted_requirement": "3.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.swissquote/zet-maven-plugin@1.2.0?uuid=2d17450f-2ba9-4f72-adb0-634e16afabc3",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.swissquote/zet-maven-plugin@1.2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/swissquote/zet-maven-plugin/1.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/swissquote/zet-maven-plugin/1.2.0/zet-maven-plugin-1.2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/swissquote/zet-maven-plugin/1.2.0/zet-maven-plugin-1.2.0.pom",
+    "file_references": []
+}

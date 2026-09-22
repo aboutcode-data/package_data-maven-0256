@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-datasource-deployment-spi",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b7105837-03b8-4e35-b16c-577eac1f2f45",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-datasource-deployment-spi@2.13.7.Final?uuid=9643b25b-a01a-4a1f-a78f-f550590b5580",
+                "pkg:maven/io.quarkus/quarkus-datasource-deployment-spi@2.13.7.Final?classifier=sources&uuid=5754fcba-b2af-4b22-abf7-f9a6ac53b519"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Datasource - Deployment",
+    "release_date": "2023-01-19T10:18:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-datasource-deployment-spi/2.13.7.Final/quarkus-datasource-deployment-spi-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "cf5a96a46415ce8fc3918fac42fe4fdfeeab6345",
+    "sha256": "3172fcc61b2250e19eba60d3db7d16406a5fde34c174b5212a896591cb312418",
+    "sha512": "88d9efc7a7e3159e2ea968d0a23af5bb7d11fa1d586d8fdf3c0a52f4c8ad2d2b680f4a73f182aa1e26c6ff6e7e61d5bf477ba8baf6ddac2b50c7cb6ab9b0576c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-datasource-deployment-spi@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-datasource-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-datasource-deployment-spi@2.13.7.Final?classifier=sources&uuid=5754fcba-b2af-4b22-abf7-f9a6ac53b519",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-datasource-deployment-spi@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

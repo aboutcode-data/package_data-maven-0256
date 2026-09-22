@@ -1,0 +1,190 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.uima",
+    "name": "uimafit-core",
+    "version": "3.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5bed1482-83b1-4125-b287-757618d037e4",
+            "packages": [
+                "pkg:maven/org.apache.uima/uimafit-core@3.3.0?uuid=868bb7ec-491d-46b5-b2ae-4c96a4d55d0f",
+                "pkg:maven/org.apache.uima/uimafit-core@3.3.0?classifier=sources&uuid=7f7b5bb6-5fd9-44c3-9794-f09edd03e1d8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache UIMA uimaFIT - Core\nFactories, Injection, and Testing library for UIMA",
+    "release_date": "2022-05-30T11:26:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "${uimaWebsiteUrl}",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/uima/uimafit-core/3.3.0/uimafit-core-3.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "550a3c5936bafe5a751e118826e14ce6858eda8b",
+    "sha256": "7c6d457ae9e3496e20c5ab3c0effda3e37aa085324cad322527aaa4b6415bf30",
+    "sha512": "b5f75b755d006502e55ae83526235d82cccfd2bddde3ea264f559f05cb6bcafbeb71034d93d79322b7257a7b4ac46b52a2b3b9fc9d1841dfae8fae54fab5b21e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND mit",
+    "other_license_expression_spdx": "Apache-2.0 AND MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.uima/uimafit-core@3.3.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@26"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-collections4@4.4",
+            "extracted_requirement": "4.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xmlunit/xmlunit-assertj3",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.uima/uimafit-core@3.3.0?classifier=sources&uuid=7f7b5bb6-5fd9-44c3-9794-f09edd03e1d8",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.uima/uimafit-core@3.3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/uima/uimafit-core/3.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/uima/uimafit-core/3.3.0/uimafit-core-3.3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/uima/uimafit-core/3.3.0/uimafit-core-3.3.0.pom",
+    "file_references": []
+}

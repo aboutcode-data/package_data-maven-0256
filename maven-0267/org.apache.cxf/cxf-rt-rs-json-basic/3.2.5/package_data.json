@@ -1,0 +1,101 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-rs-json-basic",
+    "version": "3.2.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8f567424-6c2a-4503-a716-0b3b912f3571",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.2.5?uuid=81e5a394-0214-4079-baab-361463f5cd90",
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.2.5?classifier=sources&uuid=76b2d716-e19c-4d3a-97fb-c7a37ae67958"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF JAX-RS Extensions: JSON Basic",
+    "release_date": "2018-06-18T20:34:04Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.2.5/cxf-rt-rs-json-basic-3.2.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7d592f89d4be3940d90d8bc94e79ea53788c2692",
+    "sha256": "d5e8db09e50aaa3a8b54cf6ab8f319507a581684c14da37c07a2ffb7cc445d97",
+    "sha512": "fbe5ea5d58c8bfe09198e16793ddbef750938762b3e4a15b2fc38f0cde9690b8e8cc67453d983225bfd82f417412b4fa39e070b07087bd29ebf8a5b0220c3c51",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.2.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.2.5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.2.5"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.2.5?classifier=sources&uuid=76b2d716-e19c-4d3a-97fb-c7a37ae67958",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.2.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.2.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.2.5/cxf-rt-rs-json-basic-3.2.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.2.5/cxf-rt-rs-json-basic-3.2.5.pom",
+    "file_references": []
+}

@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.directory.api",
+    "name": "api-ldap-codec-standalone",
+    "version": "1.0.0-M31",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cea17afb-c025-4589-8454-18d96ae6290b",
+            "packages": [
+                "pkg:maven/org.apache.directory.api/api-ldap-codec-standalone@1.0.0-M31?uuid=c296e523-18d9-468c-8538-660d04b286cd",
+                "pkg:maven/org.apache.directory.api/api-ldap-codec-standalone@1.0.0-M31?classifier=sources&uuid=7bbaac9d-bb30-462e-ba5a-bfb7ce830ff4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Directory LDAP API Codec Standalone\nThis module was created to fix issue DIRSHARED-91 where the embedded Felix\n    instance inside the default LdapCodecService implementation was making it \n    very problematic to deploy the ldap-codec inside an RCP (OSGi) environment\n    and hence Apache Directory Studio could not use it.\n\n    This module is most likely temporary and will disappear once we are fully\n    OSGi enabled. This module is a plain old jar, not a bundle to avoid \n    accidental reuse as an OSGi module because it contains the version of the\n    LdapCodecService that embeds Felix to make controls and extended ops \n    pluggable in the codec.",
+    "release_date": "2015-06-30T16:51:59Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-standalone/1.0.0-M31/api-ldap-codec-standalone-1.0.0-M31-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4076546660faebc48def7d37a9eb65f8158fe01c",
+    "sha256": "552b0bdd176ce89f530dd32918932a2c2618f7480234d128683c7a682ea4a6d7",
+    "sha512": "f93adfcebc084fac8ecc86e81929b0cd1bc9ac30b4d7913539c2f6ee1aea17ff7ee63fdbc188c962642480c204a099db5b3e7965c52bf7d81841ebdb32f0c93e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND antlr-pd) AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND ANTLR-PD) AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.directory.api/api-ldap-codec-standalone@1.0.0-M31?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.directory.junit/junit-addons",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-ldap-net-mina",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-ldap-codec-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-ldap-extras-codec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.mina/mina-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.directory.api/api-ldap-codec-standalone@1.0.0-M31?classifier=sources&uuid=7bbaac9d-bb30-462e-ba5a-bfb7ce830ff4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.directory.api/api-ldap-codec-standalone@1.0.0-M31?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-standalone/1.0.0-M31/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-standalone/1.0.0-M31/api-ldap-codec-standalone-1.0.0-M31-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-codec-standalone/1.0.0-M31/api-ldap-codec-standalone-1.0.0-M31.pom",
+    "file_references": []
+}

@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.wildfly.security",
+    "name": "wildfly-elytron-sasl-scram",
+    "version": "1.20.1.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "abeabcc1-6055-4d60-9a8e-ec061b2e489b",
+            "packages": [
+                "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-scram@1.20.1.Final?uuid=4730176a-c7b0-4a0e-8bef-442f87c30d21",
+                "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-scram@1.20.1.Final?classifier=sources&uuid=c45d9802-c4c3-4f7b-816b-477285b350e0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "WildFly Elytron - SASL SCRAM\nWildFly Security SCRAM SASL Implementation",
+    "release_date": "2022-08-17T15:41:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wildfly/security/wildfly-elytron-sasl-scram/1.20.1.Final/wildfly-elytron-sasl-scram-1.20.1.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "928800f912004f86652984b64fb6e65f51a06abe",
+    "sha256": "7bac162678fdaf90681af2c9ee79259589839bc33684e8f34f31f555474677ca",
+    "sha512": "04ab84047d68571548ab9c55fe5a56914c7b0adbf497fafaedd901aeed70c39896dc875102cc47816c50edd9a7e60457dad3179e462bf3f111f9a7f891e2d4e6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-scram@1.20.1.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-auth-server",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-mechanism",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-mechanism-scram",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-sasl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.common/wildfly-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kohsuke.metainf-services/metainf-services",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-scram@1.20.1.Final?classifier=sources&uuid=c45d9802-c4c3-4f7b-816b-477285b350e0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wildfly.security/wildfly-elytron-sasl-scram@1.20.1.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

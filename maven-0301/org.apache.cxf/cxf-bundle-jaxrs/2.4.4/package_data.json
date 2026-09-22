@@ -1,0 +1,319 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-bundle-jaxrs",
+    "version": "2.4.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c766fb48-c61d-43c1-bd2e-5114a03e971c",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-bundle-jaxrs@2.4.4?uuid=1d492d56-0f46-4fd3-a4e8-5e773c816099",
+                "pkg:maven/org.apache.cxf/cxf-bundle-jaxrs@2.4.4?classifier=sources&uuid=02f0b9a6-f129-4287-9631-f8ed31c784b0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF JAX-RS Bundle Jar",
+    "release_date": "2011-11-04T12:22:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.4.4/cxf-bundle-jaxrs-2.4.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e123b8eef1b52785307780b117338ffab1dd33d9",
+    "sha256": "073fbe87be1d2506d25aa0501f27acd1440977ab03337cda57bfa063e08cb04d",
+    "sha512": "73cafe2f77e694e9e81902e80708738f42956081e97b96256ad66b229320fff55d4d5d1f3a4d9e7a2d96280223bbd789f34559660bb2a564ab5e7677d23496f6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "(warranty-disclaimer AND mit-old-style-no-advert) AND w3c AND ms-ws-routing-spec AND (public-domain AND cpl-1.0 AND apache-2.0 AND bsd-new AND epl-1.0 AND mit AND cddl-1.0) AND w3c-software-19980720 AND ws-addressing-spec AND ws-trust-specification",
+    "other_license_expression_spdx": "(LicenseRef-scancode-warranty-disclaimer AND NTP) AND W3C AND LicenseRef-scancode-ms-ws-routing-spec AND (LicenseRef-scancode-public-domain AND CPL-1.0 AND Apache-2.0 AND BSD-3-Clause AND EPL-1.0 AND MIT AND CDDL-1.0) AND W3C-19980720 AND LicenseRef-scancode-ws-addressing-spec AND LicenseRef-scancode-ws-trust-specification",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-bundle-jaxrs@2.4.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core@2.0.1",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.1.1",
+            "extracted_requirement": "4.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.1",
+            "extracted_requirement": "3.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.0_spec@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.2.3",
+            "extracted_requirement": "2.2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.neethi/neethi@3.0.1",
+            "extracted_requirement": "3.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/wsdl4j/wsdl4j@1.6.2",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-activation_1.1_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.2.4-1",
+            "extracted_requirement": "2.2.4-1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-javamail_1.4_spec@1.7.1",
+            "extracted_requirement": "1.7.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/aopalliance/aopalliance@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-asm@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-expression@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@7.4.5.v20110725",
+            "extracted_requirement": "7.4.5.v20110725",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@7.4.5.v20110725",
+            "extracted_requirement": "7.4.5.v20110725",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http@7.4.5.v20110725",
+            "extracted_requirement": "7.4.5.v20110725",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@7.4.5.v20110725",
+            "extracted_requirement": "7.4.5.v20110725",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@7.4.5.v20110725",
+            "extracted_requirement": "7.4.5.v20110725",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security@7.4.5.v20110725",
+            "extracted_requirement": "7.4.5.v20110725",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-servlet_2.5_spec@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jettison/jettison@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@1.2.9",
+            "extracted_requirement": "1.2.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.2",
+            "extracted_requirement": "1.6.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-bundle-jaxrs@2.4.4?classifier=sources&uuid=02f0b9a6-f129-4287-9631-f8ed31c784b0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.cxf/cxf-bundle-jaxrs@2.4.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.4.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.4.4/cxf-bundle-jaxrs-2.4.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.4.4/cxf-bundle-jaxrs-2.4.4.pom",
+    "file_references": []
+}

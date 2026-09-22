@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.xml.dtd-parser",
+    "name": "dtd-parser",
+    "version": "1.4.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "98662b49-a959-4785-8365-947a8fbca0dc",
+            "packages": [
+                "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.4.4?uuid=378de2a5-68a6-47cb-a493-e0afc752738e",
+                "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.4.4?classifier=sources&uuid=f0bfd5c1-6c9e-429b-a41f-2021dda4bda0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "DTD Parser\nSAX-like API for parsing XML DTDs.",
+    "release_date": "2021-02-12T07:45:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roman Grigoriadi",
+            "email": "Roman.Grigoriadi@oracle.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/eclipse-ee4j/jaxb-dtd-parser",
+    "download_url": "https://repo1.maven.org/maven2/com/sun/xml/dtd-parser/dtd-parser/1.4.4/dtd-parser-1.4.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "afdbb80780cd483180066cf030b11fff416827ff",
+    "sha256": "0dfacaa7ff346cdfcb0c35e506f8fa0c9e2bfebd13ca22bbf97adf8266a2a43e",
+    "sha512": "5a67011f1b059ba3706805c33b8eb413c7175c72c736e13dd00d4319893bbc49fb6eede7fcbda4980006c993e70b857865a9e3ad69cafd72171f1be35b035c7a",
+    "bug_tracking_url": "https://github.com/eclipse-ee4j/jaxb-dtd-parser/issues",
+    "code_view_url": "https://github.com/eclipse-ee4j/jaxb-dtd-parser",
+    "vcs_url": "git+ssh://git@github.com/eclipse-ee4j/jaxb-dtd-parser.git",
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/edl-1.0_1.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Eclipse Distribution License - v 1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "edl-1.0_1.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/edl-1.0.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.eclipse.org/org/documents/edl-v10.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "edl-1.0.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-816372b7-cec1-3253-588b-fef376a9387c",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND (mit OR gpl-1.0-plus) AND gpl-1.0-plus) AND (apache-2.0 AND apache-1.1 AND public-domain AND indiana-extreme-1.2 AND bsd-new AND sax-pd) AND (apache-2.0 AND public-domain AND mit AND apache-1.1) AND (bsd-new AND (epl-1.0 OR bsd-new)) AND (epl-2.0 AND apache-2.0) AND (public-domain AND generic-export-compliance)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND (MIT OR GPL-1.0-or-later) AND GPL-1.0-or-later) AND (Apache-2.0 AND Apache-1.1 AND LicenseRef-scancode-public-domain AND xpp AND BSD-3-Clause AND SAX-PD) AND (Apache-2.0 AND LicenseRef-scancode-public-domain AND MIT AND Apache-1.1) AND (BSD-3-Clause AND (EPL-1.0 OR BSD-3-Clause)) AND (EPL-2.0 AND Apache-2.0) AND (LicenseRef-scancode-public-domain AND LicenseRef-scancode-generic-export-compliance)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Distribution License - v 1.0\n  url: http://www.eclipse.org/org/documents/edl-v10.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.4.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.4.4?classifier=sources&uuid=f0bfd5c1-6c9e-429b-a41f-2021dda4bda0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.4.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/xml/dtd-parser/dtd-parser/1.4.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/xml/dtd-parser/dtd-parser/1.4.4/dtd-parser-1.4.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/xml/dtd-parser/dtd-parser/1.4.4/dtd-parser-1.4.4.pom",
+    "file_references": []
+}

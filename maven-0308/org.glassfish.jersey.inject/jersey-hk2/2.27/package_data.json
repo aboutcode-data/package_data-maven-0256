@@ -1,0 +1,208 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.jersey.inject",
+    "name": "jersey-hk2",
+    "version": "2.27",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e7ae39f3-36d3-452c-9795-64723e74d985",
+            "packages": [
+                "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.27?uuid=9189bb38-49fb-479b-8d78-ec3ca5e9cd9a",
+                "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.27?classifier=sources&uuid=bf45ac4a-0bfb-4707-823f-a0cb2b0001ec"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jersey-inject-hk2\nHK2 InjectionManager implementation",
+    "release_date": "2018-04-10T11:28:53Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roman Grigoriadi",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Lukas Jungmann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dmitry Kornilov",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tomas Kraus",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tomas Langer",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Santiago Pericas-Geertsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Supol",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Petr Bouda",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Pavel Bucek",
+            "email": null,
+            "url": "https://blogs.oracle.com/PavelBucek"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michal Gajdos",
+            "email": null,
+            "url": "http://blog.dejavu.sk"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Petr Janouch",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Libor Kramolis",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adam Lindenthal",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jakub Podlesak",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marek Potociar",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Stepan Vavra",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://jersey.github.io/",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.27/jersey-hk2-2.27-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "86c7919ac28ba96237590aef5c75bd5b1cd4b379",
+    "sha256": "4851d147196f031d1ded630927d2ca1e201956e24dd95e1cf525252f02fcffb0",
+    "sha512": "af9159f725162094e9e6c5734e492639ce53b307edfe98bf86e8f0f0ab82304273c83bf5a48c2a491909c34b7c9444076605422b9684e29b74e6558d2ccf4c0c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.1 AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1) AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0 AND public-domain AND cc0-1.0 AND bsd-new",
+    "declared_license_expression_spdx": "CDDL-1.1 AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1) AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0 AND LicenseRef-scancode-public-domain AND CC0-1.0 AND BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1",
+    "other_license_expression_spdx": "GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.27?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-common@2.27",
+            "extracted_requirement": "2.27",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.hk2/hk2-locator",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.27?classifier=sources&uuid=bf45ac4a-0bfb-4707-823f-a0cb2b0001ec",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2@2.27?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.27/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.27/jersey-hk2-2.27-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/jersey/inject/jersey-hk2/2.27/jersey-hk2-2.27.pom",
+    "file_references": []
+}

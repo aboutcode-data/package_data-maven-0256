@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.langrid",
+    "name": "jp.go.nict.langrid.wrapper.common",
+    "version": "1.0.14",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Common library for wrapping resources\nCommon library for wrapping resources to create services",
+    "release_date": "2017-05-26T12:56:55Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://langrid.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/langrid/jp.go.nict.langrid.wrapper.common/1.0.14/jp.go.nict.langrid.wrapper.common-1.0.14.jar",
+    "size": 171167,
+    "md5": null,
+    "sha1": "e1aaf1be1131b04900c307db568ea5842c5791cf",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1 AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.1-only AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "GNU LESSER GENERAL PUBLIC LICENSE\nhttp://www.gnu.org/licenses/lgpl-2.1.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.langrid/jp.go.nict.langrid.wrapper.common@1.0.14?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.langrid/jp.go.nict.langrid.commons",
+            "extracted_requirement": "1.0.14",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.langrid/jp.go.nict.langrid.servicecontainer",
+            "extracted_requirement": "1.0.14",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.langrid/jp.go.nict.langrid.language",
+            "extracted_requirement": "1.0.14",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.langrid/jp.go.nict.langrid.service.common_1_2",
+            "extracted_requirement": "1.0.14",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.langrid/jp.go.nict.langrid.service.language_1_2",
+            "extracted_requirement": "1.0.14",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/oro/oro",
+            "extracted_requirement": "2.0.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/opensymphony/oscache",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.langrid/jp.go.nict.langrid.wrapper.common@1.0.14?uuid=4f46ae77-b901-407b-b473-50781c791164",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.langrid/jp.go.nict.langrid.wrapper.common@1.0.14",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/langrid/jp.go.nict.langrid.wrapper.common/1.0.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/langrid/jp.go.nict.langrid.wrapper.common/1.0.14/jp.go.nict.langrid.wrapper.common-1.0.14.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/langrid/jp.go.nict.langrid.wrapper.common/1.0.14/jp.go.nict.langrid.wrapper.common-1.0.14.pom",
+    "file_references": []
+}

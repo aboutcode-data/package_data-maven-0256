@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "com.twitter",
+    "name": "storehaus-algebra_2.10",
+    "version": "0.5.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "storehaus-algebra",
+    "release_date": "2013-09-11T21:44:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Oscar Boykin",
+            "email": null,
+            "url": "http://twitter.com/posco"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sam Ritchie",
+            "email": null,
+            "url": "http://twitter.com/sritchie"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.twitter",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/twitter/storehaus",
+    "download_url": "https://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.10/0.5.1/storehaus-algebra_2.10-0.5.1.jar",
+    "size": 145568,
+    "md5": null,
+    "sha1": "117f00f4d2d42fb0dc87607f7487d01c34ca1a69",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2\nhttp://www.apache.org/licenses/LICENSE-2.0.txt\nA business-friendly OSS license",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.twitter/storehaus-algebra_2.10@0.5.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.twitter/storehaus-testing_2.10",
+            "extracted_requirement": "0.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/specs_2.10",
+            "extracted_requirement": "1.6.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter/storehaus-core_2.10",
+            "extracted_requirement": "0.5.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter/algebird-core_2.10",
+            "extracted_requirement": "0.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter/algebird-util_2.10",
+            "extracted_requirement": "0.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twitter/algebird-bijection_2.10",
+            "extracted_requirement": "0.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.twitter/storehaus-algebra_2.10@0.5.1?uuid=1cb1529d-b3eb-4b82-b1c5-ae99755fa458",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.twitter/storehaus-algebra_2.10@0.5.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.10/0.5.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.10/0.5.1/storehaus-algebra_2.10-0.5.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/twitter/storehaus-algebra_2.10/0.5.1/storehaus-algebra_2.10-0.5.1.pom",
+    "file_references": []
+}

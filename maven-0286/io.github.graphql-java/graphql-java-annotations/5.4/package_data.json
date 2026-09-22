@@ -1,0 +1,114 @@
+{
+    "type": "maven",
+    "namespace": "io.github.graphql-java",
+    "name": "graphql-java-annotations",
+    "version": "5.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "66fe495d-bc68-44b7-bea5-aa9b7a78a4a8",
+            "packages": [
+                "pkg:maven/io.github.graphql-java/graphql-java-annotations@5.4?uuid=7f6af268-f206-4ac8-adf3-f210fa394fbc",
+                "pkg:maven/io.github.graphql-java/graphql-java-annotations@5.4?classifier=sources&uuid=868dbae5-e283-4804-8d1f-33973e30b8a6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "graphql-java-annotations\nAnnotations-based syntax for GraphQL schema definition",
+    "release_date": "2018-07-21T12:07:49Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yurii Rashkovskii",
+            "email": "yrashk@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andrew Potter",
+            "email": "Andrew.Potter@coxautoinc.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brad Baker",
+            "email": "bbakerman@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/graphql-java/graphql-java-annotations",
+    "download_url": "https://repo1.maven.org/maven2/io/github/graphql-java/graphql-java-annotations/5.4/graphql-java-annotations-5.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dc275e81214e2173a9673b525b68a53153828ba5",
+    "sha256": "a9e513a01beb2498d498b427c8f63f329d145738e6bf21827a2243034143a9a4",
+    "sha512": "636865ed31a9a1d67e12a8ed2138c2212ef84c1f7761bf4fc7938526a75f523edead28ae5e1ac945e9ba872ef22cbcfaa95bb00b794dc897867fc7418d1cf829",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/graphql-java/graphql-java-annotations",
+    "vcs_url": "https+//yrashk@github.com/graphql-java/graphql-java-annotations.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.github.graphql-java/graphql-java-annotations@5.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.validation/validation-api@1.1.0.Final",
+            "extracted_requirement": "1.1.0.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.graphql-java/graphql-java@8.0",
+            "extracted_requirement": "8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.github.graphql-java/graphql-java-annotations@5.4?classifier=sources&uuid=868dbae5-e283-4804-8d1f-33973e30b8a6",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.github.graphql-java/graphql-java-annotations@5.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/github/graphql-java/graphql-java-annotations/5.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/github/graphql-java/graphql-java-annotations/5.4/graphql-java-annotations-5.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/github/graphql-java/graphql-java-annotations/5.4/graphql-java-annotations-5.4.pom",
+    "file_references": []
+}

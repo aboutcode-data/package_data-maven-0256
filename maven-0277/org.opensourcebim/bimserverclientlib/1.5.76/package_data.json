@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.opensourcebim",
+    "name": "bimserverclientlib",
+    "version": "1.5.76",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "BimServerClientLib\nA client library for BIMserver, can communicate via JSON, SOAP and ProtocolBuffers",
+    "release_date": "2017-05-24T08:47:34Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opensourcebim/bimserverclientlib/1.5.76/bimserverclientlib-1.5.76.jar",
+    "size": 143381,
+    "md5": null,
+    "sha1": "15697716fc3022cca9368b2d294b051f526b968b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opensourcebim/bimserverclientlib@1.5.76?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api",
+            "extracted_requirement": "9.3.6.v20151106",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client",
+            "extracted_requirement": "9.3.6.v20151106",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http",
+            "extracted_requirement": "3.1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxws",
+            "extracted_requirement": "3.1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opensourcebim/shared",
+            "extracted_requirement": "1.5.76",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opensourcebim/bimserverclientlib@1.5.76?uuid=966cae08-d510-477b-83fa-efe8ee45c07a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opensourcebim/bimserverclientlib@1.5.76",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/opensourcebim/bimserverclientlib/1.5.76/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/opensourcebim/bimserverclientlib/1.5.76/bimserverclientlib-1.5.76.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/opensourcebim/bimserverclientlib/1.5.76/bimserverclientlib-1.5.76.pom",
+    "file_references": []
+}

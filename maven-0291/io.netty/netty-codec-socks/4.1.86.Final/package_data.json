@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-codec-socks",
+    "version": "4.1.86.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "57ee61e6-4525-4a90-ad6f-ff220558d3dc",
+            "packages": [
+                "pkg:maven/io.netty/netty-codec-socks@4.1.86.Final?uuid=7f2f7511-7334-44d7-b4a8-bb48114bb8da",
+                "pkg:maven/io.netty/netty-codec-socks@4.1.86.Final?classifier=sources&uuid=97937269-061e-4c5e-a998-592f629ac07b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Codec/Socks",
+    "release_date": "2022-12-12T13:26:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://netty.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.86.Final/netty-codec-socks-4.1.86.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "11b06612e75529499366d5f60273b408c7a492bd",
+    "sha256": "599ae569ceddb3ff42962d25f48289dd7d274246b03638b6838a1ae2e031ebc5",
+    "sha512": "91e96ac24031c60c62e82b897295bb0ee7f0c03b99706e9e12d6f0b8d06c73c41a44849163345d65f1cc283af59a38942c756927b0e7ab504fa4fbc027ab08d5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-codec-socks@4.1.86.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "merge_ancestors: pkg:maven/org.sonatype.oss/oss-parent@9 data not added to package: ancestor package namespace is not contained in pkg:maven/io.netty/netty-codec-socks@4.1.86.Final namespace",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.86.Final",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.86.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.86.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-codec-socks@4.1.86.Final?classifier=sources&uuid=97937269-061e-4c5e-a998-592f629ac07b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-codec-socks@4.1.86.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.86.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.86.Final/netty-codec-socks-4.1.86.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.86.Final/netty-codec-socks-4.1.86.Final.pom",
+    "file_references": []
+}

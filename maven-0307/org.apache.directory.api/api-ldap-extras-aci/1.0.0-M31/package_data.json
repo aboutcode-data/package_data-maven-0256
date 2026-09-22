@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.directory.api",
+    "name": "api-ldap-extras-aci",
+    "version": "1.0.0-M31",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "47f1d21c-645f-459e-9135-22956dd0c107",
+            "packages": [
+                "pkg:maven/org.apache.directory.api/api-ldap-extras-aci@1.0.0-M31?uuid=9915bb59-eb32-4ea8-b9bc-1c09e77ae613",
+                "pkg:maven/org.apache.directory.api/api-ldap-extras-aci@1.0.0-M31?classifier=sources&uuid=3bdcf09a-f492-4254-bf6c-0e376087b4e6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Directory LDAP API Extras ACI\nExtra LDAP API for Access Control Items",
+    "release_date": "2015-06-30T16:53:16Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-extras-aci/1.0.0-M31/api-ldap-extras-aci-1.0.0-M31-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4e7034a57d38bf0651c3c03486628b8c6081990c",
+    "sha256": "959ab3603b7d7279480a4e19a1ba04ae5050ded067914bff182dd8e2b5b5cc47",
+    "sha512": "c18b4e129e653489bc5dde854ff906d9f51d60a50134305740773674740e0060203e03d41536d7ab3a296a405689e953c290d808e02923326c36bae5a072fdb4",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND antlr-pd) AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND ANTLR-PD) AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.directory.api/api-ldap-extras-aci@1.0.0-M31?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.directory.junit/junit-addons",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-i18n",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-ldap-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/antlr/antlr",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.directory.api/api-ldap-extras-aci@1.0.0-M31?classifier=sources&uuid=3bdcf09a-f492-4254-bf6c-0e376087b4e6",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.directory.api/api-ldap-extras-aci@1.0.0-M31?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-extras-aci/1.0.0-M31/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-extras-aci/1.0.0-M31/api-ldap-extras-aci-1.0.0-M31-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/directory/api/api-ldap-extras-aci/1.0.0-M31/api-ldap-extras-aci-1.0.0-M31.pom",
+    "file_references": []
+}

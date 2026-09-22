@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "com.epam",
+    "name": "parso",
+    "version": "2.0.14",
+    "qualifiers": "classifier=sources&type=jar",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "65d34d03-5c1f-48dd-8c46-41097b7b43cc",
+            "packages": [
+                "pkg:maven/com.epam/parso@2.0.14?type=jar&uuid=1a4f3c45-b66e-46da-8b7a-bb0c596e361d",
+                "pkg:maven/com.epam/parso@2.0.14?classifier=sources&type=jar&uuid=487cff3c-97d9-4e4c-b9f5-873e07355cb5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "parso\nParso is a lightweight Java library designed to read SAS7BDAT datasets. The Parso interfaces\n        are analogous to libraries designed to read table-storing files, for example, CSVReader library.\n        Despite its small size, the Parso library is the only full-featured open-source solution to process SAS7BDAT\n        datasets, both uncompressed, CHAR-compressed and BIN-compressed. It is effective in processing clinical and\n        statistical data often stored in SAS7BDAT format. Parso allows converting data into CSV format.",
+    "release_date": "2021-02-19T10:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Petr Tsurinov",
+            "email": "arat90@ya.ru",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Igor Printsev",
+            "email": "Igor_Printsev@epam.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Matthew Kastin",
+            "email": "Fried.Egg@verizon.net",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/epam/parso",
+    "download_url": "https://repo1.maven.org/maven2/com/epam/parso/2.0.14/parso-2.0.14-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "523a21f49ca3bebd09bca2a3c2299ac35c23c3b6",
+    "sha256": "a2f3a9e52dc8a710311c571db43e44bea63454aabe6ca1aae6504a435b782606",
+    "sha512": "bf9db3e2fbc984ae6f38a61f6228883cce8d3d1c8fa9ce6bd0bfbad61f48cc715ca6f692c683481b84e550515195a82fc93aa07af717221f9d23c7b56f3114f6",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/epam/parso.git",
+    "vcs_url": "git+https://github.com/epam/parso.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_84.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Apache License v2",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_84.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d1e2b20b-184f-c11d-aeff-cb396015b689",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- license:\n    name: Apache License v2\n    url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.epam/parso@2.0.14?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+            "extracted_requirement": "1.7.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@3.18.1",
+            "extracted_requirement": "3.18.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.5",
+            "extracted_requirement": "1.7.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.opencsv/opencsv@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.epam/parso@2.0.14?classifier=sources&type=jar&uuid=487cff3c-97d9-4e4c-b9f5-873e07355cb5",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.epam/parso@2.0.14?classifier=sources&type=jar",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/epam/parso/2.0.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/epam/parso/2.0.14/parso-2.0.14-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/epam/parso/2.0.14/parso-2.0.14.pom",
+    "file_references": []
+}

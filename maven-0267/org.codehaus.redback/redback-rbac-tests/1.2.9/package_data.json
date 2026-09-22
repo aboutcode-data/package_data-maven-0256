@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.redback",
+    "name": "redback-rbac-tests",
+    "version": "1.2.9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Redback :: RBAC Test Framework",
+    "release_date": "2013-01-07T06:39:23Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-rbac-tests/1.2.9/redback-rbac-tests-1.2.9.jar",
+    "size": 17383,
+    "md5": null,
+    "sha1": "95afc58cafb3ae07bb7d029889d7f7481a999670",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.redback/redback-rbac-tests@1.2.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.redback/redback-system",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.redback/redback-authorization-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.redback/redback-rbac-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "3.8.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.redback/redback-rbac-tests@1.2.9?uuid=1ac99ac4-f70b-445a-b42c-5cbf21421a54",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.redback/redback-rbac-tests@1.2.9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-rbac-tests/1.2.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-rbac-tests/1.2.9/redback-rbac-tests-1.2.9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-rbac-tests/1.2.9/redback-rbac-tests-1.2.9.pom",
+    "file_references": []
+}

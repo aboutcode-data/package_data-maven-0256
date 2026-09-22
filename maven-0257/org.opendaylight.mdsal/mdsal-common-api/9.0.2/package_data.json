@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal",
+    "name": "mdsal-common-api",
+    "version": "9.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "af9bdb39-b505-4120-b3c4-5e320d2d1ec7",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal/mdsal-common-api@9.0.2?uuid=33973e39-2951-41ee-a7ac-3a2678402c43",
+                "pkg:maven/org.opendaylight.mdsal/mdsal-common-api@9.0.2?classifier=sources&uuid=ec6ac946-b181-40f1-8969-a2c9b6591af7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-14T08:13:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/mdsal-common-api/9.0.2/mdsal-common-api-9.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d87c69bbd149c7959e8edfbef29e5bbdf90ef004",
+    "sha256": "e61655f257d388c75b57ce1d5b7c8a03069eaf7c1cd0edfc945ae9a0ef330366",
+    "sha512": "2f4547f266b0e75321c42e6bc10cc064fe9eff0c444b87689ff241dda3061c2f6769d061da52e3bcc0b0034f548b8fe80f6e4a8f037f14cbe234569fdea70b58",
+    "bug_tracking_url": null,
+    "code_view_url": "https://wiki.opendaylight.org/view/MD-SAL:Main",
+    "vcs_url": "git+http://git.opendaylight.org/gerrit/mdsal.git",
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal/mdsal-common-api@9.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/concepts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/mockito-configuration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal/mdsal-common-api@9.0.2?classifier=sources&uuid=ec6ac946-b181-40f1-8969-a2c9b6591af7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-common-api@9.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

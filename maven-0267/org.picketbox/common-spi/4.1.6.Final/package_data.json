@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.picketbox",
+    "name": "common-spi",
+    "version": "4.1.6.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "PicketBox Common SPI\nPicketBox is a security project for Java Applications.",
+    "release_date": "2017-05-23T07:08:39Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss Inc.",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jboss.org/picketbox",
+    "download_url": "https://repo1.maven.org/maven2/org/picketbox/common-spi/4.1.6.Final/common-spi-4.1.6.Final.jar",
+    "size": 84582,
+    "md5": null,
+    "sha1": "d9b3f93093a2f47ca9830fefae59244a3ae0fc3c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus AND lgpl-2.0-plus AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later AND LGPL-2.0-or-later AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "lgpl\nhttp://repository.jboss.com/licenses/lgpl.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.picketbox/common-spi@4.1.6.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": "3.1.0.GA",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": "1.0.0.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.picketbox/common-spi@4.1.6.Final?uuid=e9a3b020-96fa-479e-88f1-c0c9654ca413",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.picketbox/common-spi@4.1.6.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/picketbox/common-spi/4.1.6.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/picketbox/common-spi/4.1.6.Final/common-spi-4.1.6.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/picketbox/common-spi/4.1.6.Final/common-spi-4.1.6.Final.pom",
+    "file_references": []
+}

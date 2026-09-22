@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.pdfbox",
+    "name": "pdfbox-tools",
+    "version": "2.0.16",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "edf83653-cbf2-4074-8f37-1a11b7b9bd58",
+            "packages": [
+                "pkg:maven/org.apache.pdfbox/pdfbox-tools@2.0.16?uuid=37d1c299-3a6b-4f6b-a555-ab49e26bb609",
+                "pkg:maven/org.apache.pdfbox/pdfbox-tools@2.0.16?classifier=sources&uuid=d3871566-9fa7-491f-9533-033c4abfeed7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache PDFBox tools\nThe Apache PDFBox library is an open source Java tool for working with PDF documents. \n    This artefact contains commandline tools using Apache PDFBox.",
+    "release_date": "2019-06-24T17:23:43Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.16/pdfbox-tools-2.0.16-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "20a21b00f8c7d238c97b7194751d7f4416d16cbb",
+    "sha256": "9363fd55f6fe9c898ffc23906e7f6af1a6de6ac21dfbee6449066957c47e5ff0",
+    "sha512": "133eac41c2afce9d63c8ca14209ec66b03f390dfcd7ee719e721cfc27e1c7f98201010533e09bef41334e12dfa92cf462ec0688fe3bc75e5d6e78243f51830a9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "(mit AND apache-2.0) AND unknown",
+    "other_license_expression_spdx": "(MIT AND Apache-2.0) AND LicenseRef-scancode-unknown",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.pdfbox/pdfbox-tools@2.0.16?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcmail-jdk15on",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/pdfbox-debugger@2.0.16",
+            "extracted_requirement": "2.0.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.pdfbox/jbig2-imageio",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.jai-imageio/jai-imageio-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.jai-imageio/jai-imageio-jpeg2000",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.pdfbox/pdfbox-tools@2.0.16?classifier=sources&uuid=d3871566-9fa7-491f-9533-033c4abfeed7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.pdfbox/pdfbox-tools@2.0.16?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.16/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.16/pdfbox-tools-2.0.16-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox-tools/2.0.16/pdfbox-tools-2.0.16.pom",
+    "file_references": []
+}

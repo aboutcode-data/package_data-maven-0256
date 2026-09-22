@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-join",
+    "version": "8.11.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "25f24a9d-414d-496d-9da2-d82ea1183c0e",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-join@8.11.1?uuid=8f02f4fb-d773-4eea-907e-298d8dc87bf0",
+                "pkg:maven/org.apache.lucene/lucene-join@8.11.1?classifier=sources&uuid=880d9a39-3ca5-4808-a672-9d32a3128096"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Join\nLucene Join Module",
+    "release_date": "2021-12-16T08:29:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/8.11.1/lucene-join-8.11.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d7b1b11dafa71e4366f52cf28ce614b5eb294db4",
+    "sha256": "3bfa0297a7f8be06dc141ac59ecf495100e28a1197e13bf4cecdc291c46cf474",
+    "sha512": "95bbc0ce05eba4ba269a79ade628e096ea7553eacd514a2c18131ff39318986afea283c4b6e9e9a53d99b272c26cffeaba9a0811620489056529cd94c35efc93",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/;f=lucene/join",
+    "vcs_url": "git+",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND (mit AND unicode AND bsd-new) AND (apache-2.0 AND bsd-simplified AND cpl-1.0 AND bsd-new) AND bsd-new AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND naist-2003) AND (apache-2.0 AND unicode-mappings AND python AND bsd-new AND (mit AND x11) AND x11 AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND bsd-simplified)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (Apache-2.0 AND BSD-2-Clause AND CPL-1.0 AND BSD-3-Clause) AND BSD-3-Clause AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND NAIST-2003) AND (Apache-2.0 AND LicenseRef-scancode-unicode-mappings AND Python-2.0 AND BSD-3-Clause AND (MIT AND ICU) AND ICU AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND BSD-2-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-join@8.11.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-join@8.11.1?classifier=sources&uuid=880d9a39-3ca5-4808-a672-9d32a3128096",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.lucene/lucene-join@8.11.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/8.11.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/8.11.1/lucene-join-8.11.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/8.11.1/lucene-join-8.11.1.pom",
+    "file_references": []
+}

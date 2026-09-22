@@ -1,0 +1,157 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jgit",
+    "name": "org.eclipse.jgit",
+    "version": "3.2.0.201312181205-r",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6ea0c3d8-67fa-458c-b04d-3e1fe64276cc",
+            "packages": [
+                "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@3.2.0.201312181205-r?uuid=ffffff93-cf0f-4350-bc81-5ed89ed0c10c",
+                "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@3.2.0.201312181205-r?classifier=sources&uuid=52fd7960-8826-4a9f-b144-aa0fb79eadc4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JGit - Core\nRepository access and algorithms",
+    "release_date": "2013-12-18T21:22:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Chris Aniszczyk",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Halstrick",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Colby Ranger",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dave Borowitz",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Gunnar Wagenknecht",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kevin Sawicki",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mathias Kinzler",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matthias Sohn",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robin Rosenberg",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sasa Zivkov",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Shawn Pearce",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stefan Lay",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/jgit/",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.2.0.201312181205-r/org.eclipse.jgit-3.2.0.201312181205-r-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "566b20b4798d9fa31fe33298c493ca9601830b6f",
+    "sha256": "27d21d3a9d4df3374f13ff08313ea3d681a3aa9747a26bd3b90b0f2140caa6f9",
+    "sha512": "132655284faf3de73dd7611d7439f9716f1dffcc6c7073701681be4f3c8d68daf8d0381511dc4c3736ec01032fc59d6bc7e0ab4d48fe4c7c863c59c47c9338fe",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND proprietary-license AND public-domain AND public-domain-disclaimer",
+    "other_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-public-domain AND LicenseRef-scancode-public-domain-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@3.2.0.201312181205-r?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.jcraft/jsch",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.googlecode.javaewah/JavaEWAH",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@3.2.0.201312181205-r?classifier=sources&uuid=52fd7960-8826-4a9f-b144-aa0fb79eadc4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@3.2.0.201312181205-r?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.2.0.201312181205-r/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.2.0.201312181205-r/org.eclipse.jgit-3.2.0.201312181205-r-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/3.2.0.201312181205-r/org.eclipse.jgit-3.2.0.201312181205-r.pom",
+    "file_references": []
+}

@@ -1,0 +1,133 @@
+{
+    "type": "maven",
+    "namespace": "xml-apis",
+    "name": "xml-apis",
+    "version": "1.4.01",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1e200bc0-36a5-4c92-83fe-04ef737451fc",
+            "packages": [
+                "pkg:maven/xml-apis/xml-apis@1.4.01?uuid=c0458f3f-5f4e-4924-a5cf-28ed4ca59072",
+                "pkg:maven/xml-apis/xml-apis@1.4.01?classifier=sources&uuid=791e16aa-f330-4d8d-943c-1f496ecce9f3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "XML Commons External Components XML APIs\nxml-commons provides an Apache-hosted set of DOM, SAX, and \n    JAXP interfaces for use in other xml-based projects. Our hope is that we \n    can standardize on both a common version and packaging scheme for these \n    critical XML standards interfaces to make the lives of both our developers \n    and users easier. The External Components portion of xml-commons contains \n    interfaces that are defined by external standards organizations. For DOM, \n    that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for \n    JAXP it's Sun.",
+    "release_date": "2011-08-20T00:11:11Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Apache Software Foundation",
+            "email": "commons-dev@xml.apache.org",
+            "url": "http://xml.apache.org/commons/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xml.apache.org/commons/components/external/",
+    "download_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5502da0c4c0a7916a604356ef19394ccfa30cd4b",
+    "sha256": "5db8b94589e334283e01075458cfae920995e37ab997cb3b475fd0667b3158b2",
+    "sha512": "f00773eec613453d0e1b7b0857b01c51d1926079f38e172953c4ef0350f063439acc8b5967f947c8d15a73e5d53e8887c3bf30122d5f7c553bcef349e5a8cb9a",
+    "bug_tracking_url": "http://issues.apache.org/bugzilla/",
+    "code_view_url": "https://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_4_01/",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/xml/commons/tags/xml-commons-external-1_4_01/",
+    "copyright": "Copyright (c) World Wide Web Consortium, (Massachusetts Institute of Technology, Institut National de Recherche en Informatique et en Automatique, Keio University)",
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND sax-pd AND w3c",
+    "declared_license_expression_spdx": "Apache-2.0 AND SAX-PD AND W3C",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/sax-pd_29.RULE",
+                    "from_file": null,
+                    "start_line": 3,
+                    "matched_text": "- name: The SAX License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "sax-pd_29.RULE",
+                    "license_expression": "sax-pd",
+                    "spdx_license_expression": "SAX-PD"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/sax-pd_4.RULE",
+                    "from_file": null,
+                    "start_line": 4,
+                    "matched_text": "  url: http://www.saxproject.org/copying.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "sax-pd_4.RULE",
+                    "license_expression": "sax-pd",
+                    "spdx_license_expression": "SAX-PD"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 5,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/w3c_32.RULE",
+                    "from_file": null,
+                    "start_line": 5,
+                    "matched_text": "- name: The W3C License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "w3c_32.RULE",
+                    "license_expression": "w3c",
+                    "spdx_license_expression": "W3C"
+                }
+            ],
+            "identifier": "apache_2_0_and_sax_pd_and_w3c-f8776dc5-709b-a3e0-6487-ca7a8cb8b379",
+            "license_expression": "apache-2.0 AND sax-pd AND w3c",
+            "license_expression_spdx": "Apache-2.0 AND SAX-PD AND W3C"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND w3c-software-19980720 AND w3c AND sax-pd AND (public-domain-disclaimer AND sax-pd) AND ((public-domain AND public-domain-disclaimer) AND sax-pd) AND public-domain AND (sax-pd AND classpath-exception-2.0) AND (w3c AND (w3c-software-19980720 AND w3c)) AND (w3c-docs-20021231 AND w3c-software-19980720 AND w3c)",
+    "other_license_expression_spdx": "Apache-2.0 AND W3C-19980720 AND W3C AND SAX-PD AND (LicenseRef-scancode-public-domain-disclaimer AND SAX-PD) AND ((LicenseRef-scancode-public-domain AND LicenseRef-scancode-public-domain-disclaimer) AND SAX-PD) AND LicenseRef-scancode-public-domain AND (SAX-PD AND Classpath-exception-2.0) AND (W3C AND (W3C-19980720 AND W3C)) AND (LicenseRef-scancode-w3c-docs-20021231 AND W3C-19980720 AND W3C)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n- name: The SAX License\n  url: http://www.saxproject.org/copying.html\n- name: The W3C License\n  url: http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xml-apis/xml-apis@1.4.01?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/xml-apis/xml-apis@1.4.01?classifier=sources&uuid=791e16aa-f330-4d8d-943c-1f496ecce9f3",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xml-apis/xml-apis@1.4.01?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom",
+    "file_references": []
+}

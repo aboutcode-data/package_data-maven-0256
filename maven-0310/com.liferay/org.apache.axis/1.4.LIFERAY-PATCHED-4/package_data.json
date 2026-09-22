@@ -1,0 +1,115 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "org.apache.axis",
+    "version": "1.4.LIFERAY-PATCHED-4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cd228424-706f-4823-bc18-cdca33e08949",
+            "packages": [
+                "pkg:maven/com.liferay/org.apache.axis@1.4.LIFERAY-PATCHED-4?uuid=72d2e8f1-f786-41e0-a9be-4773acf75802",
+                "pkg:maven/com.liferay/org.apache.axis@1.4.LIFERAY-PATCHED-4?classifier=sources&uuid=8c423fa8-238b-4972-bd5b-e6d6a647ec81"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2019-10-31T23:55:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.axis/1.4.LIFERAY-PATCHED-4/org.apache.axis-1.4.LIFERAY-PATCHED-4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "771e50a7a2c4cad65b0060317f667eee904f101c",
+    "sha256": "a4c280a005a9313bf761e8b62ed98af545791a2b8ac554a5c8fa12442a8efa70",
+    "sha512": "30c8ff188395644081ca017d3bd8ea775b52c65e2f37faf6980806932d1bdc928514ca1f81b1c7a95d971976a824ad80fd9750d06b30f7d85713a6eaeacd6f52",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND apache-1.1",
+    "other_license_expression_spdx": "Apache-2.0 AND Apache-1.1",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/org.apache.axis@1.4.LIFERAY-PATCHED-4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/axis/axis@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+            "extracted_requirement": "3.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/org.apache.axis@1.4.LIFERAY-PATCHED-4?classifier=sources&uuid=8c423fa8-238b-4972-bd5b-e6d6a647ec81",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/org.apache.axis@1.4.LIFERAY-PATCHED-4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.axis/1.4.LIFERAY-PATCHED-4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.axis/1.4.LIFERAY-PATCHED-4/org.apache.axis-1.4.LIFERAY-PATCHED-4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.axis/1.4.LIFERAY-PATCHED-4/org.apache.axis-1.4.LIFERAY-PATCHED-4.pom",
+    "file_references": []
+}

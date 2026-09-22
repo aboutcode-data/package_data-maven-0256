@@ -1,0 +1,167 @@
+{
+    "type": "maven",
+    "namespace": "org.seleniumhq.selenium",
+    "name": "selenium-devtools-v100",
+    "version": "4.2.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1aaf9cb5-480d-46ec-8306-01fd8ee3a78b",
+            "packages": [
+                "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v100@4.2.2?uuid=b2e4194f-489d-4fc0-809d-ef662a1e0a8e",
+                "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v100@4.2.2?classifier=sources&uuid=c38bac96-259a-4d62-84d7-4dd71841f23b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.seleniumhq.selenium:selenium-devtools-v100\nSelenium automates browsers. That's it! What you do with that power is entirely up to you.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simon Stewart",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Alexei Barantsev",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Diego Molina",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim Evans",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Burns",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Titus Fortner",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://selenium.dev/",
+    "download_url": "https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-devtools-v100/4.2.2/selenium-devtools-v100-4.2.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9fed1fea1b5fd6505eda4ba6729ffbd39cd23996",
+    "sha256": "3e7dc80adaa8ec95cfbc6e76be9414909837c9d4e6d339c5bd590ab349e9212c",
+    "sha512": "dea12c3e0f72425cb0626d42a919e88a9ce01d8397bbc28a0b8fe3adfada406062419ba5f1c19c0eea35ee266641b5ffbfcbfc94d224e4c07e6eeba01afdd2bd",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/SeleniumHQ/selenium/",
+    "vcs_url": "git+https://github.com/SeleniumHQ/selenium.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v100@4.2.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.auto.service/auto-service@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@31.1-jre",
+            "extracted_requirement": "31.1-jre",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-api@4.2.2",
+            "extracted_requirement": "4.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-json@4.2.2",
+            "extracted_requirement": "4.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.2.2",
+            "extracted_requirement": "4.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v100@4.2.2?classifier=sources&uuid=c38bac96-259a-4d62-84d7-4dd71841f23b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v100@4.2.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

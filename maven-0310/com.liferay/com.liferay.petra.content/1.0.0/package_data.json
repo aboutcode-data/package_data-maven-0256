@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.petra.content",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "22638e55-1a2d-4193-89ec-4ace02fb38d5",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.petra.content@1.0.0?uuid=9a33a583-94d7-4c47-90bb-55d5b5c20dde",
+                "pkg:maven/com.liferay/com.liferay.petra.content@1.0.0?classifier=sources&uuid=b7cd3d2c-6326-443b-a3ef-8915b5e0ed47"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2016-05-31T22:53:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.petra.content/1.0.0/com.liferay.petra.content-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9cd597db0d7962c9b2507943aa2e8595c7386afe",
+    "sha256": "84588c007737c6ebf157966b2773e7cb32c70a8dadc56d27cba68e4cc49a9312",
+    "sha512": "29fb090c479e3dd7021dd5ec177d76545b66612e3ce9ade9c5d50af26d9a61806211b868bbf62d95abf4a2e0d32540021475afb5f611c43027b74cd8b433e9ca",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-plugins",
+    "vcs_url": "git+https://github.com/liferay/liferay-plugins.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.petra.content@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@2.0.0",
+            "extracted_requirement": "2.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.petra.content@1.0.0?classifier=sources&uuid=b7cd3d2c-6326-443b-a3ef-8915b5e0ed47",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.petra.content@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.petra.content/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.petra.content/1.0.0/com.liferay.petra.content-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.petra.content/1.0.0/com.liferay.petra.content-1.0.0.pom",
+    "file_references": []
+}

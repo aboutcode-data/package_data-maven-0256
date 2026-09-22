@@ -1,0 +1,183 @@
+{
+    "type": "maven",
+    "namespace": "org.infinispan",
+    "name": "infinispan-server-hotrod",
+    "version": "14.0.4.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "beec208a-1897-40c6-bd33-070dcd220f39",
+            "packages": [
+                "pkg:maven/org.infinispan/infinispan-server-hotrod@14.0.4.Final?uuid=01c4e0fd-8844-485b-9c26-24d940029c6e",
+                "pkg:maven/org.infinispan/infinispan-server-hotrod@14.0.4.Final?classifier=sources&uuid=a760e372-d2bb-437b-9f00-3e75d8b4c7be"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Infinispan Hot Rod Server",
+    "release_date": "2022-12-16T15:01:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "See http://www.infinispan.org for a complete list of contributors",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss, a division of Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.infinispan.org",
+    "download_url": "https://repo1.maven.org/maven2/org/infinispan/infinispan-server-hotrod/14.0.4.Final/infinispan-server-hotrod-14.0.4.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a77fb8a23c768d9c7e22bfb60ec6dae227b338ac",
+    "sha256": "3836eb9fb41fbdb3770f4836f68bc0eb6d508b335cd149645df157fc749c1f10",
+    "sha512": "6589bbb78fa3550af617dfe376d534b33c91e4b1b825e7efa1711f9b6768136f46aa420c84fa785e0019f589708c4d9141c5f768a667e82d7d32644b2762d411",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.infinispan/infinispan-server-hotrod@14.0.4.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-component-processor",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-server-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-remote-query-server",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-tasks",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-clustered-counter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-multimap",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan.protostream/protostream",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan.protostream/protostream-types",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.projectreactor.tools/blockhound",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kohsuke.metainf-services/metainf-services",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-server-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan.protostream/protostream-processor",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.openssl/wildfly-openssl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.infinispan/infinispan-server-hotrod@14.0.4.Final?classifier=sources&uuid=a760e372-d2bb-437b-9f00-3e75d8b4c7be",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.infinispan/infinispan-server-hotrod@14.0.4.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

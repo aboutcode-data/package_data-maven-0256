@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-shiro-starter",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring-Boot Starter :: Camel :: Shiro\nSpring-Boot Starter for Camel Shiro Security support",
+    "release_date": "2017-05-20T21:50:15Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-shiro-starter/2.18.4/camel-shiro-starter-2.18.4.jar",
+    "size": 13041,
+    "md5": null,
+    "sha1": "d3fb8006c6c3fc3b1c3ab42f3466675afa5a7fd6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-shiro-starter@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter",
+            "extracted_requirement": "${spring-boot-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-shiro",
+            "extracted_requirement": "2.18.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core-starter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-spring-boot-starter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-shiro-starter@2.18.4?uuid=efc2f91c-34d7-4279-9dc7-a6f8e7177568",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-shiro-starter@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-shiro-starter/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-shiro-starter/2.18.4/camel-shiro-starter-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-shiro-starter/2.18.4/camel-shiro-starter-2.18.4.pom",
+    "file_references": []
+}

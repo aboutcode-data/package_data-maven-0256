@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.digital.signature.web",
+    "version": "1.0.51",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dfaeb5f7-cc12-4761-a1ac-9a1239b6a7a1",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.digital.signature.web@1.0.51?uuid=30e60ac6-95f5-4322-b9b0-265a6c28d75a",
+                "pkg:maven/com.liferay/com.liferay.digital.signature.web@1.0.51?classifier=sources&uuid=f3f56dc4-b1b3-4b52-8bf8-655fcdfe5dc6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Digital Signature Web",
+    "release_date": "2023-07-31T06:48:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.digital.signature.web/1.0.51/com.liferay.digital.signature.web-1.0.51-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "826a2548a946d4d342755985c658ee94b121bf35",
+    "sha256": "773720e55157e474afbd633738a3695bc0626224b37f32837956e2023f46803d",
+    "sha512": "b1d1237b4b42d1c548dee292756a73f0b0bca6f9e94d7dbb677d77922967589652a394d0905c2c2d4c62a46f9d5d5520256d9432904aece71230f921344c3b81",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.digital.signature.web@1.0.51?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.digital.signature.web@1.0.51?classifier=sources&uuid=f3f56dc4-b1b3-4b52-8bf8-655fcdfe5dc6",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.digital.signature.web@1.0.51?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.digital.signature.web/1.0.51/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.digital.signature.web/1.0.51/com.liferay.digital.signature.web-1.0.51-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.digital.signature.web/1.0.51/com.liferay.digital.signature.web-1.0.51.pom",
+    "file_references": []
+}

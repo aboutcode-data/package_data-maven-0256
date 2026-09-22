@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-join",
+    "version": "5.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a2c3b142-b24d-43eb-b11c-ad9f715bee51",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-join@5.2.1?uuid=3b8addd9-a07b-45e4-a17b-c7dfcd7d400d",
+                "pkg:maven/org.apache.lucene/lucene-join@5.2.1?classifier=sources&uuid=a33339ea-a23d-40c6-aced-60273f13b11f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Join\nLucene Join Module",
+    "release_date": "2015-06-14T22:18:36Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/5.2.1/lucene-join-5.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "299e6c87a91b43ce3508d4a65c4f22a1e4cd730f",
+    "sha256": "4d09c73d4926dabde5782617b42f0bed8283681e56fb09d19b9405cc6bb78e34",
+    "sha512": "d4ae05e38cf59763ed0c0b5558c2796d6f8e6fdd294cdb069b457820bdfdb82c980a45113dbf0e1e379069deb557ff277cde60541768e00a80dce5a49c234372",
+    "bug_tracking_url": null,
+    "code_view_url": "/lucene/join",
+    "vcs_url": "svn+/lucene/join",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (apache-2.0 AND cpl-1.0 AND bsd-new) AND bsd-simplified AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND (mit AND unicode AND bsd-new) AND (mit AND x11) AND naist-2003 AND python AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND unicode-mappings AND x11",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (Apache-2.0 AND CPL-1.0 AND BSD-3-Clause) AND BSD-2-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (MIT AND ICU) AND NAIST-2003 AND Python-2.0 AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND LicenseRef-scancode-unicode-mappings AND ICU",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-join@5.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-test-framework",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-codecs",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-grouping",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-join@5.2.1?classifier=sources&uuid=a33339ea-a23d-40c6-aced-60273f13b11f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.lucene/lucene-join@5.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/5.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/5.2.1/lucene-join-5.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/5.2.1/lucene-join-5.2.1.pom",
+    "file_references": []
+}

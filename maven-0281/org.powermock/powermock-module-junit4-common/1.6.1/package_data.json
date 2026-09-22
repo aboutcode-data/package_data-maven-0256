@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.powermock",
+    "name": "powermock-module-junit4-common",
+    "version": "1.6.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c63f005e-6150-4498-a761-4781109eba90",
+            "packages": [
+                "pkg:maven/org.powermock/powermock-module-junit4-common@1.6.1?uuid=0f81f004-be0a-4a21-9e48-a1a83e4ce10f",
+                "pkg:maven/org.powermock/powermock-module-junit4-common@1.6.1?classifier=sources&uuid=5f5be35d-f99a-4f13-be95-ad58e5ed3481"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "powermock-module-junit4-common\nPowerMock support module for all versions of JUnit 4.x.",
+    "release_date": "2015-01-03T07:25:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Johan Haleby",
+            "email": "johan.haleby at jayway.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Kronquist",
+            "email": "jan.kronquist at jayway.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.1/powermock-module-junit4-common-1.6.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d2532fa21f6916e830b5f53ea89b40b11f196701",
+    "sha256": "c4ffa69de81693a4bdbd5e58eb08ec58b9a914a25d0a4e15a7bf44ece7a3698c",
+    "sha512": "f08dd751a6e3eeca5e515296e4813e77d7d34b0a7846e87ffded22c01e63f94a076cec3d1d81817aa67a0e7c77f837e6108042ea3a897a1b5355a85ae7fa7317",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.powermock/powermock-module-junit4-common@1.6.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.4",
+            "extracted_requirement": "4.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-core@1.6.1",
+            "extracted_requirement": "1.6.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-reflect@1.6.1",
+            "extracted_requirement": "1.6.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.powermock/powermock-module-junit4-common@1.6.1?classifier=sources&uuid=5f5be35d-f99a-4f13-be95-ad58e5ed3481",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.powermock/powermock-module-junit4-common@1.6.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.1/powermock-module-junit4-common-1.6.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/powermock/powermock-module-junit4-common/1.6.1/powermock-module-junit4-common-1.6.1.pom",
+    "file_references": []
+}

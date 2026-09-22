@@ -1,0 +1,182 @@
+{
+    "type": "maven",
+    "namespace": "javax.measure",
+    "name": "jsr-275",
+    "version": "0.9.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "JSR-275\nJSR-275 specifies Java packages for the programmatic handling\n    of physical quantities and their expression as numbers of units.",
+    "release_date": "2010-05-20T00:51:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jean-Marie Dautelle",
+            "email": "jean-marie@dautelle.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Werner Keil",
+            "email": "jsr275@catmedia.us",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Karen Legrand",
+            "email": "karen.legrand@iem.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Chris Senior",
+            "email": "chris.senior@teradyne.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Desruisseaux",
+            "email": "desruisseaux@users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Gruebsch",
+            "email": "michael@mkm-rabis.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eric Russell",
+            "email": "eric-r@northwestern.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Daniel Leuck",
+            "email": "dan@ikayzo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Brian Frank",
+            "email": "bfrank@tridium.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bruce Hamilton",
+            "email": "bruce_hamilton@agilent.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Chris Downey",
+            "email": "cdowney@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Murray",
+            "email": "john.murray@sobetech.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Gordan Vosicki",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Steve Metsker",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JScience",
+            "email": null,
+            "url": "http://jscience.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://kenai.com/projects/jsr-275",
+    "download_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/0.9.2/jsr-275-0.9.2.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5e0c8bf6e7c8e405913496a689d15c68ba2b762f",
+    "sha256": "964ada63f6537738d458cc4b9b6114a928fed69c89f2912f900cbaef30902bbb",
+    "sha512": "3ffbba12532e3b4de3eba7f38ff01cfc3e3db2c691f9b2a08cddf36488ef411d3dd3fb80f38d9fb2b7fa3c1c1dbc4ab8239f4e79d9febade57babf8100e5a775",
+    "bug_tracking_url": "http://kenai.com/jira/browse/JSR_275",
+    "code_view_url": "https://kenai.com/svn/jsr-275~svn-repository/trunk",
+    "vcs_url": "svn+https://kenai.com/svn/jsr-275~svn-repository/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-4fadc7eef45122133822b9d1af8554ed5cb6e912",
+                    "start_line": 1,
+                    "matched_text": "license - name: Specification License\n  url: LICENSE.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-4fadc7eef45122133822b9d1af8554ed5cb6e912",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-f5e39472-8bc1-3ac2-9e14-85e6b6121ea2",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "proprietary-license AND unknown-license-reference AND bsd-simplified",
+    "other_license_expression_spdx": "LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-unknown-license-reference AND BSD-2-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Specification License\n  url: LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.measure/jsr-275@0.9.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.measure/jsr-275@0.9.2?uuid=7f7a8649-d209-437b-bd1a-479c18fcca40",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.measure/jsr-275@0.9.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/0.9.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/0.9.2/jsr-275-0.9.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/measure/jsr-275/0.9.2/jsr-275-0.9.2.pom",
+    "file_references": []
+}

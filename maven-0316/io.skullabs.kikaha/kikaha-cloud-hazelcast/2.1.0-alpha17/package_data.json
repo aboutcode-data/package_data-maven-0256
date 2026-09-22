@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.skullabs.kikaha",
+    "name": "kikaha-cloud-hazelcast",
+    "version": "2.1.0-alpha17",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Kikaha: Cloud Providers: Hazelcast",
+    "release_date": "2017-05-21T14:54:07Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-hazelcast/2.1.0-alpha17/kikaha-cloud-hazelcast-2.1.0-alpha17.jar",
+    "size": 25131,
+    "md5": null,
+    "sha1": "49922103e2ce050091c1b9394e1507de213503a4",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.skullabs.kikaha/kikaha-cloud-hazelcast@2.1.0-alpha17?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.skullabs.kikaha/kikaha-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.hazelcast/hazelcast",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.hazelcast/hazelcast-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.skullabs.kikaha/kikaha-urouting",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.skullabs.kikaha/kikaha-cloud-hazelcast@2.1.0-alpha17?uuid=d3c52d40-78b8-45ad-bda2-e5855a4c0e41",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.skullabs.kikaha/kikaha-cloud-hazelcast@2.1.0-alpha17",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-hazelcast/2.1.0-alpha17/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-hazelcast/2.1.0-alpha17/kikaha-cloud-hazelcast-2.1.0-alpha17.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-cloud-hazelcast/2.1.0-alpha17/kikaha-cloud-hazelcast-2.1.0-alpha17.pom",
+    "file_references": []
+}

@@ -1,0 +1,85 @@
+{
+    "type": "maven",
+    "namespace": "com.fasterxml.jackson.core",
+    "name": "jackson-annotations",
+    "version": "2.10.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "98a4b35b-4d83-4f83-8550-b98a1e656924",
+            "packages": [
+                "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1?uuid=465294f1-7646-4eea-be6c-dbfddfb52d28",
+                "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1?classifier=sources&uuid=24f2f4e8-14bc-4dc7-8e7d-68e91e315060"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jackson-annotations\nCore annotations used for value types, used by Jackson data binding package.",
+    "release_date": "2019-11-09T22:58:21Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tatu Saloranta",
+            "email": "tatu@fasterxml.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FasterXML",
+            "email": null,
+            "url": "http://fasterxml.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/FasterXML/jackson",
+    "download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "44bc509b5f453f2848ac7f1c281f30649a9b6b81",
+    "sha256": "51edbe61480b811fc9ceaa158e233b88a193b58b69a4c9cfe7c8b2ef50f98b5d",
+    "sha512": "047b7009764338c1166c0eadeb9c3616fe3b92b9ec06de4f3312e0dd44986d51628afb6b6aed5e60ff1ebe7c30c82b20e390ec0e34f84cbf52656a42856915c5",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/FasterXML/jackson-annotations",
+    "vcs_url": "git+https://github.com/FasterXML/jackson-annotations.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@38",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.fasterxml/oss-parent@38"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1?classifier=sources&uuid=24f2f4e8-14bc-4dc7-8e7d-68e91e315060",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.pom",
+    "file_references": []
+}

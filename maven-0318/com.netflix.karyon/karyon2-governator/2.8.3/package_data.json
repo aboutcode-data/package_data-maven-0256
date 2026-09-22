@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.netflix.karyon",
+    "name": "karyon2-governator",
+    "version": "2.8.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "karyon2-governator",
+    "release_date": "2017-05-19T20:19:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Netflix Open Source Development",
+            "email": "talent@netflix.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/Netflix/karyon",
+    "download_url": "https://repo1.maven.org/maven2/com/netflix/karyon/karyon2-governator/2.8.3/karyon2-governator-2.8.3.jar",
+    "size": 53819,
+    "md5": null,
+    "sha1": "10ab187970cd98ae49545f64cb99ff4474f71098",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.netflix.karyon/karyon2-governator@2.8.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.6",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.netflix.governator/governator",
+            "extracted_requirement": "1.14.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.netflix.karyon/karyon2-core",
+            "extracted_requirement": "2.8.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.netflix.karyon/karyon2-governator@2.8.3?uuid=3c1ab947-6d26-4d82-9568-7d4fd823a35f",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.netflix.karyon/karyon2-governator@2.8.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/netflix/karyon/karyon2-governator/2.8.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/netflix/karyon/karyon2-governator/2.8.3/karyon2-governator-2.8.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/netflix/karyon/karyon2-governator/2.8.3/karyon2-governator-2.8.3.pom",
+    "file_references": []
+}

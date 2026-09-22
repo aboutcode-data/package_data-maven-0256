@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "org.atnos",
+    "name": "eff-monix_2.12",
+    "version": "4.3.4-20170517061419-64c9feb",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "monix",
+    "release_date": "2017-05-17T06:29:49Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Eric Torreborre",
+            "email": null,
+            "url": "https://github.com/etorreborre/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.atnos",
+            "email": null,
+            "url": "https://github.com/atnos-org/eff"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/atnos-org/eff",
+    "download_url": "https://repo1.maven.org/maven2/org/atnos/eff-monix_2.12/4.3.4-20170517061419-64c9feb/eff-monix_2.12-4.3.4-20170517061419-64c9feb.jar",
+    "size": 38977,
+    "md5": null,
+    "sha1": "fd9b9763b3590e020ed43691aaf4b52b494bce90",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.atnos/eff-monix_2.12@4.3.4-20170517061419-64c9feb?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.atnos/eff_2.12",
+            "extracted_requirement": "4.3.4-20170517061419-64c9feb",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.monix/monix-eval_2.12",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.monix/monix-cats_2.12",
+            "extracted_requirement": "2.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-core_2.12",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.12",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-matcher-extra_2.12",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-scalacheck_2.12",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-html_2.12",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-junit_2.12",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.atnos/eff-monix_2.12@4.3.4-20170517061419-64c9feb?uuid=f92191a8-e191-48c3-b267-f1834e8c6017",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.atnos/eff-monix_2.12@4.3.4-20170517061419-64c9feb",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/atnos/eff-monix_2.12/4.3.4-20170517061419-64c9feb/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/atnos/eff-monix_2.12/4.3.4-20170517061419-64c9feb/eff-monix_2.12-4.3.4-20170517061419-64c9feb.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/atnos/eff-monix_2.12/4.3.4-20170517061419-64c9feb/eff-monix_2.12-4.3.4-20170517061419-64c9feb.pom",
+    "file_references": []
+}

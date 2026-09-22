@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.kerby",
+    "name": "kerby-asn1",
+    "version": "2.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c9fd4e65-457b-4f08-adb4-60bfdc8aff34",
+            "packages": [
+                "pkg:maven/org.apache.kerby/kerby-asn1@2.0.0?uuid=440d3e2b-37ac-457d-93aa-7b0ec39cfa18",
+                "pkg:maven/org.apache.kerby/kerby-asn1@2.0.0?classifier=sources&uuid=a7e69d74-44a7-4b73-8c8a-045708a984ab"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Kerby ASN1 Project",
+    "release_date": "2019-01-08T10:25:16Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c10e29d28ee937d4f8f7336fd7f873bd4a447561",
+    "sha256": "4f4655ebed486f4b6cafb9df06469bd3d6da2cd09ef855a11cae768ee64aad62",
+    "sha512": "ba25419a662a93406dd440040d2e5dc5a0f116b74a8bd6d4a2156d5f229499c72711c2ef966fe032eaeb872073b7f81bb869449f0dc744307bd3a2a0ca3608d8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.kerby/kerby-asn1@2.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.kerby/kerby-asn1@2.0.0?classifier=sources&uuid=a7e69d74-44a7-4b73-8c8a-045708a984ab",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.kerby/kerby-asn1@2.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/2.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.pom",
+    "file_references": []
+}

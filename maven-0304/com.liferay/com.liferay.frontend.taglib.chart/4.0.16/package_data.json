@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.taglib.chart",
+    "version": "4.0.16",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "278812be-9ff0-468f-9935-db2657231f2e",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.taglib.chart@4.0.16?uuid=a8a39da8-a4f8-445a-8383-6f2c6940d579",
+                "pkg:maven/com.liferay/com.liferay.frontend.taglib.chart@4.0.16?classifier=sources&uuid=85fd137d-82c2-456c-b97f-533bbfe7eb7c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend Taglib Chart",
+    "release_date": "2023-06-08T18:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.chart/4.0.16/com.liferay.frontend.taglib.chart-4.0.16-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b6c40e45d938b6a625a4f6bf02d4701345b503cb",
+    "sha256": "de1338159c53ee3b605e9e5900d1c67b30d373003fb18a748a5b866e474acab2",
+    "sha512": "065337bd16ff34bd019df4b8571ea692f1e0bd0096f80701557a51e1b80b181c70e9409993810081cc7396350e549273f12f8d9d75e84a9cf0ff07233d1c05c2",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.taglib.chart@4.0.16?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.taglib.chart@4.0.16?classifier=sources&uuid=85fd137d-82c2-456c-b97f-533bbfe7eb7c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.taglib.chart@4.0.16?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.chart/4.0.16/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.chart/4.0.16/com.liferay.frontend.taglib.chart-4.0.16-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.taglib.chart/4.0.16/com.liferay.frontend.taglib.chart-4.0.16.pom",
+    "file_references": []
+}

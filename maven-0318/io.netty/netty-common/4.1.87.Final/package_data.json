@@ -1,0 +1,217 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-common",
+    "version": "4.1.87.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2df0af03-487e-4dbe-a08a-78667377fb53",
+            "packages": [
+                "pkg:maven/io.netty/netty-common@4.1.87.Final?uuid=959d25b7-163c-4a70-a47d-7eca9504c4f1",
+                "pkg:maven/io.netty/netty-common@4.1.87.Final?classifier=sources&uuid=ba4bf3b4-3dc2-4338-9859-8805ec6bdf06",
+                "pkg:github/netty/netty@netty-4.1.87.Final?uuid=d59ef90d-4a3d-4f8a-8141-bdd1db723f11"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Common",
+    "release_date": "2023-01-12T16:12:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fef4a79f4d1faf3f3c376fce681c5010f9cc1517",
+    "sha256": "679c23349089a12edeb0dbd6a4b05e1c7f527db69e33be8b98fb482c8c24db64",
+    "sha512": "e4abe03589b0cb897501dd6a6c6ed9a44c5817a77c5f39ee980eca6929b3f3e7826c6a5f5c127f2efdf796b291727c05e7623be90e3a542d77a4cf8cad1493f0",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "(apache-2.0 AND mit) AND (apache-2.0 AND (public-domain AND cc0-1.0))",
+    "other_license_expression_spdx": "(Apache-2.0 AND MIT) AND (Apache-2.0 AND (LicenseRef-scancode-public-domain AND CC0-1.0))",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-common@4.1.87.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.87.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.87.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.graalvm.nativeimage/svm@19.3.6",
+            "extracted_requirement": "19.3.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jetbrains/annotations-java5@23.0.0",
+            "extracted_requirement": "23.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+            "extracted_requirement": "1.7.30",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.17.2",
+            "extracted_requirement": "2.17.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.2",
+            "extracted_requirement": "2.17.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.projectreactor.tools/blockhound@1.0.6.RELEASE",
+            "extracted_requirement": "1.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2",
+            "extracted_requirement": "2.17.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@2.18.3",
+            "extracted_requirement": "2.18.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-dev-tools@4.1.87.Final",
+            "extracted_requirement": "4.1.87.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.0",
+            "extracted_requirement": "5.9.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.0",
+            "extracted_requirement": "5.9.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.0",
+            "extracted_requirement": "5.9.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-build-common@31",
+            "extracted_requirement": "31",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@3.18.0",
+            "extracted_requirement": "3.18.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-common@4.1.87.Final?classifier=sources&uuid=ba4bf3b4-3dc2-4338-9859-8805ec6bdf06",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-common@4.1.87.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.87.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.pom",
+    "file_references": []
+}

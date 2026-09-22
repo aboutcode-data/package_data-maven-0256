@@ -1,0 +1,138 @@
+{
+    "type": "maven",
+    "namespace": "com.helger",
+    "name": "ph-css",
+    "version": "5.0.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f18a697f-b90c-475b-81f8-f1723f407bdc",
+            "packages": [
+                "pkg:maven/com.helger/ph-css@5.0.3?uuid=f36b8f25-db05-4ec8-807a-ed2463fcbb9e",
+                "pkg:maven/com.helger/ph-css@5.0.3?classifier=sources&uuid=7dc8f508-2ce8-4cd1-ad5c-897fa7729d13"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ph-css\nJava CSS 3 parser and builder",
+    "release_date": "2017-01-09T14:49:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Philip Helger",
+            "email": "ph(at)helger.com",
+            "url": "http://www.helger.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Philip Helger",
+            "email": null,
+            "url": "http://www.helger.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/phax/ph-css/ph-css",
+    "download_url": "https://repo1.maven.org/maven2/com/helger/ph-css/5.0.3/ph-css-5.0.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5145557b5ccbca9044a9b64a6388a6fc7de37186",
+    "sha256": "cb09aeb0e14a6a182e93385115585f60dc1e0f26b1acd8026260d1f49a3bc724",
+    "sha512": "f4570e2b012aa0fa11587cda2b5ac667093acdd078efe3057a067a113aad61ea5d06abd9ff8fa4b7dd0efbaed939fcbf81819e9a6cb9dbff9a3bd72a0abf650c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Philip Helger philip at helger dot com",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-da536cba-e4c3-fe10-08b1-621df2aa51be",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.helger/ph-css@5.0.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.helger/ph-commons",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.helger/ph-xml",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.helger/ph-css@5.0.3?classifier=sources&uuid=7dc8f508-2ce8-4cd1-ad5c-897fa7729d13",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.helger/ph-css@5.0.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/helger/ph-css/5.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/helger/ph-css/5.0.3/ph-css-5.0.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/helger/ph-css/5.0.3/ph-css-5.0.3.pom",
+    "file_references": []
+}

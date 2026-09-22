@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.drools",
+    "name": "drools-verifier",
+    "version": "5.4.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "01293d8a-3a30-43a3-8b86-8d5f71070e70",
+            "packages": [
+                "pkg:maven/org.drools/drools-verifier@5.4.0.Final?uuid=07cce0d1-c8a4-401f-bba7-e0bf2a4d5b76",
+                "pkg:maven/org.drools/drools-verifier@5.4.0.Final?classifier=sources&uuid=9a12ea5c-0890-4e1c-b868-30993d43addc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Drools :: Verifier\nDrools Verifier analyses the quality of Drools rules and reports any issues.",
+    "release_date": "2012-05-12T14:38:01Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "All developers are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "All contributors are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/drools",
+    "download_url": "https://repo1.maven.org/maven2/org/drools/drools-verifier/5.4.0.Final/drools-verifier-5.4.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8560a91843428268fe6de8bc60e7ad7601266cdd",
+    "sha256": "ba98cc442aa19f4fa20bc40df12cf74ae2b8045e12cb6630326d2ae6c6b64f6a",
+    "sha512": "eafc8b7cbdb158d5617762a843b07e54be875749057f08c92848e27ab13fca590114a050d70ca039801a12ff576f277e24ba053828faa1d876ee1fa21ea73996",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.drools/drools-verifier@5.4.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.drools/knowledge-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.drools/drools-compiler",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lowagie/itext",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.drools/drools-verifier@5.4.0.Final?classifier=sources&uuid=9a12ea5c-0890-4e1c-b868-30993d43addc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.drools/drools-verifier@5.4.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/drools/drools-verifier/5.4.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/drools/drools-verifier/5.4.0.Final/drools-verifier-5.4.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/drools/drools-verifier/5.4.0.Final/drools-verifier-5.4.0.Final.pom",
+    "file_references": []
+}

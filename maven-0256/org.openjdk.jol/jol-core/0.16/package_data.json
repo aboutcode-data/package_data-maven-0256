@@ -1,0 +1,86 @@
+{
+    "type": "maven",
+    "namespace": "org.openjdk.jol",
+    "name": "jol-core",
+    "version": "0.16",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d8a08d78-67c5-479a-b1ce-5f392f46875b",
+            "packages": [
+                "pkg:maven/org.openjdk.jol/jol-core@0.16?uuid=d4cf8ec1-208b-4295-9575-0576da7f840f",
+                "pkg:maven/org.openjdk.jol/jol-core@0.16?classifier=sources&uuid=f2c46647-a3ce-4fef-bbca-5f5c99d21d5d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java Object Layout: Core",
+    "release_date": "2021-05-21T10:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Aleksey Shipilev",
+            "email": "shade@redhat.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://maven.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/openjdk/jol/jol-core/0.16/jol-core-0.16-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "78335edf166385134391d8483d3462df5754083d",
+    "sha256": "c374e2a73266670bc731e567af99ab6cb145a0b875e7c3dfab47d1b43b0c5537",
+    "sha512": "6c06436801154d2d17eb4dc3966bd09d8c414f0e5ae8abf2e3105c1be90762a7af2fb99ca3e177c035d21504a5761768590e376dffc931e21e9a0f9fc9e2e0a3",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "gpl-2.0 AND classpath-exception-2.0 AND gpl-2.0 WITH classpath-exception-2.0",
+    "declared_license_expression_spdx": "GPL-2.0-only AND Classpath-exception-2.0 AND GPL-2.0-only WITH Classpath-exception-2.0",
+    "license_detections": [],
+    "other_license_expression": "(gpl-2.0 WITH classpath-exception-2.0 AND gpl-2.0 WITH oracle-openjdk-classpath-exception-2.0) AND gpl-1.0-plus AND gpl-2.0 WITH oracle-openjdk-classpath-exception-2.0 AND mit",
+    "other_license_expression_spdx": "(GPL-2.0-only WITH Classpath-exception-2.0 AND GPL-2.0-only WITH LicenseRef-scancode-oracle-openjdk-exception-2.0) AND GPL-1.0-or-later AND GPL-2.0-only WITH LicenseRef-scancode-oracle-openjdk-exception-2.0 AND MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.openjdk.jol/jol-core@0.16?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.openjdk.jol/jol-parent@0.16",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.openjdk.jol/jol-parent@0.16"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.openjdk.jol/jol-core@0.16?classifier=sources&uuid=f2c46647-a3ce-4fef-bbca-5f5c99d21d5d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.openjdk.jol/jol-core@0.16?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/openjdk/jol/jol-core/0.16/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/openjdk/jol/jol-core/0.16/jol-core-0.16-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/openjdk/jol/jol-core/0.16/jol-core-0.16.pom",
+    "file_references": []
+}

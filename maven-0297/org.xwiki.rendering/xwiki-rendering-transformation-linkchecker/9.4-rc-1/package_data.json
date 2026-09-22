@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.xwiki.rendering",
+    "name": "xwiki-rendering-transformation-linkchecker",
+    "version": "9.4-rc-1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "XWiki Rendering - Transformation - Link Checker\nVerifies if external URLs are valid and decorate with parameters if not",
+    "release_date": "2017-05-23T14:38:48Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-transformation-linkchecker/9.4-rc-1/xwiki-rendering-transformation-linkchecker-9.4-rc-1.jar",
+    "size": 33164,
+    "md5": null,
+    "sha1": "7064229452bf876530d9ef860a269c304f6c110f",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.xwiki.rendering/xwiki-rendering-transformation-linkchecker@9.4-rc-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-script",
+            "extracted_requirement": "${commons.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-observation-api",
+            "extracted_requirement": "${commons.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-tool-test-component",
+            "extracted_requirement": "${commons.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.tomakehurst/wiremock",
+            "extracted_requirement": "1.46",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.xwiki.rendering/xwiki-rendering-transformation-linkchecker@9.4-rc-1?uuid=bd0efb19-1083-46c8-a1c8-47cf5f84a16b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-transformation-linkchecker@9.4-rc-1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-transformation-linkchecker/9.4-rc-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-transformation-linkchecker/9.4-rc-1/xwiki-rendering-transformation-linkchecker-9.4-rc-1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-transformation-linkchecker/9.4-rc-1/xwiki-rendering-transformation-linkchecker-9.4-rc-1.pom",
+    "file_references": []
+}

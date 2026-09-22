@@ -1,0 +1,239 @@
+{
+    "type": "maven",
+    "namespace": "org.axle-lang",
+    "name": "axle-test_2.11",
+    "version": "0.3.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "axle-test",
+    "release_date": "2017-05-23T05:40:35Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Adam Pingel",
+            "email": null,
+            "url": "https://github.com/adampingel"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.axle-lang",
+            "email": null,
+            "url": "http://axle-lang.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://axle-lang.org",
+    "download_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-test_2.11/0.3.5/axle-test_2.11-0.3.5.jar",
+    "size": 293,
+    "md5": null,
+    "sha1": "a880bf8ad12f8967281a60fb9b760b2385bcb339",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://opensource.org/licenses/Apache-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.axle-lang/axle-test_2.11@0.3.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.typelevel/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-core_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-algorithms_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-visualize_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-joda_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-jblas_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-jung_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-games_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-languages_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor_2.11",
+            "extracted_requirement": "2.4.17",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream_2.11",
+            "extracted_requirement": "2.4.17",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jblas/jblas",
+            "extracted_requirement": "1.2.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "2.9.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.joda/joda-convert",
+            "extracted_requirement": "1.8.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.jung/jung-visualization",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.jung/jung-algorithms",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.jung/jung-api",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.jung/jung-graph-impl",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.jung/jung-io",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jogamp.gluegen/gluegen-rt-main",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jogamp.jogl/jogl-all-main",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.11",
+            "extracted_requirement": "1.12.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.axle-lang/axle-test_2.11@0.3.5?uuid=8172ca68-d8ec-4738-8379-e2c335800ad2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.axle-lang/axle-test_2.11@0.3.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-test_2.11/0.3.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-test_2.11/0.3.5/axle-test_2.11-0.3.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-test_2.11/0.3.5/axle-test_2.11-0.3.5.pom",
+    "file_references": []
+}

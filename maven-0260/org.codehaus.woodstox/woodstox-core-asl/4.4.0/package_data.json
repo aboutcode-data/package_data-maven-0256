@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.woodstox",
+    "name": "woodstox-core-asl",
+    "version": "4.4.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8bc470de-2dd3-464e-8393-fd531098269c",
+            "packages": [
+                "pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.0?uuid=ff674eb2-84dc-40ae-b8ed-2ed228a7e964",
+                "pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.0?classifier=sources&uuid=a38bea32-3359-47f5-917d-2eb8ad0ec61c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Woodstox\nWoodstox is a high-performance XML processor that\nimplements Stax (JSR-173) and SAX2 APIs",
+    "release_date": "2014-05-20T05:07:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tatu Saloranta",
+            "email": "tatu@fasterxml.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Codehaus",
+            "email": null,
+            "url": "http://www.codehaus.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://woodstox.codehaus.org",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.0/woodstox-core-asl-4.4.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d8d67d5b2bd756610aa0520660ce4f0cdc6d99aa",
+    "sha256": "df87ccd9f05ed5d29bb3856c6e30db0eb1e86ca65f1aedea627d1aef9b5ae3c9",
+    "sha512": "f4c4a54b782d0eebdb068df6340ae4bc64d2a189c1acf8381a790179059bb7525b55c3ba1966a1e3b47fffeca201f4a0029d963473a8d683f691956f1cc6cb27",
+    "bug_tracking_url": "http://jira.codehaus.org/browse/WSTX",
+    "code_view_url": "http://xircles.codehaus.org/projects/woodstox/repos/primary/repo",
+    "vcs_url": "http://xircles.codehaus.org/projects/woodstox/repos/primary/repo",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.xml.stream/stax-api@1.0-2",
+            "extracted_requirement": "1.0-2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4",
+            "extracted_requirement": "3.1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.0?classifier=sources&uuid=a38bea32-3359-47f5-917d-2eb8ad0ec61c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.codehaus.woodstox/woodstox-core-asl@4.4.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.0/woodstox-core-asl-4.4.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.0/woodstox-core-asl-4.4.0.pom",
+    "file_references": []
+}

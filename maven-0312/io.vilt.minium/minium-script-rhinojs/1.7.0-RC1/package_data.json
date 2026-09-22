@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.vilt.minium",
+    "name": "minium-script-rhinojs",
+    "version": "1.7.0-RC1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Minium Script - Rhino Javascript",
+    "release_date": "2017-05-19T11:53:34Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/vilt/minium/minium-script-rhinojs/1.7.0-RC1/minium-script-rhinojs-1.7.0-RC1.jar",
+    "size": 29811,
+    "md5": null,
+    "sha1": "eb34b67c5d05f363ed27ff2419d066a7b870dcf7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.vilt.minium/minium-script-rhinojs@1.7.0-RC1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.vilt.minium/minium-webelements",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vilt.minium/minium-webelements-config",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vilt.minium/minium-script-js",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mozilla/rhino",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-configuration-processor",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.vilt.minium/minium-script-rhinojs@1.7.0-RC1?uuid=62949589-5b3b-45f7-8e78-a7f6412f6486",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.vilt.minium/minium-script-rhinojs@1.7.0-RC1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/vilt/minium/minium-script-rhinojs/1.7.0-RC1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/vilt/minium/minium-script-rhinojs/1.7.0-RC1/minium-script-rhinojs-1.7.0-RC1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/vilt/minium/minium-script-rhinojs/1.7.0-RC1/minium-script-rhinojs-1.7.0-RC1.pom",
+    "file_references": []
+}

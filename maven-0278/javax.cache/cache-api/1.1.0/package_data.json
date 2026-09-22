@@ -1,0 +1,93 @@
+{
+    "type": "maven",
+    "namespace": "javax.cache",
+    "name": "cache-api",
+    "version": "1.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3738e054-7016-48fc-959a-2be515f3eb23",
+            "packages": [
+                "pkg:maven/javax.cache/cache-api@1.1.0?uuid=fd48935a-b505-436c-8b0a-7c5f19c377f5",
+                "pkg:maven/javax.cache/cache-api@1.1.0?classifier=sources&uuid=e31889cc-9a81-433f-b2c9-e117faaf1877",
+                "pkg:github/jsr107/jsr107spec@v1.1.0?uuid=f63124eb-92c9-4e49-95ee-664c0f3fd66a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JSR107 API and SPI",
+    "release_date": "2017-12-16T17:15:23Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/jsr107/jsr107spec",
+    "download_url": "https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.0/cache-api-1.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9d6d3bebb224dcc1fbdd37381105153a961085ab",
+    "sha256": "10a9fee95a3d4b881a5e38c98f62cce262465dd8a2e447beaa1e0ea5efd5442b",
+    "sha512": "f57dcfe532c259aaa7988e0933b83e5f360dea51c5f6d10e89b7a5b3e40edf931a21c006dcbb3d10b636b4ad0504bd66132f8e8d32eb68f974002bb533f6b1d0",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/juven/git-demo.git",
+    "vcs_url": "git+https://github.com/juven/git-demo.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1276.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license",
+                    "match_coverage": 100.0,
+                    "matched_length": 21,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1276.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-10929444-6665-97b1-dbc4-07818511d168",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.cache/cache-api@1.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api@1.0-SP4",
+            "extracted_requirement": "1.0-SP4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.cache/cache-api@1.1.0?classifier=sources&uuid=e31889cc-9a81-433f-b2c9-e117faaf1877",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.cache/cache-api@1.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.0/cache-api-1.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.0/cache-api-1.1.0.pom",
+    "file_references": []
+}

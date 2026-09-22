@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-logging-gelf",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "76fec1e8-21f2-4964-85be-02c0a7a34e18",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-logging-gelf@2.13.7.Final?uuid=3ef26783-bb46-4891-b582-270a170c69c6",
+                "pkg:maven/io.quarkus/quarkus-logging-gelf@2.13.7.Final?classifier=sources&uuid=8ee1eafd-eff1-4524-afeb-2af4d4a6648c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Logging - GELF - Runtime\nLog using the Graylog Extended Log Format and centralize your logs in ELK or EFK",
+    "release_date": "2023-01-19T10:12:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-logging-gelf/2.13.7.Final/quarkus-logging-gelf-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "da29c3191b5580cf7a310244fcf42c1e4602b4f9",
+    "sha256": "3d4e81d4e3fa2125ff96e033243f8930779e9d202db645a46dcd7c95ae12b0b6",
+    "sha512": "3c85716d51136e456e25325ae9496a79f4c35bbf8b875ea67655ca5c5c8a9391c9b79b9539e90a857dc5d00b4b63d9c1c3b0fcb2d2f00c099373e8d24d178a02",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-logging-gelf@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/biz.paluch.logging/logstash-gelf",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.graalvm.nativeimage/svm",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-logging-gelf@2.13.7.Final?classifier=sources&uuid=8ee1eafd-eff1-4524-afeb-2af4d4a6648c",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-logging-gelf@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

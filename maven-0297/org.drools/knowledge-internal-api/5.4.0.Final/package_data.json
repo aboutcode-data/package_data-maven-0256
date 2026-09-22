@@ -1,0 +1,93 @@
+{
+    "type": "maven",
+    "namespace": "org.drools",
+    "name": "knowledge-internal-api",
+    "version": "5.4.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0ac9d830-083b-43d0-800a-0900512055f2",
+            "packages": [
+                "pkg:maven/org.drools/knowledge-internal-api@5.4.0.Final?uuid=73088e3e-b37b-4a3e-b9d3-6a488b35f307",
+                "pkg:maven/org.drools/knowledge-internal-api@5.4.0.Final?classifier=sources&uuid=b06ffced-4fe1-404e-96bc-25af78e233c1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Knowledge Internal API\nThe Drools and jBPM internal API which is NOT backwards compatible between releases.",
+    "release_date": "2012-05-12T14:29:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "All developers are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "All contributors are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/drools",
+    "download_url": "https://repo1.maven.org/maven2/org/drools/knowledge-internal-api/5.4.0.Final/knowledge-internal-api-5.4.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6a52f8b4c316ee4613a727f1016e0e0bb4c33c76",
+    "sha256": "977909de1da6c95ffb605f750f5262dfc9858f360ac61254240349cb38b29b5c",
+    "sha512": "00c60bed007494997806ace6060e67c62dbd69451bc97953638d93b36cc644c638ace5a4d1c1fc8486c75a620155b94eaf93fefe66a77363e8fc578566c8a290",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.drools/knowledge-internal-api@5.4.0.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.drools/droolsjbpm-parent@5.4.0.Final",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.drools/droolsjbpm-parent@5.4.0.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.drools/droolsjbpm-parent@5.4.0.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.drools/knowledge-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.drools/knowledge-internal-api@5.4.0.Final?classifier=sources&uuid=b06ffced-4fe1-404e-96bc-25af78e233c1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.drools/knowledge-internal-api@5.4.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/drools/knowledge-internal-api/5.4.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/drools/knowledge-internal-api/5.4.0.Final/knowledge-internal-api-5.4.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/drools/knowledge-internal-api/5.4.0.Final/knowledge-internal-api-5.4.0.Final.pom",
+    "file_references": []
+}

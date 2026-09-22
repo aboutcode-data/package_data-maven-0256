@@ -1,0 +1,248 @@
+{
+    "type": "maven",
+    "namespace": "com.github.emc-mongoose",
+    "name": "nagaina",
+    "version": "3.5.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "nagaina\nMongoose web storage mock",
+    "release_date": "2017-07-21T19:23:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andrey Kurilov",
+            "email": "akurilov123@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/emc-mongoose/nagaina/wiki",
+    "download_url": "https://repo1.maven.org/maven2/com/github/emc-mongoose/nagaina/3.5.1/nagaina-3.5.1.jar",
+    "size": 113442,
+    "md5": null,
+    "sha1": "7b1a94184a2ac87db3abb294e6c125422218c1d1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The MIT License (MIT)\nhttps://github.com/emc-mongoose/nagaina/wiki/License",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.emc-mongoose/nagaina@3.5.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.github.emc-mongoose/mongoose-api-common",
+            "extracted_requirement": "[3.5.0,)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.emc-mongoose/mongoose-api-model",
+            "extracted_requirement": "[3.5.0,)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.emc-mongoose/mongoose-ui",
+            "extracted_requirement": "[3.5.0,)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": "2.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-collections4",
+            "extracted_requirement": "4.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.24",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core",
+            "extracted_requirement": "3.2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": "2.8.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": "2.8.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "2.8.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-common",
+            "extracted_requirement": "4.1.12.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer",
+            "extracted_requirement": "4.1.12.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport",
+            "extracted_requirement": "4.1.12.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-handler",
+            "extracted_requirement": "4.1.12.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http",
+            "extracted_requirement": "4.1.12.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-epoll",
+            "extracted_requirement": "4.1.12.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmdns/jmdns",
+            "extracted_requirement": "3.5.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lmax/disruptor",
+            "extracted_requirement": "3.3.4",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-jul",
+            "extracted_requirement": "2.8.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": "2.8.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": "3.21.0-GA",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "[4,)",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.fge/json-schema-validator",
+            "extracted_requirement": "[2,)",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.emc-mongoose/nagaina@3.5.1?uuid=6d565680-73cb-430d-ab9e-6a84f048b843",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.emc-mongoose/nagaina@3.5.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/emc-mongoose/nagaina/3.5.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/emc-mongoose/nagaina/3.5.1/nagaina-3.5.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/emc-mongoose/nagaina/3.5.1/nagaina-3.5.1.pom",
+    "file_references": []
+}

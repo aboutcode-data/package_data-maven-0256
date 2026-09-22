@@ -1,0 +1,85 @@
+{
+    "type": "maven",
+    "namespace": "asm",
+    "name": "asm-tree",
+    "version": "3.3.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ASM Tree",
+    "release_date": "2011-01-12T14:03:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eric Bruneton",
+            "email": "ebruneton@free.fr",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eugene Kuleshov",
+            "email": "eu@javatx.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Remi Forax",
+            "email": "forax@univ-mlv.fr",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "ObjectWeb",
+            "email": null,
+            "url": "http://www.objectweb.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://asm.objectweb.org/",
+    "download_url": "https://repo1.maven.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c9723d887e26c3049944e46312bb39e7ab1a2ed2",
+    "sha256": "120060fd61cfa29f1638a66cce519d13d1182ade910f7ec68f3d9f4efc64106e",
+    "sha512": "0f1f31d7afb004d8cafa0f31ec9f9261fcde075c14ebcb6c4a705f6813745154991cdc9ec2ddeda7301d8b3fc687f447b20366f85faed6e6e9928feb2845ffd1",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/asm/asm-tree@3.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/asm/asm",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/asm/asm-tree@3.3.1?uuid=90a965fe-c539-4d64-ba2a-75074d4584fc",
+    "datasource_id": null,
+    "purl": "pkg:maven/asm/asm-tree@3.3.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/asm/asm-tree/3.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/asm/asm-tree/3.3.1/asm-tree-3.3.1.pom",
+    "file_references": []
+}

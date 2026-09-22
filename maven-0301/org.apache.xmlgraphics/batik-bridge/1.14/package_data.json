@@ -1,0 +1,183 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xmlgraphics",
+    "name": "batik-bridge",
+    "version": "1.14",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dc09ed25-3196-4a7d-a18b-989297cbbf3b",
+            "packages": [
+                "pkg:maven/org.apache.xmlgraphics/batik-bridge@1.14?uuid=d59b277f-6629-480f-959b-f9cfe45ded3d",
+                "pkg:maven/org.apache.xmlgraphics/batik-bridge@1.14?classifier=sources&uuid=88eb5687-2ebd-45e0-914c-8fbb409a7090"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.apache.xmlgraphics:batik-bridge\nBatik bridge",
+    "release_date": "2021-01-12T13:26:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xmlgraphics.apache.org/batik/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.14/batik-bridge-1.14-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b2b5302ca14317f627b4c018ba9bc60b0969a84b",
+    "sha256": "6024a26612c5d6457809d0b836108f05947e0b7b395f9cecf1d0033f0b26bfd7",
+    "sha512": "c2fa5d27c0f16086b41b33ea97c256fd56f2a216c4791f6b3ed2b3f9e63ef74c51e5bb9e436bcf412c55b60bc961af801ed6d39a4e9a4309bc1a68be1d2cadb7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xmlgraphics/batik-bridge@1.14?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-anim@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-css@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-dom@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-gvt@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-parser@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-script@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-shared-resources@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-svg-dom@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-util@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-xml@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/xmlgraphics-commons",
+            "extracted_requirement": "${xmlgraphics.commons.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis-ext",
+            "extracted_requirement": "${xmlapisext.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mozilla/rhino",
+            "extracted_requirement": "${rhino.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xmlgraphics/batik-bridge@1.14?classifier=sources&uuid=88eb5687-2ebd-45e0-914c-8fbb409a7090",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.xmlgraphics/batik-bridge@1.14?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.14/batik-bridge-1.14-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-bridge/1.14/batik-bridge-1.14.pom",
+    "file_references": []
+}

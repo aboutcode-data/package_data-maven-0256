@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.squareup.jnagmp",
+    "name": "bouncycastle-rsa",
+    "version": "1.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c274c83c-94fe-44e6-a605-8ce43c637b48",
+            "packages": [
+                "pkg:maven/com.squareup.jnagmp/bouncycastle-rsa@1.1.0?uuid=77f66365-a2db-4be7-be43-575694bef83f",
+                "pkg:maven/com.squareup.jnagmp/bouncycastle-rsa@1.1.0?classifier=sources&uuid=73856166-ab6b-4833-a2f5-896b7343426d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Bouncy Castle RSA\nExample using JNA modPow with Bouncy Castle",
+    "release_date": "2016-03-06T21:37:39Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Square, Inc.",
+            "email": null,
+            "url": "http://squareup.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/squareup/jnagmp/bouncycastle-rsa/1.1.0/bouncycastle-rsa-1.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e066d573fe7eb5ac8f0928917fc4bc3431d2b8f7",
+    "sha256": "50f895fe8420d1aa15f300e16adc7935717fee59e16c8d4f66baa1e26c1310d6",
+    "sha512": "6d475ae04e977f9ad5ad6203cc59f93ec0da4f1d39bcac9947d3c775aad5a02c1fc2cb59959b6aefdbae979772e46af0c587bc029ec046aab22da033809dc8aa",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.squareup.jnagmp/bouncycastle-rsa@1.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.squareup.jnagmp/jnagmp@1.1.0",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.50",
+            "extracted_requirement": "1.50",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.squareup.jnagmp/bouncycastle-rsa@1.1.0?classifier=sources&uuid=73856166-ab6b-4833-a2f5-896b7343426d",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.squareup.jnagmp/bouncycastle-rsa@1.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/squareup/jnagmp/bouncycastle-rsa/1.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/squareup/jnagmp/bouncycastle-rsa/1.1.0/bouncycastle-rsa-1.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/squareup/jnagmp/bouncycastle-rsa/1.1.0/bouncycastle-rsa-1.1.0.pom",
+    "file_references": []
+}

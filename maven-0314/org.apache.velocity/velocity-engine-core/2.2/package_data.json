@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.velocity",
+    "name": "velocity-engine-core",
+    "version": "2.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b738dda8-71aa-4742-bade-79494701597a",
+            "packages": [
+                "pkg:maven/org.apache.velocity/velocity-engine-core@2.2?uuid=e38ddbb5-8912-4154-a4a1-e460fa4eef34",
+                "pkg:maven/org.apache.velocity/velocity-engine-core@2.2?classifier=sources&uuid=c899125f-cba0-4f8f-9abd-7b1db079bf0a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Velocity - Engine",
+    "release_date": "2020-01-29T17:06:56Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0fc07f1a396db418034c5a4a8115fbb8df785a64",
+    "sha256": "c2b0992bce0990a3e157256c8cb48979cab99d173c65ba4015c06bad66813b56",
+    "sha512": "b774fec2adf968dc7a2fe75267f09b96e760f34bc0804ddf4d20bcf352130a0c3b626f488ca8ad7b911c96c8628cd227e22fce4056a894138259414eff9479a0",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "mit AND apache-2.0",
+    "other_license_expression_spdx": "MIT AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.velocity/velocity-engine-core@2.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+            "extracted_requirement": "3.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+            "extracted_requirement": "1.7.30",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13",
+            "extracted_requirement": "4.13",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hsqldb/hsqldb@2.5.0",
+            "extracted_requirement": "2.5.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.30",
+            "extracted_requirement": "1.7.30",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.velocity/velocity-engine-core@2.2?classifier=sources&uuid=c899125f-cba0-4f8f-9abd-7b1db079bf0a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.velocity/velocity-engine-core@2.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/2.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2.pom",
+    "file_references": []
+}

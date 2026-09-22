@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "io.smallrye.common",
+    "name": "smallrye-common-constraint",
+    "version": "1.6.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ae42dccc-7b52-4109-9a31-8db1e98d0f03",
+            "packages": [
+                "pkg:maven/io.smallrye.common/smallrye-common-constraint@1.6.0?uuid=2b023639-e7f0-44ff-8217-a602500ed115",
+                "pkg:maven/io.smallrye.common/smallrye-common-constraint@1.6.0?classifier=sources&uuid=c80a9927-2f62-40fc-b6bd-3d2182eed4dc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SmallRye Common: Constraints",
+    "release_date": "2021-03-18T00:32:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ken Finnigan",
+            "email": "ken@kenfinnigan.me",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://smallrye.io",
+    "download_url": "https://repo1.maven.org/maven2/io/smallrye/common/smallrye-common-constraint/1.6.0/smallrye-common-constraint-1.6.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f366475a5da810343397e2d89626a38e4666f78c",
+    "sha256": "33fbdc9bb3ec6906f11bd4103dd3b0306b79f7501b5688f242fba95955362306",
+    "sha512": "308d20877c836b5e34d371520ed8d6bd1b88bd290046d94e7d6264f59b2656924be2914b230bac61d99eed05d569d0263dac8f764041bb294adc482aa9610ae5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.smallrye.common/smallrye-common-constraint@1.6.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.smallrye.common/smallrye-common-constraint@1.6.0?classifier=sources&uuid=c80a9927-2f62-40fc-b6bd-3d2182eed4dc",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.smallrye.common/smallrye-common-constraint@1.6.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

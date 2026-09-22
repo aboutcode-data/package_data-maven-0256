@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.js.dependencies.web",
+    "version": "1.0.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3601a5f1-8f33-4516-a8b4-2c91b8b0c33c",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.js.dependencies.web@1.0.5?uuid=42e921f4-e94c-4d0b-a87b-9debe9b70304",
+                "pkg:maven/com.liferay/com.liferay.frontend.js.dependencies.web@1.0.5?classifier=sources&uuid=c4027e22-8bcb-44b2-8da7-a5c0bce70be4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend JS Dependencies Web",
+    "release_date": "2023-05-04T16:14:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.dependencies.web/1.0.5/com.liferay.frontend.js.dependencies.web-1.0.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "295fd2eb246d89c7a6d03eea0e984ee965daa842",
+    "sha256": "86a3f409db5dca11cba6f0ce249c2270f3ee37f1bdd6e5cdda8b24c0f5a23392",
+    "sha512": "1ab84853b539ff5fea1bc8d8e8858e4bc5c64bccfd119436bdfbdd7e93d031ce4cb4a1cf865a87497d0ec6ef8a93b131283c2be50e25eef0278bd878342b5fb1",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.js.dependencies.web@1.0.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.js.dependencies.web@1.0.5?classifier=sources&uuid=c4027e22-8bcb-44b2-8da7-a5c0bce70be4",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.js.dependencies.web@1.0.5?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

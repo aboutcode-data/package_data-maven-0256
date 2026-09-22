@@ -1,0 +1,66 @@
+{
+    "type": "maven",
+    "namespace": "xalan",
+    "name": "xalan",
+    "version": "2.6.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2005-11-22T18:27:49Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/xalan/xalan/2.6.0/xalan-2.6.0.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5b010b70e16d540dcb737caa09da1034ea721704",
+    "sha256": "d07e3fd6276ec1d5eeea5a3be919261049930ba214d50be4e315f2988dc8d7b1",
+    "sha512": "0676d3ed755821496f9acd14eea0f89755e67e4f6b3a7b9309e8758c74829f74741be58c846c7efd42b6bb1891329ab2f1c6a9a5a2d4b825dcabbb3de201532c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-1.1 AND standard-ml-nj",
+    "declared_license_expression_spdx": "Apache-1.1 AND SMLNJ",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND apache-1.1 AND standard-ml-nj",
+    "other_license_expression_spdx": "Apache-2.0 AND Apache-1.1 AND SMLNJ",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xalan/xalan@2.6.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl@2.6.0",
+            "extracted_requirement": "2.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/xalan/xalan@2.6.0?uuid=b70fd08e-e230-46b7-8871-db0b305bcb4e",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xalan/xalan@2.6.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xalan/xalan/2.6.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xalan/xalan/2.6.0/xalan-2.6.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xalan/xalan/2.6.0/xalan-2.6.0.pom",
+    "file_references": []
+}

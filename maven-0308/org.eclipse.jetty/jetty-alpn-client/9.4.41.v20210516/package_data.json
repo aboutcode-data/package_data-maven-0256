@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty",
+    "name": "jetty-alpn-client",
+    "version": "9.4.41.v20210516",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fb096ce9-4a39-4e6c-9f48-ee52a0cfca12",
+            "packages": [
+                "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.41.v20210516?uuid=0163ba3f-8bf0-4e2e-8b87-67bc8fa07c5e",
+                "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.41.v20210516?classifier=sources&uuid=7f54b75f-1f30-4a4e-9c22-d8826d3aad73"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jetty :: ALPN :: Client",
+    "release_date": "2021-05-16T23:59:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Wilkins",
+            "email": "gregw@webtide.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Bartel",
+            "email": "janb@webtide.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jesse McConnell",
+            "email": "jesse.mcconnell@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joakim Erdfelt",
+            "email": "joakim.erdfelt@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": "simone.bordet@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Jencks",
+            "email": "david.a.jencks@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Olivier Lamy",
+            "email": "oliver.lamy@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ludovic Orban",
+            "email": "lorban@bitronix.be",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Webtide",
+            "email": null,
+            "url": "https://webtide.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://eclipse.org/jetty",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-client/9.4.41.v20210516/jetty-alpn-client-9.4.41.v20210516-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9020dbc0295d643d04f64978db55a741e0a83466",
+    "sha256": "922440ef50ddf5f135e44b5295dd24a1c5559d7bf3ff5d53f516b6f0b56f630e",
+    "sha512": "9f43700fc8f87919bdbf88cb2515dc64956b45ec1637d5a11e9179abff49f2ad19deec6efbe992eab523522c7648ca4952f8bedbe124ced3da89f8da01945658",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Mort Bay Consulting Pty Ltd., Aki Yoshida",
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND bsd-new AND cddl-1.0 AND epl-1.0 AND epl-2.0 AND gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND other-permissive",
+    "declared_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND CDDL-1.0 AND EPL-1.0 AND EPL-2.0 AND GPL-2.0-only AND GPL-2.0-only WITH Classpath-exception-2.0 AND LicenseRef-scancode-other-permissive",
+    "license_detections": [],
+    "other_license_expression": "(epl-1.0 OR apache-2.0) AND (((epl-1.0 OR apache-2.0) AND epl-1.0 AND apache-1.1 AND apache-2.0) AND other-permissive) AND (apache-2.0 AND epl-1.0 AND cddl-1.0 AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND (gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0) AND bsd-new AND other-permissive) AND (epl-2.0 AND apache-2.0 AND epl-1.0)",
+    "other_license_expression_spdx": "(EPL-1.0 OR Apache-2.0) AND (((EPL-1.0 OR Apache-2.0) AND EPL-1.0 AND Apache-1.1 AND Apache-2.0) AND LicenseRef-scancode-other-permissive) AND (Apache-2.0 AND EPL-1.0 AND CDDL-1.0 AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (GPL-2.0-only AND GPL-2.0-only WITH Classpath-exception-2.0) AND BSD-3-Clause AND LicenseRef-scancode-other-permissive) AND (EPL-2.0 AND Apache-2.0 AND EPL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.41.v20210516?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.41.v20210516",
+            "extracted_requirement": "9.4.41.v20210516",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-test-helper",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.41.v20210516?classifier=sources&uuid=7f54b75f-1f30-4a4e-9c22-d8826d3aad73",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.41.v20210516?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

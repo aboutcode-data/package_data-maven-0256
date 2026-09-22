@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.forge.addon",
+    "name": "text",
+    "version": "3.0.0.Beta3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Forge - Text Addon",
+    "release_date": "2016-01-18T21:52:06Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/forge/addon/text/3.0.0.Beta3/text-3.0.0.Beta3.jar",
+    "size": 111194,
+    "md5": null,
+    "sha1": "81baa03ac445389d2b5e7efa265eb0d1424d3f20",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.forge.addon/text@3.0.0.Beta3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.forge.furnace.container/simple",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.forge.furnace.test/furnace-test-harness",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.forge.furnace.test/arquillian-furnace-classpath",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.forge.addon/text@3.0.0.Beta3?uuid=cf06cd63-066d-48df-a346-ddb93885de34",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.forge.addon/text@3.0.0.Beta3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/forge/addon/text/3.0.0.Beta3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/forge/addon/text/3.0.0.Beta3/text-3.0.0.Beta3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/forge/addon/text/3.0.0.Beta3/text-3.0.0.Beta3.pom",
+    "file_references": []
+}

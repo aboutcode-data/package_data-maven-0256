@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.skullabs.kikaha",
+    "name": "kikaha-injection",
+    "version": "2.1.0-alpha15",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Kikaha: Basic Dependency Injection Support",
+    "release_date": "2017-05-17T00:32:15Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-injection/2.1.0-alpha15/kikaha-injection-2.1.0-alpha15.jar",
+    "size": 94925,
+    "md5": null,
+    "sha1": "15732e8e3d983cde5dec8035808199bba832f662",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.skullabs.kikaha/kikaha-injection@2.1.0-alpha15?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.projectlombok/lombok",
+            "extracted_requirement": "1.16.16",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "1.1.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.skullabs.kikaha/kikaha-injection@2.1.0-alpha15?uuid=3efae230-1605-4695-9272-04af67ee9cd4",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.skullabs.kikaha/kikaha-injection@2.1.0-alpha15",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-injection/2.1.0-alpha15/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-injection/2.1.0-alpha15/kikaha-injection-2.1.0-alpha15.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-injection/2.1.0-alpha15/kikaha-injection-2.1.0-alpha15.pom",
+    "file_references": []
+}

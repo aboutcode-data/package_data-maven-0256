@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-example-restlet-jdbc",
+    "version": "2.17.7",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Example :: Restlet :: JDBC\nAn example showing how to create REST API with Camel Restlet and JDBC components",
+    "release_date": "2017-05-14T09:30:19Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-restlet-jdbc/2.17.7/camel-example-restlet-jdbc-2.17.7.war",
+    "size": 15268513,
+    "md5": null,
+    "sha1": "3432db11dfadf2159fe3c05a9a6fc08e1d4da162",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-example-restlet-jdbc@2.17.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-spring",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-jdbc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jdbc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-expression",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-restlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restlet.jee/org.restlet.ext.spring",
+            "extracted_requirement": "${restlet-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-example-restlet-jdbc@2.17.7?type=war&uuid=bf74ea6a-7dd5-4594-90bd-6a079b5ac8f0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-example-restlet-jdbc@2.17.7?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-restlet-jdbc/2.17.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-restlet-jdbc/2.17.7/camel-example-restlet-jdbc-2.17.7.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-restlet-jdbc/2.17.7/camel-example-restlet-jdbc-2.17.7.pom",
+    "file_references": []
+}

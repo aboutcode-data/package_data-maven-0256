@@ -1,0 +1,108 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.sis.storage",
+    "name": "sis-netcdf",
+    "version": "1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "28b0f309-56dd-4ca5-a2b3-536d34c40eb8",
+            "packages": [
+                "pkg:maven/org.apache.sis.storage/sis-netcdf@1.2?uuid=10c8625b-6954-4b8e-8302-6425a7df7a3c",
+                "pkg:maven/org.apache.sis.storage/sis-netcdf@1.2?classifier=sources&uuid=462936e6-a24a-4cac-b58b-6fbfdaf91301"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache SIS netCDF storage\nBridge between netCDF Climate and Forecast (CF) convention and ISO 19115 metadata.",
+    "release_date": "2022-05-10T12:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Johann Sorel",
+            "email": "johann.sorel@geomatys.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Desruisseaux",
+            "email": "desruisseaux@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Antoine Hnawia",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/sis/storage/sis-netcdf/1.2/sis-netcdf-1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c9bd8aabe88ece0687f56709742453a749288971",
+    "sha256": "9a17f1fc11d91419a74511c6262cd07d6564d8c8aa3c24c7467f57fe55dc87d5",
+    "sha512": "7c9448a7b9d728ef18e2dea66e65fedcfb89bf821c5373317308c88c01bcd90dbbe5b6368085c16be34294a6fad05c2f91888990957e362ffaa47ce8cb75fb62",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) https://raw.githubusercontent.com/opengeospatial/geoapi/master/LICENSE.txt, The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "(bsd-new AND ogc AND apache-2.0) AND proprietary-license",
+    "other_license_expression_spdx": "(BSD-3-Clause AND LicenseRef-scancode-ogc AND Apache-2.0) AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.sis.storage/sis-netcdf@1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@26",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@26"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.sis.storage/sis-storage@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/edu.ucar/cdm-core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-jdk14",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.sis.storage/sis-netcdf@1.2?classifier=sources&uuid=462936e6-a24a-4cac-b58b-6fbfdaf91301",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.sis.storage/sis-netcdf@1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/sis/storage/sis-netcdf/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/sis/storage/sis-netcdf/1.2/sis-netcdf-1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/sis/storage/sis-netcdf/1.2/sis-netcdf-1.2.pom",
+    "file_references": []
+}

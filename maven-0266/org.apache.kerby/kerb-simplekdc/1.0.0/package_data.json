@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.kerby",
+    "name": "kerb-simplekdc",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "45317a21-01d6-48ce-8518-58539b5078eb",
+            "packages": [
+                "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.0?uuid=223f5967-0bb8-4ae2-8cc4-dbfc9f7dc1fc",
+                "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.0?classifier=sources&uuid=321b0ffa-cdf6-4673-86b0-cad4c7ff7c0d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Kerb Simple Kdc",
+    "release_date": "2017-05-10T09:23:31Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.0/kerb-simplekdc-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9522c428724b6378e307397642806e9f3fc03b36",
+    "sha256": "d8a3351bdbce9e6df2f4a1d240d455c910d7827d1214b810efb90b0caf3c19d5",
+    "sha512": "882550233c8e7384c99e67d190b4a8b8bb256939ad9bd83790fb5c5a616166add80ffda0b6f0e4db2632d5901a3083607ba24d40ef7222bb0938b6adf0764958",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "mit AND apache-2.0",
+    "other_license_expression_spdx": "MIT AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.kerby/kerb-client@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.kerby/kerb-admin@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.0?classifier=sources&uuid=321b0ffa-cdf6-4673-86b0-cad4c7ff7c0d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.kerby/kerb-simplekdc@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.0/kerb-simplekdc-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-simplekdc/1.0.0/kerb-simplekdc-1.0.0.pom",
+    "file_references": []
+}

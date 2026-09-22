@@ -1,0 +1,245 @@
+{
+    "type": "maven",
+    "namespace": "io.vertx",
+    "name": "vertx-web",
+    "version": "4.3.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1d4a0351-acb9-45d3-bc4c-4e1732452dc6",
+            "packages": [
+                "pkg:maven/io.vertx/vertx-web@4.3.4?uuid=07de6af4-ddeb-4992-b2c8-2bc94e3c0392",
+                "pkg:maven/io.vertx/vertx-web@4.3.4?classifier=sources&uuid=985e7431-44f9-4442-b1b7-ab4f43944601"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-09-30T09:52:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/vertx/vertx-web/4.3.4/vertx-web-4.3.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6ff2980c2deaa7bbff8982f899b53374c1fac772",
+    "sha256": "3f2d64315b1f7d90fb1f05630160499bdbc659096b3dfaff698ec7aca8da2b3b",
+    "sha512": "615b78fdcc369260d53f7f165dc2856ce43b1891abc274b7b62adf977dd3fb68ae66127a9f2c49fe2c90fba3b9faab0838f8abe42ce41dbc4bdec40bb685d80c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-2.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-2.0_7.RULE",
+                    "start_line": 1,
+                    "matched_text": "Eclipse Public License - v 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-2.0_7.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "epl_2_0-8b57fcb6-9a6f-8562-02ee-d8ce94f7a353",
+            "license_expression": "epl-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-2.0_18.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.eclipse.org/legal/epl-v20.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-2.0_18.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "epl_2_0-9fe7fac0-e268-b30e-13b8-a5cbd0ded16a",
+            "license_expression": "epl-2.0"
+        }
+    ],
+    "other_license_expression": "(epl-1.0 OR apache-2.0) AND apache-2.0 AND (epl-2.0 AND (epl-2.0 OR unknown-spdx)) AND (epl-2.0 OR apache-2.0)",
+    "other_license_expression_spdx": "(EPL-1.0 OR Apache-2.0) AND Apache-2.0 AND (EPL-2.0 AND (EPL-2.0 OR LicenseRef-scancode-unknown-spdx)) AND (EPL-2.0 OR Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n- name: Eclipse Public License - v 2.0\n  url: http://www.eclipse.org/legal/epl-v20.html\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.vertx/vertx-web@4.3.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.vertx/vertx-web-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-auth-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-bridge-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-auth-jwt",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-auth-oauth2",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-auth-htdigest",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-auth-webauthn",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-auth-otp",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-unit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-auth-properties",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.21",
+            "extracted_requirement": "1.7.21",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@2.22.0",
+            "extracted_requirement": "2.22.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.vertx/vertx-web@4.3.4?classifier=sources&uuid=985e7431-44f9-4442-b1b7-ab4f43944601",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.vertx/vertx-web@4.3.4?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

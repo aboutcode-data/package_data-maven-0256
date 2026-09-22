@@ -1,0 +1,85 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "slf4j-simple",
+    "version": "1.6.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "02cf611d-42b4-4748-b31b-4ec69e81d1d3",
+            "packages": [
+                "pkg:maven/org.slf4j/slf4j-simple@1.6.6?uuid=757f26db-87ea-4202-afa2-de3a1145922b",
+                "pkg:maven/org.slf4j/slf4j-simple@1.6.6?classifier=sources&uuid=5633c6af-8f5f-49ce-b33b-e1544ed1647a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J Simple Binding\nSLF4J Simple binding",
+    "release_date": "2012-06-11T14:42:01Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.slf4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.6/slf4j-simple-1.6.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9805794426f404bbb9acda0843439601b0da9df0",
+    "sha256": "6da451b64184a9cd8f90209adb497ff393f932899122d36deac34f0979e1f9a9",
+    "sha512": "d130c73645b4e7a7c7d739e10a046ec50b26be5c93b7a53716d7730ba03aa2cc2b1c446132ca5f6e8ef584a81b6341a18611224d0fb425045970282b5c0a6709",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/slf4j-simple@1.6.6?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.6.6",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.slf4j/slf4j-parent@1.6.6"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.slf4j/slf4j-simple@1.6.6?classifier=sources&uuid=5633c6af-8f5f-49ce-b33b-e1544ed1647a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.slf4j/slf4j-simple@1.6.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.6/slf4j-simple-1.6.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.6/slf4j-simple-1.6.6.pom",
+    "file_references": []
+}

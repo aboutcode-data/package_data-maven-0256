@@ -1,0 +1,69 @@
+{
+    "type": "maven",
+    "namespace": "xml-resolver",
+    "name": "xml-resolver",
+    "version": "1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e0220894-3d54-46ea-96c9-530c536f3cd0",
+            "packages": [
+                "pkg:maven/xml-resolver/xml-resolver@1.2?uuid=28c80167-3064-4148-bca0-a72a03905cb0",
+                "pkg:maven/xml-resolver/xml-resolver@1.2?classifier=sources&uuid=27eca359-3f90-45a1-8e3e-97c566e56075"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "XML Commons Resolver Component\nxml-commons provides an Apache-hosted set of DOM, SAX, and \n    JAXP interfaces for use in other xml-based projects. Our hope is that we \n    can standardize on both a common version and packaging scheme for these \n    critical XML standards interfaces to make the lives of both our developers \n    and users easier.",
+    "release_date": "2016-01-02T02:41:33Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xml.apache.org/commons/components/resolver/",
+    "download_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6b72432ea1c5296783007365bb7c9a6b39dfb730",
+    "sha256": "53915f3c5181ec712d18fde7f13a90c53d94a1b2f69f20b604424dbb2be5b227",
+    "sha512": "8f31f92e8dc4f2e7bda131f841919307b89b589abfb0e3540471b71109008f4b550b3be446bc8709eddaffa7dcdc912e26728b68546feb6256ff5752986b3c07",
+    "bug_tracking_url": "http://issues.apache.org/bugzilla/",
+    "code_view_url": "http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-resolver-1_2/",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/xml/commons/tags/xml-commons-resolver-1_2/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND public-domain)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND LicenseRef-scancode-public-domain)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xml-resolver/xml-resolver@1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@3",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@3"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/xml-resolver/xml-resolver@1.2?classifier=sources&uuid=27eca359-3f90-45a1-8e3e-97c566e56075",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xml-resolver/xml-resolver@1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven",
+    "name": "maven-settings-builder",
+    "version": "3.2.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4a434d5b-7089-450f-a37e-12aca1069bc7",
+            "packages": [
+                "pkg:maven/org.apache.maven/maven-settings-builder@3.2.5?uuid=353d870f-fee8-4f71-9bcb-618c80eb62fe",
+                "pkg:maven/org.apache.maven/maven-settings-builder@3.2.5?classifier=sources&uuid=427ccb0a-7f53-498c-ab05-06087c02a850"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Settings Builder\nThe effective settings builder, with inheritance and password decryption.",
+    "release_date": "2014-12-14T17:29:05Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "21ad01678d7ea4c2e3b08f8df7dce2ec8c9485db",
+    "sha256": "39c51bfc348dfce242483b11c65422ee125f11a5b2a086f7f4ba718d6e8aab8d",
+    "sha512": "e34acc583b629fe933fe96bc5bb9c0bf657b6c7ed08fa968eae6dcbe170e826991d367c626b6968950a9d0cac2c475840244de7c03658320bd30435683d2a054",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": "git+https://git-wip-us.apache.org/repos/asf/maven.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven/maven-settings-builder@3.2.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-interpolation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-settings",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.plexus/plexus-sec-dispatcher",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven/maven-settings-builder@3.2.5?classifier=sources&uuid=427ccb0a-7f53-498c-ab05-06087c02a850",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven/maven-settings-builder@3.2.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom",
+    "file_references": []
+}

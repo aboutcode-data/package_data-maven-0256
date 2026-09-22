@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.typelevel",
+    "name": "algebra_2.12",
+    "version": "2.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "aa366252-fd3b-4a47-8ab8-448ba9ef7877",
+            "packages": [
+                "pkg:maven/org.typelevel/algebra_2.12@2.0.0?uuid=d84bf243-d0a1-4df3-9be1-49d18f084249",
+                "pkg:maven/org.typelevel/algebra_2.12@2.0.0?classifier=sources&uuid=21962d57-52ca-453f-b357-9e91ab89311b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "core",
+    "release_date": "2019-10-05T20:42:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "P. Oscar Boykin",
+            "email": null,
+            "url": "https://github.com/johnynek/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Avi Bryant",
+            "email": null,
+            "url": "https://github.com/avibryant/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Erik Osheim",
+            "email": null,
+            "url": "http://github.com/non/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tom Switzer",
+            "email": null,
+            "url": "http://github.com/tixxit/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.typelevel",
+            "email": null,
+            "url": "http://typelevel.org/algebra"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://typelevel.org/algebra",
+    "download_url": "https://repo1.maven.org/maven2/org/typelevel/algebra_2.12/2.0.0/algebra_2.12-2.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "55714734c400a67af76adddc1769a039ef5905cc",
+    "sha256": "f5a9cd1b2054951e846c098f34b08314d80a8edbc4bb2dc4fce90f710d17aa6c",
+    "sha512": "29e3d866c57d4604351a21207f82e35650a2a518aca1e6958196826132937b37f8ff0080fc2e0ec87bbc60b751de21a516e8050fced49380d15ff79623b7d2a0",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/typelevel/algebra",
+    "vcs_url": "git+https://github.com/typelevel/algebra.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_82.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://opensource.org/licenses/MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_82.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-ed4b10a1-dee4-8c47-62ce-3459c82174bc",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: http://opensource.org/licenses/MIT\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.typelevel/algebra_2.12@2.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.8",
+            "extracted_requirement": "2.12.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-kernel_2.12@2.0.0",
+            "extracted_requirement": "2.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-testkit-scalatest_2.12@1.0.0-RC1",
+            "extracted_requirement": "1.0.0-RC1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.typelevel/algebra_2.12@2.0.0?classifier=sources&uuid=21962d57-52ca-453f-b357-9e91ab89311b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.typelevel/algebra_2.12@2.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/typelevel/algebra_2.12/2.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/typelevel/algebra_2.12/2.0.0/algebra_2.12-2.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/typelevel/algebra_2.12/2.0.0/algebra_2.12-2.0.0.pom",
+    "file_references": []
+}

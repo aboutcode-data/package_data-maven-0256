@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.resteasy",
+    "name": "resteasy-jackson2-provider",
+    "version": "3.0.17.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c9c33f9b-a3ed-4998-a9e0-31319bec10d6",
+            "packages": [
+                "pkg:maven/org.jboss.resteasy/resteasy-jackson2-provider@3.0.17.Final?uuid=28f7141e-4b54-4b5a-bafe-3c341e342623",
+                "pkg:maven/org.jboss.resteasy/resteasy-jackson2-provider@3.0.17.Final?classifier=sources&uuid=8395ea28-3e3a-4539-b2b6-554012d5bf77"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Resteasy Jackson Provider",
+    "release_date": "2016-05-18T03:49:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/3.0.17.Final/resteasy-jackson2-provider-3.0.17.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fb5e362fcf55da16c01be1cdcca8ac8c142bfe9f",
+    "sha256": "52880f82e3ca86e198b7457b9deae9a200db9eaff792b81855634fe71c8b3b70",
+    "sha512": "84ea8614eaabfb9dea7388e3055481c015576023421fc78ce2e67830a494d676d71f36aa2c3a539902b2ff54c6c10a6fec511d564dd4d3cbce0f2de71e7dae19",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.resteasy/resteasy-jackson2-provider@3.0.17.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jaxrs@3.0.17.Final",
+            "extracted_requirement": "3.0.17.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-client@3.0.17.Final",
+            "extracted_requirement": "3.0.17.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jettison-provider@3.0.17.Final",
+            "extracted_requirement": "3.0.17.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/tjws@3.0.17.Final",
+            "extracted_requirement": "3.0.17.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.resteasy/resteasy-jackson2-provider@3.0.17.Final?classifier=sources&uuid=8395ea28-3e3a-4539-b2b6-554012d5bf77",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.resteasy/resteasy-jackson2-provider@3.0.17.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/3.0.17.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/3.0.17.Final/resteasy-jackson2-provider-3.0.17.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson2-provider/3.0.17.Final/resteasy-jackson2-provider-3.0.17.Final.pom",
+    "file_references": []
+}

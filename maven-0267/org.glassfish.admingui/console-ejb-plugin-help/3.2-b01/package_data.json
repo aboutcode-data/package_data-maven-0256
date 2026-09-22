@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.admingui",
+    "name": "console-ejb-plugin-help",
+    "version": "3.2-b01",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "63a8805d-1e5d-487f-86d9-09bf01617f3f",
+            "packages": [
+                "pkg:maven/org.glassfish.admingui/console-ejb-plugin-help@3.2-b01?uuid=36475d78-f40b-4b58-ac35-6a26933b5930",
+                "pkg:maven/org.glassfish.admingui/console-ejb-plugin-help@3.2-b01?classifier=sources&uuid=c78b8c18-ac3e-4477-805c-1d2ac0a6454d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Administration Console EJB Help Content\nOnline help content for the console-ejb-plugin bundle.",
+    "release_date": "2011-06-16T19:00:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul Davies",
+            "email": null,
+            "url": "http://blogs.sun.com/techscribe"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kim Haase",
+            "email": null,
+            "url": "http://blogs.sun.com/appserverwriters"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-ejb-plugin-help/3.2-b01/console-ejb-plugin-help-3.2-b01-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "43d5690b407a95358e0e959615c7b823c8f54d07",
+    "sha256": "1d92be74970f18ce37fb8c336160e6028e3b4dea88c21ae605faa52cbb68f0cd",
+    "sha512": "b1f074a531359157d0ea1f7caf6aab0c610adc03d62589b08ad29ca85237df221a6c092d1b846cd050b4e3ff02323dae03f69911637da7f244d01baa26f2e7a6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND generic-trademark AND proprietary-license",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-generic-trademark AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.admingui/console-ejb-plugin-help@3.2-b01?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.glassfish.admingui/console-ejb-plugin-help@3.2-b01?classifier=sources&uuid=c78b8c18-ac3e-4477-805c-1d2ac0a6454d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.admingui/console-ejb-plugin-help@3.2-b01?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-ejb-plugin-help/3.2-b01/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-ejb-plugin-help/3.2-b01/console-ejb-plugin-help-3.2-b01-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-ejb-plugin-help/3.2-b01/console-ejb-plugin-help-3.2-b01.pom",
+    "file_references": []
+}

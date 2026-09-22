@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "org.hibernate",
+    "name": "hibernate-hikaricp",
+    "version": "5.1.7.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Hibernate/HikariCP Integration\nIntegration for HikariCP into Hibernate O/RM",
+    "release_date": "2017-05-22T05:31:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "The Hibernate Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Hibernate.org",
+            "email": null,
+            "url": "http://hibernate.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://hibernate.org",
+    "download_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-hikaricp/5.1.7.Final/hibernate-hikaricp-5.1.7.Final.jar",
+    "size": 6646,
+    "md5": null,
+    "sha1": "2944636b58a6d336d8a289eb6debee718e5a1dae",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1 AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.1-only AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "GNU Lesser General Public License\nhttp://www.gnu.org/licenses/lgpl-2.1.html\nSee discussion at http://hibernate.org/license for more details.",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hibernate/hibernate-hikaricp@5.1.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": "3.3.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-core",
+            "extracted_requirement": "5.1.7.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.zaxxer/HikariCP-java6",
+            "extracted_requirement": "2.3.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hibernate/hibernate-hikaricp@5.1.7.Final?uuid=21d8bc8f-ac2f-4c11-940a-de4c4a378d80",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.hibernate/hibernate-hikaricp@5.1.7.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-hikaricp/5.1.7.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-hikaricp/5.1.7.Final/hibernate-hikaricp-5.1.7.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-hikaricp/5.1.7.Final/hibernate-hikaricp-5.1.7.Final.pom",
+    "file_references": []
+}

@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.gridkit.jvmtool",
+    "name": "mxdump",
+    "version": "0.14",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a38921f8-22db-41d1-a1f1-75b5d127f2f0",
+            "packages": [
+                "pkg:maven/org.gridkit.jvmtool/mxdump@0.14?uuid=a407344f-049f-4e2f-984b-44cd9134e5a5",
+                "pkg:maven/org.gridkit.jvmtool/mxdump@0.14?classifier=sources&uuid=b48ba31f-1a53-4baf-bfc0-a828d7b88d49"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.gridkit.jvmtool::mxdump\nMBean to JSON dump command for Swiss Java Knife (SJK) tool",
+    "release_date": "2019-08-11T11:07:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Alexey Ragozin",
+            "email": "alexey.ragozin@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/gridkit/jvmtool/mxdump/0.14/mxdump-0.14-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "249be5359d72347d5f7c4422f5832b897ef7c4b6",
+    "sha256": "c304405317a8fc7c7b672a107bb6e38e246871a27d8df8c1e5b2661a6e33479a",
+    "sha512": "8e88823b6cd8541578ac9fd8e90d7c6e0d28b11e3cb0258e001a33507da228a5b5cfb7e26a92622509e2f02f7378d0541900d2aa300b494181527e9a203c131d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.gridkit.jvmtool/mxdump@0.14?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.gridkit.jvmtool/sjk-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.gridkit.jvmtool/sjk-json",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@8.5.16",
+            "extracted_requirement": "8.5.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.gridkit.jvmtool/mxdump@0.14?classifier=sources&uuid=b48ba31f-1a53-4baf-bfc0-a828d7b88d49",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.gridkit.jvmtool/mxdump@0.14?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/gridkit/jvmtool/mxdump/0.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/gridkit/jvmtool/mxdump/0.14/mxdump-0.14-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/gridkit/jvmtool/mxdump/0.14/mxdump-0.14.pom",
+    "file_references": []
+}

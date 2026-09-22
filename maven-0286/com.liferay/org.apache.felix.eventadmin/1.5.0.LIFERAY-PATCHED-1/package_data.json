@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "org.apache.felix.eventadmin",
+    "version": "1.5.0.LIFERAY-PATCHED-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "eeb579e3-c53c-4adf-8578-5bda5c6a9182",
+            "packages": [
+                "pkg:maven/com.liferay/org.apache.felix.eventadmin@1.5.0.LIFERAY-PATCHED-1?uuid=9880103b-531d-47be-84aa-63392f5ea881",
+                "pkg:maven/com.liferay/org.apache.felix.eventadmin@1.5.0.LIFERAY-PATCHED-1?classifier=sources&uuid=e5079de3-2334-49fc-94e9-f43d36dc9c9c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2019-07-25T22:37:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.eventadmin/1.5.0.LIFERAY-PATCHED-1/org.apache.felix.eventadmin-1.5.0.LIFERAY-PATCHED-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6fefeae088c2620c2caac7a26b41caa68ab9c16d",
+    "sha256": "9c37fc8f95dccaa21d3c37da252efaf42702333d1cdda45d865da4465cbbf4fc",
+    "sha512": "4c678596e4b5a63f006af5c1cb3f8a6d04e78c87c0a62a3a622a5b8545761b5b682e07ba9782d14bea93b789e39df1250fcaf47c29a175ad5401314831bfd513",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": "Copyright (c) OSGi Alliance",
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/org.apache.felix.eventadmin@1.5.0.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/org.apache.felix.eventadmin@1.5.0.LIFERAY-PATCHED-1?classifier=sources&uuid=e5079de3-2334-49fc-94e9-f43d36dc9c9c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/org.apache.felix.eventadmin@1.5.0.LIFERAY-PATCHED-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.eventadmin/1.5.0.LIFERAY-PATCHED-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.eventadmin/1.5.0.LIFERAY-PATCHED-1/org.apache.felix.eventadmin-1.5.0.LIFERAY-PATCHED-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.felix.eventadmin/1.5.0.LIFERAY-PATCHED-1/org.apache.felix.eventadmin-1.5.0.LIFERAY-PATCHED-1.pom",
+    "file_references": []
+}

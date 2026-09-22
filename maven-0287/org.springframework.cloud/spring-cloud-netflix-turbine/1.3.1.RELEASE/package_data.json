@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.cloud",
+    "name": "spring-cloud-netflix-turbine",
+    "version": "1.3.1.RELEASE",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring Cloud Netflix Turbine",
+    "release_date": "2017-05-22T18:33:57Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://projects.spring.io/spring-cloud/",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-netflix-turbine/1.3.1.RELEASE/spring-cloud-netflix-turbine-1.3.1.RELEASE.jar",
+    "size": 23049,
+    "md5": null,
+    "sha1": "6e192bc890aae6b38fbf7eb15ce1e0958e149f98",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.cloud/spring-cloud-netflix-turbine@1.3.1.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-configuration-processor",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-commons",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-context",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-netflix-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-netflix-eureka-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.netflix.eureka/eureka-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.netflix.turbine/turbine-core",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.projectlombok/lombok",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.cloud/spring-cloud-netflix-turbine@1.3.1.RELEASE?uuid=3caa398a-92d7-4e30-a122-dc28085c9518",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.cloud/spring-cloud-netflix-turbine@1.3.1.RELEASE",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-netflix-turbine/1.3.1.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-netflix-turbine/1.3.1.RELEASE/spring-cloud-netflix-turbine-1.3.1.RELEASE.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-netflix-turbine/1.3.1.RELEASE/spring-cloud-netflix-turbine-1.3.1.RELEASE.pom",
+    "file_references": []
+}

@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "com.lihaoyi",
+    "name": "ammonite-sshd_2.11.11",
+    "version": "1.0.0-11-8359b9c",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ammonite-sshd",
+    "release_date": "2017-07-19T16:32:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Li Haoyi",
+            "email": null,
+            "url": "https://github.com/lihaoyi"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lihaoyi",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lihaoyi/Ammonite",
+    "download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-sshd_2.11.11/1.0.0-11-8359b9c/ammonite-sshd_2.11.11-1.0.0-11-8359b9c.jar",
+    "size": 40096,
+    "md5": null,
+    "sha1": "17d01af8590df96c94c8d361f24e113d319c2284",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT license\nhttp://www.opensource.org/licenses/mit-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lihaoyi/ammonite-sshd_2.11.11@1.0.0-11-8359b9c?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/ammonite_2.11.11",
+            "extracted_requirement": "1.0.0-11-8359b9c",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.sshd/sshd-core",
+            "extracted_requirement": "1.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on",
+            "extracted_requirement": "1.56",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/utest_2.11",
+            "extracted_requirement": "0.4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-nop",
+            "extracted_requirement": "1.7.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.jcraft/jsch",
+            "extracted_requirement": "0.1.54",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.11",
+            "extracted_requirement": "1.12.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/acyclic_2.11",
+            "extracted_requirement": "0.1.7",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.lihaoyi/ammonite-sshd_2.11.11@1.0.0-11-8359b9c?uuid=73f4afb5-e1ab-4515-866d-29fd165c78d7",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lihaoyi/ammonite-sshd_2.11.11@1.0.0-11-8359b9c",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-sshd_2.11.11/1.0.0-11-8359b9c/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-sshd_2.11.11/1.0.0-11-8359b9c/ammonite-sshd_2.11.11-1.0.0-11-8359b9c.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-sshd_2.11.11/1.0.0-11-8359b9c/ammonite-sshd_2.11.11-1.0.0-11-8359b9c.pom",
+    "file_references": []
+}

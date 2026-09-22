@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "org.infinispan",
+    "name": "infinispan-clustered-counter",
+    "version": "14.0.4.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "15ba2e4c-e6dc-431a-8f28-7b1aaade4db5",
+            "packages": [
+                "pkg:maven/org.infinispan/infinispan-clustered-counter@14.0.4.Final?uuid=d5de3965-e07b-4219-945f-9e74960818de",
+                "pkg:maven/org.infinispan/infinispan-clustered-counter@14.0.4.Final?classifier=sources&uuid=9a24563b-0c8d-4b09-8cb7-60ea06f345ab"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Infinispan Clustered Counter\nInfinispan Clustered Counter module",
+    "release_date": "2022-12-16T14:59:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "See http://www.infinispan.org for a complete list of contributors",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss, a division of Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.infinispan.org",
+    "download_url": "https://repo1.maven.org/maven2/org/infinispan/infinispan-clustered-counter/14.0.4.Final/infinispan-clustered-counter-14.0.4.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "514aec3c8a17c0a25586009da706a2d2a095e330",
+    "sha256": "021cedbc0f154dba0081d338ffc9849bf6c8af3d46ec99f6f506dadf7f2ed381",
+    "sha512": "718c07f725365955d412d31158ac14ca12dad2a120e8fef77f7189a88635540914ed6ffd8bf8ade2847de59eed6596d494a9cd7e9f5bdafc7320c27049caa944",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.infinispan/infinispan-clustered-counter@14.0.4.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-component-processor",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan.protostream/protostream-processor",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.projectreactor.tools/blockhound",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kohsuke.metainf-services/metainf-services",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-commons",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-commons-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.infinispan/infinispan-clustered-counter@14.0.4.Final?classifier=sources&uuid=9a24563b-0c8d-4b09-8cb7-60ea06f345ab",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.infinispan/infinispan-clustered-counter@14.0.4.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

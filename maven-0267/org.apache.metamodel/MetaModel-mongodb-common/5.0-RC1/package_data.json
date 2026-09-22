@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.metamodel",
+    "name": "MetaModel-mongodb-common",
+    "version": "5.0-RC1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "MetaModel module for MongoDB commons",
+    "release_date": "2017-05-18T04:24:15Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-mongodb-common/5.0-RC1/MetaModel-mongodb-common-5.0-RC1.jar",
+    "size": 9068,
+    "md5": null,
+    "sha1": "713835cf6f933f4698723442312a42eb24a21c4b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.metamodel/MetaModel-mongodb-common@5.0-RC1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.metamodel/MetaModel-core",
+            "extracted_requirement": "5.0-RC1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mongodb/mongo-java-driver",
+            "extracted_requirement": "3.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.metamodel/MetaModel-jdbc",
+            "extracted_requirement": "5.0-RC1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby",
+            "extracted_requirement": "10.8.1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-nop",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.metamodel/MetaModel-mongodb-common@5.0-RC1?uuid=6d80d0d3-a811-4ed7-99ee-34ea205f59c3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.metamodel/MetaModel-mongodb-common@5.0-RC1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-mongodb-common/5.0-RC1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-mongodb-common/5.0-RC1/MetaModel-mongodb-common-5.0-RC1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/metamodel/MetaModel-mongodb-common/5.0-RC1/MetaModel-mongodb-common-5.0-RC1.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.tinygroup",
+    "name": "org.tinygroup.vfs",
+    "version": "2.0.24",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2015-09-10T02:33:08Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/tinygroup/org.tinygroup.vfs/2.0.24/org.tinygroup.vfs-2.0.24.jar",
+    "size": 36883,
+    "md5": null,
+    "sha1": "47f5e695e22f3ed69b58893d991333d2b1d4c2b3",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.tinygroup/org.tinygroup.vfs@2.0.24?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.tinygroup/org.tinygroup.exception",
+            "extracted_requirement": "2.0.24",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.tinygroup/org.tinygroup.logger",
+            "extracted_requirement": "2.0.24",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-net/commons-net",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ftpserver/ftpserver-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.tinygroup/org.tinygroup.vfs@2.0.24?uuid=b2e66569-7947-4440-95ec-93a56b680ab3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.tinygroup/org.tinygroup.vfs@2.0.24",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/tinygroup/org.tinygroup.vfs/2.0.24/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/tinygroup/org.tinygroup.vfs/2.0.24/org.tinygroup.vfs-2.0.24.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/tinygroup/org.tinygroup.vfs/2.0.24/org.tinygroup.vfs-2.0.24.pom",
+    "file_references": []
+}

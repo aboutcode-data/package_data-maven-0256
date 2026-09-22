@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.kantega.respiro",
+    "name": "respiro-mongodb-test-plugin",
+    "version": "2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-23T09:07:08Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-mongodb-test-plugin/2.3/respiro-mongodb-test-plugin-2.3.jar",
+    "size": 8125,
+    "md5": null,
+    "sha1": "7e676adcf97c2ec4c6a84623d3bf933934bedd81",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kantega.respiro/respiro-mongodb-test-plugin@2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.kantega.respiro/respiro-api",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kantega.respiro/respiro-mongodb-api",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.flapdoodle.embed/de.flapdoodle.embed.mongo",
+            "extracted_requirement": "1.50.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mongodb/mongodb-driver",
+            "extracted_requirement": "3.2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.kantega.respiro/respiro-mongodb-test-plugin@2.3?uuid=66faa28d-c2c0-4a17-b55d-1031dc645419",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kantega.respiro/respiro-mongodb-test-plugin@2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-mongodb-test-plugin/2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-mongodb-test-plugin/2.3/respiro-mongodb-test-plugin-2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-mongodb-test-plugin/2.3/respiro-mongodb-test-plugin-2.3.pom",
+    "file_references": []
+}

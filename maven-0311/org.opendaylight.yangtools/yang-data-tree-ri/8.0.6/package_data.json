@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.yangtools",
+    "name": "yang-data-tree-ri",
+    "version": "8.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4690a58e-2c94-4b2d-abd2-e556bca8c536",
+            "packages": [
+                "pkg:maven/org.opendaylight.yangtools/yang-data-tree-ri@8.0.6?uuid=b66c5901-eb3b-4c05-8614-d24375e1ec65",
+                "pkg:maven/org.opendaylight.yangtools/yang-data-tree-ri@8.0.6?classifier=sources&uuid=e2b48ec7-1f4b-4721-8424-7aec82b15daa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "yang-data-tree-ri",
+    "release_date": "2022-05-25T13:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/yangtools/yang-data-tree-ri/8.0.6/yang-data-tree-ri-8.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ead7b691425b76f783561d4fdc526972e788986b",
+    "sha256": "f18b6611b27791416db725cb57219cc148ecf673aad74a06a4c7919f0e20e372",
+    "sha512": "064d2dc97d9562c14c0636dcb61eafcdbc40e43b88fd4629fe9d7a5aee76739244fc7407c68a371fe6b72456373fc3f34dbae37ab402e7b46d97d3d6e42affd1",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) PANTHEON.tech, s.r.o. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.yangtools/yang-data-tree-ri@8.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-tree-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-tree-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.guicedee.services/javax.inject",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kohsuke.metainf-services/metainf-services",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.service.component.annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-test-util",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.yangtools/yang-data-tree-ri@8.0.6?classifier=sources&uuid=e2b48ec7-1f4b-4721-8424-7aec82b15daa",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-tree-ri@8.0.6?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

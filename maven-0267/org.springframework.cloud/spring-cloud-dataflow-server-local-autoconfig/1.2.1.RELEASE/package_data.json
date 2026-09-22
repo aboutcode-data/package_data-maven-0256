@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.cloud",
+    "name": "spring-cloud-dataflow-server-local-autoconfig",
+    "version": "1.2.1.RELEASE",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "spring-cloud-dataflow-server-local-autoconfig\nData Flow Local Server Autoconfig",
+    "release_date": "2017-05-25T06:14:33Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-server-local-autoconfig/1.2.1.RELEASE/spring-cloud-dataflow-server-local-autoconfig-1.2.1.RELEASE.jar",
+    "size": 4273,
+    "md5": null,
+    "sha1": "4ce104de1158e3988e0caeb8aa9174222b8e76cc",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-server-local-autoconfig@1.2.1.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-server-core",
+            "extracted_requirement": "1.2.1.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-deployer-resource-maven",
+            "extracted_requirement": "${spring-cloud-deployer.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-deployer-resource-docker",
+            "extracted_requirement": "${spring-cloud-deployer.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-deployer-resource-support",
+            "extracted_requirement": "${spring-cloud-deployer.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-server-local-autoconfig@1.2.1.RELEASE?uuid=327ee542-60ae-4b85-8441-8f1c5ee82233",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.cloud/spring-cloud-dataflow-server-local-autoconfig@1.2.1.RELEASE",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-server-local-autoconfig/1.2.1.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-server-local-autoconfig/1.2.1.RELEASE/spring-cloud-dataflow-server-local-autoconfig-1.2.1.RELEASE.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dataflow-server-local-autoconfig/1.2.1.RELEASE/spring-cloud-dataflow-server-local-autoconfig-1.2.1.RELEASE.pom",
+    "file_references": []
+}

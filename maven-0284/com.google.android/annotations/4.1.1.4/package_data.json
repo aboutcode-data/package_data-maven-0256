@@ -1,0 +1,140 @@
+{
+    "type": "maven",
+    "namespace": "com.google.android",
+    "name": "annotations",
+    "version": "4.1.1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "25100c31-f3ce-4029-99ba-b840a82f7cc5",
+            "packages": [
+                "pkg:maven/com.google.android/annotations@4.1.1.4?uuid=ec63ba03-5518-492a-8e27-bd4204f1c8a6",
+                "pkg:maven/com.google.android/annotations@4.1.1.4?classifier=sources&uuid=59ef601c-3d0e-42e9-888c-25d48b2cfcc3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google Android Annotations Library\nA library jar that provides annotations for the Google Android Platform.",
+    "release_date": "2012-08-31T23:33:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Android Open Source Projects",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://source.android.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "deb22daeb37bdcbc14230aeaeddce38320d6d0f9",
+    "sha256": "e9b667aa958df78ea1ad115f7bbac18a5869c3128b1d5043feb360b0cfce9d40",
+    "sha512": "99b8f93fc00aac1224629e93f097c0b8ff9e1434ff5135939ac08f17c4e7bfd84bd535ba7e47b06f312847c2f217c40c13e331842abd6719f6089d5045943ad1",
+    "bug_tracking_url": null,
+    "code_view_url": "https://android.git.kernel.org/",
+    "vcs_url": "git://android.git.kernel.org/platform/manifest.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-0ce46d84-0baf-3c21-82e2-a693341200bc",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/license-intro_2.RULE",
+                    "from_file": null,
+                    "start_line": 4,
+                    "matched_text": "    \\ source code \\n\\t\\t\\t\\tis licensed under Apache 2.0 which allows compiling binaries from\\",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 50,
+                    "rule_identifier": "license-intro_2.RULE",
+                    "license_expression": "unknown-license-reference",
+                    "spdx_license_expression": "LicenseRef-scancode-unknown-license-reference"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "from_file": null,
+                    "start_line": 4,
+                    "matched_text": "    \\ source code \\n\\t\\t\\t\\tis licensed under Apache 2.0 which allows compiling binaries from\\",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-b955b3e8-dd31-4357-9227-7a93de3b06a1",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n  comments: \"While the EULA for the Android SDK restricts distribution of those binaries, the\\\n    \\ source code \\n\\t\\t\\t\\tis licensed under Apache 2.0 which allows compiling binaries from\\\n    \\ source and then distributing\\n\\t\\t\\t\\tthose versions.\"\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.android/annotations@4.1.1.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.google.android/annotations@4.1.1.4?classifier=sources&uuid=59ef601c-3d0e-42e9-888c-25d48b2cfcc3",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.android/annotations@4.1.1.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.pom",
+    "file_references": []
+}

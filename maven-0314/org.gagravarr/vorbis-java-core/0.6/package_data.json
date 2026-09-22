@@ -1,0 +1,63 @@
+{
+    "type": "maven",
+    "namespace": "org.gagravarr",
+    "name": "vorbis-java-core",
+    "version": "0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c32d65a4-dab2-41c7-8537-41ae37ed112a",
+            "packages": [
+                "pkg:maven/org.gagravarr/vorbis-java-core@0.6?uuid=b450edcc-f1b2-4401-982b-eea4230d9d07",
+                "pkg:maven/org.gagravarr/vorbis-java-core@0.6?classifier=sources&uuid=b5494e86-c66a-4802-82ed-2b746c84a6fe"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Ogg and Vorbis for Java, Core",
+    "release_date": "2014-05-09T16:13:30Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nick Burch",
+            "email": "code@gagravarr.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/Gagravarr/VorbisJava",
+    "download_url": "https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.6/vorbis-java-core-0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0cacfe30d3462284c559dc07aabbd45c5bd12077",
+    "sha256": "9c6282d40cb870fe4b2146b2e84f5686322b1edee24d846ae79c2a919d23c2e0",
+    "sha512": "fef92aec9b48120aaf155a943110cf9cd65a1f4edf64ef4a7abd843b33d2a1872bc86dc6f939604a9a9564ad2c394dea36e797c9fffcb84103088293d670bacb",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.gagravarr/vorbis-java-core@0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.gagravarr/vorbis-java-core@0.6?classifier=sources&uuid=b5494e86-c66a-4802-82ed-2b746c84a6fe",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.gagravarr/vorbis-java-core@0.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.6/vorbis-java-core-0.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.6/vorbis-java-core-0.6.pom",
+    "file_references": []
+}

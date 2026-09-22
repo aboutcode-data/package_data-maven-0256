@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven",
+    "name": "maven-settings-builder",
+    "version": "3.3.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "da528fed-4ceb-4c7c-bb9c-1514890ed1d4",
+            "packages": [
+                "pkg:maven/org.apache.maven/maven-settings-builder@3.3.3?uuid=5bc2875f-9374-4bf8-a375-087b287af9ca",
+                "pkg:maven/org.apache.maven/maven-settings-builder@3.3.3?classifier=sources&uuid=ab39a400-6a11-41c3-b131-1fb7653d0e5a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Settings Builder\nThe effective settings builder, with inheritance and password decryption.",
+    "release_date": "2015-04-22T11:57:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Thomas Meyer",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.3.3/maven-settings-builder-3.3.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9f85c866a1d0bb9de4500559a788c963b6ad40e9",
+    "sha256": "fc999c5231555c9c0e63377cb9d4511c73eed86a09ef6cae01b3874c2ab700f9",
+    "sha512": "eea236e2414f4f20b7a1bab609163fe252cc6d32ba63255adccbcc1c806d171f866ea11ddba46947c79bbb0b126a1652eabdb18e930e6af5b53ea1793f164663",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": "git+https://git-wip-us.apache.org/repos/asf/maven.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven/maven-settings-builder@3.3.3?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@16"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-builder-support",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-interpolation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-settings",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.plexus/plexus-sec-dispatcher",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven/maven-settings-builder@3.3.3?classifier=sources&uuid=ab39a400-6a11-41c3-b131-1fb7653d0e5a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.maven/maven-settings-builder@3.3.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.3.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.3.3/maven-settings-builder-3.3.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.3.3/maven-settings-builder-3.3.3.pom",
+    "file_references": []
+}

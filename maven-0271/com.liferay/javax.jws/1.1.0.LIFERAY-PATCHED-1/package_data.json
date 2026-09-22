@@ -1,0 +1,90 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "javax.jws",
+    "version": "1.1.0.LIFERAY-PATCHED-1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2018-11-01T04:55:35Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/javax.jws/1.1.0.LIFERAY-PATCHED-1/javax.jws-1.1.0.LIFERAY-PATCHED-1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4695385b96c640c74d58b9712d99ba17fd0883dc",
+    "sha256": "262d5f86b7ea2cf1176b40947850b0453ef7d51c87525e064ccaa1da9567ee5f",
+    "sha512": "af7ccbcf9607d27d8d1c2e97f6dd615498f89aabdfc115f4d39359b30d8d44cfd1d4d809404ba1d50c85395d672de15a1ab08bd1878a13b8a7d46977fce841be",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.0)",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/javax.jws@1.1.0.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/javax.jws@1.1.0.LIFERAY-PATCHED-1?uuid=5f5b07ab-9737-4b87-a9f6-249dac4351aa",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/javax.jws@1.1.0.LIFERAY-PATCHED-1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/javax.jws/1.1.0.LIFERAY-PATCHED-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/javax.jws/1.1.0.LIFERAY-PATCHED-1/javax.jws-1.1.0.LIFERAY-PATCHED-1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/javax.jws/1.1.0.LIFERAY-PATCHED-1/javax.jws-1.1.0.LIFERAY-PATCHED-1.pom",
+    "file_references": []
+}

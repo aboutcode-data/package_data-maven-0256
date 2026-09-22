@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.carrot2.attributes",
+    "name": "attributes-binder",
+    "version": "1.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a30ccf23-0be6-4b82-9525-5188ed00678b",
+            "packages": [
+                "pkg:maven/org.carrot2.attributes/attributes-binder@1.2.1?uuid=baed922e-6f4b-4715-b95c-d9d3cfdc2804",
+                "pkg:maven/org.carrot2.attributes/attributes-binder@1.2.1?classifier=sources&uuid=7e1fa8d3-d5e3-4bed-94bf-135625f1730d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Attributes binder runtime",
+    "release_date": "2014-03-12T11:50:30Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Carrot2.org",
+            "email": null,
+            "url": "http://www.carrot2.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.2.1/attributes-binder-1.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "96dc73544adab8f94b062e990d4988cbb5492de0",
+    "sha256": "88790340632ffb8b51485a0f5de16cde58588ef658bd1b2b56fcb1d13b6da10e",
+    "sha512": "0748253d2a6605a151ac473f4293e6abee8ca46a4efa7bc0f2d8be2159854c96b22f3df90081d891a663d359a9b3e99ad223d2597b1406c94c20550f76046918",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.carrot2.attributes/attributes-binder@1.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.simpleframework/simple-xml@2.7",
+            "extracted_requirement": "2.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@14.0.1",
+            "extracted_requirement": "14.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.carrot2.attributes/attributes-binder@1.2.1?classifier=sources&uuid=7e1fa8d3-d5e3-4bed-94bf-135625f1730d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.carrot2.attributes/attributes-binder@1.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.2.1/attributes-binder-1.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/carrot2/attributes/attributes-binder/1.2.1/attributes-binder-1.2.1.pom",
+    "file_references": []
+}

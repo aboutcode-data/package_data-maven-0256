@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.boot",
+    "name": "spring-boot-loader",
+    "version": "1.1.4.RELEASE",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring Boot Loader",
+    "release_date": "2014-07-08T09:53:05Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "http://www.spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://projects.spring.io/spring-boot/",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-loader/1.1.4.RELEASE/spring-boot-loader-1.1.4.RELEASE.jar",
+    "size": 84267,
+    "md5": null,
+    "sha1": "d0f42868db0bf660e558e9d4ebd9abd118861978",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.boot/spring-boot-loader@1.1.4.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk16",
+            "extracted_requirement": "1.46",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.boot/spring-boot-loader@1.1.4.RELEASE?uuid=90a6072a-93cb-4eb3-a214-0549fa1be842",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@1.1.4.RELEASE",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-loader/1.1.4.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-loader/1.1.4.RELEASE/spring-boot-loader-1.1.4.RELEASE.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-loader/1.1.4.RELEASE/spring-boot-loader-1.1.4.RELEASE.pom",
+    "file_references": []
+}

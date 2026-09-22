@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portal.k8s.agent.impl",
+    "version": "3.0.28",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "462eb9af-beb3-4b9d-8dff-fa02056e5093",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.portal.k8s.agent.impl@3.0.28?uuid=9350321e-f16f-486c-87b2-820c51ffc147",
+                "pkg:maven/com.liferay/com.liferay.portal.k8s.agent.impl@3.0.28?classifier=sources&uuid=59edf3fb-00cd-47d1-8030-a44e72e0fb35"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portal K8s Agent Implementation",
+    "release_date": "2023-08-11T00:03:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.k8s.agent.impl/3.0.28/com.liferay.portal.k8s.agent.impl-3.0.28-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "08502d7f751a2c1c6d92bdb5d01dc42cbbfc966e",
+    "sha256": "4057d5354fc8219a24d493b70f8650e412241a6abf18a9bd97a8f938aeb55ee3",
+    "sha512": "8cfe461651f5a386d11a7ee0030013bb54e2b641490f0c92c191fadffdaf9185d797897163b1574f5a2f48b33244f50ae097472767ac958bcb746e135a1fecab",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (lgpl-2.1-plus OR unknown-spdx) AND (epl-1.0 OR lgpl-2.1-plus OR gpl-2.0-plus OR apache-2.0 OR bsd-new) AND public-domain-disclaimer",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx) AND (EPL-1.0 OR LGPL-2.1-or-later OR GPL-2.0-or-later OR Apache-2.0 OR BSD-3-Clause) AND LicenseRef-scancode-public-domain-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portal.k8s.agent.impl@3.0.28?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portal.k8s.agent.impl@3.0.28?classifier=sources&uuid=59edf3fb-00cd-47d1-8030-a44e72e0fb35",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.portal.k8s.agent.impl@3.0.28?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.k8s.agent.impl/3.0.28/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.k8s.agent.impl/3.0.28/com.liferay.portal.k8s.agent.impl-3.0.28-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.k8s.agent.impl/3.0.28/com.liferay.portal.k8s.agent.impl-3.0.28.pom",
+    "file_references": []
+}

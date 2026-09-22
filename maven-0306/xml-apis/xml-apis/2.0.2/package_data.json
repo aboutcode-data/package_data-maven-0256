@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "xml-apis",
+    "name": "xml-apis",
+    "version": "2.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dc449b47-7b62-41a1-b749-ae828095328e",
+            "packages": [
+                "pkg:maven/xml-apis/xml-apis@2.0.2?uuid=0ac1345c-66a0-4bed-bb52-64c57eabe11a",
+                "pkg:maven/xml-apis/xml-apis@2.0.2?classifier=sources&uuid=996dab8f-9310-4224-9ff8-86f9811a0b17"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2005-11-16T23:18:48Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "281e2df846eaa47a60cd74e0513195b1d140bf1c",
+    "sha256": "7363112efdae71605db315f1a9c21b91cee32b7f74f3585675d09eed708915d6",
+    "sha512": "a4d0fe40b8dadeeed32b1d300a4a2598fe157629b0a52b6752e6140b8ac099f0d1cadba2b6491720b4e5a2157c197e60896edba8dd6cc3796f49677773f38915",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "w3c-software-19980720 AND sax-pd AND public-domain-disclaimer AND apache-1.1 AND classpath-exception-2.0 AND (public-domain AND public-domain-disclaimer)",
+    "other_license_expression_spdx": "W3C-19980720 AND SAX-PD AND LicenseRef-scancode-public-domain-disclaimer AND Apache-1.1 AND Classpath-exception-2.0 AND (LicenseRef-scancode-public-domain AND LicenseRef-scancode-public-domain-disclaimer)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xml-apis/xml-apis@2.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2",
+            "extracted_requirement": "1.0.b2",
+            "scope": "relocation",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/xml-apis/xml-apis@2.0.2?classifier=sources&uuid=996dab8f-9310-4224-9ff8-86f9811a0b17",
+    "datasource_id": null,
+    "purl": "pkg:maven/xml-apis/xml-apis@2.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/2.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom",
+    "file_references": []
+}

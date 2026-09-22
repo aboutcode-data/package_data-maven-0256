@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.webjars.npm",
+    "name": "github-com-vuetifyjs-vuetify",
+    "version": "0.11.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "vuetify\nWebJar for vuetify",
+    "release_date": "2017-05-21T06:27:21Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": null,
+            "email": null,
+            "url": "http://webjars.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://webjars.org",
+    "download_url": "https://repo1.maven.org/maven2/org/webjars/npm/github-com-vuetifyjs-vuetify/0.11.1/github-com-vuetifyjs-vuetify-0.11.1.jar",
+    "size": 353895,
+    "md5": null,
+    "sha1": "effaa73b01c61d053b996563b5966e7d0e6205c3",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttps://spdx.org/licenses/MIT#licenseText",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.webjars.npm/github-com-vuetifyjs-vuetify@0.11.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.webjars.npm/vue",
+            "extracted_requirement": "[2.2.0,3)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.webjars.npm/github-com-vuetifyjs-vuetify@0.11.1?uuid=4fcd9572-4c21-4309-a54e-9de6247ef92b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.webjars.npm/github-com-vuetifyjs-vuetify@0.11.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/webjars/npm/github-com-vuetifyjs-vuetify/0.11.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/webjars/npm/github-com-vuetifyjs-vuetify/0.11.1/github-com-vuetifyjs-vuetify-0.11.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/webjars/npm/github-com-vuetifyjs-vuetify/0.11.1/github-com-vuetifyjs-vuetify-0.11.1.pom",
+    "file_references": []
+}

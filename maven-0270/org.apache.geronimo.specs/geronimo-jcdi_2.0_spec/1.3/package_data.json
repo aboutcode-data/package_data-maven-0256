@@ -1,0 +1,102 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.geronimo.specs",
+    "name": "geronimo-jcdi_2.0_spec",
+    "version": "1.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "101d7c0a-ad30-4f2f-b95a-e38733672805",
+            "packages": [
+                "pkg:maven/org.apache.geronimo.specs/geronimo-jcdi_2.0_spec@1.3?uuid=9f0f20f3-641c-4788-8528-d65441934f26",
+                "pkg:maven/org.apache.geronimo.specs/geronimo-jcdi_2.0_spec@1.3?classifier=sources&uuid=b96105cd-36a0-4fca-bec0-ed5b1714a187"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Geronimo JCDI Spec 2.0\nApache Geronimo implementation of the JSR-365 Context and Dependency Injection 2.0 Specification",
+    "release_date": "2020-10-15T11:10:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://geronimo.apache.org/maven/specs/geronimo-jcdi_2.0_spec/1.3",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ffd17bc532089365ea03337f6842f751425d9a44",
+    "sha256": "2f214ae89e0416c89231a912413415e80553d38f66d04ae762af5e7b79732ab5",
+    "sha512": "cdd0e9d0cad221a9159a9d265391f36c6d385e4f3f980dd6caf6290148bd6b7531529311ac0204aaa01b86cf31c2a42d24a747ced3f7d8ecf7924e4a405c4609",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewcvs.cgi/geronimo/specs/tags/geronimo-jcdi_2.0_spec-1.3",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-jcdi_2.0_spec-1.3",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.geronimo.specs/geronimo-jcdi_2.0_spec@1.3?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-el_2.2_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.geronimo.specs/geronimo-jcdi_2.0_spec@1.3?classifier=sources&uuid=b96105cd-36a0-4fca-bec0-ed5b1714a187",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jcdi_2.0_spec@1.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jcdi_2.0_spec/1.3/geronimo-jcdi_2.0_spec-1.3.pom",
+    "file_references": []
+}

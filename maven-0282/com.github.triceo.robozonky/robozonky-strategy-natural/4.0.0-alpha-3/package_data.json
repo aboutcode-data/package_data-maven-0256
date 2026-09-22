@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "com.github.triceo.robozonky",
+    "name": "robozonky-strategy-natural",
+    "version": "4.0.0-alpha-3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "RoboZonky: Investment strategy based on natural language",
+    "release_date": "2017-07-20T17:55:24Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/github/triceo/robozonky/robozonky-strategy-natural/4.0.0-alpha-3/robozonky-strategy-natural-4.0.0-alpha-3.jar",
+    "size": 119700,
+    "md5": null,
+    "sha1": "b20d870b29c2822310e3ddff572e8f8c2964ce91",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.triceo.robozonky/robozonky-strategy-natural@4.0.0-alpha-3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.antlr/antlr4-runtime",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.triceo.robozonky/robozonky-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.triceo.robozonky/robozonky-common",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.vintage/junit-vintage-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.triceo.robozonky/robozonky-strategy-natural@4.0.0-alpha-3?uuid=d1a986c1-e97c-4f49-a4e3-e1f55c5de144",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.triceo.robozonky/robozonky-strategy-natural@4.0.0-alpha-3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/triceo/robozonky/robozonky-strategy-natural/4.0.0-alpha-3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/triceo/robozonky/robozonky-strategy-natural/4.0.0-alpha-3/robozonky-strategy-natural-4.0.0-alpha-3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/triceo/robozonky/robozonky-strategy-natural/4.0.0-alpha-3/robozonky-strategy-natural-4.0.0-alpha-3.pom",
+    "file_references": []
+}

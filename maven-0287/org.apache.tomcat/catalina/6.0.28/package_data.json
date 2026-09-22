@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tomcat",
+    "name": "catalina",
+    "version": "6.0.28",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Tomcat Servlet Engine Core Classes and Standard implementations",
+    "release_date": "2010-07-09T20:46:21Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/catalina/6.0.28/catalina-6.0.28.jar",
+    "size": 1189594,
+    "md5": null,
+    "sha1": "bf6b26a7e101ebe64f0759095b7ac09fb966260d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tomcat/catalina@6.0.28?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tomcat/servlet-api",
+            "extracted_requirement": "6.0.28",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/juli",
+            "extracted_requirement": "6.0.28",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/annotations-api",
+            "extracted_requirement": "6.0.28",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tomcat/catalina@6.0.28?uuid=60a599b2-a81f-4324-b0e1-05055de6e942",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.tomcat/catalina@6.0.28",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tomcat/catalina/6.0.28/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/catalina/6.0.28/catalina-6.0.28.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tomcat/catalina/6.0.28/catalina-6.0.28.pom",
+    "file_references": []
+}

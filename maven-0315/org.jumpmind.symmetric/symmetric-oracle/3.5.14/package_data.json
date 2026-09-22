@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.jumpmind.symmetric",
+    "name": "symmetric-oracle",
+    "version": "3.5.14",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "oracle",
+    "release_date": "2014-01-17T14:14:59Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://symmetricds.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jumpmind/symmetric/symmetric-oracle/3.5.14/symmetric-oracle-3.5.14.jar",
+    "size": 9034,
+    "md5": null,
+    "sha1": "f012ac1606ee639502f82fee6f6c672f887e46d2",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jumpmind.symmetric/symmetric-oracle@3.5.14?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jumpmind.symmetric/symmetric-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jumpmind.symmetric/symmetric-jdbc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jumpmind.symmetric/symmetric-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jumpmind.symmetric/symmetric-jdbc",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jdbc/ojdbc",
+            "extracted_requirement": "11.2.0.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jumpmind.symmetric/symmetric-oracle@3.5.14?uuid=fd3aef9f-44c5-4900-91b8-77c0680fe5bc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jumpmind.symmetric/symmetric-oracle@3.5.14",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jumpmind/symmetric/symmetric-oracle/3.5.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jumpmind/symmetric/symmetric-oracle/3.5.14/symmetric-oracle-3.5.14.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jumpmind/symmetric/symmetric-oracle/3.5.14/symmetric-oracle-3.5.14.pom",
+    "file_references": []
+}

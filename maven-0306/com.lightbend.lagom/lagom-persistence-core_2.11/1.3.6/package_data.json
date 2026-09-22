@@ -1,0 +1,247 @@
+{
+    "type": "maven",
+    "namespace": "com.lightbend.lagom",
+    "name": "lagom-persistence-core_2.11",
+    "version": "1.3.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "lagom-persistence-core",
+    "release_date": "2017-07-17T01:49:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Lagom Contributors",
+            "email": null,
+            "url": "https://github.com/lagom"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lightbend.lagom",
+            "email": null,
+            "url": "https://www.lagomframework.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.lagomframework.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-persistence-core_2.11/1.3.6/lagom-persistence-core_2.11-1.3.6.jar",
+    "size": 72404,
+    "md5": null,
+    "sha1": "9e131468c95b675a0dd5eb6df9cacc16537188b0",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lightbend.lagom/lagom-persistence-core_2.11@1.3.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lightbend.lagom/lagom-cluster-core_2.11",
+            "extracted_requirement": "1.3.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.11",
+            "extracted_requirement": "0.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-xml_2.11",
+            "extracted_requirement": "1.0.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "19.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-persistence_2.11",
+            "extracted_requirement": "2.4.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-persistence-query-experimental_2.11",
+            "extracted_requirement": "2.4.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-cluster-sharding_2.11",
+            "extracted_requirement": "2.4.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-slf4j_2.11",
+            "extracted_requirement": "2.4.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play_2.11",
+            "extracted_requirement": "2.5.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-testkit_2.11",
+            "extracted_requirement": "2.4.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-multi-node-testkit_2.11",
+            "extracted_requirement": "2.4.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream-testkit_2.11",
+            "extracted_requirement": "2.4.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.novocode/junit-interface",
+            "extracted_requirement": "0.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lmax/disruptor",
+            "extracted_requirement": "3.3.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.validation/validation-api",
+            "extracted_requirement": "1.1.0.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-validator",
+            "extracted_requirement": "5.2.4.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": "3.3.0.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml/classmate",
+            "extracted_requirement": "1.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/log4j-over-slf4j",
+            "extracted_requirement": "1.7.21",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xerial.snappy/snappy-java",
+            "extracted_requirement": "1.1.2.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.yaml/snakeyaml",
+            "extracted_requirement": "1.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.lightbend.lagom/lagom-persistence-core_2.11@1.3.6?uuid=f6008e8b-95d3-4538-8650-4ff32813efdf",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lightbend.lagom/lagom-persistence-core_2.11@1.3.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-persistence-core_2.11/1.3.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-persistence-core_2.11/1.3.6/lagom-persistence-core_2.11-1.3.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lightbend/lagom/lagom-persistence-core_2.11/1.3.6/lagom-persistence-core_2.11-1.3.6.pom",
+    "file_references": []
+}

@@ -1,0 +1,174 @@
+{
+    "type": "maven",
+    "namespace": "au.com.dius",
+    "name": "pact-jvm-provider-gradle_2.11",
+    "version": "2.3.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "pact-jvm-provider-gradle_2.11\npact-jvm-provider-gradle\n========================\n\nGradle plugin for verifying pacts against a provider.\n\nThe Gradle plugin creates a task `pactVerify` to your build which will verify all configured pacts against your provider.\n\n## To Use It\n\n### For Gradle versions prior to 2.1\n\n#### 1.1. Add the pact-jvm-provider-gradle jar file to your build script class path:\n\n```groovy\nbuildscript {\n    repositories {\n        mavenCentral()\n    }\n    dependencies {\n        classpath 'au.com.dius:pact-jvm-provider-gradle_2.10:2.2.1'\n    }\n}\n```\n\n#### 1.2. Apply the pact plugin\n\n```groovy\napply plugin: 'au.com.dius.pact'\n```\n\n### For Gradle versions 2.1+\n\n```groovy\nplugins {\n  id \"au.com.dius.pact\" version \"2.2.1\"\n}\n```\n\n### 2. Define the pacts between your consumers and providers\n\n```groovy\n\npact {\n\n    serviceProviders {\n\n        // You can define as many as you need, but each must have a unique name\n        provider1 {\n            // All the provider properties are optional, and have sensible defaults (shown below)\n            protocol = 'http'\n            host = 'localhost'\n            port = 8080\n            path = '/'\n\n            // Again, you can define as many consumers for each provider as you need, but each must have a unique name\n            hasPactWith('consumer1') {\n\n                // currently supports a file path using file() or a URL using url()\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n\n            }\n            \n            // Or if you have many pact files in a directory\n            hasPactsWith('manyConsumers') {\n\n                // Will define a consumer for each pact file in the directory. \n                // Consumer name is read from contents of pact file \n                pactFileLocation = file('path/to/pacts')\n                               \n            }\n\n        }\n\n    }\n\n}\n```\n\n### 3. Execute `gradle pactVerify`\n\n## Specifying the provider hostname at runtime\n\nIf you need to calculate the provider hostname at runtime, you can give a Closure as the provider host.\n\n```groovy\npact {\n\n    serviceProviders {\n\n        provider1 {\n            host = { lookupHostName() }\n\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n            }\n        }\n\n    }\n\n}\n```\n\n## Starting and shutting down your provider\n\nIf you need to start-up or shutdown your provider, you can define a start and terminate task for each provider.\nYou could use the jetty tasks here if you provider is built as a WAR file.\n\n```groovy\n\n// This will be called before the provider task\ntask('startTheApp') << {\n  // start up your provider here\n}\n\n// This will be called after the provider task\ntask('killTheApp') << {\n  // kill your provider here\n}\n\npact {\n\n    serviceProviders {\n\n        provider1 {\n\n            startProviderTask = startTheApp\n            terminateProviderTask = killTheApp\n\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n            }\n\n        }\n\n    }\n\n}\n```\n\nFollowing typical Gradle behaviour, you can set the provider task properties to the actual tasks, or to the task names\nas a string (for the case when they haven't been defined yet).\n\n## Enabling insecure SSL [version 2.2.8+]\n\nFor providers that are running on SSL with self-signed certificates, you need to enable insecure SSL mode by setting\n`insecure = true` on the provider.\n\n```groovy\npact {\n\n    serviceProviders {\n\n        provider1 {\n            insecure = true // allow SSL with a self-signed cert\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n            }\n\n        }\n\n    }\n\n}\n```\n## Specifying a custom trust store [version 2.2.8+]\n\nFor environments that are running their own certificate chains:\n\n```groovy\npact {\n\n    serviceProviders {\n\n        provider1 {\n            trustStore = new File('relative/path/to/trustStore.jks')\n            trustStorePassword = 'changeit'\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n            }\n\n        }\n\n    }\n\n}\n\n`trustStore` is either relative to the current working (build) directory. `trustStorePassword` defaults to `changeit`.\n\nNOTE: The hostname will still be verified against the certificate.\n\n## Modifying the HTTP Client Used [version 2.2.4+]\n\nThe default HTTP client is used for all requests to providers (created with a call to `HttpClients.createDefault()`).\nThis can be changed by specifying a closure assigned to createClient on the provider that returns a CloseableHttpClient. For example:\n\n```groovy\npact {\n\n    serviceProviders {\n\n        provider1 {\n\n            createClient = { provider ->\n                // This will enable the client to accept self-signed certificates\n                HttpClients.custom().setSSLHostnameVerifier(new NoopHostnameVerifier())\n                    .setSslcontext(new SSLContextBuilder().loadTrustMaterial(null, { x509Certificates, s -> true })\n                        .build())\n                    .build()\n            }\n\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n            }\n\n        }\n\n    }\n\n}\n```\n\n## Modifying the requests before they are sent\n\n**NOTE on breaking change: Version 2.1.8+ uses Apache HttpClient instead of HttpBuilder so the closure will receive a\nHttpRequest object instead of a request Map.**\n\nSometimes you may need to add things to the requests that can't be persisted in a pact file. Examples of these would\nbe authentication tokens, which have a small life span. The Pact Gradle plugin provides a request filter that can be\nset to a closure on the provider that will be called before the request is made. This closure will receive the HttpRequest\nprior to it being executed.\n\n```groovy\npact {\n\n    serviceProviders {\n\n        provider1 {\n\n            requestFilter = { req ->\n                // Add an authorization header to each request\n                req.addHeader('Authorization', 'OAUTH eyJhbGciOiJSUzI1NiIsImN0eSI6ImFw...')\n            }\n\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n            }\n\n        }\n\n    }\n\n}\n```\n\n## Project Properties\n\nThe following project properties can be specified with `-Pproperty=value` on the command line:\n\n|Property|Description|\n|--------|-----------|\n|pact.showStacktrace|This turns on stacktrace printing for each request. It can help with diagnosing network errors|\n|pact.filter.consumers|Comma seperated list of consumer names to verify|\n|pact.filter.description|Only verify interactions whose description match the provided regular expression|\n|pact.filter.providerState|Only verify interactions whose provider state match the provided regular expression. An empty string matches interactions that have no state|\n\n## Provider States\n\nFor a description of what provider states are, see the wiki in the Ruby project:\nhttps://github.com/realestate-com-au/pact/wiki/Provider-states\n\n### Using a state change URL\n\nFor each provider you can specify a state change URL to use to switch the state of the provider. This URL will\nreceive the providerState description from the pact file before each interaction via a POST. As for normal requests,\na request filter (`stateChangeRequestFilter`) can also be set to manipulate the request before it is sent.\n\n```groovy\npact {\n\n    serviceProviders {\n\n        provider1 {\n\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n                stateChange = url('http://localhost:8001/tasks/pactStateChange')\n                stateChangeUsesBody = false // defaults to true\n                stateChangeRequestFilter = { req ->\n                    // Add an authorization header to each request\n                    req.addHeader('Authorization', 'OAUTH eyJhbGciOiJSUzI1NiIsImN0eSI6ImFw...')\n                }\n            }\n            \n            // or\n            hasPactsWith('consumers') {\n                pactFileLocation = file('path/to/pacts')                \n                stateChange = url('http://localhost:8001/tasks/pactStateChange')\n                stateChangeUsesBody = false // defaults to true\n            }\n\n        }\n\n    }\n\n}\n```\n\nIf the `stateChangeUsesBody` is not specified, or is set to true, then the provider state description will be sent as\n JSON in the body of the request. If it is set to false, it will passed as a query parameter.\n\n### Using a Closure [version 2.2.2+]\n\nYou can set a closure to be called before each verification with a defined provider state. The closure will be\ncalled with the state description from the pact file.\n\n```groovy\npact {\n\n    serviceProviders {\n\n        provider1 {\n\n            hasPactWith('consumer1') {\n                pactFile = file('path/to/provider1-consumer1-pact.json')\n                // Load a fixture file based on the provider state and then setup some database\n                // data. Does not require a state change request so returns false\n                stateChange = { providerState ->\n                    def fixture = loadFixtuerForProviderState(providerState)\n                    setupDatabase(fixture)\n                }\n            }\n\n        }\n\n    }\n\n}\n```\n\n## Filtering the interactions that are verified\n\nYou can filter the interactions that are run using three project properties: `pact.filter.consumers`, `pact.filter.description` and `pact.filter.providerState`.\nAdding `-Ppact.filter.consumers=consumer1,consumer2` to the command line will only run the pact files for those\nconsumers (consumer1 and consumer2). Adding `-Ppact.filter.description=a request for payment.*` will only run those interactions\nwhose descriptions start with 'a request for payment'. `-Ppact.filter.providerState=.*payment` will match any interaction that\nhas a provider state that ends with payment, and `-Ppact.filter.providerState=` will match any interaction that does not have a\nprovider state.\n\n## Verifying pact files from a pact broker [version 3.1.1+/2.3.1+]\n\nYou can setup your build to validate against the pacts stored in a pact broker. The pact gradle plugin will query\nthe pact broker for all consumers that have a pact with the provider based on its name.\n\nFor example:\n\n```groovy\npact {\n\n    serviceProviders {\n        provider1 {\n            hasPactsFromPactBroker('http://pact-broker:5000/')\n        }\n    }\n\n}\n```\n\nThis will verify all pacts found in the pact broker where the provider name is 'provider1'. If you need to set any\nvalues on the consumers from the pact broker, you can add a Closure to configure them.\n\n```groovy\npact {\n\n    serviceProviders {\n        provider1 {\n            hasPactsFromPactBroker('http://pact-broker:5000/') { consumer ->\n                 stateChange = { providerState -> /* state change code here */ true }\n            }\n        }\n    }\n\n}\n```\n\n**NOTE: Currently the pacts are fetched from the broker during the configuration phase of the build. This means that\nif the broker is not available, you will not be able to run any Gradle tasks.** This should be fixed in a forth coming\nrelease.\n\nIn the mean time, to only load the pacts when running the validate task, you can do something like:\n\n```groovy\npact {\n\n    serviceProviders {\n        provider1 {\n            // Only load the pacts from the broker if the start tasks from the command line include pactVerify\n            if ('pactVerify' in gradle.startParameter.taskNames) {\n                hasPactsFromPactBroker('http://pact-broker:5000/') { consumer ->\n                     stateChange = { providerState -> /* state change code here */ true }\n                }\n            }\n        }\n    }\n\n}\n```\n\n# Publishing pact files to a pact broker [version 2.2.7+]\n\nThe pact gradle plugin provides a `pactPublish` task that can publish all pact files in a directory\nto a pact broker. To use it, you need to add a publish configuration to the pact configuration that defines the\ndirectory where the pact files are and the URL to the pact broker.\n\nFor example:\n\n```groovy\npact {\n\n    publish {\n        pactDirectory = '/pact/dir' // defaults to $buildDir/pacts\n        pactBrokerUrl = 'http://pactbroker:1234'\n    }\n\n}\n```\n\n_NOTE:_ The pact broker requires a version for all published pacts. The `pactPublish` task will use the version of the\ngradle project. Make sure you have set one otherwise the broker will reject the pact files.\n\n# Verifying a message provider [version 2.2.12+]\n\nThe Gradle plugin has been updated to allow invoking test methods that can return the message contents from a message\nproducer. To use it, set the way to invoke the verification to `ANNOTATED_METHOD`. This will allow the pact verification\n task to scan for test methods that return the message contents.\n\nAdd something like the following to your gradle build file:\n\n```groovy\npact {\n\n    serviceProviders {\n\n        messageProvider {\n\n            verificationType = 'ANNOTATED_METHOD'\n            packagesToScan = ['au.com.example.messageprovider.*'] // This optional, but leaving it out will result in the entire\n                                                                  // test classpath being scanned\n\n            hasPactWith('messageConsumer') {\n                pactFile = url('url/to/messagepact.json')\n            }\n\n        }\n\n    }\n\n}\n```\n\nNow when the `pactVerify` task is run, will look for methods annotated with `@PactVerifyProvider` in the test classpath\nthat have a matching description to what is in the pact file.\n\n```groovy\nclass ConfirmationKafkaMessageBuilderTest {\n\n  @PactVerifyProvider('an order confirmation message')\n  String verifyMessageForOrder() {\n      Order order = new Order()\n      order.setId(10000004)\n      order.setExchange('ASX')\n      order.setSecurityCode('CBA')\n      order.setPrice(BigDecimal.TEN)\n      order.setUnits(15)\n      order.setGst(new BigDecimal('15.0'))\n      odrer.setFees(BigDecimal.TEN)\n\n      def message = new ConfirmationKafkaMessageBuilder()\n              .withOrder(order)\n              .build()\n\n      JsonOutput.toJson(message)\n  }\n\n}\n```\n\nIt will then validate that the returned contents matches the contents for the message in the pact file.\n\n## Publishing to the Gradle Community Portal\n\nTo publish the plugin to the community portal:\n\n    $ ./gradlew :pact-jvm-provider-gradle_2.11:publishPlugins",
+    "release_date": "2015-10-24T01:17:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Travis Dixon",
+            "email": "the.trav@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ronald Holshausen",
+            "email": "rholshausen@dius.com.au",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ken Scambler",
+            "email": "ken.scambler@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/DiUS/pact-jvm",
+    "download_url": "https://repo1.maven.org/maven2/au/com/dius/pact-jvm-provider-gradle_2.11/2.3.2/pact-jvm-provider-gradle_2.11-2.3.2.jar",
+    "size": 50280,
+    "md5": null,
+    "sha1": "0791c0205b80ef3d82c35922c32b4d133488e435",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/au.com.dius/pact-jvm-provider-gradle_2.11@2.3.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.11",
+            "extracted_requirement": "3.6.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-all",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-junit_2.11",
+            "extracted_requirement": "3.6.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json4s/json4s-native_2.11",
+            "extracted_requirement": "3.2.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.jansi/jansi",
+            "extracted_requirement": "1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy.modules.http-builder/http-builder",
+            "extracted_requirement": "0.7.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/au.com.dius/pact-jvm-provider_2.11",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json4s/json4s-jackson_2.11",
+            "extracted_requirement": "3.2.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-xml_2.11",
+            "extracted_requirement": "1.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/au.com.dius/pact-jvm-provider-gradle_2.11@2.3.2?uuid=698abfff-3a98-4674-9376-0504b0e28bce",
+    "datasource_id": null,
+    "purl": "pkg:maven/au.com.dius/pact-jvm-provider-gradle_2.11@2.3.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/au/com/dius/pact-jvm-provider-gradle_2.11/2.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/au/com/dius/pact-jvm-provider-gradle_2.11/2.3.2/pact-jvm-provider-gradle_2.11-2.3.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/au/com/dius/pact-jvm-provider-gradle_2.11/2.3.2/pact-jvm-provider-gradle_2.11-2.3.2.pom",
+    "file_references": []
+}

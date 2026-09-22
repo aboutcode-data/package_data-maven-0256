@@ -1,0 +1,183 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe",
+    "name": "ssl-config-core_2.12",
+    "version": "0.4.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "af75ac3d-6444-49fc-8112-15b84d49a154",
+            "packages": [
+                "pkg:maven/com.typesafe/ssl-config-core_2.12@0.4.1?uuid=761f81da-1490-471d-afdf-65dd1f1a9ec7",
+                "pkg:maven/com.typesafe/ssl-config-core_2.12@0.4.1?classifier=sources&uuid=db101fa0-2963-4b2e-b659-4bcdc546fe9a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ssl-config-core",
+    "release_date": "2019-11-14T22:44:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Will Sargent",
+            "email": null,
+            "url": "https://tersesystems.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Konrad Malawski",
+            "email": null,
+            "url": "https://project13.pl"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Lightbend",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lightbend/ssl-config",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2e68f37aca27407f81377d1cb8316b9d80e89092",
+    "sha256": "4423bec94e93c51a5b8c44fad3f6fbe0eefecd6919b69c38c62516c5818222b8",
+    "sha512": "1ea981a83e9ef93ea212f4a8bbe918e949f4fea9131ee395736254887ea38abbd7f0414150bda81a04b2d7d1b6df23027ff30c70af9595173c2738c91545e7e8",
+    "bug_tracking_url": null,
+    "code_view_url": "git://github.com/lightbend/ssl-config.git",
+    "vcs_url": "git://github.com/lightbend/ssl-config.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_216.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_216.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-822037b5-0a3a-f249-e93a-96c3510165df",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe/ssl-config-core_2.12@0.4.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.10",
+            "extracted_requirement": "2.12.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-parser-combinators_2.12@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe/config@1.4.0",
+            "extracted_requirement": "1.4.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.12@4.8.0",
+            "extracted_requirement": "4.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-junit_2.12@4.8.0",
+            "extracted_requirement": "4.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-mock_2.12@4.8.0",
+            "extracted_requirement": "4.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-matcher-extra_2.12@4.8.0",
+            "extracted_requirement": "4.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time@2.10.5",
+            "extracted_requirement": "2.10.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.joda/joda-convert@2.2.1",
+            "extracted_requirement": "2.2.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe/ssl-config-core_2.12@0.4.1?classifier=sources&uuid=db101fa0-2963-4b2e-b659-4bcdc546fe9a",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe/ssl-config-core_2.12@0.4.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1.pom",
+    "file_references": []
+}

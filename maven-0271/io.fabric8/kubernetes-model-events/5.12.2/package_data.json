@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8",
+    "name": "kubernetes-model-events",
+    "version": "5.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d193d731-6cab-41f0-a8c3-1ad6b84b6e61",
+            "packages": [
+                "pkg:maven/io.fabric8/kubernetes-model-events@5.12.2?uuid=efe60707-a044-4a6a-99cf-83910c18e7a5",
+                "pkg:maven/io.fabric8/kubernetes-model-events@5.12.2?classifier=sources&uuid=444029a8-f219-4048-952c-9fb18574f39b",
+                "pkg:github/fabric8io/kubernetes-client@v5.12.2?uuid=6af039a5-977e-45b8-90e8-aaf8698c1854"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Fabric8 :: Kubernetes Model :: Events",
+    "release_date": "2022-04-06T09:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Fabric8 Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Red Hat",
+            "email": null,
+            "url": "http://redhat.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fabric8.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-events/5.12.2/kubernetes-model-events-5.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9eeaaa1dcf34d2d2fccf072145870019c0d363d8",
+    "sha256": "b2d0abe4921c2df6508b8a42dcc9ef4b241d7d250e050f2af42a90d4e16d1082",
+    "sha512": "a79310aa60335e0dc5708494cc21ac7af86e15dc7619592c2b1e9f3940bb4209ba34aa8415f1ee6e3761badd10b85bd33164a761b6eee37c522e7d0a38bc7867",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8/kubernetes-model-events@5.12.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.fabric8/kubernetes-client-project@5.12.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-model-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8/kubernetes-model-events@5.12.2?classifier=sources&uuid=444029a8-f219-4048-952c-9fb18574f39b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.fabric8/kubernetes-model-events@5.12.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-events/5.12.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-events/5.12.2/kubernetes-model-events-5.12.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/kubernetes-model-events/5.12.2/kubernetes-model-events-5.12.2.pom",
+    "file_references": []
+}

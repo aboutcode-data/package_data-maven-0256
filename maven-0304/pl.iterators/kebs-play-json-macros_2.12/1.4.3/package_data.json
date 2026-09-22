@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "pl.iterators",
+    "name": "kebs-play-json-macros_2.12",
+    "version": "1.4.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "play-json-macros\nAutomatic generation of Play json formats for case-classes - macros",
+    "release_date": "2017-05-23T16:56:57Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Marcin Rze\u017anicki",
+            "email": "mrzeznicki@iterato.rs",
+            "url": "https://github.com/marcin-rzeznicki"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Iterators",
+            "email": null,
+            "url": "https://iterato.rs"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/theiterators/kebs",
+    "download_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-play-json-macros_2.12/1.4.3/kebs-play-json-macros_2.12-1.4.3.jar",
+    "size": 14837,
+    "md5": null,
+    "sha1": "637a051237e009ba9f5ff895358f0335557784b4",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT License\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/pl.iterators/kebs-play-json-macros_2.12@1.4.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-compiler",
+            "extracted_requirement": "2.12.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/pl.iterators/kebs-macro-utils_2.12",
+            "extracted_requirement": "1.4.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.12.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-json_2.12",
+            "extracted_requirement": "2.6.0-M6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/pl.iterators/kebs-play-json-macros_2.12@1.4.3?uuid=57fd67ec-e807-485d-b2d9-238dfe26d70c",
+    "datasource_id": null,
+    "purl": "pkg:maven/pl.iterators/kebs-play-json-macros_2.12@1.4.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-play-json-macros_2.12/1.4.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-play-json-macros_2.12/1.4.3/kebs-play-json-macros_2.12-1.4.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-play-json-macros_2.12/1.4.3/kebs-play-json-macros_2.12-1.4.3.pom",
+    "file_references": []
+}

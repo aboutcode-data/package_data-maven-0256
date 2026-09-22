@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "io.sigs",
+    "name": "seals-refined_2.11",
+    "version": "0.1.0-M3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "seals-refined",
+    "release_date": "2017-05-19T14:58:10Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Daniel Urban",
+            "email": "urban.dani@gmail.com",
+            "url": "https://github.com/durban"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "io.sigs",
+            "email": null,
+            "url": "http://sigs.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/durban/seals",
+    "download_url": "https://repo1.maven.org/maven2/io/sigs/seals-refined_2.11/0.1.0-M3/seals-refined_2.11-0.1.0-M3.jar",
+    "size": 19347,
+    "md5": null,
+    "sha1": "4854f736ff843bf711d0a18dbacc4464d8cd2edb",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2.0\nhttps://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.sigs/seals-refined_2.11@0.1.0-M3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.typelevel/scala-library",
+            "extracted_requirement": "2.11.11-bin-typelevel-4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.sigs/seals-core_2.11",
+            "extracted_requirement": "0.1.0-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-core_2.11",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.chuusai/shapeless_2.11",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/eu.timepit/refined_2.11",
+            "extracted_requirement": "0.8.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.sigs/seals-laws_2.11",
+            "extracted_requirement": "0.1.0-M3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.sigs/seals-tests_2.11",
+            "extracted_requirement": "0.1.0-M3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.sigs/seals-refined_2.11@0.1.0-M3?uuid=71428bc3-1c3b-4126-9315-6c4b0c28fd5e",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.sigs/seals-refined_2.11@0.1.0-M3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/sigs/seals-refined_2.11/0.1.0-M3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/sigs/seals-refined_2.11/0.1.0-M3/seals-refined_2.11-0.1.0-M3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/sigs/seals-refined_2.11/0.1.0-M3/seals-refined_2.11-0.1.0-M3.pom",
+    "file_references": []
+}

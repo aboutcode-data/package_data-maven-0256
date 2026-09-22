@@ -1,0 +1,133 @@
+{
+    "type": "maven",
+    "namespace": "jline",
+    "name": "jline",
+    "version": "2.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "77b30fff-34d3-4e30-bcad-7a0977fa6eca",
+            "packages": [
+                "pkg:maven/jline/jline@2.11?uuid=56a69084-d1b5-445b-902b-0ee3491f75d0",
+                "pkg:maven/jline/jline@2.11?classifier=sources&uuid=4ed30dd7-9e8a-411a-9953-97873846db64"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JLine",
+    "release_date": "2013-05-19T19:01:03Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason Dillon",
+            "email": "jason@planet57.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Guillaume Nodet",
+            "email": "gnodet@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc Prud'hommeaux",
+            "email": "mprudhom@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Scott Gray",
+            "email": "scottgray1@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hiram Chirino",
+            "email": "hiram@hiramchirino.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ef2539b992e5605be966b6db7cfc83930f0da39b",
+    "sha256": "2dd08549513250e737e3833a941e7211ee0cf83e12de80533cbe00594312f9f4",
+    "sha512": "d2fab3034194a1fcf72c919bd395e79a58a67d9b35e3186a18c978706c864c74257e17b53c71d1669a2fb5c0844c9986c8909d83a0a2492290bbc3feb8914ec5",
+    "bug_tracking_url": "https://github.com/jline/jline2/issues",
+    "code_view_url": "http://github.com/jline/jline2",
+    "vcs_url": "git://github.com/jline/jline2.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 99.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_145.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The BSD License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 99,
+                    "rule_identifier": "bsd-new_145.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_30.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/bsd-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_30.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-504a22a2-3036-98dc-e230-b280fbe0315f",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The BSD License\n  url: http://www.opensource.org/licenses/bsd-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jline/jline@2.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/jline/jline@2.11?classifier=sources&uuid=4ed30dd7-9e8a-411a-9953-97873846db64",
+    "datasource_id": null,
+    "purl": "pkg:maven/jline/jline@2.11?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jline/jline/2.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom",
+    "file_references": []
+}

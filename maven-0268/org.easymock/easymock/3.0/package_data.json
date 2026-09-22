@@ -1,0 +1,100 @@
+{
+    "type": "maven",
+    "namespace": "org.easymock",
+    "name": "easymock",
+    "version": "3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1484af49-5eb4-4733-894d-55e696ea152c",
+            "packages": [
+                "pkg:maven/org.easymock/easymock@3.0?uuid=27811072-33dc-47ec-9547-ad75a2fb6e16",
+                "pkg:maven/org.easymock/easymock@3.0?classifier=sources&uuid=2efc5cdc-e4a8-4cb3-b83a-11ddfbc7e7a4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "EasyMock\nEasyMock provides an easy way to create Mock Objects for interfaces and classes generating them on the fly",
+    "release_date": "2010-05-08T13:23:56Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tammo Freese",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Tremblay",
+            "email": null,
+            "url": "http://www.ossia-conseil.com/blog/henri"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OFFIS, Tammo Freese, Henri Tremblay",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.easymock.org",
+    "download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "97231c3b28dc4b4207e45a61769b3c69a2f88818",
+    "sha256": "2ab9d595081341ec0634c437586aec1f49267a5e583d426eab27e9f4e557be04",
+    "sha512": "d1552df309019220f1b6611b25e63c5b457206434560b6caa6bb1fc7d1c464f4c3a80ba410dd2af3489945d14b8aaf5a481fd5ea328ad2522e875276884fb17a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.easymock/easymock@3.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.easymock/easymock-parent@3.0",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.easymock/easymock-parent@3.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/cglib/cglib-nodep@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.objenesis/objenesis@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.easymock/easymock@3.0?classifier=sources&uuid=2efc5cdc-e4a8-4cb3-b83a-11ddfbc7e7a4",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.easymock/easymock@3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0.pom",
+    "file_references": []
+}

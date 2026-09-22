@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.spec.javax.rmi",
+    "name": "jboss-rmi-api_1.0_spec",
+    "version": "1.0.5.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "747e628a-6fcb-49ee-8783-fb289ae7a6d6",
+            "packages": [
+                "pkg:maven/org.jboss.spec.javax.rmi/jboss-rmi-api_1.0_spec@1.0.5.Final?uuid=76e98967-ce4a-4766-abab-3fc17aa6a5a1",
+                "pkg:maven/org.jboss.spec.javax.rmi/jboss-rmi-api_1.0_spec@1.0.5.Final?classifier=sources&uuid=3027cf8f-e45c-4e1c-ae08-597bff305bcb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java RMI API\nThe javax.rmi and javax.rmi.CORBA classes",
+    "release_date": "2014-10-20T23:05:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/spec/javax/rmi/jboss-rmi-api_1.0_spec/1.0.5.Final/jboss-rmi-api_1.0_spec-1.0.5.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a925211b0b74009a0b0cc3e983cd78c3dae0e6fd",
+    "sha256": "fe2bb86d5a62d1335e9813f9a2cdc20d04b291806ae8510cb5f9e6ead0cd5483",
+    "sha512": "85c0ad7615f8d5194374439105ccf8e11cbe1f7a0579c566ae890b6d6e7b6e96fc7647fc4bb266e25ccc9707f967840cb219cb9f51217f91ec62959e0926563f",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jboss/jboss-rmi-api_spec",
+    "vcs_url": "git+https://github.com/jboss/jboss-rmi-api_spec.git",
+    "copyright": "Copyright (c) Free Software Foundation",
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus AND lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later AND LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 75.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_bare_single_word.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: lgpl",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 75,
+                    "rule_identifier": "lgpl_bare_single_word.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_180.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://repository.jboss.org/licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_180.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_0_plus_and_lgpl_2_1-e557be1b-f8f4-f62e-8e7b-8a655b0b35f2",
+            "license_expression": "lgpl-2.0-plus AND lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "(proprietary-license AND gpl-2.0 WITH classpath-exception-2.0) AND public-domain AND taligent-jdk",
+    "other_license_expression_spdx": "(LicenseRef-scancode-proprietary-license AND GPL-2.0-only WITH Classpath-exception-2.0) AND LicenseRef-scancode-public-domain AND LicenseRef-scancode-taligent-jdk",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: lgpl\n  url: http://repository.jboss.org/licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.spec.javax.rmi/jboss-rmi-api_1.0_spec@1.0.5.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@16",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@16"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jacorb/jacorb@2.3.2-jbossorg-5",
+            "extracted_requirement": "2.3.2-jbossorg-5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.spec.javax.rmi/jboss-rmi-api_1.0_spec@1.0.5.Final?classifier=sources&uuid=3027cf8f-e45c-4e1c-ae08-597bff305bcb",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.spec.javax.rmi/jboss-rmi-api_1.0_spec@1.0.5.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/spec/javax/rmi/jboss-rmi-api_1.0_spec/1.0.5.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/spec/javax/rmi/jboss-rmi-api_1.0_spec/1.0.5.Final/jboss-rmi-api_1.0_spec-1.0.5.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/spec/javax/rmi/jboss-rmi-api_1.0_spec/1.0.5.Final/jboss-rmi-api_1.0_spec-1.0.5.Final.pom",
+    "file_references": []
+}

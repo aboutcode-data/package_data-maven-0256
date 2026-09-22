@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.css.common",
+    "version": "3.0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9833b593-e938-41b0-a1af-1adc543d01a6",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.css.common@3.0.1?uuid=9b96fd50-78b1-4ba2-aa73-93dd984c3543",
+                "pkg:maven/com.liferay/com.liferay.frontend.css.common@3.0.1?classifier=sources&uuid=9c4adace-89ca-450c-a20b-792275f18023"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend CSS Common",
+    "release_date": "2018-06-15T01:40:36Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.css.common/3.0.1/com.liferay.frontend.css.common-3.0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4a9364837acac739b941ac9275cf3340e01a6e12",
+    "sha256": "130ac46719ff9bcdf16d0ccbbe669779ed5e6197ecd7f95cf68ba96542fff458",
+    "sha512": "0673f1da6492689ddf761cbe0ddeb9f29b1e552f70c42b38adeb5b318d3864fead0e51e7881996aa3f31e81a1dee0c9cf37a159abc9fbb80ce969183f56a8224",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-plugins",
+    "vcs_url": "git+https://github.com/liferay/liferay-plugins.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.css.common@3.0.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.css.common@3.0.1?classifier=sources&uuid=9c4adace-89ca-450c-a20b-792275f18023",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.css.common@3.0.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.css.common/3.0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.css.common/3.0.1/com.liferay.frontend.css.common-3.0.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.css.common/3.0.1/com.liferay.frontend.css.common-3.0.1.pom",
+    "file_references": []
+}

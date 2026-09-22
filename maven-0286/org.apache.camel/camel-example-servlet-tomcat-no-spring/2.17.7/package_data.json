@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-example-servlet-tomcat-no-spring",
+    "version": "2.17.7",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Example :: Servlet Tomcat without Spring\nAn example using Camel Servlet with Apache Tomcat without using Spring",
+    "release_date": "2017-05-14T09:32:26Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-servlet-tomcat-no-spring/2.17.7/camel-example-servlet-tomcat-no-spring-2.17.7.war",
+    "size": 4957794,
+    "md5": null,
+    "sha1": "45112766c297fdb7bba4bf853903bd160b371eca",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-example-servlet-tomcat-no-spring@2.17.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-servletlistener",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-servlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-example-servlet-tomcat-no-spring@2.17.7?type=war&uuid=b44b5257-032e-4a8f-86ed-55bed0f68372",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-example-servlet-tomcat-no-spring@2.17.7?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-servlet-tomcat-no-spring/2.17.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-servlet-tomcat-no-spring/2.17.7/camel-example-servlet-tomcat-no-spring-2.17.7.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-servlet-tomcat-no-spring/2.17.7/camel-example-servlet-tomcat-no-spring-2.17.7.pom",
+    "file_references": []
+}

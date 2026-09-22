@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "io.smallrye.reactive",
+    "name": "smallrye-mutiny-vertx-uri-template",
+    "version": "2.27.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6b92039b-c609-49a7-a5ab-e7d6ec621cb8",
+            "packages": [
+                "pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-uri-template@2.27.0?uuid=27bdf801-d967-4148-983d-425df8fbc366",
+                "pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-uri-template@2.27.0?classifier=sources&uuid=6e09c787-e4dc-49d0-a28d-44c6a43817f0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SmallRye Mutiny - Vert.x URI Template",
+    "release_date": "2022-09-30T14:01:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ken Finnigan",
+            "email": "ken@kenfinnigan.me",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://smallrye.io",
+    "download_url": "https://repo1.maven.org/maven2/io/smallrye/reactive/smallrye-mutiny-vertx-uri-template/2.27.0/smallrye-mutiny-vertx-uri-template-2.27.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "242727b29fdf3a3ad18751d962c05319421e815e",
+    "sha256": "516f0bcf5ad2ca21e26830a56a5d3f86a829646c27d8dcdf975958254b3be9cf",
+    "sha512": "41a4254ce5a1caeb69aa1d7512fe31e3c88a3f97432642c42242f325bb51964ccd6bc3ccadcab94d698ca52bc116f94dda7134efddbfb8e436adf4556b644cfb",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-uri-template@2.27.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.vertx/vertx-uri-template",
+            "extracted_requirement": "${vertx.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-core@2.27.0",
+            "extracted_requirement": "2.27.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-uri-template@2.27.0?classifier=sources&uuid=6e09c787-e4dc-49d0-a28d-44c6a43817f0",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-uri-template@2.27.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

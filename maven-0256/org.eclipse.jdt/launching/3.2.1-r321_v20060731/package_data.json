@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jdt",
+    "name": "launching",
+    "version": "3.2.1-r321_v20060731",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Java Development Tools Launching Support",
+    "release_date": "2007-11-27T07:32:02Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jdt/launching/3.2.1-r321_v20060731/launching-3.2.1-r321_v20060731.jar",
+    "size": 231538,
+    "md5": null,
+    "sha1": "9f7e380e308309db91e68fd4536032ad8ee22d45",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(epl-1.0 AND bsd-new) AND unknown",
+    "declared_license_expression_spdx": "(EPL-1.0 AND BSD-3-Clause) AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Eclipse Public License - v 1.0\nhttp://www.eclipse.org/org/documents/epl-v10.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jdt/launching@3.2.1-r321_v20060731?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.core/resources",
+            "extracted_requirement": "[3.2.0,4.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jdt/core",
+            "extracted_requirement": "[3.2.0,4.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.debug/core",
+            "extracted_requirement": "[3.2.0,4.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jdt/debug",
+            "extracted_requirement": "[3.2.0,4.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.core/variables",
+            "extracted_requirement": "[3.1.0,4.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.core/runtime",
+            "extracted_requirement": "[3.2.0,4.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.core/expressions",
+            "extracted_requirement": "[3.2.0,4.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jdt/launching@3.2.1-r321_v20060731?uuid=b491c410-e15d-4e60-9ff3-049bb69a2e5d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jdt/launching@3.2.1-r321_v20060731",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jdt/launching/3.2.1-r321_v20060731/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jdt/launching/3.2.1-r321_v20060731/launching-3.2.1-r321_v20060731.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jdt/launching/3.2.1-r321_v20060731/launching-3.2.1-r321_v20060731.pom",
+    "file_references": []
+}

@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "org.drools",
+    "name": "drools-simulator",
+    "version": "5.4.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "68dfa151-c4f8-4ae8-83b1-c957c0344159",
+            "packages": [
+                "pkg:maven/org.drools/drools-simulator@5.4.0.Final?uuid=13540156-fdc1-4c41-afae-f286d0e7cd06",
+                "pkg:maven/org.drools/drools-simulator@5.4.0.Final?classifier=sources&uuid=f4eee7dc-add0-47fd-bc6e-0b249710c339"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Drools Simulator\nTODO",
+    "release_date": "2012-05-12T15:28:57Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "All developers are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "All contributors are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/drools",
+    "download_url": "https://repo1.maven.org/maven2/org/drools/drools-simulator/5.4.0.Final/drools-simulator-5.4.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fa4750b872541a6f0aae4163929f722a88dc53a5",
+    "sha256": "bfb15e5efc200291723e5ac849728e48a63a4a875d0db3948c87bc75466216c9",
+    "sha512": "da394379f1ae4dab3cca3834a0fcf52efcf0f57a79de6803d30d584cd821e8f75d8c893fae2aafea21d95ec828df782407c4497e8fc7a1dda0a45c5206c5439b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.drools/drools-simulator@5.4.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.drools/knowledge-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.drools/drools-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.drools/drools-compiler",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-flow-builder",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-bpmn2",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.yaml/snakeyaml",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.xml.bind/jaxb-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-integration@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.drools/drools-simulator@5.4.0.Final?classifier=sources&uuid=f4eee7dc-add0-47fd-bc6e-0b249710c339",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.drools/drools-simulator@5.4.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/drools/drools-simulator/5.4.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/drools/drools-simulator/5.4.0.Final/drools-simulator-5.4.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/drools/drools-simulator/5.4.0.Final/drools-simulator-5.4.0.Final.pom",
+    "file_references": []
+}

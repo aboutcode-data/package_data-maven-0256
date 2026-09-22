@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "no.digipost",
+    "name": "sdp-xsd",
+    "version": "2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "SDP Shared - XSD & JAXB\nXSDer og genererte JAXB-klasser",
+    "release_date": "2017-05-18T11:22:34Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/no/digipost/sdp-xsd/2.3/sdp-xsd-2.3.jar",
+    "size": 863926,
+    "md5": null,
+    "sha1": "f196f99fb688833d21d5d67d7f4355c9e544c8a9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/no.digipost/sdp-xsd@2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jvnet.jaxb2_commons/jaxb2-basics-runtime",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/no.digipost/sdp-xsd@2.3?uuid=52f63e04-2f7f-41ef-8b6e-58d8c0008dd8",
+    "datasource_id": null,
+    "purl": "pkg:maven/no.digipost/sdp-xsd@2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/no/digipost/sdp-xsd/2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/no/digipost/sdp-xsd/2.3/sdp-xsd-2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/no/digipost/sdp-xsd/2.3/sdp-xsd-2.3.pom",
+    "file_references": []
+}

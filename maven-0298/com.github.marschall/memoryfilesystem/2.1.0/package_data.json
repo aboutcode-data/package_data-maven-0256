@@ -1,0 +1,190 @@
+{
+    "type": "maven",
+    "namespace": "com.github.marschall",
+    "name": "memoryfilesystem",
+    "version": "2.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "777cf477-2f48-45a7-9e47-e7e595115725",
+            "packages": [
+                "pkg:maven/com.github.marschall/memoryfilesystem@2.1.0?uuid=870c84ef-9569-41e8-aae2-3d568b418274",
+                "pkg:maven/com.github.marschall/memoryfilesystem@2.1.0?classifier=sources&uuid=772e132e-8e38-437f-b7f2-7bec76b203eb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Memory File System\nAn in memory implementation of a JSR-203 file system.",
+    "release_date": "2019-02-21T15:50:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Philippe Marschall",
+            "email": "philippe.marschall@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/marschall/memoryfilesystem",
+    "download_url": "https://repo1.maven.org/maven2/com/github/marschall/memoryfilesystem/2.1.0/memoryfilesystem-2.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a2ff9cc823f54dc36ac931902fddc309e82eef0d",
+    "sha256": "d2de1c7a218f1e613ebee8ee377aa35f81edb521b694cc9c917c3c22c30f9e73",
+    "sha512": "02ac51bbb7daf27c20894c70d9aff3b182c84022a585c3b0ce0e7a761f4bab2fb1622ffda3af44c06171387fa9d05414b3ac2c9db616724f6ed0d1d08d1029a4",
+    "bug_tracking_url": "https://github.com/marschall/memoryfilesystem/issues",
+    "code_view_url": "${project.url}",
+    "vcs_url": "git+https://github.com/marschall/memoryfilesystem.git",
+    "copyright": "Copyright (c) Philippe Marschall",
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_82.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://opensource.org/licenses/MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_82.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-ed4b10a1-dee4-8c47-62ce-3459c82174bc",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "cc0-1.0 AND mit",
+    "other_license_expression_spdx": "CC0-1.0 AND MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: http://opensource.org/licenses/MIT\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.marschall/memoryfilesystem@2.1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit/junit-bom@5.4.0",
+            "extracted_requirement": "5.4.0",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.3.2",
+            "extracted_requirement": "1.3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-junit@2.0.0.0",
+            "extracted_requirement": "2.0.0.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test@5.1.5.RELEASE",
+            "extracted_requirement": "5.1.5.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@5.1.5.RELEASE",
+            "extracted_requirement": "5.1.5.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.11.2",
+            "extracted_requirement": "2.11.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.11.2",
+            "extracted_requirement": "2.11.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-jcl@2.11.2",
+            "extracted_requirement": "2.11.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.openjdk.jol/jol-core@0.9",
+            "extracted_requirement": "0.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core@7.7.0",
+            "extracted_requirement": "7.7.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit/junit-bom@5.4.0",
+            "extracted_requirement": "5.4.0",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.marschall/memoryfilesystem@2.1.0?classifier=sources&uuid=772e132e-8e38-437f-b7f2-7bec76b203eb",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.marschall/memoryfilesystem@2.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/marschall/memoryfilesystem/2.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/marschall/memoryfilesystem/2.1.0/memoryfilesystem-2.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/marschall/memoryfilesystem/2.1.0/memoryfilesystem-2.1.0.pom",
+    "file_references": []
+}

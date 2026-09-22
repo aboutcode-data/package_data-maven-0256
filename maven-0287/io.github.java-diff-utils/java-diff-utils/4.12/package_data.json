@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "io.github.java-diff-utils",
+    "name": "java-diff-utils",
+    "version": "4.12",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "aae231d1-f9fd-4a44-b927-e6a81a45fbc4",
+            "packages": [
+                "pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?uuid=fcf48254-3eb6-4628-9edc-dc8662d202cb",
+                "pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?classifier=sources&uuid=64725c0b-1816-4fd7-951f-78c250a65439"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "java-diff-utils",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tobias Warneke",
+            "email": "t.warneke@gmx.net",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "java-diff-utils",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/java-diff-utils/java-diff-utils",
+    "download_url": "https://repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "175dac5f6daecef7444f24e581a42c48707baa1d",
+    "sha256": "fa24217b6eaa115a05d4a8f0003fe913c62716ca2184d2e4f17de4a7d42a8822",
+    "sha512": "f2e8ef1f2164de9bbcb725212e8cc5ce0ba89fd9eb130f4b679ec22704ee77ff2c0fe2c0354468bdf7aa6b9c84ab9ef6d3a77c43b86038d5801797053451674a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?classifier=sources&uuid=64725c0b-1816-4fd7-951f-78c250a65439",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.github.java-diff-utils/java-diff-utils@4.12?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

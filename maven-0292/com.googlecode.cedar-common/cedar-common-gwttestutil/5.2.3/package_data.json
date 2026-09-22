@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "com.googlecode.cedar-common",
+    "name": "cedar-common-gwttestutil",
+    "version": "5.2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Cedar Common GWT Test Utilities\nUtility code for use in testing GWT, including a stubbed test runner using Mockito.",
+    "release_date": "2015-04-23T01:07:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Kenneth J. Pronovici",
+            "email": "pronovic@ieee.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://bitbucket.org/cedarsolutions/cedar-common",
+    "download_url": "https://repo1.maven.org/maven2/com/googlecode/cedar-common/cedar-common-gwttestutil/5.2.3/cedar-common-gwttestutil-5.2.3.jar",
+    "size": 25446,
+    "md5": null,
+    "sha1": "6902c9e7049484e2daf6c573b594bed106f54688",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/license/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.googlecode.cedar-common/cedar-common-gwttestutil@5.2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.googlecode.cedar-common/cedar-common-util",
+            "extracted_requirement": "5.2.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-user",
+            "extracted_requirement": "2.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit-addons/junit-addons",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": "3.18.2-GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "1.10.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": "3.2.9.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.googlecode.cedar-common/cedar-common-gwttestutil@5.2.3?uuid=11133341-6563-4beb-99eb-4a9331f860d2",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.googlecode.cedar-common/cedar-common-gwttestutil@5.2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/googlecode/cedar-common/cedar-common-gwttestutil/5.2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/googlecode/cedar-common/cedar-common-gwttestutil/5.2.3/cedar-common-gwttestutil-5.2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/googlecode/cedar-common/cedar-common-gwttestutil/5.2.3/cedar-common-gwttestutil-5.2.3.pom",
+    "file_references": []
+}

@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "org.pcollections",
+    "name": "pcollections",
+    "version": "2.2.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fb537cd8-5fc1-4885-8767-3cc46f102132",
+            "packages": [
+                "pkg:maven/org.pcollections/pcollections@2.2.0?uuid=923ac096-93a9-4b7f-b596-dd1c3061026c",
+                "pkg:maven/org.pcollections/pcollections@2.2.0?classifier=sources&uuid=fbce70f6-9c37-49d0-a130-32ca163f42fe"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "PCollections\nA Persistent Java Collections Library",
+    "release_date": "2018-03-28T15:56:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Harold Cooper",
+            "email": "hrldcpr@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://pcollections.org",
+    "download_url": "https://repo1.maven.org/maven2/org/pcollections/pcollections/2.2.0/pcollections-2.2.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1b04903d4ff8d8f21c48babebd9bdc7b0caea809",
+    "sha256": "7e66bff2931e6722a4256b4583fae678fb1393ef80c06c66712769c21fabef53",
+    "sha512": "699637e3a0f1ff261ae67398b870fd069bec9759f595ab79e53ac51b47a86c39eef4b5dbf3e74c9da2325fccdd7c021c2d776a6432923bc58effffeaa3a949b1",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/hrldcpr/pcollections",
+    "vcs_url": "git://github.com/hrldcpr/pcollections.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_27.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The MIT License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_27.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_439.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://opensource.org/licenses/mit-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_439.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-f583d660-ac08-75c2-1a36-0add5aac3652",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The MIT License\n  url: https://opensource.org/licenses/mit-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.pcollections/pcollections@2.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.pcollections/pcollections@2.2.0?classifier=sources&uuid=fbce70f6-9c37-49d0-a130-32ca163f42fe",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.pcollections/pcollections@2.2.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/pcollections/pcollections/2.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/pcollections/pcollections/2.2.0/pcollections-2.2.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/pcollections/pcollections/2.2.0/pcollections-2.2.0.pom",
+    "file_references": []
+}

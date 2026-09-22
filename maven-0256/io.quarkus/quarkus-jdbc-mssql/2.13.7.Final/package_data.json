@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-jdbc-mssql",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8bc8776f-e414-4418-87c8-ecde07142950",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-jdbc-mssql@2.13.7.Final?uuid=039417a7-4963-4217-9221-5c962a395841",
+                "pkg:maven/io.quarkus/quarkus-jdbc-mssql@2.13.7.Final?classifier=sources&uuid=134a9263-f7ed-4814-9187-bbc907ebf4d7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - JDBC - MSSQL - Runtime\nConnect to the Microsoft SQL Server database via JDBC",
+    "release_date": "2023-01-19T10:15:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-jdbc-mssql/2.13.7.Final/quarkus-jdbc-mssql-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "71a6933f140e47bf6f7a0f7e142a5b72afb89077",
+    "sha256": "d5ac149dd6db8983f203806fd92100c6bdd7ea856f6505b847d2863b47699661",
+    "sha512": "9bb5e8c0ed83ee5abcc6a639f6ec606e0d3b864c511690a530a3e4b82a2272ceef1fdeb7090eb080c64d1eb0db67a25d45da0f16968d90afb7cc55be4dcdf082",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-jdbc-mssql@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-agroal",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-kubernetes-service-binding",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.antlr/antlr4-runtime",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.graalvm.nativeimage/svm",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-jdbc-mssql@2.13.7.Final?classifier=sources&uuid=134a9263-f7ed-4814-9187-bbc907ebf4d7",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-jdbc-mssql@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

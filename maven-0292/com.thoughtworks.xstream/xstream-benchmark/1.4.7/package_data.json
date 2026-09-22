@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "com.thoughtworks.xstream",
+    "name": "xstream-benchmark",
+    "version": "1.4.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fcebc26c-5abf-4168-9076-784fe646ef7d",
+            "packages": [
+                "pkg:maven/com.thoughtworks.xstream/xstream-benchmark@1.4.7?uuid=af84164d-79f2-4f5a-892c-667ba0ce584a",
+                "pkg:maven/com.thoughtworks.xstream/xstream-benchmark@1.4.7?classifier=sources&uuid=33ef8716-a0f4-4cbf-a5c2-01057c1814bf"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "XStream Benchmark\nBenchmark suite of XStream.",
+    "release_date": "2014-02-08T10:53:23Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "XStream",
+            "email": null,
+            "url": "http://xstream.codehaus.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://codehaus.org/",
+    "download_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream-benchmark/1.4.7/xstream-benchmark-1.4.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "77b5d4834ebc6f8e6b8226c33675a3ea782fda5a",
+    "sha256": "0c8d19f0a632bdd95ef895fe5fef6474d0d8979d76b9967e5507283926d0803e",
+    "sha512": "6b9074ca70aec6608c6a2951500b1c01839adba38fba6c2e55be8793dacb10dce931b91a962634727cb7f5ff06356692b0157729264261485fc4f23dae0ee530",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.thoughtworks.xstream/xstream-benchmark@1.4.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.kxml/kxml2-min",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-cli/commons-cli",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.thoughtworks.xstream/xstream-benchmark@1.4.7?classifier=sources&uuid=33ef8716-a0f4-4cbf-a5c2-01057c1814bf",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.thoughtworks.xstream/xstream-benchmark@1.4.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream-benchmark/1.4.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream-benchmark/1.4.7/xstream-benchmark-1.4.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream-benchmark/1.4.7/xstream-benchmark-1.4.7.pom",
+    "file_references": []
+}

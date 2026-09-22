@@ -1,0 +1,287 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty.aggregate",
+    "name": "jetty-all",
+    "version": "8.1.9.v20130131",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4cf19648-5f46-4dae-9e62-6ecaad3d9eb9",
+            "packages": [
+                "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.9.v20130131?uuid=b999023e-7853-4675-9d61-d80bf89b9639",
+                "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.9.v20130131?classifier=sources&uuid=f82def8f-6000-432c-89f7-6ac8dc31a154"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jetty :: Aggregate :: All core Jetty",
+    "release_date": "2013-01-31T18:56:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Wilkins",
+            "email": "gregw@apache.org",
+            "url": "http://www.mortbay.com/mortbay/people/gregw"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Bartel",
+            "email": "janb@apache.org",
+            "url": "http://www.mortbay.com/people/janb"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": "simone.bordet@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jesse McConnell",
+            "email": "jesse.mcconnell@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Jencks",
+            "email": "david_jencks@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joakim Erdfelt",
+            "email": "joakim@intalio.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Hugues Malphettes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Gorovoy",
+            "email": "mgorovoy@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Thomas Becker",
+            "email": "thomas.becker00@googlemail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Athena Yao",
+            "email": "yao.athena@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Yu",
+            "email": "david.yu.ftw@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Nik Gonzalez",
+            "email": "ngonzalez@exist.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "James Strachan",
+            "email": "jstrachan@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tim Vernum",
+            "email": "tim@adjective.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeanfrancois Arcand",
+            "email": "jfarcand@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jules Gosnell",
+            "email": "jules@apache.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Mort Bay Consulting",
+            "email": null,
+            "url": "http://www.mortbay.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/jetty",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.9.v20130131/jetty-all-8.1.9.v20130131-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ad80053b6e69365b1a986d05b1634f08c43a8da4",
+    "sha256": "0cbe39c4819a9396667b04215c56902238bcead0979da2c2be1a4cbe8ab39052",
+    "sha512": "d4a19ab24cc659336da6cc407b018b2bcddc2dd5cc1b3409218ba10a4b16add89f3db48174772eb5b8cfc4e77c7a35bfd60bef495e13129c2772716d6c622965",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-1.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "(epl-1.0 OR apache-2.0) AND ((epl-1.0 OR apache-2.0) AND epl-1.0 AND apache-2.0) AND mit AND other-permissive AND unixcrypt",
+    "other_license_expression_spdx": "(EPL-1.0 OR Apache-2.0) AND ((EPL-1.0 OR Apache-2.0) AND EPL-1.0 AND Apache-2.0) AND MIT AND LicenseRef-scancode-other-permissive AND UnixCrypt",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.9.v20130131?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.jetty/jetty-parent@20",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.jetty/jetty-parent@20",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.jetty/jetty-parent@20"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-client@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-deploy@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-websocket@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-ajp@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-annotations@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-rewrite@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-nested@8.1.9.v20130131",
+            "extracted_requirement": "8.1.9.v20130131",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.9.v20130131?classifier=sources&uuid=f82def8f-6000-432c-89f7-6ac8dc31a154",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all@8.1.9.v20130131?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.9.v20130131/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.9.v20130131/jetty-all-8.1.9.v20130131-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-all/8.1.9.v20130131/jetty-all-8.1.9.v20130131.pom",
+    "file_references": []
+}

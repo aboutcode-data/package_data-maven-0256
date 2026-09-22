@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "com.yahoo.datasketches",
+    "name": "memory",
+    "version": "0.9.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7e9fb82b-d6c0-408b-a32c-c88eb17c1632",
+            "packages": [
+                "pkg:maven/com.yahoo.datasketches/memory@0.9.0?uuid=7c162c90-1f57-4f58-9b46-3db946355418",
+                "pkg:maven/com.yahoo.datasketches/memory@0.9.0?classifier=sources&uuid=82fd421f-13e5-4b35-b78a-fd450ff37db5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "com.yahoo.datasketches:memory\nMemory contains interfaces and classes to allocate and access off-heap memory",
+    "release_date": "2017-03-24T22:54:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Lee Rhodes",
+            "email": null,
+            "url": "https://github.com/leerho"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kevin Lang",
+            "email": null,
+            "url": "https://github.com/kevinjlang"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Alexander Saydakov",
+            "email": null,
+            "url": "https://github.com/AlexanderSaydakov"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Justin Thaler",
+            "email": null,
+            "url": "https://github.com/Justin8712"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Edo Liberty",
+            "email": null,
+            "url": "https://github.com/edoliberty"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jon Malkin",
+            "email": null,
+            "url": "https://github.com/jmalkin"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": null,
+            "email": null,
+            "url": "https://github.com/DataSketches/sketches-core/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Yahoo! Inc.",
+            "email": null,
+            "url": "https://www.yahoo.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://datasketches.github.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/yahoo/datasketches/memory/0.9.0/memory-0.9.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1b234d2e83140d207dda6414a8fecae0e8b7269f",
+    "sha256": "d0b93e46d47ae64bfe8bd1e9a5b641602b2c60ab6e93824d2012d0b2ed88936f",
+    "sha512": "a54b83e12e97dd4ddb89d5ba359648a3e3886af4db2b1ed07ba5c4d35ce884f0f303997d663cb74b597e9f284a81182accc2d21db36b8619becc72af398381ce",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Yahoo! Inc.",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.yahoo.datasketches/memory@0.9.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.yahoo.datasketches/memory@0.9.0?classifier=sources&uuid=82fd421f-13e5-4b35-b78a-fd450ff37db5",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.yahoo.datasketches/memory@0.9.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/yahoo/datasketches/memory/0.9.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/yahoo/datasketches/memory/0.9.0/memory-0.9.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/yahoo/datasketches/memory/0.9.0/memory-0.9.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-jdbc-mssql-deployment",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4a451250-2139-4f06-8765-a3cca4063ac8",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-jdbc-mssql-deployment@2.13.7.Final?uuid=9898a908-8023-44ae-bf2f-0a9a25c5491e",
+                "pkg:maven/io.quarkus/quarkus-jdbc-mssql-deployment@2.13.7.Final?classifier=sources&uuid=b75cfda6-c8bb-4349-8c8c-409742e935ba"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - JDBC - MSSQL - Deployment",
+    "release_date": "2023-01-19T10:27:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-jdbc-mssql-deployment/2.13.7.Final/quarkus-jdbc-mssql-deployment-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f7d4c4562092314e69e010935b3db71332d23e39",
+    "sha256": "7fc356679eb230699eed9eb728a7d49d1cf53e506d1b1d9cb553c3a1a98c5ce8",
+    "sha512": "350c49f3ad73371c3ea5dd781f817a985eaebd4a798e98997770b4d874eb5c35ec8e68723c5fc4b7c2f0704b01b275fdcb6ead9e68c6003327da1a2d6158a343",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-jdbc-mssql-deployment@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-agroal-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-datasource-deployment-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-jdbc-mssql",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-devservices-mssql",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-agroal-deployment",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-junit5-internal",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-jdbc-mssql-deployment@2.13.7.Final?classifier=sources&uuid=b75cfda6-c8bb-4349-8c8c-409742e935ba",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-jdbc-mssql-deployment@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

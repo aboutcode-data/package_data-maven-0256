@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.words.impl",
+    "version": "1.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "56d6123e-4338-46e1-a814-de44bb2cb414",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.words.impl@1.0.2?uuid=dea9ac89-3320-4dbd-9312-2a39fbbfc27f",
+                "pkg:maven/com.liferay/com.liferay.words.impl@1.0.2?classifier=sources&uuid=9006f45f-ea88-4db3-8765-efc854951fe1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Words Implementation",
+    "release_date": "2022-10-28T02:39:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.words.impl/1.0.2/com.liferay.words.impl-1.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "23aa1ed447e8cfe0b822c43ad686d695f1ea8add",
+    "sha256": "d076974db6fce50a0a2b7ee238bb1e48caaff3cf2ae20a5dceabf544233d6ba4",
+    "sha512": "ee97a1cc42f746346c95b7679365d628eef67f99ac57040efde9a460de9f0b241a9ec17571e5226f95ef74044838d8b15aceb58cbf3757d6b3adf3707de266da",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus AND proprietary-license",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.words.impl@1.0.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.words.impl@1.0.2?classifier=sources&uuid=9006f45f-ea88-4db3-8765-efc854951fe1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.words.impl@1.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.words.impl/1.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.words.impl/1.0.2/com.liferay.words.impl-1.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.words.impl/1.0.2/com.liferay.words.impl-1.0.2.pom",
+    "file_references": []
+}

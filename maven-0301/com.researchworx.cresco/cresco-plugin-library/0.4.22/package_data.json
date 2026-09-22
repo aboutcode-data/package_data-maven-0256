@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "com.researchworx.cresco",
+    "name": "cresco-plugin-library",
+    "version": "0.4.22",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Cresco Plugin Library\nLibrary of classes needed by the Cresco plugin framework",
+    "release_date": "2017-05-19T16:11:01Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "V.K. Cody Bumgardner",
+            "email": "cody@uky.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Caylin Hickey",
+            "email": "caylin.hickey@uky.edu",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/researchworx/Cresco-Plugin-Library",
+    "download_url": "https://repo1.maven.org/maven2/com/researchworx/cresco/cresco-plugin-library/0.4.22/cresco-plugin-library-0.4.22.jar",
+    "size": 9592,
+    "md5": null,
+    "sha1": "843656f8ba3673b15dc542e3f88a12ab6de67199",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.researchworx.cresco/cresco-plugin-library@0.4.22?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.researchworx.cresco/cresco-library",
+            "extracted_requirement": "0.3.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.auto.service/auto-service",
+            "extracted_requirement": "1.0-rc2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.researchworx.cresco/cresco-plugin-library@0.4.22?uuid=c1fec036-1143-4408-bc7e-ebdb9a08f31a",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.researchworx.cresco/cresco-plugin-library@0.4.22",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/researchworx/cresco/cresco-plugin-library/0.4.22/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/researchworx/cresco/cresco-plugin-library/0.4.22/cresco-plugin-library-0.4.22.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/researchworx/cresco/cresco-plugin-library/0.4.22/cresco-plugin-library-0.4.22.pom",
+    "file_references": []
+}

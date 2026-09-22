@@ -1,0 +1,276 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-context-support",
+    "version": "2.5.6.SEC03",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "febad721-91b2-4201-81ea-67af9c6ef9c8",
+            "packages": [
+                "pkg:maven/org.springframework/spring-context-support@2.5.6.SEC03?uuid=cec1dc84-0cc3-4f6d-9e5e-f9eb8ad36d90",
+                "pkg:maven/org.springframework/spring-context-support@2.5.6.SEC03?classifier=sources&uuid=a333c5ba-9a77-4ca9-ac56-0555d8ad9de9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Framework: Context Support",
+    "release_date": "2011-09-09T22:43:41Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring Framework",
+            "email": null,
+            "url": "http://www.springframework.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.springframework.org",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-context-support/2.5.6.SEC03/spring-context-support-2.5.6.SEC03-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8259c6b7c93ecb0398d0b86fd48b728256599bf5",
+    "sha256": "e934356ec7f090724953e85b8c874f124235abcdf9140548e96e1cc94aa03e35",
+    "sha512": "b6be26d7b3987f3faadbc24dfd2d68dd01c526bd7b3fd8f8c68f72d07939b17887d263efb691af8355212a858c3e0e84ec13d8b5c1c3adaa0ca85661b69b54b1",
+    "bug_tracking_url": null,
+    "code_view_url": "http://springframework.cvs.sourceforge.net/springframework/",
+    "vcs_url": "cvs+pserver:anonymous:@springframework.cvs.sourceforge.net:/cvsroot/springframework:spring",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-context-support@2.5.6.SEC03?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/aopalliance/aopalliance@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib-nodep@2.1_3",
+            "extracted_requirement": "2.1_3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-collections/commons-collections@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.bea.wlplatform/commonj-twm@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.freemarker/freemarker@2.3.14",
+            "extracted_requirement": "2.3.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy@1.5.6",
+            "extracted_requirement": "1.5.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jasperreports/jasperreports@2.0.5",
+            "extracted_requirement": "2.0.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jruby/jruby@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache/ehcache@1.5.0",
+            "extracted_requirement": "1.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.oracle/oc4j@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.beanshell/bsh@2.0b4",
+            "extracted_requirement": "2.0b4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/opensymphony/quartz-all@1.6.0",
+            "extracted_requirement": "1.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/velocity/velocity@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/velocity-tools/velocity-tools-generic@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/velocity-tools/velocity-tools-view@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop@2.5.6.SEC03",
+            "extracted_requirement": "2.5.6.SEC03",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@2.5.6.SEC03",
+            "extracted_requirement": "2.5.6.SEC03",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@2.5.6.SEC03",
+            "extracted_requirement": "2.5.6.SEC03",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@2.5.6.SEC03",
+            "extracted_requirement": "2.5.6.SEC03",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jdbc@2.5.6.SEC03",
+            "extracted_requirement": "2.5.6.SEC03",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-tx@2.5.6.SEC03",
+            "extracted_requirement": "2.5.6.SEC03",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.activation/activation@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-context-support@2.5.6.SEC03?classifier=sources&uuid=a333c5ba-9a77-4ca9-ac56-0555d8ad9de9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework/spring-context-support@2.5.6.SEC03?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-context-support/2.5.6.SEC03/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-context-support/2.5.6.SEC03/spring-context-support-2.5.6.SEC03-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-context-support/2.5.6.SEC03/spring-context-support-2.5.6.SEC03.pom",
+    "file_references": []
+}

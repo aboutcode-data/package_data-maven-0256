@@ -1,0 +1,57 @@
+{
+    "type": "maven",
+    "namespace": "xml-resolver",
+    "name": "xml-resolver",
+    "version": "1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "856b551f-7788-4234-8dc5-af16e2780de1",
+            "packages": [
+                "pkg:maven/xml-resolver/xml-resolver@1.1?uuid=babecd00-1654-4aa6-ad27-dbdefc352d6f",
+                "pkg:maven/xml-resolver/xml-resolver@1.1?classifier=sources&uuid=d9e748ea-6a04-412c-8f28-78032159cbee"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2016-01-02T02:41:33Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.1/xml-resolver-1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a99a8a26dcdb7072fe391215cef73c826f4170cf",
+    "sha256": "4b873f637bd97aac24f06ff9f6f8850fd7bb31434173f924c1d93d6387aaa3da",
+    "sha512": "8d5dfe54f6a002bb5f38fd1b86573220d4f8aadec3fd7d19319a687f648334c985124141a0d1da6c504d2efbe619d224364804c1f8c2f0232964df1abf72cf87",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-1.1 AND public-domain",
+    "other_license_expression_spdx": "Apache-1.1 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xml-resolver/xml-resolver@1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/xml-resolver/xml-resolver@1.1?classifier=sources&uuid=d9e748ea-6a04-412c-8f28-78032159cbee",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xml-resolver/xml-resolver@1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.1/xml-resolver-1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xml-resolver/xml-resolver/1.1/xml-resolver-1.1.pom",
+    "file_references": []
+}

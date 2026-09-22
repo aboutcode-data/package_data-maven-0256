@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "net.sf.itcb.common",
+    "name": "itcb-common-portlet",
+    "version": "0.6.0-RC8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "itcb-common-portlet\nThis module is the common portlet module. It defines the base on which the developements can be done by extending view, edit or help mode.",
+    "release_date": "2012-02-15T09:51:55Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/net/sf/itcb/common/itcb-common-portlet/0.6.0-RC8/itcb-common-portlet-0.6.0-RC8.jar",
+    "size": 67372,
+    "md5": null,
+    "sha1": "a4ba965c23f72a03d5c4ddbb956c9f8c443037fa",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sf.itcb.common/itcb-common-portlet@0.6.0-RC8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.sf.itcb.common/itcb-common-business",
+            "extracted_requirement": "0.6.0-RC8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "${servlet-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vaadin/vaadin",
+            "extracted_requirement": "${com.vaadin-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": "${org.springframework-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": "${org.springframework-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.portlet/portlet-api",
+            "extracted_requirement": "${javax.portlet-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay.portal/portal-service",
+            "extracted_requirement": "6.0.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.sf.itcb.common/itcb-common-portlet@0.6.0-RC8?uuid=a4b2aaab-eb58-48e6-b840-3510ed52e946",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.sf.itcb.common/itcb-common-portlet@0.6.0-RC8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sf/itcb/common/itcb-common-portlet/0.6.0-RC8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sf/itcb/common/itcb-common-portlet/0.6.0-RC8/itcb-common-portlet-0.6.0-RC8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sf/itcb/common/itcb-common-portlet/0.6.0-RC8/itcb-common-portlet-0.6.0-RC8.pom",
+    "file_references": []
+}

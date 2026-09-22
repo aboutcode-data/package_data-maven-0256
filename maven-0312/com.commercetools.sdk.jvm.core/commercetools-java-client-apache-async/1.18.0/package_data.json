@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "com.commercetools.sdk.jvm.core",
+    "name": "commercetools-java-client-apache-async",
+    "version": "1.18.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-18T13:19:25Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/commercetools/sdk/jvm/core/commercetools-java-client-apache-async/1.18.0/commercetools-java-client-apache-async-1.18.0.jar",
+    "size": 3039,
+    "md5": null,
+    "sha1": "7167c0a547ccb4b5d03d8d2ce1e0a243ee737a44",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.commercetools.sdk.jvm.core/commercetools-java-client-apache-async@1.18.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.commercetools.sdk.jvm.core/sdk-http-apache-async",
+            "extracted_requirement": "1.18.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.commercetools.sdk.jvm.core/commercetools-java-client-core",
+            "extracted_requirement": "1.18.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.commercetools.sdk.jvm.core/commercetools-java-client-internal-test",
+            "extracted_requirement": "1.18.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.commercetools.sdk.jvm.core/commercetools-java-client-apache-async@1.18.0?uuid=7e0b8ff3-f28c-4d25-b0e9-6d6d627f0b32",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.commercetools.sdk.jvm.core/commercetools-java-client-apache-async@1.18.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/commercetools/sdk/jvm/core/commercetools-java-client-apache-async/1.18.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/commercetools/sdk/jvm/core/commercetools-java-client-apache-async/1.18.0/commercetools-java-client-apache-async-1.18.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/commercetools/sdk/jvm/core/commercetools-java-client-apache-async/1.18.0/commercetools-java-client-apache-async-1.18.0.pom",
+    "file_references": []
+}

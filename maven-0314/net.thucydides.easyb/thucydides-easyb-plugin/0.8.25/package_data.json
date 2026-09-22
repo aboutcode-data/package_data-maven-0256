@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "net.thucydides.easyb",
+    "name": "thucydides-easyb-plugin",
+    "version": "0.8.25",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Thucydides Easyb Plugin",
+    "release_date": "2012-06-12T06:13:08Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/net/thucydides/easyb/thucydides-easyb-plugin/0.8.25/thucydides-easyb-plugin-0.8.25.jar",
+    "size": 51720,
+    "md5": null,
+    "sha1": "33d95f741ae424a5f98095d6716cd38e55ba79dd",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.thucydides.easyb/thucydides-easyb-plugin@0.8.25?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.easyb/easyb-core",
+            "extracted_requirement": "${easyb.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.thucydides/thucydides-core",
+            "extracted_requirement": "0.8.25",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": "${groovy.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.thucydides.easyb/thucydides-easyb-plugin@0.8.25?uuid=a284ed63-83a0-4a9f-804e-356b2ee0de0b",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.thucydides.easyb/thucydides-easyb-plugin@0.8.25",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/thucydides/easyb/thucydides-easyb-plugin/0.8.25/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/thucydides/easyb/thucydides-easyb-plugin/0.8.25/thucydides-easyb-plugin-0.8.25.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/thucydides/easyb/thucydides-easyb-plugin/0.8.25/thucydides-easyb-plugin-0.8.25.pom",
+    "file_references": []
+}

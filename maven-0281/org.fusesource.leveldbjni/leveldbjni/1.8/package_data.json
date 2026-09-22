@@ -1,0 +1,94 @@
+{
+    "type": "maven",
+    "namespace": "org.fusesource.leveldbjni",
+    "name": "leveldbjni",
+    "version": "1.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7616c52d-059e-44bc-bb4d-11f96ba099b0",
+            "packages": [
+                "pkg:maven/org.fusesource.leveldbjni/leveldbjni@1.8?uuid=a2f09903-a3af-4f90-8fa6-639d6c72d772",
+                "pkg:maven/org.fusesource.leveldbjni/leveldbjni@1.8?classifier=sources&uuid=ac25d8d8-05f0-4562-88e3-0e1f88ad3171"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "leveldbjni\nleveldbjni is a jni library for acessing leveldb.",
+    "release_date": "2013-10-16T16:23:07Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "FuseSource Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FuseSource, Corp.",
+            "email": null,
+            "url": "http://fusesource.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fusesource.com/",
+    "download_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.8/leveldbjni-1.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d15a7a0dbfe7d26f4bf3f60ba5594407e35eb419",
+    "sha256": "93a8fa3f886711820e7295508b2ecd9c35353b36292c49aea085329e11bfce68",
+    "sha512": "b4f864949ee27d03c16100f5ca664b83d28bc4e42639bee9b0eda58a845850b7ccd5d97df5415b17a0ff8a8c3734f034c14a62bb9c15ffe5600811f9eebfd8ba",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.fusesource.leveldbjni/leveldbjni@1.8?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.fusesource/fusesource-pom@1.9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.fusesource/fusesource-pom@1.9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.fusesource/fusesource-pom@1.9"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.fusesource.hawtjni/hawtjni-runtime",
+            "extracted_requirement": "${hawtjni-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.iq80.leveldb/leveldb-api",
+            "extracted_requirement": "${leveldb-api-version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.fusesource.leveldbjni/leveldbjni@1.8?classifier=sources&uuid=ac25d8d8-05f0-4562-88e3-0e1f88ad3171",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni@1.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.8/leveldbjni-1.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.8/leveldbjni-1.8.pom",
+    "file_references": []
+}

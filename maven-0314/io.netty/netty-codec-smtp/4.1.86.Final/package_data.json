@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-codec-smtp",
+    "version": "4.1.86.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ae79bf94-1eef-4622-b97a-70f45cd04917",
+            "packages": [
+                "pkg:maven/io.netty/netty-codec-smtp@4.1.86.Final?uuid=2b2d2b6d-2e85-4d84-9257-2a89dca4668b",
+                "pkg:maven/io.netty/netty-codec-smtp@4.1.86.Final?classifier=sources&uuid=e87cab27-4d8d-402b-8d58-24490b60c21e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Codec/SMTP",
+    "release_date": "2022-12-12T13:26:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://netty.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-codec-smtp/4.1.86.Final/netty-codec-smtp-4.1.86.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6f23bca1ddb21459e156b9e1a4bd1811dc4dc681",
+    "sha256": "9537135218662f5a1a3ef47ac48ab654ee8dc70b4c4816254265ed1f3695127a",
+    "sha512": "b746bcadf7dfe0e1332532f3f6317642cfa83b6613e1aa0b40f143d1b1cc45ed21a1c0d3bab9bfe299184f57674d5c10ff53cd79e0da1cb4e633dc4e05c5a2a8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-codec-smtp@4.1.86.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.86.Final",
+            "extracted_requirement": "4.1.86.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-codec-smtp@4.1.86.Final?classifier=sources&uuid=e87cab27-4d8d-402b-8d58-24490b60c21e",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.netty/netty-codec-smtp@4.1.86.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

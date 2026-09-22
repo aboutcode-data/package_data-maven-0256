@@ -1,0 +1,168 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.hbase",
+    "name": "hbase-client",
+    "version": "0.98.3-hadoop2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6bcd0dc5-ce81-43b0-bd2c-f07df2cfe9bf",
+            "packages": [
+                "pkg:maven/org.apache.hbase/hbase-client@0.98.3-hadoop2?uuid=7b12dce6-6b3d-4b88-a8db-c0a3a9b68f71",
+                "pkg:maven/org.apache.hbase/hbase-client@0.98.3-hadoop2?classifier=sources&uuid=e7584dfe-ade6-418e-906b-84dcfd887e8b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HBase - Client\nClient of HBase",
+    "release_date": "2014-06-01T03:03:07Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/0.98.3-hadoop2/hbase-client-0.98.3-hadoop2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "05f3a9846ad2fe46e0fc413d6ff05ab796a9d910",
+    "sha256": "93d923a0f9245d2554d916a42f643719c0100576f4847e0187266af8f99bf4aa",
+    "sha512": "efd945610089f26f2c4d2e6cba2f90cffe2f1bd756997abca097b12ef3ed6de394423ce5ed55908243b15c91502f28039004dd99cc5ba5fc610b51564c649afc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (cddl-1.1 AND gpl-2.0 WITH classpath-exception-2.0 AND mit AND apache-2.0) AND (public-domain AND apache-2.0 AND bsd-new AND cddl-1.0 AND lgpl-2.1 AND cpl-1.0 AND epl-1.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (CDDL-1.1 AND GPL-2.0-only WITH Classpath-exception-2.0 AND MIT AND Apache-2.0) AND (LicenseRef-scancode-public-domain AND Apache-2.0 AND BSD-3-Clause AND CDDL-1.0 AND LGPL-2.1-only AND CPL-1.0 AND EPL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.hbase/hbase-client@0.98.3-hadoop2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase-protocol",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.zookeeper/zookeeper",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.cloudera.htrace/htrace-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.hbase/hbase-client@0.98.3-hadoop2?classifier=sources&uuid=e7584dfe-ade6-418e-906b-84dcfd887e8b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.hbase/hbase-client@0.98.3-hadoop2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/0.98.3-hadoop2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/0.98.3-hadoop2/hbase-client-0.98.3-hadoop2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/0.98.3-hadoop2/hbase-client-0.98.3-hadoop2.pom",
+    "file_references": []
+}

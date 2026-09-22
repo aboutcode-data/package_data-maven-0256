@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.akka",
+    "name": "akka-distributed-data_2.12",
+    "version": "2.5.32",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "08bcdb2e-b3d4-4e3d-ae13-b16a66b3e8bd",
+            "packages": [
+                "pkg:maven/com.typesafe.akka/akka-distributed-data_2.12@2.5.32?uuid=fe640404-f70d-4126-a7cd-a24d639e12af",
+                "pkg:maven/com.typesafe.akka/akka-distributed-data_2.12@2.5.32?classifier=sources&uuid=44956a06-761e-4333-a996-c1530c64b606"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "akka-distributed-data\nAkka is a toolkit for building highly concurrent, distributed, and resilient message-driven applications for Java and Scala.",
+    "release_date": "2020-10-15T15:16:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Akka Contributors",
+            "email": "akka-dev@googlegroups.com",
+            "url": "https://github.com/akka/akka/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Lightbend Inc.",
+            "email": null,
+            "url": "https://www.lightbend.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://akka.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/akka/akka-distributed-data_2.12/2.5.32/akka-distributed-data_2.12-2.5.32-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a1782b3cdd60baa82d1e00ac6ad074c4971032cf",
+    "sha256": "c7c462cd762b36fe85c5475273a0a28a3a621e63911cf17ffc62a4fa037421ae",
+    "sha512": "06a84e7f3715ebd3152b6c81b6b3b52d8960487eb4866e7c8726ff564f516e71c2c98117880b6ba6d6d6b6038ef1771daafac2e575c47a3365d7121e804e49bc",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/akka/akka",
+    "vcs_url": "git+https://github.com/akka/akka.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d19d6db-5271-9183-f2fe-699732078833",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.akka/akka-distributed-data_2.12@2.5.32?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.8",
+            "extracted_requirement": "2.12.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-cluster_2.12@2.5.32",
+            "extracted_requirement": "2.5.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.lmdbjava/lmdbjava@0.6.1",
+            "extracted_requirement": "0.6.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.ghik/silencer-lib_2.12.8@1.4.4",
+            "extracted_requirement": "1.4.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12@3.0.8",
+            "extracted_requirement": "3.0.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.akka/akka-distributed-data_2.12@2.5.32?classifier=sources&uuid=44956a06-761e-4333-a996-c1530c64b606",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.akka/akka-distributed-data_2.12@2.5.32?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.specs2",
+    "name": "specs2-matcher-extra_2.12",
+    "version": "3.8.9-20170522072813-3d83c92",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "specs2-matcher-extra",
+    "release_date": "2017-05-22T07:33:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Eric Torreborre",
+            "email": null,
+            "url": "http://etorreborre.blogspot.com/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.specs2",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://specs2.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/specs2/specs2-matcher-extra_2.12/3.8.9-20170522072813-3d83c92/specs2-matcher-extra_2.12-3.8.9-20170522072813-3d83c92.jar",
+    "size": 406460,
+    "md5": null,
+    "sha1": "4e98bd8ec4764a62e1d8dd25f8f8cc4dfcdaa967",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT-style\nhttp://www.opensource.org/licenses/mit-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.specs2/specs2-matcher-extra_2.12@3.8.9-20170522072813-3d83c92?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-analysis_2.12",
+            "extracted_requirement": "3.8.9-20170522072813-3d83c92",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-matcher_2.12",
+            "extracted_requirement": "3.8.9-20170522072813-3d83c92",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.12",
+            "extracted_requirement": "3.8.9-20170522072813-3d83c92",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.specs2/specs2-matcher-extra_2.12@3.8.9-20170522072813-3d83c92?uuid=6c82ca5c-8cf7-49ae-bd13-3c348eac56d1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.specs2/specs2-matcher-extra_2.12@3.8.9-20170522072813-3d83c92",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/specs2/specs2-matcher-extra_2.12/3.8.9-20170522072813-3d83c92/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/specs2/specs2-matcher-extra_2.12/3.8.9-20170522072813-3d83c92/specs2-matcher-extra_2.12-3.8.9-20170522072813-3d83c92.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/specs2/specs2-matcher-extra_2.12/3.8.9-20170522072813-3d83c92/specs2-matcher-extra_2.12-3.8.9-20170522072813-3d83c92.pom",
+    "file_references": []
+}

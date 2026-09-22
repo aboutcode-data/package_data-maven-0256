@@ -1,0 +1,195 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay.faces",
+    "name": "com.liferay.faces.bridge.impl",
+    "version": "4.1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bdb9ae47-0fe7-417d-abb1-fc43210dc847",
+            "packages": [
+                "pkg:maven/com.liferay.faces/com.liferay.faces.bridge.impl@4.1.2?uuid=fc4f7832-4096-4169-8f38-396099c3f0d2",
+                "pkg:maven/com.liferay.faces/com.liferay.faces.bridge.impl@4.1.2?classifier=sources&uuid=99228dc5-fb58-4a5a-9615-cd310fc7f4d1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Faces Bridge Implementation\nImplementation of the API for Liferay Faces Bridge",
+    "release_date": "2018-09-14T16:10:13Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Neil Griffin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vernon Singleton",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kyle Stiemann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juan Gonzalez",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Philip White",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bruno Basto",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Liferay, Inc.",
+            "email": null,
+            "url": "http://www.liferay.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.bridge.impl/4.1.2/com.liferay.faces.bridge.impl-4.1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "083c0cbf543143d9503fb2e9c040f79742d4035b",
+    "sha256": "c6e71e3420d3d4306b2be31bf4704ece7f5434950ea8111ad68abd2005cfbf39",
+    "sha512": "18e97f8fdf799710d1e2f98b59419f8a08727d870aef87493900994cacfbf8ca328b5c835575b3b1c6197ab0b013fb2cc56e2a9fababade46b4c06d346c80fe8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay.faces/com.liferay.faces.bridge.impl@4.1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.liferay.faces/com.liferay.faces.bridge.impl.parent@4.1.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.liferay.faces/com.liferay.faces.bridge.impl.parent@4.1.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-fileupload/commons-fileupload",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay.faces/com.liferay.faces.bridge.api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay.faces/com.liferay.faces.util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.el/javax.el-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.faces/javax.faces-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.portlet/portlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay.faces/com.liferay.faces.bridge.impl@4.1.2?classifier=sources&uuid=99228dc5-fb58-4a5a-9615-cd310fc7f4d1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay.faces/com.liferay.faces.bridge.impl@4.1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.bridge.impl/4.1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.bridge.impl/4.1.2/com.liferay.faces.bridge.impl-4.1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/faces/com.liferay.faces.bridge.impl/4.1.2/com.liferay.faces.bridge.impl-4.1.2.pom",
+    "file_references": []
+}

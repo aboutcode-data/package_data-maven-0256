@@ -1,0 +1,222 @@
+{
+    "type": "maven",
+    "namespace": "im.actor.server",
+    "name": "actor-sms",
+    "version": "1.0.120",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "actor-sms",
+    "release_date": "2016-01-21T22:58:21Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andrey Kuznetsov",
+            "email": null,
+            "url": "https://github.com/prettynatty"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Nikolay Tatarinov",
+            "email": null,
+            "url": "https://github.com/rockjam"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "im.actor.server",
+            "email": null,
+            "url": "https://actor.im"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://actor.im",
+    "download_url": "https://repo1.maven.org/maven2/im/actor/server/actor-sms/1.0.120/actor-sms-1.0.120.jar",
+    "size": 24218,
+    "md5": null,
+    "sha1": "0bb77a91de48527464886a8b077f525c5e09196a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache v2\nhttps://github.com/actorapp/actor-platform/blob/master/LICENSE",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/im.actor.server/actor-sms@1.0.120?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/im.actor.server/actor-runtime",
+            "extracted_requirement": "1.0.120",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java",
+            "extracted_requirement": "3.0.0-beta-2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.trueaccord.scalapb/scalapb-runtime_2.11",
+            "extracted_requirement": "0.5.21",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.kxbmap/configs_2.11",
+            "extracted_requirement": "0.2.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.11",
+            "extracted_requirement": "0.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.scala-logging/scala-logging_2.11",
+            "extracted_requirement": "3.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/tyrex/tyrex",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.kamon/kamon-core_2.11",
+            "extracted_requirement": "0.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.kamon/kamon-scala_2.11",
+            "extracted_requirement": "0.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.kamon/kamon-akka_2.11",
+            "extracted_requirement": "0.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.kamon/kamon-system-metrics_2.11",
+            "extracted_requirement": "0.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.kamon/kamon-datadog_2.11",
+            "extracted_requirement": "0.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor_2.11",
+            "extracted_requirement": "2.4.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http-experimental_2.11",
+            "extracted_requirement": "2.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.databinder.dispatch/dispatch-core_2.11",
+            "extracted_requirement": "0.11.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-runtime_2.11",
+            "extracted_requirement": "1.1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-plugin_2.11",
+            "extracted_requirement": "1.1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/im.actor.server/actor-sms@1.0.120?uuid=a6d1bde8-6772-43a4-b85b-ebbcb32a5d61",
+    "datasource_id": null,
+    "purl": "pkg:maven/im.actor.server/actor-sms@1.0.120",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/im/actor/server/actor-sms/1.0.120/",
+    "repository_download_url": "https://repo1.maven.org/maven2/im/actor/server/actor-sms/1.0.120/actor-sms-1.0.120.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/im/actor/server/actor-sms/1.0.120/actor-sms-1.0.120.pom",
+    "file_references": []
+}

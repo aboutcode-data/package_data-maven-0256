@@ -1,0 +1,192 @@
+{
+    "type": "maven",
+    "namespace": "org.hibernate",
+    "name": "hibernate-jbosscache",
+    "version": "3.3.0.SP1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Hibernate JBossCache Integration\nIntegration of Hibernate with JBossCache (based on JBossCache1.x APIs)",
+    "release_date": "2008-10-28T01:48:07Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-jbosscache/3.3.0.SP1/hibernate-jbosscache-3.3.0.SP1.jar",
+    "size": 18504,
+    "md5": null,
+    "sha1": "09d891284de9009d6e645550618915ce04cf9b09",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hibernate/hibernate-jbosscache@3.3.0.SP1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-core",
+            "extracted_requirement": "3.3.0.SP1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jboss/jboss-cache",
+            "extracted_requirement": "1.4.1.GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jboss/jboss-system",
+            "extracted_requirement": "4.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jboss/jboss-common",
+            "extracted_requirement": "4.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jboss/jboss-minimal",
+            "extracted_requirement": "4.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jboss/jboss-j2se",
+            "extracted_requirement": "200504122039",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/concurrent/concurrent",
+            "extracted_requirement": "1.3.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jgroups/jgroups-all",
+            "extracted_requirement": "2.2.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-testing",
+            "extracted_requirement": "3.3.0.SP1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/hsqldb/hsqldb",
+            "extracted_requirement": "1.8.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": "99.0-does-not-exist",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging-api",
+            "extracted_requirement": "99.0-does-not-exist",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl104-over-slf4j",
+            "extracted_requirement": "1.4.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": "1.4.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "1.2.14",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javassist/javassist",
+            "extracted_requirement": "3.4.GA",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib",
+            "extracted_requirement": "2.1_3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/asm/asm-attrs",
+            "extracted_requirement": "1.5.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hibernate/hibernate-jbosscache@3.3.0.SP1?uuid=f6200376-95e3-4f95-95e4-846a1b727cb3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.hibernate/hibernate-jbosscache@3.3.0.SP1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-jbosscache/3.3.0.SP1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-jbosscache/3.3.0.SP1/hibernate-jbosscache-3.3.0.SP1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hibernate/hibernate-jbosscache/3.3.0.SP1/hibernate-jbosscache-3.3.0.SP1.pom",
+    "file_references": []
+}

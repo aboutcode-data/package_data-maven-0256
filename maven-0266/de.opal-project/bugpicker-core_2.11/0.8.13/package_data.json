@@ -1,0 +1,110 @@
+{
+    "type": "maven",
+    "namespace": "de.opal-project",
+    "name": "bugpicker-core_2.11",
+    "version": "0.8.13",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "BugPicker - Core",
+    "release_date": "2017-05-19T07:33:13Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Eichberg",
+            "email": null,
+            "url": "http://www.michael-eichberg.de"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Reif",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "de.opal-project",
+            "email": null,
+            "url": "http://www.opal-project.de"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.opal-project.de",
+    "download_url": "https://repo1.maven.org/maven2/de/opal-project/bugpicker-core_2.11/0.8.13/bugpicker-core_2.11-0.8.13.jar",
+    "size": 418023,
+    "md5": null,
+    "sha1": "ae06f2b99efaa452b17ce48823d9c49246b53394",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified AND bsd-simplified AND unknown",
+    "declared_license_expression_spdx": "BSD-2-Clause AND BSD-2-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "BSD-2-Clause\nhttp://opensource.org/licenses/BSD-2-Clause",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/de.opal-project/bugpicker-core_2.11@0.8.13?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.opal-project/abstract-interpretation-framework_2.11",
+            "extracted_requirement": "0.8.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.11",
+            "extracted_requirement": "1.13.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/de.opal-project/bugpicker-core_2.11@0.8.13?uuid=d9770fcd-e18b-440a-aed1-cfd585c093bb",
+    "datasource_id": null,
+    "purl": "pkg:maven/de.opal-project/bugpicker-core_2.11@0.8.13",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/de/opal-project/bugpicker-core_2.11/0.8.13/",
+    "repository_download_url": "https://repo1.maven.org/maven2/de/opal-project/bugpicker-core_2.11/0.8.13/bugpicker-core_2.11-0.8.13.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/de/opal-project/bugpicker-core_2.11/0.8.13/bugpicker-core_2.11-0.8.13.pom",
+    "file_references": []
+}

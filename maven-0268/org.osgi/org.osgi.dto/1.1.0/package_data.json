@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.osgi",
+    "name": "org.osgi.dto",
+    "version": "1.1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ef00dbdd-759f-42b0-aae9-3edbd9914681",
+            "packages": [
+                "pkg:maven/org.osgi/org.osgi.dto@1.1.0?uuid=1e79d6ee-edda-4c86-88c5-df223d5323ba",
+                "pkg:maven/org.osgi/org.osgi.dto@1.1.0?classifier=sources&uuid=f9f73d7c-db97-4086-ba0d-f79ad37b6e9d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.osgi:org.osgi.dto\nOSGi Companion Code for org.osgi.dto Version 1.1.0",
+    "release_date": "2018-04-20T18:46:44Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "OSGi Alliance",
+            "email": "info@osgi.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OSGi Alliance",
+            "email": null,
+            "url": "https://www.osgi.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.osgi.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/1.1.0/org.osgi.dto-1.1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7a5c3dea6dc88547cab29854c6d3d9fc09b338ae",
+    "sha256": "1cd28aa204f71236b96cc9fbb250496fdda5a892a03110624fab18286daee294",
+    "sha512": "591cc41a3d79aac100e37187140a992a5278ec3f6b27ed52cc1c20b196a369183682d3ee333e77a1239af8e7dfd50b78999d74fa80032ff924c73f8f15f1ef6b",
+    "bug_tracking_url": null,
+    "code_view_url": "https://osgi.org/gitweb/build.git",
+    "vcs_url": "git+https://osgi.org/git/build.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 3,
+                    "matched_text": "  comments: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-1c3094b2-2789-f687-08a0-31200b3dd503",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n  comments: Apache License, Version 2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.osgi/org.osgi.dto@1.1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.osgi/org.osgi.dto@1.1.0?classifier=sources&uuid=f9f73d7c-db97-4086-ba0d-f79ad37b6e9d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.osgi/org.osgi.dto@1.1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/1.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/1.1.0/org.osgi.dto-1.1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.dto/1.1.0/org.osgi.dto-1.1.0.pom",
+    "file_references": []
+}

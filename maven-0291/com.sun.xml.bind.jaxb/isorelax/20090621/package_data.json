@@ -1,0 +1,62 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.xml.bind.jaxb",
+    "name": "isorelax",
+    "version": "20090621",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6c842a9e-ea6e-411e-bc0c-b25d54a21a06",
+            "packages": [
+                "pkg:maven/com.sun.xml.bind.jaxb/isorelax@20090621?uuid=c84164c0-6450-4af1-aaee-fbd0f8e3c902",
+                "pkg:maven/com.sun.xml.bind.jaxb/isorelax@20090621?classifier=sources&uuid=efd40e26-8e32-40bb-b312-6cda656e60af"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JAXB isorelax library\nUnknown version of isorelax library used in JAXB project",
+    "release_date": "2013-05-14T12:43:42Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb/isorelax/20090621/isorelax-20090621-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "202fd36ba720bd28c2bcc02ffa79cec4a0a81b2a",
+    "sha256": "099b6052151acb6a230ea7989a0166a389405ba56aae075c9518b82b7ccd65cb",
+    "sha512": "c362e13c3ac861e982ea023abdc00a5d561ddf2175374568e72ca48df3698d6357de4a6cff77ed7f3e314b8f8722bc22122aeeb1541e361043e5ac39d04e0544",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.xml.bind.jaxb/isorelax@20090621?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/net.java/jvnet-parent@3",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/net.java/jvnet-parent@3",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/net.java/jvnet-parent@3"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.sun.xml.bind.jaxb/isorelax@20090621?classifier=sources&uuid=efd40e26-8e32-40bb-b312-6cda656e60af",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.sun.xml.bind.jaxb/isorelax@20090621?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb/isorelax/20090621/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb/isorelax/20090621/isorelax-20090621-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb/isorelax/20090621/isorelax-20090621.pom",
+    "file_references": []
+}

@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-queries",
+    "version": "5.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f7d029e5-4251-48de-98ef-e3c0f54dad41",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-queries@5.2.1?uuid=f9615b1b-0b86-4162-ad21-41f5e230330b",
+                "pkg:maven/org.apache.lucene/lucene-queries@5.2.1?classifier=sources&uuid=00e35663-0b01-4b76-927a-33c1ab10e172"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Queries\nLucene Queries Module",
+    "release_date": "2015-06-14T22:22:56Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/5.2.1/lucene-queries-5.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8feb8bf6695b154de56f0dd5c29617383217f69e",
+    "sha256": "baf94a02b5a4ed1b77e3d58c7cadaa9e1d2c0004a22801952681e132506b499f",
+    "sha512": "c8d42953f995a8dd1b46fdc0bff41567ee2ce03dfcdc5a5df40982b1b0bb151c62becf2eae886e8bc3568e5a6104cfc6f29f9d8091e344929ea9b4fa65fc9dcd",
+    "bug_tracking_url": null,
+    "code_view_url": "/lucene/queries",
+    "vcs_url": "svn+/lucene/queries",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (apache-2.0 AND cpl-1.0 AND bsd-new) AND bsd-simplified AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND (mit AND unicode AND bsd-new) AND (mit AND x11) AND naist-2003 AND python AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND unicode-mappings AND x11",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (Apache-2.0 AND CPL-1.0 AND BSD-3-Clause) AND BSD-2-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (MIT AND ICU) AND NAIST-2003 AND Python-2.0 AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND LicenseRef-scancode-unicode-mappings AND ICU",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-queries@5.2.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-test-framework",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-codecs",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-queries@5.2.1?classifier=sources&uuid=00e35663-0b01-4b76-927a-33c1ab10e172",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.lucene/lucene-queries@5.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/5.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/5.2.1/lucene-queries-5.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/5.2.1/lucene-queries-5.2.1.pom",
+    "file_references": []
+}

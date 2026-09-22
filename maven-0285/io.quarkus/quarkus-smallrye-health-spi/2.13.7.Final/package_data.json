@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-smallrye-health-spi",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b7d83554-af1c-4e79-90dd-0eedaef6873c",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-smallrye-health-spi@2.13.7.Final?uuid=5257466b-0485-427a-a2a6-9c0e3891992a",
+                "pkg:maven/io.quarkus/quarkus-smallrye-health-spi@2.13.7.Final?classifier=sources&uuid=a54e54f1-f6fe-4c77-a949-040f3576d943"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - SmallRye Health - SPI",
+    "release_date": "2023-01-19T09:58:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-smallrye-health-spi/2.13.7.Final/quarkus-smallrye-health-spi-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6ac9646b0c656858f54965d09c88998b1d6029b3",
+    "sha256": "334be4c1eb4c6ee8d73b8adc75524cc793df854c6e9f0e9f1a7ac2ec3ca91f0f",
+    "sha512": "7a3f9d987ac41feeb4c710a9d21bbd175de6065f8125ed65a8f7f362c72289f4582954a5ddcfdbb42cc98e458f0b340b3db3d60835a186541386e7e166cc4216",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-smallrye-health-spi@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-smallrye-health-spi@2.13.7.Final?classifier=sources&uuid=a54e54f1-f6fe-4c77-a949-040f3576d943",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-smallrye-health-spi@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

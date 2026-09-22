@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "io.pjan",
+    "name": "akka-d3-query-cassandra_2.11",
+    "version": "0.4.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "query-cassandra",
+    "release_date": "2017-05-19T09:30:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "pjan vandaele",
+            "email": null,
+            "url": "https://github.com/pjan/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "io.pjan",
+            "email": null,
+            "url": "https://github.com/pjan/akka-d3"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/pjan/akka-d3",
+    "download_url": "https://repo1.maven.org/maven2/io/pjan/akka-d3-query-cassandra_2.11/0.4.0/akka-d3-query-cassandra_2.11-0.4.0.jar",
+    "size": 2061,
+    "md5": null,
+    "sha1": "a53f75b1c3e6a79133db707ae62c5063bc20a2ef",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.pjan/akka-d3-query-cassandra_2.11@0.4.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.pjan/akka-d3-core_2.11",
+            "extracted_requirement": "0.4.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-persistence-cassandra_2.11",
+            "extracted_requirement": "0.53",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.pjan/akka-d3-query-cassandra_2.11@0.4.0?uuid=77903dc9-1132-4d95-a9e3-e5f19d4080bc",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.pjan/akka-d3-query-cassandra_2.11@0.4.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/pjan/akka-d3-query-cassandra_2.11/0.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/pjan/akka-d3-query-cassandra_2.11/0.4.0/akka-d3-query-cassandra_2.11-0.4.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/pjan/akka-d3-query-cassandra_2.11/0.4.0/akka-d3-query-cassandra_2.11-0.4.0.pom",
+    "file_references": []
+}

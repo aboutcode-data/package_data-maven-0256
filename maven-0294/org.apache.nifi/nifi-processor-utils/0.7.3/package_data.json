@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.nifi",
+    "name": "nifi-processor-utils",
+    "version": "0.7.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-14T22:38:11Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-processor-utils/0.7.3/nifi-processor-utils-0.7.3.jar",
+    "size": 122202,
+    "md5": null,
+    "sha1": "25d160e9dd26a1a7911060586c5ddf60a4495beb",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.nifi/nifi-processor-utils@0.7.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-ssl-context-service-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.nifi/nifi-security-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.nifi/nifi-processor-utils@0.7.3?uuid=6eef1445-602f-499a-81b1-6ff0fd3fbd49",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.nifi/nifi-processor-utils@0.7.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-processor-utils/0.7.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-processor-utils/0.7.3/nifi-processor-utils-0.7.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/nifi/nifi-processor-utils/0.7.3/nifi-processor-utils-0.7.3.pom",
+    "file_references": []
+}

@@ -1,0 +1,192 @@
+{
+    "type": "maven",
+    "namespace": "io.cloudsoft.jclouds",
+    "name": "jclouds-all",
+    "version": "1.7.2-ea-brooklyn.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "all",
+    "release_date": "2014-03-14T18:00:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/cloudsoft/jclouds/jclouds-all/1.7.2-ea-brooklyn.2/jclouds-all-1.7.2-ea-brooklyn.2.jar",
+    "size": 2331,
+    "md5": null,
+    "sha1": "e65c264e91b14da6b641dad64e0ed114010c038e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.cloudsoft.jclouds/jclouds-all@1.7.2-ea-brooklyn.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.api/rackspace-cloudidentity",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.api/openstack-cinder",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.api/rackspace-clouddns",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/aws-cloudwatch",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/rackspace-cloudblockstorage-us",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/rackspace-cloudblockstorage-uk",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/rackspace-clouddns-us",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/rackspace-clouddns-uk",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/rackspace-clouddatabases-us",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/rackspace-clouddatabases-uk",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/aws-sqs",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/aws-sts",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/aws-route53",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/ultradns-ws",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds.provider/dynect",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds/jclouds-allloadbalancer",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds/jclouds-allcompute",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.cloudsoft.jclouds/jclouds-allblobstore",
+            "extracted_requirement": "1.7.2-ea-brooklyn.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.cloudsoft.jclouds/jclouds-all@1.7.2-ea-brooklyn.2?uuid=dbac4edf-729f-4958-b99b-459557b5bea4",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.cloudsoft.jclouds/jclouds-all@1.7.2-ea-brooklyn.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/cloudsoft/jclouds/jclouds-all/1.7.2-ea-brooklyn.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/cloudsoft/jclouds/jclouds-all/1.7.2-ea-brooklyn.2/jclouds-all-1.7.2-ea-brooklyn.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/cloudsoft/jclouds/jclouds-all/1.7.2-ea-brooklyn.2/jclouds-all-1.7.2-ea-brooklyn.2.pom",
+    "file_references": []
+}

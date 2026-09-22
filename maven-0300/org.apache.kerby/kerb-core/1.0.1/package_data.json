@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.kerby",
+    "name": "kerb-core",
+    "version": "1.0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b4f1b644-d0d7-4848-9f89-3919e65a50fe",
+            "packages": [
+                "pkg:maven/org.apache.kerby/kerb-core@1.0.1?uuid=718837e3-83d2-45c0-aca0-f8ac8b23d42f",
+                "pkg:maven/org.apache.kerby/kerb-core@1.0.1?classifier=sources&uuid=f6d630f7-1023-4419-acc4-151306b1d451"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Kerby-kerb core\nKerby-kerb core facilities",
+    "release_date": "2017-08-30T10:08:32Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bdb610cf26e95c6b072a26be697311db445e1711",
+    "sha256": "775d9250e5f163546fd33a70b3f4d1e6afb434ce3e701c563288db807df69321",
+    "sha512": "68208247a271d8e4a567b34c4feeba1b2dd1a040928e68d2111c9abb864281def4f430c32ab0e237a36191ae2f7347c0cf966510d8344fa84c7f343b0a466e10",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "mit AND apache-2.0",
+    "other_license_expression_spdx": "MIT AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.kerby/kerb-core@1.0.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.kerby/kerby-pkix@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.kerby/kerb-core@1.0.1?classifier=sources&uuid=f6d630f7-1023-4419-acc4-151306b1d451",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.kerby/kerb-core@1.0.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.pom",
+    "file_references": []
+}

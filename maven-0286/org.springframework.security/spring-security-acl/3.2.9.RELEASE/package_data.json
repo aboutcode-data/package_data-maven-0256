@@ -1,0 +1,235 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.security",
+    "name": "spring-security-acl",
+    "version": "3.2.9.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c787494a-232d-4785-b2ad-8bb6cd8d82a2",
+            "packages": [
+                "pkg:maven/org.springframework.security/spring-security-acl@3.2.9.RELEASE?uuid=c642df50-b652-406c-8afa-8c6df50badb8",
+                "pkg:maven/org.springframework.security/spring-security-acl@3.2.9.RELEASE?classifier=sources&uuid=6d4904d2-a704-48f6-be59-f3e0df6e493a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "spring-security-acl",
+    "release_date": "2015-10-30T20:01:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rob Winch",
+            "email": "rwinch@gopivotal.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "spring.io",
+            "email": null,
+            "url": "http://spring.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://spring.io/spring-security",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.2.9.RELEASE/spring-security-acl-3.2.9.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "797e0cafa0db8a88eea8105ca1937965c3f8f9ff",
+    "sha256": "c821f55c7d99d5d8a30b460186f9c78c0fbb6f5b503a7f4e68515347fbd5f101",
+    "sha512": "3536fee4bc07183dcb85ca6d2f30b9d3bf92a9a64303b051ebdfc48107dec9d0b37b8eff957beae6512006285800bb1d9bf08656d2738774b162df38fb4c64f8",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/spring-projects/spring-security",
+    "vcs_url": "git://github.com/spring-projects/spring-security",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.security/spring-security-acl@3.2.9.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/aopalliance/aopalliance@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core@3.2.9.RELEASE",
+            "extracted_requirement": "3.2.9.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jdbc@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-tx@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache/ehcache-core@1.7.2",
+            "extracted_requirement": "1.7.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@0.9.29",
+            "extracted_requirement": "0.9.29",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easytesting/fest-assert@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hsqldb/hsqldb@2.3.1",
+            "extracted_requirement": "2.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@1.10.19",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.5",
+            "extracted_requirement": "1.7.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context-support@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test@3.2.13.RELEASE",
+            "extracted_requirement": "3.2.13.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.security/spring-security-acl@3.2.9.RELEASE?classifier=sources&uuid=6d4904d2-a704-48f6-be59-f3e0df6e493a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.security/spring-security-acl@3.2.9.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.2.9.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.2.9.RELEASE/spring-security-acl-3.2.9.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.2.9.RELEASE/spring-security-acl-3.2.9.RELEASE.pom",
+    "file_references": []
+}

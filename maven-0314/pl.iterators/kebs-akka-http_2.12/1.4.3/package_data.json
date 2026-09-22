@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "pl.iterators",
+    "name": "kebs-akka-http_2.12",
+    "version": "1.4.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "akka-http\nAutomatic generation of akka-http deserializers for 1-element case classes",
+    "release_date": "2017-05-23T16:56:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Marcin Rze\u017anicki",
+            "email": "mrzeznicki@iterato.rs",
+            "url": "https://github.com/marcin-rzeznicki"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Iterators",
+            "email": null,
+            "url": "https://iterato.rs"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/theiterators/kebs",
+    "download_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-akka-http_2.12/1.4.3/kebs-akka-http_2.12-1.4.3.jar",
+    "size": 18157,
+    "md5": null,
+    "sha1": "1c0ac2ee39ce6c858f8fc82346c5747142f6eaa9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT License\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/pl.iterators/kebs-akka-http_2.12@1.4.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/pl.iterators/kebs-akka-http-macros_2.12",
+            "extracted_requirement": "1.4.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http-testkit_2.12",
+            "extracted_requirement": "10.0.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.beachape/enumeratum_2.12",
+            "extracted_requirement": "1.5.11",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/pl.iterators/kebs-akka-http_2.12@1.4.3?uuid=0fff58f4-876f-42a4-9178-59b3d5efb362",
+    "datasource_id": null,
+    "purl": "pkg:maven/pl.iterators/kebs-akka-http_2.12@1.4.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-akka-http_2.12/1.4.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-akka-http_2.12/1.4.3/kebs-akka-http_2.12-1.4.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/pl/iterators/kebs-akka-http_2.12/1.4.3/kebs-akka-http_2.12-1.4.3.pom",
+    "file_references": []
+}

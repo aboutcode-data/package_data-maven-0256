@@ -1,0 +1,153 @@
+{
+    "type": "maven",
+    "namespace": "com.google.gerrit",
+    "name": "gerrit-acceptance-framework",
+    "version": "2.14.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Gerrit Code Review - Acceptance Test Framework\nFramework for Gerrit's acceptance tests",
+    "release_date": "2017-07-19T01:25:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Alice Kober-Sotzek",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andrew Bonventre",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Becky Siegel",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dave Borowitz",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "David Ostrovsky",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "David Pursehouse",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Edwin Kempin",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Hugo Ar\u00e8s",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Kasper Nilsson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Logan Hanks",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Martin Fick",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sa\u0161a \u017divkov",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Shawn Pearce",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Viktar Donich",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Wyatt Allen",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.gerritcodereview.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/gerrit/gerrit-acceptance-framework/2.14.2/gerrit-acceptance-framework-2.14.2.jar",
+    "size": 75464178,
+    "md5": null,
+    "sha1": "8356f448b40c137e0c172f475adcb679cb807f00",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.gerrit/gerrit-acceptance-framework@2.14.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.google.gerrit/gerrit-acceptance-framework@2.14.2?uuid=4e0916c5-0bd5-4ef6-859b-a14a3b3e5ec3",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.gerrit/gerrit-acceptance-framework@2.14.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/gerrit/gerrit-acceptance-framework/2.14.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/gerrit/gerrit-acceptance-framework/2.14.2/gerrit-acceptance-framework-2.14.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/gerrit/gerrit-acceptance-framework/2.14.2/gerrit-acceptance-framework-2.14.2.pom",
+    "file_references": []
+}

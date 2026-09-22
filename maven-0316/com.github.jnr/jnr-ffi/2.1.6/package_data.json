@@ -1,0 +1,163 @@
+{
+    "type": "maven",
+    "namespace": "com.github.jnr",
+    "name": "jnr-ffi",
+    "version": "2.1.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d297ca50-5a8e-46bb-88e2-4d3136aaabbd",
+            "packages": [
+                "pkg:maven/com.github.jnr/jnr-ffi@2.1.6?uuid=dff529e9-8da6-4d3a-bba3-b4c052076690",
+                "pkg:maven/com.github.jnr/jnr-ffi@2.1.6?classifier=sources&uuid=8202b2fb-dfa9-486f-b10e-cbba842d200b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jnr-ffi\nA library for invoking native functions from java",
+    "release_date": "2017-05-30T19:19:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Wayne Meissner",
+            "email": "wmeissner@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Charles Oliver Nutter",
+            "email": "headius@headius.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/jnr/jnr-ffi",
+    "download_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.1.6/jnr-ffi-2.1.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4fdd8f3c6d084dbd0205ed20764dd23b546f4179",
+    "sha256": "85d52602aea6334fb4f2aa7743bf5b25de93b9f4bd4766b20d7aa3f489cd6779",
+    "sha512": "c3a85e140ff71c641de72b5ac063feea1dedacdae46e39a7f941de342eec63678749716518a0a7b1645e3b084bd7b4b27aaee0db17396ed8f60d777b857ab179",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jnr/jnr-ffi.git",
+    "vcs_url": "git+https://github.com/jnr/jnr-ffi.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND red-hat-attribution",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-red-hat-attribution",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.jnr/jnr-ffi@2.1.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jffi@1.2.16",
+            "extracted_requirement": "1.2.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm@5.0.3",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-commons@5.0.3",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-analysis@5.0.3",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-tree@5.0.3",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm-util@5.0.3",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jnr-x86asm@1.0.2",
+            "extracted_requirement": "1.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jffi@1.2.16",
+            "extracted_requirement": "1.2.16",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.jnr/jnr-ffi@2.1.6?classifier=sources&uuid=8202b2fb-dfa9-486f-b10e-cbba842d200b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.jnr/jnr-ffi@2.1.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.1.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.1.6/jnr-ffi-2.1.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.1.6/jnr-ffi-2.1.6.pom",
+    "file_references": []
+}

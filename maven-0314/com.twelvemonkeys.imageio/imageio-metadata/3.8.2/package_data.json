@@ -1,0 +1,116 @@
+{
+    "type": "maven",
+    "namespace": "com.twelvemonkeys.imageio",
+    "name": "imageio-metadata",
+    "version": "3.8.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "67d6ec8d-6941-419e-87fe-04571bf57039",
+            "packages": [
+                "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.8.2?uuid=b415eb03-93f6-4e53-8ee7-f549bbcb37de",
+                "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.8.2?classifier=sources&uuid=c1a95975-1772-4148-97ff-4437373e8442",
+                "pkg:github/haraldk/twelvemonkeys@twelvemonkeys-3.8.2?uuid=b569671f-c7f4-40c9-8e26-c5ce2b711021"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "TwelveMonkeys :: ImageIO :: Metadata\nImageIO metadata module.",
+    "release_date": "2022-02-22T13:57:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Harald Kuhr",
+            "email": "harald.kuhr@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Erlend Hamnaberg",
+            "email": "erlend@hamnaberg.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Oliver Schmidtmer",
+            "email": "mail@trek7891.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jason Palmer",
+            "email": "jpalmer@itemmaster.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hermann Kroll",
+            "email": "dev.hkroll@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/haraldk/TwelveMonkeys",
+    "download_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.8.2/imageio-metadata-3.8.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b1b9a11af278d3b54c1f3e0416eec8c0a2ad20a0",
+    "sha256": "b5233e15c39c646fa155e4ccdee7a7e70bdf5457e9e41866148175607db5a364",
+    "sha512": "bc8daf8f798fec6ae65797a43695605a499b967eaf84594175e551551f8e5f08427161c677ae500636d30148ccfe4013dd828e20b08ac3620e770f0e335ee656",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.8.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.twelvemonkeys/twelvemonkeys@3.8.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/com.twelvemonkeys/twelvemonkeys@3.8.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.twelvemonkeys/twelvemonkeys@3.8.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.twelvemonkeys.imageio/imageio-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twelvemonkeys.imageio/imageio-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.8.2?classifier=sources&uuid=c1a95975-1772-4148-97ff-4437373e8442",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.8.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.8.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.8.2/imageio-metadata-3.8.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.8.2/imageio-metadata-3.8.2.pom",
+    "file_references": []
+}

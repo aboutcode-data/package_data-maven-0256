@@ -1,0 +1,146 @@
+{
+    "type": "maven",
+    "namespace": "javax.mvc",
+    "name": "javax.mvc-api",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9c31e7c5-69da-4c33-b713-1cdf76ba6cdb",
+            "packages": [
+                "pkg:maven/javax.mvc/javax.mvc-api@1.0.0?uuid=e9c8a13f-8ba1-40b4-bca7-360568c72c7a",
+                "pkg:maven/javax.mvc/javax.mvc-api@1.0.0?classifier=sources&uuid=fb5b4bd0-dbb7-4082-9ac7-a9d0c9f8dfaa",
+                "pkg:github/mvc-spec/mvc-spec@1.0.0?uuid=f25a6623-2d9b-4eb4-8883-a19281e9f692"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "MVC 1.0.0 API",
+    "release_date": "2020-01-09T10:19:03Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ivar Grimstad",
+            "email": "ivar.grimstad@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Kaltepoth",
+            "email": "christian@kaltepoth.de",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Ivar Grimstad",
+            "email": null,
+            "url": "https://www.mvc-spec.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.mvc-spec.org/",
+    "download_url": "https://repo1.maven.org/maven2/javax/mvc/javax.mvc-api/1.0.0/javax.mvc-api-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "342166e550329f7ce8e182a31bcdd1ab9c872c5b",
+    "sha256": "15a30288cce9c2b22731c72a8840cb09d3b7036f8e7d24b5088d1f4139bd71ad",
+    "sha512": "a53761aaac55a811967620266fb4c9613cc6ac7efe0cdade4cf94137681f6106cebdaaaf1800afb470ce98b80be4fb949b330170d9fe568781954a16cf6cf218",
+    "bug_tracking_url": "https://github.com/mvc-spec/mvc-spec/issues",
+    "code_view_url": "https://github.com/mvc-spec/mvc-spec",
+    "vcs_url": "git+https://github.com/mvc-spec/mvc-spec.git",
+    "copyright": "Copyright (c) Oracle and/or its affiliates, JSR",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1039.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1039.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-b9f281ec-1e3b-b5b3-c8f0-e8c22675bd93",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.mvc/javax.mvc-api@1.0.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jakarta.ws.rs/jakarta.ws.rs-api@2.1.5",
+            "extracted_requirement": "2.1.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.validation/validation-api@2.0.0.Final",
+            "extracted_requirement": "2.0.0.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.4",
+            "extracted_requirement": "1.3.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.mvc/javax.mvc-api@1.0.0?classifier=sources&uuid=fb5b4bd0-dbb7-4082-9ac7-a9d0c9f8dfaa",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/javax.mvc/javax.mvc-api@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/mvc/javax.mvc-api/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/mvc/javax.mvc-api/1.0.0/javax.mvc-api-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/mvc/javax.mvc-api/1.0.0/javax.mvc-api-1.0.0.pom",
+    "file_references": []
+}

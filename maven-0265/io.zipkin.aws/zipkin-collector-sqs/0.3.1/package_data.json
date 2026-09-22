@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.aws",
+    "name": "zipkin-collector-sqs",
+    "version": "0.3.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Zipkin Collector: AWS SQS",
+    "release_date": "2017-05-17T20:13:06Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-sqs/0.3.1/zipkin-collector-sqs-0.3.1.jar",
+    "size": 10852,
+    "md5": null,
+    "sha1": "311b38cf556c309418afbb1075aaccceec27b155",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.aws/zipkin-collector-sqs@0.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.java/zipkin",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-sqs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.awaitility/awaitility",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.aws/zipkin-aws-junit",
+            "extracted_requirement": "0.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.aws/zipkin-collector-sqs@0.3.1?uuid=2816ab78-5df0-47d0-8f8e-4108106716d9",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.aws/zipkin-collector-sqs@0.3.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-sqs/0.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-sqs/0.3.1/zipkin-collector-sqs-0.3.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-sqs/0.3.1/zipkin-collector-sqs-0.3.1.pom",
+    "file_references": []
+}

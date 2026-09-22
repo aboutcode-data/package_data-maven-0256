@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "br.com.ingenieux",
+    "name": "mapreduce-maven-plugin",
+    "version": "0.2.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "The mapreduce-maven-plugin is a maven plugin which is an interface for Amazon Elastic MapReduce Service.",
+    "release_date": "2011-07-14T23:45:27Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/br/com/ingenieux/mapreduce-maven-plugin/0.2.1/mapreduce-maven-plugin-0.2.1.jar",
+    "size": 8892,
+    "md5": null,
+    "sha1": "621c9d433a75148390ccd7c51525819517d3d1e8",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/br.com.ingenieux/mapreduce-maven-plugin@0.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-beanutils/commons-beanutils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-collections/commons-collections",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.plugin-testing/maven-plugin-testing-harness",
+            "extracted_requirement": "2.0-alpha-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/br.com.ingenieux/mapreduce-maven-plugin@0.2.1?uuid=d9759439-3904-4889-a9e3-c5cd65d24969",
+    "datasource_id": null,
+    "purl": "pkg:maven/br.com.ingenieux/mapreduce-maven-plugin@0.2.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/br/com/ingenieux/mapreduce-maven-plugin/0.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/br/com/ingenieux/mapreduce-maven-plugin/0.2.1/mapreduce-maven-plugin-0.2.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/br/com/ingenieux/mapreduce-maven-plugin/0.2.1/mapreduce-maven-plugin-0.2.1.pom",
+    "file_references": []
+}

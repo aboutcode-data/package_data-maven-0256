@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "com.google.apis",
+    "name": "google-api-services-gamesManagement",
+    "version": "v1management-rev125-1.19.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Google Play Game Services Management API v1management-rev125-1.19.1",
+    "release_date": "2015-10-23T03:37:25Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-gamesManagement/v1management-rev125-1.19.1/google-api-services-gamesManagement-v1management-rev125-1.19.1.jar",
+    "size": 64003,
+    "md5": null,
+    "sha1": "11166a3f7ad09d622803fd6fa596a533fb806d70",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.apis/google-api-services-gamesManagement@v1management-rev125-1.19.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.api-client/google-api-client",
+            "extracted_requirement": "1.19.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.apis/google-api-services-gamesManagement@v1management-rev125-1.19.1?uuid=46631049-feb0-42e2-88c7-b63281901c90",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.apis/google-api-services-gamesManagement@v1management-rev125-1.19.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-gamesManagement/v1management-rev125-1.19.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-gamesManagement/v1management-rev125-1.19.1/google-api-services-gamesManagement-v1management-rev125-1.19.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-gamesManagement/v1management-rev125-1.19.1/google-api-services-gamesManagement-v1management-rev125-1.19.1.pom",
+    "file_references": []
+}

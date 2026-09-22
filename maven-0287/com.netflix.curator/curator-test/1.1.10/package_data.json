@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.netflix.curator",
+    "name": "curator-test",
+    "version": "1.1.10",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2012-05-17T22:47:48Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/Netflix/curator",
+    "download_url": "https://repo1.maven.org/maven2/com/netflix/curator/curator-test/1.1.10/curator-test-1.1.10.jar",
+    "size": 20309,
+    "md5": null,
+    "sha1": "eb0c822fbb6e7c45ad1f80aa677bb9e8d48013b1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.netflix.curator/curator-test@1.1.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "11.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": "3.15.0-GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-math",
+            "extracted_requirement": "2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.zookeeper/zookeeper",
+            "extracted_requirement": "3.4.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "1.2.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": "6.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.netflix.curator/curator-test@1.1.10?uuid=5dbcb0d2-3fc7-4cfc-9ab9-5ac3b59765f3",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.netflix.curator/curator-test@1.1.10",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/netflix/curator/curator-test/1.1.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/netflix/curator/curator-test/1.1.10/curator-test-1.1.10.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/netflix/curator/curator-test/1.1.10/curator-test-1.1.10.pom",
+    "file_references": []
+}

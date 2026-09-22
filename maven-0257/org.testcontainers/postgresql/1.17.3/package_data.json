@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.testcontainers",
+    "name": "postgresql",
+    "version": "1.17.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d980961c-a4d5-4e8c-8b5d-10f11b07bf77",
+            "packages": [
+                "pkg:maven/org.testcontainers/postgresql@1.17.3?uuid=61daf6e2-510c-4df8-9fd6-f4b4d727e1ca",
+                "pkg:maven/org.testcontainers/postgresql@1.17.3?classifier=sources&uuid=97c4903f-8c12-469a-aca7-ebd011963dd2",
+                "pkg:github/testcontainers/testcontainers-java@1.17.3?uuid=ff9e887f-c330-456b-8542-6b15fe128daa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Testcontainers :: JDBC :: PostgreSQL\nIsolated container management for Java code testing",
+    "release_date": "2022-06-29T07:27:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Richard North",
+            "email": "rich.north@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://testcontainers.org",
+    "download_url": "https://repo1.maven.org/maven2/org/testcontainers/postgresql/1.17.3/postgresql-1.17.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2595accfc00638ced8e8c679befe87938064e89f",
+    "sha256": "3731523d71bf34f5d0b40d0b277e857c4b8c6c53649f69d8dd50bb4f883f432d",
+    "sha512": "d69817218d9a0cf5c8c2cf4468a0a42ec5efa1bc8cdba933540406bcf4201ebcfd5ffe6756be2099c2081021a965fe4476de37127cd0c518135f776fa82e6dff",
+    "bug_tracking_url": "https://github.com/testcontainers/testcontainers-java/issues",
+    "code_view_url": "https://github.com/testcontainers/testcontainers-java/",
+    "vcs_url": "git://github.com/testcontainers/testcontainers-java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-spdx-id",
+                    "end_line": 1,
+                    "rule_url": null,
+                    "start_line": 1,
+                    "matched_text": "MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx-license-identifier-mit-5da48780aba670b0860c46d899ed42a0f243ff06",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-a822f434-d61f-f2b1-c792-8b8cb9e7b9bf",
+            "license_expression": "mit"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_82.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://opensource.org/licenses/MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_82.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-ed4b10a1-dee4-8c47-62ce-3459c82174bc",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: http://opensource.org/licenses/MIT\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.testcontainers/postgresql@1.17.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.testcontainers/jdbc@1.17.3",
+            "extracted_requirement": "1.17.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.testcontainers/postgresql@1.17.3?classifier=sources&uuid=97c4903f-8c12-469a-aca7-ebd011963dd2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.testcontainers/postgresql@1.17.3?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.registry.api",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "cb5052e8-0dac-4e30-a91f-1c7098103bba",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.registry.api@1.0.0?uuid=961871ea-1d51-4fcb-941f-f9cf693fb6f0",
+                "pkg:maven/com.liferay/com.liferay.registry.api@1.0.0?classifier=sources&uuid=7255c9ec-65d7-4140-b91c-50a5759c6d28"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2016-03-10T16:17:53Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.registry.api/1.0.0/com.liferay.registry.api-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3708f9da312c5b1d93ba842c46cafb17d4f785c6",
+    "sha256": "6a3f8e4a1d440000bfdb3ad1e51d37860c639613a6619e641284bd2d6bbb834a",
+    "sha512": "9812bb7b7629549eb97875d056855d5acfa7c5843a0c55a6f3b6b0a1cd6bdb9ba3bd04a833ab24683b8ee7a28e338509013a62938ef053ae67b394ed35903d8e",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.registry.api@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@3.1.0",
+            "extracted_requirement": "3.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.registry.api@1.0.0?classifier=sources&uuid=7255c9ec-65d7-4140-b91c-50a5759c6d28",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.registry.api@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.registry.api/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.registry.api/1.0.0/com.liferay.registry.api-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.registry.api/1.0.0/com.liferay.registry.api-1.0.0.pom",
+    "file_references": []
+}

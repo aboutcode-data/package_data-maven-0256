@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.skullabs.kikaha",
+    "name": "kikaha-db",
+    "version": "2.1.0-alpha17",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Kikaha: Database Abstraction",
+    "release_date": "2017-05-21T14:53:17Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-db/2.1.0-alpha17/kikaha-db-2.1.0-alpha17.jar",
+    "size": 15934,
+    "md5": null,
+    "sha1": "edced0d4fca1c68886cf5b04336a9759352993ba",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.skullabs.kikaha/kikaha-db@2.1.0-alpha17?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.skullabs.kikaha/kikaha-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.vibur/vibur-dbcp",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby",
+            "extracted_requirement": "10.13.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.skullabs.kikaha/kikaha-db@2.1.0-alpha17?uuid=5157c2e2-e288-4780-ad5c-bffdb7bdf4f8",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.skullabs.kikaha/kikaha-db@2.1.0-alpha17",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-db/2.1.0-alpha17/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-db/2.1.0-alpha17/kikaha-db-2.1.0-alpha17.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/skullabs/kikaha/kikaha-db/2.1.0-alpha17/kikaha-db-2.1.0-alpha17.pom",
+    "file_references": []
+}

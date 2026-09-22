@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.fusesource.hawtdispatch",
+    "name": "hawtdispatch",
+    "version": "1.22",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "855d1e16-748a-4382-b0eb-fe9ad5eb7893",
+            "packages": [
+                "pkg:maven/org.fusesource.hawtdispatch/hawtdispatch@1.22?uuid=89843692-ee0a-4c93-8a60-3a07171f787b",
+                "pkg:maven/org.fusesource.hawtdispatch/hawtdispatch@1.22?classifier=sources&uuid=f0728e31-7c54-4b76-8383-dd272ab47bd7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "HawtDispatch: The libdispatch style API for Java",
+    "release_date": "2015-07-27T14:49:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "FuseSource Development Team",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FuseSource, Corp.",
+            "email": null,
+            "url": "http://fusesource.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://fusesource.com/",
+    "download_url": "https://repo1.maven.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.22/hawtdispatch-1.22-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d81f025c076b1cca1f1652d6cf2110754f2864a9",
+    "sha256": "3823c81533bb4a83d6c61295ce203391ff8879507b089b46b5de89977a4dd356",
+    "sha512": "9d9c827b11d5d6457a76610ee2924cbdc085d12fa6605f046147c99dae278df4f510a4366c7c5aba2fedfb2ae36d542895e6d8d07646ebc619323e16b628c9d0",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND proprietary-license",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.fusesource.hawtdispatch/hawtdispatch@1.22?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.fusesource/fusesource-pom@1.11",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.fusesource/fusesource-pom@1.11",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.fusesource/fusesource-pom@1.11"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/asm/asm-tree@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@4.2.0",
+            "extracted_requirement": "4.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium@4.2.0",
+            "extracted_requirement": "4.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.7",
+            "extracted_requirement": "4.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.fusesource.hawtdispatch/hawtdispatch@1.22?classifier=sources&uuid=f0728e31-7c54-4b76-8383-dd272ab47bd7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.fusesource.hawtdispatch/hawtdispatch@1.22?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.22/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.22/hawtdispatch-1.22-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/fusesource/hawtdispatch/hawtdispatch/1.22/hawtdispatch-1.22.pom",
+    "file_references": []
+}

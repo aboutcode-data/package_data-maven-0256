@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.hadoop",
+    "name": "hadoop-minicluster",
+    "version": "2.0.5-alpha",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Apache Hadoop Mini-Cluster",
+    "release_date": "2013-06-01T20:41:45Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-minicluster/2.0.5-alpha/hadoop-minicluster-2.0.5-alpha.jar",
+    "size": 2081,
+    "md5": null,
+    "sha1": "4182880624d969f1f73c2950f71a75b11deacd4c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.hadoop/hadoop-minicluster@2.0.5-alpha?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-hdfs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-tests",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-jobclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-app",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-hs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.hadoop/hadoop-minicluster@2.0.5-alpha?uuid=670f9c28-30dd-4240-b806-be9200810cf9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.hadoop/hadoop-minicluster@2.0.5-alpha",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-minicluster/2.0.5-alpha/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-minicluster/2.0.5-alpha/hadoop-minicluster-2.0.5-alpha.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-minicluster/2.0.5-alpha/hadoop-minicluster-2.0.5-alpha.pom",
+    "file_references": []
+}

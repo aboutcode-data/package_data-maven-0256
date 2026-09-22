@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "org.easymock",
+    "name": "easymock",
+    "version": "2.5.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "525c0b78-4015-4359-9434-4f30bf055ab4",
+            "packages": [
+                "pkg:maven/org.easymock/easymock@2.5.2?uuid=e0ec94f3-e8b9-4468-b5a1-f3f0958e5be9",
+                "pkg:maven/org.easymock/easymock@2.5.2?classifier=sources&uuid=28bad432-e143-4f4d-a533-87cb204d3ed9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "EasyMock\nEasyMock provides an easy way to create Mock Objects for interfaces by generating them on the fly using Java's proxy mechanism",
+    "release_date": "2009-09-12T18:52:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tammo Freese",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Tremblay",
+            "email": null,
+            "url": "http://www.ossia-conseil.com/blog/henri"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OFFIS, Tammo Freese, Henri Tremblay",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.easymock.org",
+    "download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b3c483129178b7be895a81afe02c34044245a70e",
+    "sha256": "aaa94b2984f92133a8fd2e964d4d27867bd12e1d5ff7f9148aaeaa9a3d25ee55",
+    "sha512": "8fecb6b98673b0e77af3e0ae3f699239a153cbd486adca5f9a2557b9f97511b704af7bc66ce50701636495542b8ef9dc5aa07f14381b05db6f1c65ad8da07c1a",
+    "bug_tracking_url": "http://sourceforge.net/tracker/?group_id=82958",
+    "code_view_url": "http://easymock.svn.sourceforge.net/viewvc/easymock/trunk/easymock/",
+    "vcs_url": "svn+http://easymock.svn.sourceforge.net/svnroot/easymock/trunk/easymock",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_217.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_217.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-9dee21f1-7230-6e88-8a62-5950d8f6d6ed",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.easymock/easymock@2.5.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.7",
+            "extracted_requirement": "4.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.easymock/easymock@2.5.2?classifier=sources&uuid=28bad432-e143-4f4d-a533-87cb204d3ed9",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.easymock/easymock@2.5.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/easymock/easymock/2.5.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/easymock/easymock/2.5.2/easymock-2.5.2.pom",
+    "file_references": []
+}

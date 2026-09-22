@@ -1,0 +1,331 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.security",
+    "name": "spring-security-acl",
+    "version": "3.0.7.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "89a12d13-3edc-4c59-af22-7128507e74a1",
+            "packages": [
+                "pkg:maven/org.springframework.security/spring-security-acl@3.0.7.RELEASE?uuid=07e5c446-7c30-4d20-ba8f-37229ee89967",
+                "pkg:maven/org.springframework.security/spring-security-acl@3.0.7.RELEASE?classifier=sources&uuid=a33c7325-c8c0-4632-bb19-f61c4810cb4c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Security - ACL module",
+    "release_date": "2011-09-05T22:39:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ben Alex",
+            "email": "benalex at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Colin Sampaleanu",
+            "email": "colinml1 at exis.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Carlos Sanchez",
+            "email": "carlossg at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Luke Taylor",
+            "email": "luke_t at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ray Krueger",
+            "email": "raykrueger at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mark St.Godard",
+            "email": "markstg at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John A. Lewis",
+            "email": "johnalewis at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Alan Stewart",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Cameron Braid",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Patrick Burleson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Francois Beausoleil",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Wesley Hall",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Scott Evans",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Travis Gregg",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Karel Miarka",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "James Monaghan",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Andrew Petro",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Aaron Tang",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Orlando Garcia Carmona",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Joni Suominen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sergio Berna",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Paulo Neves",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mike Perham",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Robin Bramley",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Robert Sanders",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Vishal Puri",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Martin Algesten",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ruud Senden",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Mayr",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "SpringSource, Inc",
+            "email": null,
+            "url": "http://www.springsource.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://static.springframework.org/spring-security/site/index.html",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.0.7.RELEASE/spring-security-acl-3.0.7.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5270f66e05d7744486b4aa6f812bc571cd0de40b",
+    "sha256": "a04dc875a3738672d88fd6d5d453a29b26b3c9e4d543d09e020a500b11730082",
+    "sha512": "0832a2bd6d2a33af23c835bfbdf6ceccd37fb050135761e2b82da51fef25b352716903378f4169e2af675e5be57010c2cd3317b1dd94513b244f88fe009afa44",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.security/spring-security-acl@3.0.7.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core@3.0.7.RELEASE",
+            "extracted_requirement": "3.0.7.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context-support",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jdbc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache/ehcache",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core@3.0.7.RELEASE",
+            "extracted_requirement": "3.0.7.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/hsqldb/hsqldb",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/postgresql/postgresql@8.3-603.jdbc3",
+            "extracted_requirement": "8.3-603.jdbc3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.security/spring-security-acl@3.0.7.RELEASE?classifier=sources&uuid=a33c7325-c8c0-4632-bb19-f61c4810cb4c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.security/spring-security-acl@3.0.7.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.0.7.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.0.7.RELEASE/spring-security-acl-3.0.7.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-acl/3.0.7.RELEASE/spring-security-acl-3.0.7.RELEASE.pom",
+    "file_references": []
+}

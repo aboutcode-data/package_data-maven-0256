@@ -1,0 +1,100 @@
+{
+    "type": "maven",
+    "namespace": "org.fusesource.jansi",
+    "name": "jansi-native",
+    "version": "1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5bb13d78-6e2b-46b3-a023-9e3c83f3ebd9",
+            "packages": [
+                "pkg:maven/org.fusesource.jansi/jansi-native@1.4?uuid=b2953b6e-5e03-444a-ba35-cf58a74e7713",
+                "pkg:maven/org.fusesource.jansi/jansi-native@1.4?classifier=sources&uuid=4e4387ad-962c-436f-b90b-7940baf3f3db"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jansi-native\nJansi is a java library for generating and interpreting ANSI escape sequences.",
+    "release_date": "2012-02-15T18:52:13Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Hiram Chirino",
+            "email": "hiram@hiramchirino.com",
+            "url": "http://hiramchirino.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jansi.fusesource.org",
+    "download_url": "https://repo1.maven.org/maven2/org/fusesource/jansi/jansi-native/1.4/jansi-native-1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c79bba400995b4d416f4f60dd622fe275342fac9",
+    "sha256": "2fffef2168e78c40ed57732136b4f57cb9c4993de365c0fefc911c2c15621f7b",
+    "sha512": "4e1fc3f716f2947d4801968e24fd84adebb3a7f52893e573bbcaa9870aef3a0a7ab0cd533ec8eef0839d959991acaadf939c01365cf9ebb643bc9244215283dd",
+    "bug_tracking_url": "http://fusesource.com/issues/browse/JANSI",
+    "code_view_url": "http://fusesource.com/forge/gitweb?p=jansinative.git",
+    "vcs_url": "git://forge.fusesource.com/jansinative.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.fusesource.jansi/jansi-native@1.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.fusesource.hawtjni/hawtjni-runtime@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.7",
+            "extracted_requirement": "4.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.fusesource.jansi/jansi-native@1.4?classifier=sources&uuid=4e4387ad-962c-436f-b90b-7940baf3f3db",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.fusesource.jansi/jansi-native@1.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/fusesource/jansi/jansi-native/1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/fusesource/jansi/jansi-native/1.4/jansi-native-1.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/fusesource/jansi/jansi-native/1.4/jansi-native-1.4.pom",
+    "file_references": []
+}

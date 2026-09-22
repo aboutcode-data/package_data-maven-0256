@@ -1,0 +1,91 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.corba",
+    "name": "glassfish-corba-csiv2-idl",
+    "version": "3.2.0-b002",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "glassfish-corba-csiv2-idl\nIDL generated definitions for CSIv2",
+    "release_date": "2011-02-09T22:01:13Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ken Cavanaugh",
+            "email": "ken.cavanaugh@sun.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sun Microsystems",
+            "email": null,
+            "url": "http://www.sun.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://kenai.com/hg/gf-corba-v3-mirror~master",
+    "download_url": "https://repo1.maven.org/maven2/com/sun/corba/glassfish-corba-csiv2-idl/3.2.0-b002/glassfish-corba-csiv2-idl-3.2.0-b002.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "beecc63175f52d4da0e1e2d2c20b8a86f8d331b8",
+    "sha256": "8dc05fe344c0762537b7adef99d90009adbf92c672784d784f525fc4752e38f8",
+    "sha512": "211befd263d93463b37a6cf0045d7856e0cd19a441dbf8e87151338f3450fc98c72f91489bdf4ab91d7818a7e8e0d32625de9b2e8bbc399a3e076b37edea034f",
+    "bug_tracking_url": "http://kenai.com/jira/browse/GF_CORBA_V3_MIRROR",
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-fcfa9a6f604e8d0d91409d4fe9e6ce7f3571d940",
+                    "start_line": 1,
+                    "matched_text": "license - name: CDDL+GPL\n  url: https://glassfish.dev.java.net/public/CDDL+GPL.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-fcfa9a6f604e8d0d91409d4fe9e6ce7f3571d940",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-4b502be4-847e-3f88-7c73-ffaa743f9d76",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: CDDL+GPL\n  url: https://glassfish.dev.java.net/public/CDDL+GPL.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.corba/glassfish-corba-csiv2-idl@3.2.0-b002?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.sun.corba/glassfish-corba-omgapi@3.2.0-b002",
+            "extracted_requirement": "3.2.0-b002",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.sun.corba/glassfish-corba-csiv2-idl@3.2.0-b002?uuid=cdbce64c-a6a8-4b89-964a-30d320982362",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.sun.corba/glassfish-corba-csiv2-idl@3.2.0-b002",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/corba/glassfish-corba-csiv2-idl/3.2.0-b002/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/corba/glassfish-corba-csiv2-idl/3.2.0-b002/glassfish-corba-csiv2-idl-3.2.0-b002.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/corba/glassfish-corba-csiv2-idl/3.2.0-b002/glassfish-corba-csiv2-idl-3.2.0-b002.pom",
+    "file_references": []
+}

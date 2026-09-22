@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "com.google.cloud",
+    "name": "google-cloud-examples",
+    "version": "0.20.3-alpha",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Google Cloud Examples\nExamples for google-cloud.",
+    "release_date": "2017-07-19T21:41:53Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-examples",
+    "download_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-examples/0.20.3-alpha/google-cloud-examples-0.20.3-alpha.jar",
+    "size": 394048,
+    "md5": null,
+    "sha1": "772c032e0c33eaf23b181fcc5ac28d7184c829cf",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.cloud/google-cloud-examples@0.20.3-alpha?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-nio",
+            "extracted_requirement": "0.20.3-alpha",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.cloud/google-cloud-examples@0.20.3-alpha?uuid=a8c2fead-f2ed-45b9-8360-4fecbebe3e74",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.cloud/google-cloud-examples@0.20.3-alpha",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-examples/0.20.3-alpha/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-examples/0.20.3-alpha/google-cloud-examples-0.20.3-alpha.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-examples/0.20.3-alpha/google-cloud-examples-0.20.3-alpha.pom",
+    "file_references": []
+}

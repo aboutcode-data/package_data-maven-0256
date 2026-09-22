@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "org.shoal",
+    "name": "shoal-cache",
+    "version": "1.6.01",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "38bffccb-1328-4ab4-9c77-7f476f5efe9a",
+            "packages": [
+                "pkg:maven/org.shoal/shoal-cache@1.6.01?uuid=f90ee3cc-770e-4576-8f07-986ba620efcf",
+                "pkg:maven/org.shoal/shoal-cache@1.6.01?classifier=sources&uuid=bd844ed7-6357-4ede-995b-4b5941da9df8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "shoal-cache",
+    "release_date": "2011-03-21T15:32:46Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mahesh Kannan",
+            "email": null,
+            "url": "http://forum.java.sun.com/profile.jspa?userID=487934"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joe Fialli",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bobby Bissett",
+            "email": null,
+            "url": "http://blogs.sun.com/bobby"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/projects/shoal",
+    "download_url": "https://repo1.maven.org/maven2/org/shoal/shoal-cache/1.6.01/shoal-cache-1.6.01-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "be93a0ad22b56a0f77d0180639aea5ce73db59d1",
+    "sha256": "05fbc5a6171c9efa369be0dc5bb7e84dcceeffe1cfba2731e047abb66b226ab8",
+    "sha512": "7593575efb611a1474f6bb4ab3dd4dd7710a1b3acd3cc3a0c9aec6d0c61a0b287ddc63a04b27a6031ed5de2b8ba546fe993f012bac2ce7ed8b18d8b7ca12a882",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.shoal/shoal-cache@1.6.01?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.shoal/shoal-gms-api@1.6.01",
+            "extracted_requirement": "1.6.01",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.shoal/shoal-gms-impl@1.6.01",
+            "extracted_requirement": "1.6.01",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.ha/ha-api",
+            "extracted_requirement": "${ha.api.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bgrizzly.group.id%7D/grizzly-utils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bgrizzly.group.id%7D/grizzly-framework",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bjunit.group.id%7D/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.shoal/shoal-cache@1.6.01?classifier=sources&uuid=bd844ed7-6357-4ede-995b-4b5941da9df8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.shoal/shoal-cache@1.6.01?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/shoal/shoal-cache/1.6.01/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/shoal/shoal-cache/1.6.01/shoal-cache-1.6.01-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/shoal/shoal-cache/1.6.01/shoal-cache-1.6.01.pom",
+    "file_references": []
+}

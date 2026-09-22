@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "simple-jndi",
+    "name": "simple-jndi",
+    "version": "0.11.4.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2cde8fbb-eeeb-4d0c-a661-a182c4c38ba4",
+            "packages": [
+                "pkg:maven/simple-jndi/simple-jndi@0.11.4.1?uuid=e2a63d0e-6c8e-4334-a4d7-48a3117771c8",
+                "pkg:maven/simple-jndi/simple-jndi@0.11.4.1?classifier=sources&uuid=eac731f6-aff0-41ca-98ab-46b977b8d0b0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "simple-jndi\nA simple implementation of JNDI. It is entirely library based, so no server instances are started, and it sits upon Java .properties files or XML files, so it is easy to use and simple to understand. The .properties/.xml files may be either on the file system or in the classpath.",
+    "release_date": "2008-09-26T20:01:08Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Yandell",
+            "email": "bayard@generationjava.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert M. Zigweid",
+            "email": "rzigweid@osjava.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OSJava",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.osjava.org/simple-jndi/",
+    "download_url": "https://repo1.maven.org/maven2/simple-jndi/simple-jndi/0.11.4.1/simple-jndi-0.11.4.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "882d53ee8c4fffd7f11de64b2d4af425b5dabf6b",
+    "sha256": "51654a9900210f112c7b3adbe71e18d43cab6328916e68259439d2f5e6ec2f12",
+    "sha512": "54ef8e9e9f15bc2ee7e3e1bbf4707f732ef4a0b2cf89d61b7203d2c4cdcd7673679184bac0658a66682779fb00b40e52ffdd66cfa1ded459b9e17f43c7279807",
+    "bug_tracking_url": "http://code.google.com/p/osjava/issues/list",
+    "code_view_url": null,
+    "vcs_url": "svn+http://osjava.googlecode.com/svn/trunk/simple-jndi",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/simple-jndi/simple-jndi@0.11.4.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-dbcp/commons-dbcp@1.2.2",
+            "extracted_requirement": "1.2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-pool/commons-pool@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/simple-jndi/simple-jndi@0.11.4.1?classifier=sources&uuid=eac731f6-aff0-41ca-98ab-46b977b8d0b0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/simple-jndi/simple-jndi@0.11.4.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/simple-jndi/simple-jndi/0.11.4.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/simple-jndi/simple-jndi/0.11.4.1/simple-jndi-0.11.4.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/simple-jndi/simple-jndi/0.11.4.1/simple-jndi-0.11.4.1.pom",
+    "file_references": []
+}

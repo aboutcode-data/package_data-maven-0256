@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "com.blazebit",
+    "name": "blaze-persistence-integration-datanucleus",
+    "version": "1.1.0-Alpha6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Blazebit Persistence Integration DataNucleus",
+    "release_date": "2015-11-29T15:11:20Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/blazebit/blaze-persistence-integration-datanucleus/1.1.0-Alpha6/blaze-persistence-integration-datanucleus-1.1.0-Alpha6.jar",
+    "size": 26136,
+    "md5": null,
+    "sha1": "826a7b54e881af843895c94b277da3a502ff7ced",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.blazebit/blaze-persistence-integration-datanucleus@1.1.0-Alpha6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.blazebit/blaze-persistence-core-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.blazebit/blaze-common-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.blazebit/blaze-persistence-integration-jpa-base",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.blazebit/blaze-apt-utils",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.datanucleus/javax.persistence",
+            "extracted_requirement": "2.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.datanucleus/datanucleus-core",
+            "extracted_requirement": "${version.datanucleus.base-4}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.datanucleus/datanucleus-api-jpa",
+            "extracted_requirement": "${version.datanucleus.api-jpa-4}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.datanucleus/datanucleus-jpa-query",
+            "extracted_requirement": "${version.datanucleus.jpa-4}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.datanucleus/datanucleus-rdbms",
+            "extracted_requirement": "${version.datanucleus.rdbms-4}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.blazebit/blaze-persistence-integration-datanucleus@1.1.0-Alpha6?uuid=191fc01e-0c06-4497-98e1-c13e96d4d7cb",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.blazebit/blaze-persistence-integration-datanucleus@1.1.0-Alpha6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/blazebit/blaze-persistence-integration-datanucleus/1.1.0-Alpha6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/blazebit/blaze-persistence-integration-datanucleus/1.1.0-Alpha6/blaze-persistence-integration-datanucleus-1.1.0-Alpha6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/blazebit/blaze-persistence-integration-datanucleus/1.1.0-Alpha6/blaze-persistence-integration-datanucleus-1.1.0-Alpha6.pom",
+    "file_references": []
+}

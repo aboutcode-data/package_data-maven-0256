@@ -1,0 +1,100 @@
+{
+    "type": "maven",
+    "namespace": "ca.juliusdavies",
+    "name": "not-yet-commons-ssl",
+    "version": "0.3.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4ecf232a-23d0-4e49-a109-f6ace741f5e4",
+            "packages": [
+                "pkg:maven/ca.juliusdavies/not-yet-commons-ssl@0.3.9?uuid=2f0ed673-0a7c-42d7-a8a3-598bb7fc2f31",
+                "pkg:maven/ca.juliusdavies/not-yet-commons-ssl@0.3.9?classifier=sources&uuid=e587d6c5-23bf-4968-814a-08cac1fbcdfc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Not Yet Commons SSL\nA Java SSL component library",
+    "release_date": "2011-03-15T15:39:11Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julius Davies",
+            "email": "juliusdavies@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://juliusdavies.ca/commons-ssl",
+    "download_url": "https://repo1.maven.org/maven2/ca/juliusdavies/not-yet-commons-ssl/0.3.9/not-yet-commons-ssl-0.3.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5a5be43f32001f28c0db16a25ffd5824e4ff8fee",
+    "sha256": "5942e596f993216ab3eb1ac1ad4925c0e3d2227b388185c8d1e714c3c9099750",
+    "sha512": "ee11d883f24ea4240e66ae52b8eedd18ccef725e83eae62b6161d08f3d6cd54b03ced2a72a627e12a0a2f89054e8e5791e7626087502677270d88590b60e9fdd",
+    "bug_tracking_url": null,
+    "code_view_url": "http://juliusdavies.ca/svn/viewvc.cgi/not-yet-commons-ssl/tags/commons-ssl-0.3.9/",
+    "vcs_url": "http://juliusdavies.ca/svn/not-yet-commons-ssl/tags/commons-ssl-0.3.9/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_84.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License v2",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_84.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-c01bbcc2-e0aa-1ced-82a5-64a0c9e32745",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND apache-1.1) AND (apache-2.0 AND apache-1.1 AND gpl-2.0 AND lgpl-2.1-plus AND lgpl-2.0-plus)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND Apache-1.1) AND (Apache-2.0 AND Apache-1.1 AND GPL-2.0-only AND LGPL-2.1-or-later AND LGPL-2.0-or-later)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License v2\n  url: http://juliusdavies.ca/commons-ssl/LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/ca.juliusdavies/not-yet-commons-ssl@0.3.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.13",
+            "extracted_requirement": "1.2.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-httpclient/commons-httpclient@3.0",
+            "extracted_requirement": "3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/ca.juliusdavies/not-yet-commons-ssl@0.3.9?classifier=sources&uuid=e587d6c5-23bf-4968-814a-08cac1fbcdfc",
+    "datasource_id": null,
+    "purl": "pkg:maven/ca.juliusdavies/not-yet-commons-ssl@0.3.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/ca/juliusdavies/not-yet-commons-ssl/0.3.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/ca/juliusdavies/not-yet-commons-ssl/0.3.9/not-yet-commons-ssl-0.3.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/ca/juliusdavies/not-yet-commons-ssl/0.3.9/not-yet-commons-ssl-0.3.9.pom",
+    "file_references": []
+}

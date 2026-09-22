@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.persistence",
+    "name": "javax.persistence",
+    "version": "2.0.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7ea362b2-e0d5-448f-a97a-ecb64c54b03c",
+            "packages": [
+                "pkg:maven/org.eclipse.persistence/javax.persistence@2.0.5?uuid=b6720fd0-b26f-4bce-99f1-c921284b3a62",
+                "pkg:maven/org.eclipse.persistence/javax.persistence@2.0.5?classifier=sources&uuid=b1006dd0-10c6-44bf-88c0-bcef82fce454"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Javax Persistence\nEclipseLink build based upon Git transaction 39f248b",
+    "release_date": "2013-04-11T14:29:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Krogh",
+            "email": "peter.krogh@oracle.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse.org - EclipseLink Project",
+            "email": null,
+            "url": "http://www.eclipse.org/eclipselink"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/eclipselink",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.0.5/javax.persistence-2.0.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "cbdb8437f379d7400dc31f71d56189dab9a38a63",
+    "sha256": "53c127e90c94924d6432b342508bbb425ee53a0443fb94dffb6ab48088cad69d",
+    "sha512": "e678fe9eb35cfe415ea9065672beb9b32259f12fbf3e911bb87a9655e8909bdfb5168274004cdf46420cb10ccd93fc8211b864918f4a39d0d875eec6cd838e82",
+    "bug_tracking_url": "https://bugs.eclipse.org/bugs",
+    "code_view_url": "http://git.eclipse.org/eclipselink/eclipselink.runtime.git",
+    "vcs_url": "git+http://git.eclipse.org/eclipselink/eclipselink.runtime.git",
+    "copyright": "Copyright (c) Sun Microsystems, Oracle Corporation",
+    "holder": null,
+    "declared_license_expression": "((bsd-new OR epl-1.0) AND bsd-new) AND unknown",
+    "declared_license_expression_spdx": "((BSD-3-Clause OR EPL-1.0) AND BSD-3-Clause) AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 26.67,
+                    "matcher": "3-seq",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_or_epl-1.0_2.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Eclipse Public License v1.0\n  url: http://www.eclipse.org/legal/epl-v10.html\n  comments: Standard Eclipse Licence\n- name: Eclipse Distribution License v. 1.0",
+                    "match_coverage": 26.67,
+                    "matched_length": 16,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_or_epl-1.0_2.RULE",
+                    "license_expression": "bsd-new OR epl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 5,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/edl-1.0.RULE",
+                    "start_line": 5,
+                    "matched_text": "  url: http://www.eclipse.org/org/documents/edl-v10.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "edl-1.0.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 6,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_802.RULE",
+                    "start_line": 6,
+                    "matched_text": "  comments: Standard Eclipse Distribution License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_802.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new_or_epl_1_0__and_bsd_new-d9244a5a-f80f-c5ba-5174-fd06a0cdee3a",
+            "license_expression": "(bsd-new OR epl-1.0) AND bsd-new"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 6,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-696d73fc6827496c74349c15889340af98a726d4",
+                    "start_line": 1,
+                    "matched_text": "license - name: Eclipse Public License v1.0\n  url: http://www.eclipse.org/legal/epl-v10.html\n  comments: Standard Eclipse Licence\n- name: Eclipse Distribution License v. 1.0\n  url: http://www.eclipse.org/org/documents/edl-v10.php\n  comments: Standard Eclipse Distribution License",
+                    "match_coverage": 100.0,
+                    "matched_length": 42,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-696d73fc6827496c74349c15889340af98a726d4",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-b71ef990-a7b6-7327-8d06-dd4c6f57777f",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "(epl-1.0 OR bsd-new) AND bsd-new AND (epl-1.0 AND bsd-new) AND apache-2.0 AND epl-1.0 AND (epl-1.0 AND (bsd-new OR epl-2.0) AND bsd-new)",
+    "other_license_expression_spdx": "(EPL-1.0 OR BSD-3-Clause) AND BSD-3-Clause AND (EPL-1.0 AND BSD-3-Clause) AND Apache-2.0 AND EPL-1.0 AND (EPL-1.0 AND (BSD-3-Clause OR EPL-2.0) AND BSD-3-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Public License v1.0\n  url: http://www.eclipse.org/legal/epl-v10.html\n  comments: Standard Eclipse Licence\n- name: Eclipse Distribution License v. 1.0\n  url: http://www.eclipse.org/org/documents/edl-v10.php\n  comments: Standard Eclipse Distribution License\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.persistence/javax.persistence@2.0.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.eclipse.persistence/javax.persistence@2.0.5?classifier=sources&uuid=b1006dd0-10c6-44bf-88c0-bcef82fce454",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.persistence/javax.persistence@2.0.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.0.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.0.5/javax.persistence-2.0.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/persistence/javax.persistence/2.0.5/javax.persistence-2.0.5.pom",
+    "file_references": []
+}

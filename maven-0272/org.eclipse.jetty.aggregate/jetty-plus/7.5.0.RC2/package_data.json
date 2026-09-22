@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty.aggregate",
+    "name": "jetty-plus",
+    "version": "7.5.0.RC2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Jetty :: Aggregate :: Plus Server",
+    "release_date": "2011-08-30T20:45:36Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-plus/7.5.0.RC2/jetty-plus-7.5.0.RC2.jar",
+    "size": 1154971,
+    "md5": null,
+    "sha1": "eb89d04108fed9074733b768d54dbd8fb0e706ce",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty.aggregate/jetty-plus@7.5.0.RC2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-plus",
+            "extracted_requirement": "7.5.0.RC2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.activation/activation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty.aggregate/jetty-plus@7.5.0.RC2?uuid=154e0bfd-0874-42b2-a35c-290b73dc45fa",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-plus@7.5.0.RC2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-plus/7.5.0.RC2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-plus/7.5.0.RC2/jetty-plus-7.5.0.RC2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/aggregate/jetty-plus/7.5.0.RC2/jetty-plus-7.5.0.RC2.pom",
+    "file_references": []
+}

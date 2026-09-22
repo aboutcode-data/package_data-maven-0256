@@ -1,0 +1,176 @@
+{
+    "type": "maven",
+    "namespace": "com.lightbend.akka.management",
+    "name": "akka-management_2.12",
+    "version": "1.0.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "70fa5e63-6363-4ab9-9682-eff52d591388",
+            "packages": [
+                "pkg:maven/com.lightbend.akka.management/akka-management_2.12@1.0.10?uuid=4a8ff3fb-6c41-4183-bbe7-091dc3cdd800",
+                "pkg:maven/com.lightbend.akka.management/akka-management_2.12@1.0.10?classifier=sources&uuid=badc386e-545a-4654-84ca-5c0fe589fd6d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "akka-management\nAkka Management is a suite of tools for operating Akka Clusters.",
+    "release_date": "2021-02-26T18:07:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Contributors",
+            "email": "https://gitter.im/akka/dev",
+            "url": "https://github.com/akka/akka-management/graphs/contributors"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Lightbend Inc.",
+            "email": null,
+            "url": "https://www.lightbend.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://akka.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/lightbend/akka/management/akka-management_2.12/1.0.10/akka-management_2.12-1.0.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f5265fee085bd34c76f259723e059a6234016df6",
+    "sha256": "158674926f9d4ae331ca4d684b77024a77d8652f94c075a5db5ed304fe470e25",
+    "sha512": "6e62dbbc405407e81274ca6d602cf0365f6c74844e101c7a8621d3d43d63efea487b81aaf80057e24892e87748d2e5a2d49bb04ad41c1ea66666f6e53268d821",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/akka/akka-management",
+    "vcs_url": "git@github.com:akka/akka-management.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-81405729-7e02-18ac-3730-53333d31533c",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lightbend.akka.management/akka-management_2.12@1.0.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor_2.12@2.5.31",
+            "extracted_requirement": "2.5.31",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream_2.12@2.5.31",
+            "extracted_requirement": "2.5.31",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http_2.12@10.1.11",
+            "extracted_requirement": "10.1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http-spray-json_2.12@10.1.11",
+            "extracted_requirement": "10.1.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-testkit_2.12@2.5.31",
+            "extracted_requirement": "2.5.31",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-cluster_2.12@2.5.31",
+            "extracted_requirement": "2.5.31",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http-testkit_2.12@10.1.11",
+            "extracted_requirement": "10.1.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12@3.1.4",
+            "extracted_requirement": "3.1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatestplus/junit-4-13_2.12@3.1.4.0",
+            "extracted_requirement": "3.1.4.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.lightbend.akka.management/akka-management_2.12@1.0.10?classifier=sources&uuid=badc386e-545a-4654-84ca-5c0fe589fd6d",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lightbend.akka.management/akka-management_2.12@1.0.10?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

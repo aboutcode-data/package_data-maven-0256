@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.jruby",
+    "name": "yecht",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4ea64765-7930-474d-9c28-fe658b3ba992",
+            "packages": [
+                "pkg:maven/org.jruby/yecht@1.0?uuid=c3696738-3dee-4a96-8240-fd96ccf864ec",
+                "pkg:maven/org.jruby/yecht@1.0?classifier=sources&uuid=4f766d6a-2cba-463d-b2cb-17db4877574f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "yecht",
+    "release_date": "2013-07-10T14:53:27Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/jruby/yecht",
+    "download_url": "https://repo1.maven.org/maven2/org/jruby/yecht/1.0/yecht-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e0509672c2be11d2d43eb17647c49159f6913385",
+    "sha256": "ce41e2237fe7180da607076f32fcf63938c81cd2b605f1511734267e0289a802",
+    "sha512": "d5ea5e88661170bf37130ea0d81f255adff287acdfcc0583c40af944bef5536d14855a2efedd29dff0d7f94e28ac0f3892888fb4806e3717381346c3474a30cd",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jruby/yecht",
+    "vcs_url": "git+https://github.com/jruby/yecht.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "unknown-license-reference",
+    "other_license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jruby/yecht@1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jruby/jruby-core",
+            "extracted_requirement": "[1.7.0,1.8.0)",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jruby/yecht@1.0?classifier=sources&uuid=4f766d6a-2cba-463d-b2cb-17db4877574f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jruby/yecht@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jruby/yecht/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jruby/yecht/1.0/yecht-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jruby/yecht/1.0/yecht-1.0.pom",
+    "file_references": []
+}

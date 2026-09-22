@@ -1,0 +1,166 @@
+{
+    "type": "maven",
+    "namespace": "edu.ucar",
+    "name": "netcdf4",
+    "version": "4.5.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0b702d50-e5cb-46a6-ad80-447636039d83",
+            "packages": [
+                "pkg:maven/edu.ucar/netcdf4@4.5.5?uuid=7bd46dad-2b0c-4c8f-9e6f-b066f7f6576a",
+                "pkg:maven/edu.ucar/netcdf4@4.5.5?classifier=sources&uuid=030bb8b8-3a3d-446b-8eaa-a67e9473b757"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "netCDF-4 IOSP JNI connection to C library",
+    "release_date": "2015-03-10T22:58:04Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Caron",
+            "email": "caron@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julien Chastang",
+            "email": "chastang@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ethan Davis",
+            "email": "edavis@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dennis Heimbigner",
+            "email": "dmh@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Emmerson",
+            "email": "steve@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jennifer Ganter Oxelson",
+            "email": "oxelson@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marcos Hermida",
+            "email": "mhermida@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Russel Rew",
+            "email": "russ@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ho Yuan",
+            "email": "yuanho@unidata.ucar.edu",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "UCAR/Unidata",
+            "email": null,
+            "url": "http://www.unidata.ucar.edu/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.unidata.ucar.edu/software/netcdf-java/",
+    "download_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf4/4.5.5/netcdf4-4.5.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f517b9f3aca305a58f357404fc9db784973f8fe8",
+    "sha256": "8fd8f4db222c85c3284a8143bc49198d267a83a43062140ba61b11fef109a4ab",
+    "sha512": "c7dc8abe1bf51e13a82ecaeea83da870a99333a22de1db44032785be41698fd57c52ac05ac1145607605c28d396209a83468eb8afbb007970fb078c06a2e7fa7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "netcdf AND lgpl-2.1-plus",
+    "other_license_expression_spdx": "NetCDF AND LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/edu.ucar/netcdf4@4.5.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/edu.ucar/thredds-parent@4.5.5",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/edu.ucar/thredds-parent@4.5.5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/edu.ucar/thredds-parent@4.5.5"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/edu.ucar/cdm",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.jcip/jcip-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/edu.ucar/netcdf4@4.5.5?classifier=sources&uuid=030bb8b8-3a3d-446b-8eaa-a67e9473b757",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/edu.ucar/netcdf4@4.5.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf4/4.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf4/4.5.5/netcdf4-4.5.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/edu/ucar/netcdf4/4.5.5/netcdf4-4.5.5.pom",
+    "file_references": []
+}

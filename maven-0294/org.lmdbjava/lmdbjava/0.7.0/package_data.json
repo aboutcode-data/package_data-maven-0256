@@ -1,0 +1,197 @@
+{
+    "type": "maven",
+    "namespace": "org.lmdbjava",
+    "name": "lmdbjava",
+    "version": "0.7.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0dbb55e6-dc72-48e9-8a82-34eeaa166a06",
+            "packages": [
+                "pkg:maven/org.lmdbjava/lmdbjava@0.7.0?uuid=12aef8ec-a0fe-48d1-b25e-fcec4b6be668",
+                "pkg:maven/org.lmdbjava/lmdbjava@0.7.0?classifier=sources&uuid=476ff2a0-9eca-49e5-be5d-a3a627ec29ee"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "LmdbJava\nLow latency Java API for the ultra-fast, embedded Symas Lightning Database (LMDB)",
+    "release_date": "2019-06-04T05:00:49Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kristoffer Sjogren",
+            "email": "stoffe -at- gmail.com",
+            "url": "http://stoffe.deephacks.org/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ben Alex",
+            "email": "ben.alex@acegi.com.au",
+            "url": "https://github.com/benalexau/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The LmdbJava Open Source Project",
+            "email": null,
+            "url": "https://github.com/lmdbjava"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/lmdbjava/lmdbjava/0.7.0/lmdbjava-0.7.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "96a1ebad3cda2208f1883bbcdb0b24c2dde203c8",
+    "sha256": "9c6918ffffbc52cc11fdf5e11a2fff0b31c0f714e0822b76f4599ff778187fb5",
+    "sha512": "70082af3bd9cc60e583295314b0e78af54b8bad33c9597703cb64a28d980617cf8ef928b1b3e7fcd6dc4f104f8488209cf7e85eba43c60e4a1b8a451aef94f87",
+    "bug_tracking_url": "https://github.com/lmdbjava/lmdbjava/issues",
+    "code_view_url": "https://github.com/lmdbjava/lmdbjava.git",
+    "vcs_url": "git+https://github.com/lmdbjava/lmdbjava.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND mit AND (mpl-1.1 OR gpl-2.0-plus OR lgpl-2.1-plus) AND epl-1.0 AND bsd-new AND openldap-2.8",
+    "other_license_expression_spdx": "Apache-2.0 AND MIT AND (MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later) AND EPL-1.0 AND BSD-3-Clause AND OLDAP-2.8",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.lmdbjava/lmdbjava@0.7.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.jakewharton.byteunits/byteunits@0.9.1",
+            "extracted_requirement": "0.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-all@4.1.36.Final",
+            "extracted_requirement": "4.1.36.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@27.1-jre",
+            "extracted_requirement": "27.1-jre",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jnr-ffi@2.1.9",
+            "extracted_requirement": "2.1.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jffi@1.2.18",
+            "extracted_requirement": "1.2.18",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jnr/jnr-constants@0.9.12",
+            "extracted_requirement": "0.9.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.agrona/agrona@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/annotations@3.0.1u2",
+            "extracted_requirement": "3.0.1u2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.lmdbjava/lmdbjava@0.7.0?classifier=sources&uuid=476ff2a0-9eca-49e5-be5d-a3a627ec29ee",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.lmdbjava/lmdbjava@0.7.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/lmdbjava/lmdbjava/0.7.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/lmdbjava/lmdbjava/0.7.0/lmdbjava-0.7.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/lmdbjava/lmdbjava/0.7.0/lmdbjava-0.7.0.pom",
+    "file_references": []
+}

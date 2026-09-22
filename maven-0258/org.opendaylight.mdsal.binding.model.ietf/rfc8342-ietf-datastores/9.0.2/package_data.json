@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal.binding.model.ietf",
+    "name": "rfc8342-ietf-datastores",
+    "version": "9.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "89fe1b5e-2a47-41ed-a642-e9bbdf68a592",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8342-ietf-datastores@9.0.2?uuid=d87606f2-9127-4e52-8e2f-18f8031c9249",
+                "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8342-ietf-datastores@9.0.2?classifier=sources&uuid=cd938335-6998-4905-8aeb-0ffc6600e8b4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "rfc8342-ietf-datastores\nRFC8342 ietf-datastores",
+    "release_date": "2022-04-14T08:13:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/binding/model/ietf/rfc8342-ietf-datastores/9.0.2/rfc8342-ietf-datastores-9.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4e70fc8dd6c7a91731763634683c704ce9184caa",
+    "sha256": "d6af5b19ce0df130b1d3dbe63d489d93846b65eddf4138b374f035756f4a4827",
+    "sha512": "009e55112e039c4cc5c2de5575f78e9c65599877f281d13293a90d5428135eafabda30a22779b3d3f61895aec5503b267de95933c481fcac9c9d3efbfac099da",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Pantheon Technologies, s.ro. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8342-ietf-datastores@9.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8342-ietf-datastores@9.0.2?classifier=sources&uuid=cd938335-6998-4905-8aeb-0ffc6600e8b4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8342-ietf-datastores@9.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

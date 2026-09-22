@@ -1,0 +1,167 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.arquillian.container",
+    "name": "arquillian-container-karaf-remote",
+    "version": "2.1.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5dcb3692-28b8-4366-9913-da91352484db",
+            "packages": [
+                "pkg:maven/org.jboss.arquillian.container/arquillian-container-karaf-remote@2.1.0.Final?uuid=90e682b6-63f1-41ed-a4e9-d998661b90ae",
+                "pkg:maven/org.jboss.arquillian.container/arquillian-container-karaf-remote@2.1.0.Final?classifier=sources&uuid=f5c6bd0d-46e6-4605-8ed0-48c4d417b3a0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Arquillian OSGi :: Container :: Karaf :: Remote",
+    "release_date": "2015-11-17T12:05:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-karaf-remote/2.1.0.Final/arquillian-container-karaf-remote-2.1.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d8eae795ca90ecbbeb17c99cb22db96478b10912",
+    "sha256": "a70a9dcc0fffb14b068602918430a6ea44966be0b4cb128d397eff2e4dbae949",
+    "sha512": "c92bf911902f63c46dd7f062cdc7bafbc855e83a401ab6606dd7544a8f822a2631b7bae1a4c02c6c90db02fee61c60309ead24011a5cc04f85ab10f95db0a353",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.arquillian.container/arquillian-container-karaf-remote@2.1.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.enterprise",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-osgi@2.1.0.Final",
+            "extracted_requirement": "2.1.0.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.protocol/arquillian-protocol-osgi@2.1.0.Final",
+            "extracted_requirement": "2.1.0.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.testenricher/arquillian-testenricher-osgi@2.1.0.Final",
+            "extracted_requirement": "2.1.0.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.osgi.spi/jbosgi-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.osgi.vfs/jbosgi-vfs30",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.junit/arquillian-junit-container",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-osgi-tests@2.1.0.Final",
+            "extracted_requirement": "2.1.0.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.arquillian.container/arquillian-container-karaf-remote@2.1.0.Final?classifier=sources&uuid=f5c6bd0d-46e6-4605-8ed0-48c4d417b3a0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-karaf-remote@2.1.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-karaf-remote/2.1.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-karaf-remote/2.1.0.Final/arquillian-container-karaf-remote-2.1.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-karaf-remote/2.1.0.Final/arquillian-container-karaf-remote-2.1.0.Final.pom",
+    "file_references": []
+}

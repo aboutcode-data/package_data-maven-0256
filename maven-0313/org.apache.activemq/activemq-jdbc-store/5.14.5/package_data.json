@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.activemq",
+    "name": "activemq-jdbc-store",
+    "version": "5.14.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "93bb168e-b374-4570-92f1-54b871ea5713",
+            "packages": [
+                "pkg:maven/org.apache.activemq/activemq-jdbc-store@5.14.5?uuid=7d56f903-b5c3-453e-b4aa-30ec27d0a4ed",
+                "pkg:maven/org.apache.activemq/activemq-jdbc-store@5.14.5?classifier=sources&uuid=c67f3d81-633c-4c19-b34f-456d1d882a21"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ActiveMQ :: JDBC Store\nThe ActiveMQ JDBC Store Implementation",
+    "release_date": "2017-04-11T15:42:09Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-jdbc-store/5.14.5/activemq-jdbc-store-5.14.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4997996ff06aac628f2b71f6e4783d643adb56ee",
+    "sha256": "f50c8618883a6dd730e338db9820eca386cdffbfba82f86762c7629af7ec2267",
+    "sha512": "1ae15ef19f83b8b1b97fc3fc8217af1bbffd78e4725d2723e88d090562d56483dd526d3423d50a4af3e46d029f992d1afa3bf64e9d7f69eb6f2e3605cedfc145",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.activemq/activemq-jdbc-store@5.14.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@17"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-broker",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activeio-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.activemq/activemq-broker",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.activemq/activemq-jdbc-store@5.14.5?classifier=sources&uuid=c67f3d81-633c-4c19-b34f-456d1d882a21",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.activemq/activemq-jdbc-store@5.14.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-jdbc-store/5.14.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-jdbc-store/5.14.5/activemq-jdbc-store-5.14.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/activemq/activemq-jdbc-store/5.14.5/activemq-jdbc-store-5.14.5.pom",
+    "file_references": []
+}

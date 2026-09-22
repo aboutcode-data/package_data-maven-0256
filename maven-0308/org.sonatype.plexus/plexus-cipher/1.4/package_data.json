@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.sonatype.plexus",
+    "name": "plexus-cipher",
+    "version": "1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dccafe62-c9c3-46a9-800c-66576f49ec8f",
+            "packages": [
+                "pkg:maven/org.sonatype.plexus/plexus-cipher@1.4?uuid=384b8bde-43b5-43b3-97b5-a47e81f2bd09",
+                "pkg:maven/org.sonatype.plexus/plexus-cipher@1.4?classifier=sources&uuid=b709c78d-b39a-417f-8235-797fe891a072"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Plexus Cipher: encryption/decryption Component",
+    "release_date": "2009-04-29T19:40:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://spice.sonatype.org/plexus-cipher",
+    "download_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fd919edf211954e41e0e60bc8b042bd2e1e5cc1f",
+    "sha256": "35291f96baa7d430cac96e15862e288527e08689b6f30c4f39482f19962ea540",
+    "sha512": "48f42a3c466caa9da583db247b170fbbb3e85fc765a6abcbea229e829b5aad07feddf6dd6e5e67ae0417073933c1f5663ad2e516d68a1d9b1b592229f0714478",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.sonatype.org/spice/tags/plexus-cipher-1.4",
+    "vcs_url": "svn+http://svn.sonatype.org/spice/tags/plexus-cipher-1.4",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sonatype.plexus/plexus-cipher@1.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-container-default@1.0-alpha-9-stable-1",
+            "extracted_requirement": "1.0-alpha-9-stable-1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.sonatype.plexus/plexus-cipher@1.4?classifier=sources&uuid=b709c78d-b39a-417f-8235-797fe891a072",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.sonatype.plexus/plexus-cipher@1.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom",
+    "file_references": []
+}

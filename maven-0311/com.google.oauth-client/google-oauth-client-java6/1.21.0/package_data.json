@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "com.google.oauth-client",
+    "name": "google-oauth-client-java6",
+    "version": "1.21.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "957eded6-d187-4b88-8f0d-a524918bba96",
+            "packages": [
+                "pkg:maven/com.google.oauth-client/google-oauth-client-java6@1.21.0?uuid=f81a82b1-0947-494b-bda5-6e95f679bcad",
+                "pkg:maven/com.google.oauth-client/google-oauth-client-java6@1.21.0?classifier=sources&uuid=c1fcfff0-12da-44d8-b34b-11dc58bfb671"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Java 6 (and higher) extensions to the Google OAuth Client Library for Java.",
+    "release_date": "2015-11-19T22:24:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yaniv Inbar",
+            "email": "yanivi@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.21.0/google-oauth-client-java6-1.21.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "208cbc3f9b209e38e1001aa007d7ebdc32b9e2b6",
+    "sha256": "a8f28db73357b34861455318e0f107a7167bec9758f7893673e9969bc8f3fdcd",
+    "sha512": "031421e6ca8eef33899871218749a4452707a9c58cd87269dbc592b21f15c874102e9f065b635c58589033481a0467be67055b05910b9d67e73e398e60c525ae",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.oauth-client/google-oauth-client-java6@1.21.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.oauth-client/google-oauth-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.http-client/google-http-client-jackson",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava-jdk5",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.oauth-client/google-oauth-client-java6@1.21.0?classifier=sources&uuid=c1fcfff0-12da-44d8-b34b-11dc58bfb671",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.oauth-client/google-oauth-client-java6@1.21.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.21.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.21.0/google-oauth-client-java6-1.21.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.21.0/google-oauth-client-java6-1.21.0.pom",
+    "file_references": []
+}

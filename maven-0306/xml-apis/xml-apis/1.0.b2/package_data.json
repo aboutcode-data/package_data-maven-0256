@@ -1,0 +1,85 @@
+{
+    "type": "maven",
+    "namespace": "xml-apis",
+    "name": "xml-apis",
+    "version": "1.0.b2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d1cefb5e-fed8-471b-87ee-45ed766527ee",
+            "packages": [
+                "pkg:maven/xml-apis/xml-apis@1.0.b2?uuid=768cd34b-7f5b-4ffd-b956-929952441b22",
+                "pkg:maven/xml-apis/xml-apis@1.0.b2?classifier=sources&uuid=21a346de-2a1c-4cb1-a67f-a18f0bf9cbf7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "XML Commons External Components XML APIs\nxml-commons provides an Apache-hosted set of DOM, SAX, and \n    JAXP interfaces for use in other xml-based projects. Our hope is that we \n    can standardize on both a common version and packaging scheme for these \n    critical XML standards interfaces to make the lives of both our developers \n    and users easier. The External Components portion of xml-commons contains \n    interfaces that are defined by external standards organizations. For DOM, \n    that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for \n    JAXP it's Sun.",
+    "release_date": "2005-11-01T16:09:30Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xml.apache.org/commons/#external",
+    "download_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d8525661c5a0a05702fa41873d250d135031ec25",
+    "sha256": "469f17d8a34cba6554769b2be7fd0727c1ca28536c7929bbc1572753452b596a",
+    "sha512": "371fcab7d13356b9a4f06a2f643fe88a033aaf2840a90db65d4686fc2739558062b2c8facefe35840bb87b8892d8ab52fcffd375797a476a661403d64289f82b",
+    "bug_tracking_url": "http://issues.apache.org/bugzilla/",
+    "code_view_url": "http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-1_0_b2",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/xml/commons/tags/xml-commons-1_0_b2",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "sun-prop-non-commercial AND public-domain-disclaimer AND iso-8879 AND classpath-exception-2.0 AND sax-pd",
+    "other_license_expression_spdx": "LicenseRef-scancode-sun-prop-non-commercial AND LicenseRef-scancode-public-domain-disclaimer AND LicenseRef-scancode-iso-8879 AND Classpath-exception-2.0 AND SAX-PD",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xml-apis/xml-apis@1.0.b2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/xml-apis/xml-apis@1.0.b2?classifier=sources&uuid=21a346de-2a1c-4cb1-a67f-a18f0bf9cbf7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xml-apis/xml-apis@1.0.b2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom",
+    "file_references": []
+}

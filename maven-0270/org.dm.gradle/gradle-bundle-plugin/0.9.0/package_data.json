@@ -1,0 +1,92 @@
+{
+    "type": "maven",
+    "namespace": "org.dm.gradle",
+    "name": "gradle-bundle-plugin",
+    "version": "0.9.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b7657f81-198d-40d9-b91d-47b9d9dc557f",
+            "packages": [
+                "pkg:maven/org.dm.gradle/gradle-bundle-plugin@0.9.0?uuid=579382aa-2f7c-49a7-b7b4-245e5f37f604",
+                "pkg:maven/org.dm.gradle/gradle-bundle-plugin@0.9.0?classifier=sources&uuid=ca2c65f0-5dde-4989-a18d-ad0ba08c0535"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Gradle Bundle Plugin\nGradle plugin to generate OSGI bundles.",
+    "release_date": "2017-01-01T12:37:12Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Artyom Dmitriev",
+            "email": "dm.artyom@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/TomDmitriev/gradle-bundle-plugin",
+    "download_url": "https://repo1.maven.org/maven2/org/dm/gradle/gradle-bundle-plugin/0.9.0/gradle-bundle-plugin-0.9.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a94296b683aa08c75d20ee1e0f505e892ce2dfdc",
+    "sha256": "5388afdf07b6ee50f731070f6fdf2b23245d7e4423d8da8c05386c62d3d32e89",
+    "sha512": "7201eb9a736468c99688a5d7c2ebb3aedf6d9b1d93c2aa46f652d53564de35b9347d5176868f69bdda93d5af24763be85471c99a2052e77781a9c01e61c91a6c",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/TomDmitriev/gradle-bundle-plugin",
+    "vcs_url": "https+//github.com/TomDmitriev/gradle-bundle-plugin.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.dm.gradle/gradle-bundle-plugin@0.9.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bndlib@3.3.0",
+            "extracted_requirement": "3.3.0",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.dm.gradle/gradle-bundle-plugin@0.9.0?classifier=sources&uuid=ca2c65f0-5dde-4989-a18d-ad0ba08c0535",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.dm.gradle/gradle-bundle-plugin@0.9.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/dm/gradle/gradle-bundle-plugin/0.9.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/dm/gradle/gradle-bundle-plugin/0.9.0/gradle-bundle-plugin-0.9.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/dm/gradle/gradle-bundle-plugin/0.9.0/gradle-bundle-plugin-0.9.0.pom",
+    "file_references": []
+}

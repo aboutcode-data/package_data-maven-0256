@@ -1,0 +1,83 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.jackson",
+    "name": "jackson-core-asl",
+    "version": "1.9.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3bbf8898-93a5-42dd-931c-a49897358fe8",
+            "packages": [
+                "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.3?uuid=a313814e-7c67-49a3-8724-4c4e4a38021e",
+                "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.3?classifier=sources&uuid=c5f7aedf-a2b8-4c8e-8c91-1aa8830ea811"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jackson\nJackson is a high-performance JSON processor (parser, generator)",
+    "release_date": "2011-12-17T06:39:10Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "FasterXML",
+            "email": null,
+            "url": "http://fasterxml.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jackson.codehaus.org",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.3/jackson-core-asl-1.9.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b692cea649e1dd96fba1b7c0b5dfbae6f316b718",
+    "sha256": "a36a03ad72669c4be79977c51bff7dcf6da10813c632a157b9989203e1c88b30",
+    "sha512": "170987373c70e7de6b9c36a652addca3b668437c3017df607de940055641983bb38b0c528ff0f289db49b6fe3e749b371bb6ab000a8aee816b47c6cabf13ac9d",
+    "bug_tracking_url": "http://jira.codehaus.org/browse/JACKSON",
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.3?classifier=sources&uuid=c5f7aedf-a2b8-4c8e-8c91-1aa8830ea811",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.3/jackson-core-asl-1.9.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.3/jackson-core-asl-1.9.3.pom",
+    "file_references": []
+}

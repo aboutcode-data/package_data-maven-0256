@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "com.maojianwei",
+    "name": "chinese-poetry",
+    "version": "1.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "maojianwei-chinese-poetry\nSpider, Store, Exhibition and Process for chinese poetry",
+    "release_date": "2017-07-19T13:20:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jianwei Mao",
+            "email": "maojianwei2020@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.maojianwei.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/maojianwei/chinese-poetry/1.2/chinese-poetry-1.2.jar",
+    "size": 6454649,
+    "md5": null,
+    "sha1": "368c2de9b1a8bf5a41e303140b79ad3b798c113c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.maojianwei/chinese-poetry@1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.maojianwei/chinese-poetry@1.2?uuid=6262e771-87e1-4fc6-ab75-60323861f9e6",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.maojianwei/chinese-poetry@1.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/maojianwei/chinese-poetry/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/maojianwei/chinese-poetry/1.2/chinese-poetry-1.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/maojianwei/chinese-poetry/1.2/chinese-poetry-1.2.pom",
+    "file_references": []
+}

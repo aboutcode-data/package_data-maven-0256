@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.textrazor",
+    "name": "textrazor",
+    "version": "1.0.11",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "textrazor\nOfficial Java SDK for the TextRazor Text Analytics API\n\nTextRazor offers state-of-the-art natural language processing tools through a simple API, allowing you to build semantic technology into your applications in minutes.  \n\nHundreds of applications rely on TextRazor to understand unstructured text across a range of verticals, with use cases including social media monitoring, enterprise search, recommendation systems and ad targetting.",
+    "release_date": "2017-05-17T21:08:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Toby Crayston",
+            "email": "toby@textrazor.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://textrazor.com",
+    "download_url": "https://repo1.maven.org/maven2/com/textrazor/textrazor/1.0.11/textrazor-1.0.11.jar",
+    "size": 43934,
+    "md5": null,
+    "sha1": "9263b7de21766989be62da09fd09310ae0491a15",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.textrazor/textrazor@1.0.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": "2.6.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+            "extracted_requirement": "2.6.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "2.6.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.textrazor/textrazor@1.0.11?uuid=346c1b67-b30c-4693-8e3a-0d7408df9d99",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.textrazor/textrazor@1.0.11",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/textrazor/textrazor/1.0.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/textrazor/textrazor/1.0.11/textrazor-1.0.11.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/textrazor/textrazor/1.0.11/textrazor-1.0.11.pom",
+    "file_references": []
+}

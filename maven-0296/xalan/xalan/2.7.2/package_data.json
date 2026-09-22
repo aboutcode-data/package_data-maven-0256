@@ -1,0 +1,86 @@
+{
+    "type": "maven",
+    "namespace": "xalan",
+    "name": "xalan",
+    "version": "2.7.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "58261f02-44cb-48eb-b187-f659b24c4567",
+            "packages": [
+                "pkg:maven/xalan/xalan@2.7.2?uuid=368de7f1-de58-43e1-9694-6166a7f6cd11",
+                "pkg:maven/xalan/xalan@2.7.2?classifier=sources&uuid=c1a72504-11ea-4a46-9a60-d267c5352003"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Xalan Java\nXalan-Java is an XSLT processor for transforming XML documents into HTML,\n    text, or other XML document types. It implements XSL Transformations (XSLT)\n    Version 1.0 and XML Path Language (XPath) Version 1.0 and can be used from\n    the command line, in an applet or a servlet, or as a module in other program.",
+    "release_date": "2014-07-24T18:48:29Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xml.apache.org/xalan-j/",
+    "download_url": "https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fe9c3d37a49238fac9d4d6c4f5bbd8c334da787a",
+    "sha256": "15f88b71e32817c6b4d5977d54ad2fe1b18e82a8ab9a1d68ca568fb0aabb2ae6",
+    "sha512": "e7940df9468af677ac44056195f51068bb6c6365992646bcdac272713bb470beef8d31b78cf7facf2751bb7da31885423774c7fa87b39e1e24819d83dcb8c8dd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND w3c-software-19980720",
+    "other_license_expression_spdx": "Apache-2.0 AND W3C-19980720",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xalan/xalan@2.7.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@4",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@4"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xalan/serializer@2.7.2",
+            "extracted_requirement": "2.7.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl@2.9.1",
+            "extracted_requirement": "2.9.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/xalan/xalan@2.7.2?classifier=sources&uuid=c1a72504-11ea-4a46-9a60-d267c5352003",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/xalan/xalan@2.7.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xalan/xalan/2.7.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.pom",
+    "file_references": []
+}

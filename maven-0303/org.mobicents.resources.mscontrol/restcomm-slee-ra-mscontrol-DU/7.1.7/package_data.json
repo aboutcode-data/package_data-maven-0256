@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.mobicents.resources.mscontrol",
+    "name": "restcomm-slee-ra-mscontrol-DU",
+    "version": "7.1.7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Restcomm :: Resources :: restcomm-slee-ra-mscontrol-DU",
+    "release_date": "2017-05-23T18:09:58Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/mobicents/resources/mscontrol/restcomm-slee-ra-mscontrol-DU/7.1.7/restcomm-slee-ra-mscontrol-DU-7.1.7.jar",
+    "size": 1590894,
+    "md5": null,
+    "sha1": "7c77407b464487c4d71102b1c2bfc7cc0b08a853",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mobicents.resources.mscontrol/restcomm-slee-ra-mscontrol-DU@7.1.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.mobicents.resources.mscontrol/mscontrol-events",
+            "extracted_requirement": "7.1.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.resources.mscontrol/mscontrol-library",
+            "extracted_requirement": "7.1.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.resources.mscontrol/mscontrol-ratype",
+            "extracted_requirement": "7.1.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.resources.mscontrol/mscontrol-ra",
+            "extracted_requirement": "7.1.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mobicents.resources.mscontrol/restcomm-slee-ra-mscontrol-DU@7.1.7?uuid=1e656a62-c6aa-429f-922a-8ef1fe1ffa2c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mobicents.resources.mscontrol/restcomm-slee-ra-mscontrol-DU@7.1.7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mobicents/resources/mscontrol/restcomm-slee-ra-mscontrol-DU/7.1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mobicents/resources/mscontrol/restcomm-slee-ra-mscontrol-DU/7.1.7/restcomm-slee-ra-mscontrol-DU-7.1.7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mobicents/resources/mscontrol/restcomm-slee-ra-mscontrol-DU/7.1.7/restcomm-slee-ra-mscontrol-DU-7.1.7.pom",
+    "file_references": []
+}

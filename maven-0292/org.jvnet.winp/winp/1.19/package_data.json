@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "org.jvnet.winp",
+    "name": "winp",
+    "version": "1.19",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "33f11ffc-d858-4b0e-9d94-c40ccba5093f",
+            "packages": [
+                "pkg:maven/org.jvnet.winp/winp@1.19?uuid=580fc199-4017-4612-89bb-21c38abb5ddc",
+                "pkg:maven/org.jvnet.winp/winp@1.19?classifier=sources&uuid=fb54584d-e082-48fd-918d-c2b15729c487"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "winp\nKill process tree in Windows",
+    "release_date": "2014-03-28T05:46:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kohsuke Kawaguchi",
+            "email": "kk@kohsuke.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://kohsuke.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/jvnet/winp/winp/1.19/winp-1.19-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5dc6a0b2581e7346d4126e82c327d338951432d5",
+    "sha256": "13a77e101a68e2e043c89d073e33c73fb6b7a9fc17fd7aaf27474e6553f0bb23",
+    "sha512": "a054f9566c5ebb6fdf9be3e9198b9d75c824de51cd3eefead147eeafaf3fc77df50a391a8b7b4eaf3c3c97b2c0a2bd5cee3015274251d42209b65058afc6bec9",
+    "bug_tracking_url": null,
+    "code_view_url": "http://winp.kohsuke.org/",
+    "vcs_url": "git+https://github.com/kohsuke/winp.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_27.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The MIT license",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_27.RULE",
+                    "license_expression": "mit"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_237.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/mit-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_237.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-b25fa533-c536-1062-9012-a925b16f3d93",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The MIT license\n  url: http://www.opensource.org/licenses/mit-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jvnet.winp/winp@1.19?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jvnet.winp/winp@1.19?classifier=sources&uuid=fb54584d-e082-48fd-918d-c2b15729c487",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jvnet.winp/winp@1.19?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jvnet/winp/winp/1.19/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jvnet/winp/winp/1.19/winp-1.19-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jvnet/winp/winp/1.19/winp-1.19.pom",
+    "file_references": []
+}

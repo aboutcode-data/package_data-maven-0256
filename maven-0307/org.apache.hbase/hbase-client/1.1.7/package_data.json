@@ -1,0 +1,208 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.hbase",
+    "name": "hbase-client",
+    "version": "1.1.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6ea76928-88ac-4b11-94a1-1a1afa87e409",
+            "packages": [
+                "pkg:maven/org.apache.hbase/hbase-client@1.1.7?uuid=46787920-ec66-4f55-a420-62eeb3df8247",
+                "pkg:maven/org.apache.hbase/hbase-client@1.1.7?classifier=sources&uuid=acd8b517-21e0-4f9b-a5c8-bb5dde1e6c47"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache HBase - Client\nClient of HBase",
+    "release_date": "2016-10-08T01:58:42Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.7/hbase-client-1.1.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "92f2c228e972a8d9859132a882aeb559dfdfbf26",
+    "sha256": "771ac7bbd8fa1c9c0032cf356652ffc66e897cbf666987ff25bbef393e026d60",
+    "sha512": "733d585f9139d6d62eedb9590c3c948778cdb12ef4fc5de91f2ed44a9d83ea3e81d3d2bcdeed368d275a10a71af54084eea086037329268a5462d783ad4b1bf5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND bsd-new AND cddl-1.0 AND mit AND public-domain AND epl-1.0 AND cddl-1.1 AND gpl-2.0 WITH classpath-exception-2.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND BSD-3-Clause AND CDDL-1.0 AND MIT AND LicenseRef-scancode-public-domain AND EPL-1.0 AND CDDL-1.1 AND GPL-2.0-only WITH Classpath-exception-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.hbase/hbase-client@1.1.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase-protocol",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-all",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.zookeeper/zookeeper",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.htrace/htrace-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jruby.jcodings/jcodings",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jruby.joni/joni",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase-annotations",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.hbase/hbase-client@1.1.7?classifier=sources&uuid=acd8b517-21e0-4f9b-a5c8-bb5dde1e6c47",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.hbase/hbase-client@1.1.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.7/hbase-client-1.1.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/1.1.7/hbase-client-1.1.7.pom",
+    "file_references": []
+}

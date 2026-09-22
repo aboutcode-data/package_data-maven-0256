@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.jaxb",
+    "name": "xsom",
+    "version": "2.3.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ebc9d37a-d29a-4337-9864-74c7b3cd3829",
+            "packages": [
+                "pkg:maven/org.glassfish.jaxb/xsom@2.3.4?uuid=cbde513d-d562-4840-ad41-5680e8a1454a",
+                "pkg:maven/org.glassfish.jaxb/xsom@2.3.4?classifier=sources&uuid=a0aa7a61-ccc1-42e6-85fa-61480de68756"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "XSOM\nXML Schema Object Model (XSOM) is a Java library that allows applications to easily parse XML Schema\n        documents and inspect information in them. It is expected to be useful for applications that need to take XML\n        Schema as an input.",
+    "release_date": "2021-04-09T05:20:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eclipse EE4J Developers",
+            "email": "ee4j-pmc@eclipse.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse Foundation",
+            "email": null,
+            "url": "https://www.eclipse.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://projects.eclipse.org/projects/ee4j",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/xsom/2.3.4/xsom-2.3.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "44bf9c287e1abac74f18ac8fff30c10794c5b564",
+    "sha256": "0f4843e0e5b2dc1d6d861d56af828326647e004fd72991f06687ed9e79a555dc",
+    "sha512": "a4aab93ad556cf5465e28b4659dec64fdaa991f51257f16d6ff7d924aaec11e0768aec500d478d136f0f1c7626df5a701af23f5341873c3bb1bfde8a7a1b6af7",
+    "bug_tracking_url": "https://github.com/eclipse-ee4j/jaxb-ri/issues",
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/edl-1.0_1.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Eclipse Distribution License - v 1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "edl-1.0_1.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/edl-1.0.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.eclipse.org/org/documents/edl-v10.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "edl-1.0.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-816372b7-cec1-3253-588b-fef376a9387c",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain-disclaimer AND (apache-2.0 AND (mit OR gpl-1.0-plus) AND gpl-1.0-plus) AND (apache-2.0 AND apache-1.1 AND public-domain AND indiana-extreme-1.2 AND bsd-new AND sax-pd) AND (apache-2.0 AND public-domain AND mit AND apache-1.1) AND (epl-2.0 AND apache-2.0) AND (public-domain AND generic-export-compliance)",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain-disclaimer AND (Apache-2.0 AND (MIT OR GPL-1.0-or-later) AND GPL-1.0-or-later) AND (Apache-2.0 AND Apache-1.1 AND LicenseRef-scancode-public-domain AND xpp AND BSD-3-Clause AND SAX-PD) AND (Apache-2.0 AND LicenseRef-scancode-public-domain AND MIT AND Apache-1.1) AND (EPL-2.0 AND Apache-2.0) AND (LicenseRef-scancode-public-domain AND LicenseRef-scancode-generic-export-compliance)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Distribution License - v 1.0\n  url: http://www.eclipse.org/org/documents/edl-v10.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.jaxb/xsom@2.3.4?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.ee4j/project@1.0.7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.eclipse.ee4j/project@1.0.7"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.sun.xml.bind.external/relaxng-datatype@2.3.4",
+            "extracted_requirement": "2.3.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.jaxb/xsom@2.3.4?classifier=sources&uuid=a0aa7a61-ccc1-42e6-85fa-61480de68756",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.glassfish.jaxb/xsom@2.3.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/xsom/2.3.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/xsom/2.3.4/xsom-2.3.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/jaxb/xsom/2.3.4/xsom-2.3.4.pom",
+    "file_references": []
+}

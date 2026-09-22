@@ -1,0 +1,121 @@
+{
+    "type": "maven",
+    "namespace": "software.amazon.eventstream",
+    "name": "eventstream",
+    "version": "1.0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ea9e63e5-1f98-4bcd-85c7-a5a4db1f2313",
+            "packages": [
+                "pkg:maven/software.amazon.eventstream/eventstream@1.0.1?uuid=6663bd1d-a1f8-4cf8-a0c6-3738ee5fdb3c",
+                "pkg:maven/software.amazon.eventstream/eventstream@1.0.1?classifier=sources&uuid=86e46086-a3bd-4386-b97a-d7506e927f8a",
+                "pkg:github/awslabs/aws-eventstream-java@7be2dd80e12f8835674c8ffb0f4a2efb64c7b585?uuid=52b7d71f-afde-4a1d-a817-0f22324f1498"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Event Stream\nThe AWS Event Stream decoder library.",
+    "release_date": "2019-05-02T00:13:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/awslabs/aws-eventstream-java",
+    "download_url": "https://repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7121512c9d99c6b4c6e7a6a858bb05cb2643d6b3",
+    "sha256": "8953ddf1af1680008d7ae96877df9fcfff9b8d909998d5c52519dbd583215636",
+    "sha512": "0c31e620a83aee41c080a7f910b7248051e3ecd29c2e549adca9f8d3e48e867a6ac8b08eaa41739c1a84c445098ee7c8c407b4eaaea7a9d69b0e868fccd2e34f",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/awslabs/aws-eventstream-java",
+    "vcs_url": "https://github.com/awslabs/aws-eventstream-java",
+    "copyright": "Copyright (c) Amazon Web Services, Inc.",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_197.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: https://aws.amazon.com/apache2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_197.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-6361ddae-0332-a1d1-ce4f-00a2370c57d2",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://aws.amazon.com/apache2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/software.amazon.eventstream/eventstream@1.0.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.1.0",
+            "extracted_requirement": "5.1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-all@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/software.amazon.eventstream/eventstream@1.0.1?classifier=sources&uuid=86e46086-a3bd-4386-b97a-d7506e927f8a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/software.amazon.eventstream/eventstream@1.0.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.pom",
+    "file_references": []
+}

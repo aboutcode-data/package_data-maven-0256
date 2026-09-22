@@ -1,0 +1,144 @@
+{
+    "type": "maven",
+    "namespace": "org.keycloak",
+    "name": "keycloak-saml-core",
+    "version": "21.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1fdebb32-d2fe-46d4-b926-0d8bed413253",
+            "packages": [
+                "pkg:maven/org.keycloak/keycloak-saml-core@21.0.2?uuid=fca6c082-f279-42db-b0f5-4e754211d315",
+                "pkg:maven/org.keycloak/keycloak-saml-core@21.0.2?classifier=sources&uuid=85ca6af7-2d4e-400d-95ed-54f340c958a4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Keycloak SAML Core",
+    "release_date": "2023-03-30T10:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Keycloak Team",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://keycloak.org",
+    "download_url": "https://repo1.maven.org/maven2/org/keycloak/keycloak-saml-core/21.0.2/keycloak-saml-core-21.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "26c8d31a1e532c33667a272b063ac96737e169d1",
+    "sha256": "96a0e21e5f3f6f3777fc63881751736157c3923af057a58744cc112f5d892662",
+    "sha512": "73984dc7d2ee6530935591b053b8323f93da6f37c481264027878a8453cf9b156301f66256a7c7bbb38e533e3b8920a75a7aa2e39d1690aefc3449c15434c40f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc. and/or its affiliates ~ and other contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "oasis-ws-security-spec AND w3c AND w3c-software-19980720 AND ws-policy-specification",
+    "other_license_expression_spdx": "LicenseRef-scancode-oasis-ws-security-spec AND W3C AND W3C-19980720 AND LicenseRef-scancode-ws-policy-specification",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.keycloak/keycloak-saml-core@21.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-common",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-saml-core-public",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.santuario/xmlsec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.xml.bind/jaxb-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.ws/rt",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/%24%7Bkeycloak.crypto.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.keycloak/keycloak-saml-core@21.0.2?classifier=sources&uuid=85ca6af7-2d4e-400d-95ed-54f340c958a4",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.keycloak/keycloak-saml-core@21.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

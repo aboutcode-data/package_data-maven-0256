@@ -1,0 +1,145 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.boot",
+    "name": "spring-boot-starter-oauth2-client",
+    "version": "2.7.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "106812b4-2405-4576-a7c6-f87d2eb78c8e",
+            "packages": [
+                "pkg:maven/org.springframework.boot/spring-boot-starter-oauth2-client@2.7.11?uuid=a6f16698-f796-4a3c-b736-2eb056c78b38",
+                "pkg:maven/org.springframework.boot/spring-boot-starter-oauth2-client@2.7.11?classifier=sources&uuid=8a528a3c-fbe3-4c01-8e38-a7bc1c2ef64d",
+                "pkg:github/spring-projects/spring-boot@v2.7.11?uuid=4c5ca1fa-f885-4372-bd0d-67903ba5f5d2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "spring-boot-starter-oauth2-client\nStarter for using Spring Security's OAuth2/OpenID Connect client features",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Spring",
+            "email": "ask@spring.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "VMware, Inc.",
+            "email": null,
+            "url": "https://spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://spring.io/projects/spring-boot",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.7.11/spring-boot-starter-oauth2-client-2.7.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5a04ddf02f0dc658cc382833bce42e62855d6ce9",
+    "sha256": "c035749594b30d7c0027c5a1403602a3f39c29d9862c2c0770e392a915a16c77",
+    "sha512": "7ff41e4d7af806b365a136c32ff78a6e77a0ca5fd74ec71aae6bf09307615c1538904f48791be9e38cf1815e7844f44f8803bcf52e2b16dd977c2cb34b614824",
+    "bug_tracking_url": "https://github.com/spring-projects/spring-boot/issues",
+    "code_view_url": "https://github.com/spring-projects/spring-boot",
+    "vcs_url": "git://github.com/spring-projects/spring-boot.git",
+    "copyright": "Copyright (c) VMware, Inc.",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-8b0def3b-907f-4d50-db9d-c40959d8ddf2",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.boot/spring-boot-starter-oauth2-client@2.7.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter@2.7.11",
+            "extracted_requirement": "2.7.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-config@5.7.8",
+            "extracted_requirement": "5.7.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core@5.7.8",
+            "extracted_requirement": "5.7.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.8",
+            "extracted_requirement": "5.7.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.8",
+            "extracted_requirement": "5.7.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.boot/spring-boot-starter-oauth2-client@2.7.11?classifier=sources&uuid=8a528a3c-fbe3-4c01-8e38-a7bc1c2ef64d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-oauth2-client@2.7.11?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "de.alpharogroup",
+    "name": "jaulp.collections",
+    "version": "3.12.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "jaulp.collections",
+    "release_date": "2015-07-01T11:00:22Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/de/alpharogroup/jaulp.collections/3.12.0/jaulp.collections-3.12.0.jar",
+    "size": 34907,
+    "md5": null,
+    "sha1": "53b1a4b0b2e1a5a9397513321a922a578c3f71ee",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/de.alpharogroup/jaulp.collections@3.12.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/de.alpharogroup/jaulp.time",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.alpharogroup/jaulp.test.objects",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-collections4",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-beanutils/commons-beanutils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/de.alpharogroup/jaulp.collections@3.12.0?uuid=38122998-73aa-49ce-87f9-bcdbeb91c9df",
+    "datasource_id": null,
+    "purl": "pkg:maven/de.alpharogroup/jaulp.collections@3.12.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/de/alpharogroup/jaulp.collections/3.12.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/de/alpharogroup/jaulp.collections/3.12.0/jaulp.collections-3.12.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/de/alpharogroup/jaulp.collections/3.12.0/jaulp.collections-3.12.0.pom",
+    "file_references": []
+}

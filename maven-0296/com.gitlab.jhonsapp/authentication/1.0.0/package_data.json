@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "com.gitlab.jhonsapp",
+    "name": "authentication",
+    "version": "1.0.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "authentication\n....",
+    "release_date": "2017-05-15T21:36:01Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jhonys Camacho",
+            "email": "jhonys.camacho@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jhonathan Camacho",
+            "email": "jhonathancorreacamacho@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://gitlab.com/jhonsapp/authentication",
+    "download_url": "https://repo1.maven.org/maven2/com/gitlab/jhonsapp/authentication/1.0.0/authentication-1.0.0.jar",
+    "size": 8909,
+    "md5": null,
+    "sha1": "2586701d53f29563c93c3d23a1cd4ed5f3e152b3",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.gitlab.jhonsapp/authentication@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax/javaee-api",
+            "extracted_requirement": "7.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish/javax.faces",
+            "extracted_requirement": "2.2.13",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.gitlab.jhonsapp/final-user",
+            "extracted_requirement": "1.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core",
+            "extracted_requirement": "4.1.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-web",
+            "extracted_requirement": "4.1.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-config",
+            "extracted_requirement": "4.1.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.gitlab.jhonsapp/web-configuration",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.gitlab.jhonsapp/jsf-configuration",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.gitlab.jhonsapp/authentication@1.0.0?uuid=03929b1c-0a74-427f-9a27-16766ea68fbb",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.gitlab.jhonsapp/authentication@1.0.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/gitlab/jhonsapp/authentication/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/gitlab/jhonsapp/authentication/1.0.0/authentication-1.0.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/gitlab/jhonsapp/authentication/1.0.0/authentication-1.0.0.pom",
+    "file_references": []
+}

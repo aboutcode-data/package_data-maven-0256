@@ -1,0 +1,71 @@
+{
+    "type": "maven",
+    "namespace": "org.jodd",
+    "name": "jodd-props",
+    "version": "3.8.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Jodd Props\nJodd Props is super properties replacement, featuring: UTF8, sections, profiles, macros and more.",
+    "release_date": "2017-05-21T21:26:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Igor Spasi\u0107",
+            "email": "igor@jodd.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Jodd",
+            "email": null,
+            "url": "http://jodd.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jodd.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jodd/jodd-props/3.8.6/jodd-props-3.8.6.jar",
+    "size": 26411,
+    "md5": null,
+    "sha1": "4f74a6be1e80138798432c1a794e2b3e994bcad0",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified AND unknown",
+    "declared_license_expression_spdx": "BSD-2-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The BSD 2-Clause License\nhttp://jodd.org/license.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jodd/jodd-props@3.8.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jodd/jodd-core",
+            "extracted_requirement": "3.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jodd/jodd-props@3.8.6?uuid=74c67a80-0a65-4447-ac8c-01789bbed580",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jodd/jodd-props@3.8.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jodd/jodd-props/3.8.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jodd/jodd-props/3.8.6/jodd-props-3.8.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jodd/jodd-props/3.8.6/jodd-props-3.8.6.pom",
+    "file_references": []
+}

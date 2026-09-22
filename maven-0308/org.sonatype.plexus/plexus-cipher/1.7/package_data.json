@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.sonatype.plexus",
+    "name": "plexus-cipher",
+    "version": "1.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4231e416-fb6b-444f-9939-b73683486142",
+            "packages": [
+                "pkg:maven/org.sonatype.plexus/plexus-cipher@1.7?uuid=ffd45be3-20bd-4277-b0f1-00ffc7cdb838",
+                "pkg:maven/org.sonatype.plexus/plexus-cipher@1.7?classifier=sources&uuid=b0102184-205f-4f4c-8d9c-84ed0735fc2f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Plexus Cipher: encryption/decryption Component",
+    "release_date": "2011-07-26T18:06:35Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://spice.sonatype.org/plexus-cipher",
+    "download_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d8602c53e39399abe7073d49f6ee76a01d33a6b8",
+    "sha256": "37e552d8a8db67e9f045e68208e6ce9fad69acf4ce3e48af5137022da46ecfba",
+    "sha512": "73d46d3b42ab195b7564d56a2288d0df83ce9881305112b81a1ac88c76f227c495f3677e7d7125fad0b2de0a507e339a10220de5cbd69db255b66eb2c516086a",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/sonatype/plexus-cipher",
+    "vcs_url": "git+https://github.com/sonatype/plexus-cipher.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sonatype.plexus/plexus-cipher@1.7?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.forge/forge-parent@5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.forge/forge-parent@5",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.spice/spice-parent@15",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.spice/spice-parent@15"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.sonatype.sisu/sisu-inject-bean@2.2.0",
+            "extracted_requirement": "2.2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.sonatype.plexus/plexus-cipher@1.7?classifier=sources&uuid=b0102184-205f-4f4c-8d9c-84ed0735fc2f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.sonatype.plexus/plexus-cipher@1.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.7/plexus-cipher-1.7.pom",
+    "file_references": []
+}

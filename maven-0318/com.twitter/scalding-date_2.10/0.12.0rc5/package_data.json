@@ -1,0 +1,109 @@
+{
+    "type": "maven",
+    "namespace": "com.twitter",
+    "name": "scalding-date_2.10",
+    "version": "0.12.0rc5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "scalding-date",
+    "release_date": "2014-10-13T21:35:38Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Oscar Boykin",
+            "email": null,
+            "url": "http://twitter.com/posco"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Avi Bryant",
+            "email": null,
+            "url": "http://twitter.com/avibryant"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Argyris Zymnis",
+            "email": null,
+            "url": "http://twitter.com/argyris"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.twitter",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/twitter/scalding",
+    "download_url": "https://repo1.maven.org/maven2/com/twitter/scalding-date_2.10/0.12.0rc5/scalding-date_2.10-0.12.0rc5.jar",
+    "size": 111657,
+    "md5": null,
+    "sha1": "039c725cb141498014232a9639a71f9d67a26273",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2\nhttp://www.apache.org/licenses/LICENSE-2.0.txt\nA business-friendly OSS license",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.twitter/scalding-date_2.10@0.12.0rc5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.10",
+            "extracted_requirement": "1.10.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/specs_2.10",
+            "extracted_requirement": "1.6.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "1.8.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.twitter/scalding-date_2.10@0.12.0rc5?uuid=86f97232-372a-495f-967b-4287fdb7ee17",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.twitter/scalding-date_2.10@0.12.0rc5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/twitter/scalding-date_2.10/0.12.0rc5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/twitter/scalding-date_2.10/0.12.0rc5/scalding-date_2.10-0.12.0rc5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/twitter/scalding-date_2.10/0.12.0rc5/scalding-date_2.10-0.12.0rc5.pom",
+    "file_references": []
+}

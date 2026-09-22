@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.byteman",
+    "name": "byteman-bmunit",
+    "version": "4.0.20",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "910846c0-a618-4ca5-ac16-d12b773a9bed",
+            "packages": [
+                "pkg:maven/org.jboss.byteman/byteman-bmunit@4.0.20?uuid=34607e9b-cb5c-41c7-8045-de41841bf804",
+                "pkg:maven/org.jboss.byteman/byteman-bmunit@4.0.20?classifier=sources&uuid=0a6ab142-6f77-47b8-92f0-1b9f0df360ba"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "byteman-bmunit\nThe Byteman bmunit jar provides integration of Byteman into TestNG and JUnit tests.",
+    "release_date": "2022-10-12T09:11:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andrew Dinn",
+            "email": "adinn@redhat.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kabir Khan",
+            "email": "kabir.khan@jboss.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/byteman",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/byteman/byteman-bmunit/4.0.20/byteman-bmunit-4.0.20-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c7f826f512f212a210f539b7f67a9836313e5414",
+    "sha256": "e711049ad9ce8189bf320109a1d7e1fe368363ac5bc3d936537a81e7943e2ccf",
+    "sha512": "ef589debc48bb4d92b32fbd0828a8b5f63a652ebdb619267e60bdc766e189c207fa8a2b9a3d17918ca71530fddec666020d3c7f62be1c3e6a588ed4fa74c11a7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.byteman/byteman-bmunit@4.0.20?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.byteman/byteman",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.byteman/byteman-submit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.byteman/byteman-install",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun/tools@1.6",
+            "extracted_requirement": "1.6",
+            "scope": "system",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.byteman/byteman-bmunit@4.0.20?classifier=sources&uuid=0a6ab142-6f77-47b8-92f0-1b9f0df360ba",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.byteman/byteman-bmunit@4.0.20?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,62 @@
+{
+    "type": "maven",
+    "namespace": "org.netbeans.external",
+    "name": "asm-tree-7.2",
+    "version": "RELEASE113",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2020-02-21T16:30:27Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/netbeans/external/asm-tree-7.2/RELEASE113/asm-tree-7.2-RELEASE113.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3a23cc36edaf8fc5a89cb100182758ccb5991487",
+    "sha256": "c063f5a67fa03cdc9bd79fd1c2ea6816cc4a19473ecdfbd9e9153b408c6f2656",
+    "sha512": "39a40317bb096681a2b0901911bb9e6ebb1ee860afdee3c7f8b2863b98964cbaa4bf4b278c592edf7844e855b025ec9d9ce17c38c0541de726c99d36628b8675",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.netbeans.external/asm-tree-7.2@RELEASE113?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21"
+        ],
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.netbeans.external/asm-tree-7.2@RELEASE113?uuid=9f7c6138-4f9e-4770-92d8-706ba90372cd",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.netbeans.external/asm-tree-7.2@RELEASE113",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/netbeans/external/asm-tree-7.2/RELEASE113/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/netbeans/external/asm-tree-7.2/RELEASE113/asm-tree-7.2-RELEASE113.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/netbeans/external/asm-tree-7.2/RELEASE113/asm-tree-7.2-RELEASE113.pom",
+    "file_references": []
+}

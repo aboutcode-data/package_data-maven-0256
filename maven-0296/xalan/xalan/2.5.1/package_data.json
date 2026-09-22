@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "xalan",
+    "name": "xalan",
+    "version": "2.5.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "32f05043-f232-425c-bc43-75b01e24e40c",
+            "packages": [
+                "pkg:maven/xalan/xalan@2.5.1?uuid=3796af72-1f63-45e7-9d69-f7d4886dddae",
+                "pkg:maven/xalan/xalan@2.5.1?classifier=sources&uuid=22687bec-966d-4ade-bbdc-e8a45f23264a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2006-06-28T14:00:12Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/xalan/xalan/2.5.1/xalan-2.5.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d67f15e51f5600b521eaca6ae2da3040bd3975ef",
+    "sha256": "ec18dcf0fd3eebe5a4f9776a07392c4044abb960568d160987d379151fe94111",
+    "sha512": "cfc1b04b42287c98ea53bbf119fd7d08b9e0504a902d7d16daa547b7fe209f17b191a0fbdd145fb97c641882901341cd89c79c6e478cb59d099657c9e7aae526",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-1.1 AND w3c-software-19980720",
+    "other_license_expression_spdx": "Apache-1.1 AND W3C-19980720",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/xalan/xalan@2.5.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/xalan/xalan@2.5.1?classifier=sources&uuid=22687bec-966d-4ade-bbdc-e8a45f23264a",
+    "datasource_id": null,
+    "purl": "pkg:maven/xalan/xalan@2.5.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/xalan/xalan/2.5.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/xalan/xalan/2.5.1/xalan-2.5.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/xalan/xalan/2.5.1/xalan-2.5.1.pom",
+    "file_references": []
+}

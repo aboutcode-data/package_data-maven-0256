@@ -1,0 +1,138 @@
+{
+    "type": "maven",
+    "namespace": "javax.enterprise.concurrent",
+    "name": "javax.enterprise.concurrent-api",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ab980131-a799-4703-86cd-9fff61ca8ecf",
+            "packages": [
+                "pkg:maven/javax.enterprise.concurrent/javax.enterprise.concurrent-api@1.0?uuid=ba276056-f2aa-4801-8c00-a607066a5800",
+                "pkg:maven/javax.enterprise.concurrent/javax.enterprise.concurrent-api@1.0?classifier=sources&uuid=31c81506-7c25-4dde-8174-1075fdbf2a9e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "javax.enterprise.concurrent-api\nJSR 236:Concurrency Utilities for Java EE",
+    "release_date": "2013-05-01T17:00:13Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Anthony Lai",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://concurrency-ee-spec.java.net",
+    "download_url": "https://repo1.maven.org/maven2/javax/enterprise/concurrent/javax.enterprise.concurrent-api/1.0/javax.enterprise.concurrent-api-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8aa8081a9aeaed2f54717e53155306a1785d5a73",
+    "sha256": "49bc96e5493731f5a409b5e773e38d44f8867fced579ea4afe35cc18741b6991",
+    "sha512": "643519528a760fd6e631466a058612e29aaeb17724b35411b48c7bdd827425303191277925eca381feff8e07f54f82170a2779c120bd8fac6be11c52f28099e5",
+    "bug_tracking_url": "http://java.net/jira/browse/CONCURRENCY_EE_SPEC",
+    "code_view_url": "http://java.net/projects/concurrency-ee-spec/sources/source-code-repository/show/tags/javax.enterprise.concurrent-api-1.0",
+    "vcs_url": "svn+https://svn.java.net/svn/concurrency-ee-spec~source-code-repository/tags/javax.enterprise.concurrent-api-1.0",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.1 AND gpl-2.0",
+    "declared_license_expression_spdx": "CDDL-1.1 AND GPL-2.0-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 95.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_cddl-1.1_for_cddl-1.1.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: CDDL 1.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 95,
+                    "rule_identifier": "spdx_license_id_cddl-1.1_for_cddl-1.1.RULE",
+                    "license_expression": "cddl-1.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.1.RULE",
+                    "license_expression": "cddl-1.1"
+                },
+                {
+                    "score": 50.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl2_bare_word_only.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: GPL2 w/ CPE",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 50,
+                    "rule_identifier": "gpl2_bare_word_only.RULE",
+                    "license_expression": "gpl-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cddl-1.1.RULE",
+                    "start_line": 4,
+                    "matched_text": "  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cddl-1.1.RULE",
+                    "license_expression": "cddl-1.1"
+                }
+            ],
+            "identifier": "cddl_1_1_and_gpl_2_0-2cf7bf2d-80f2-77df-62e6-c9fdf20f6ea8",
+            "license_expression": "cddl-1.1 AND gpl-2.0"
+        }
+    ],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND sun-jsr-spec-04-2006",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND LicenseRef-scancode-sun-jsr-spec-04-2006",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: CDDL 1.1\n  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html\n- name: GPL2 w/ CPE\n  url: http://glassfish.java.net/public/CDDL+GPL_1_1.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.enterprise.concurrent/javax.enterprise.concurrent-api@1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/javax.enterprise.concurrent/javax.enterprise.concurrent-api@1.0?classifier=sources&uuid=31c81506-7c25-4dde-8174-1075fdbf2a9e",
+    "datasource_id": null,
+    "purl": "pkg:maven/javax.enterprise.concurrent/javax.enterprise.concurrent-api@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/enterprise/concurrent/javax.enterprise.concurrent-api/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/enterprise/concurrent/javax.enterprise.concurrent-api/1.0/javax.enterprise.concurrent-api-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/enterprise/concurrent/javax.enterprise.concurrent-api/1.0/javax.enterprise.concurrent-api-1.0.pom",
+    "file_references": []
+}

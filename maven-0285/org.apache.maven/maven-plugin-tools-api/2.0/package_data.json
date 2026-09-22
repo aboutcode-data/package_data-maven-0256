@@ -1,0 +1,144 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven",
+    "name": "maven-plugin-tools-api",
+    "version": "2.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8fe2fb58-7dec-4179-aefe-6e08711caa72",
+            "packages": [
+                "pkg:maven/org.apache.maven/maven-plugin-tools-api@2.0?uuid=4ab5dd76-f6f2-49c4-9190-c2fe3490f611",
+                "pkg:maven/org.apache.maven/maven-plugin-tools-api@2.0?classifier=sources&uuid=8f66d320-bfc1-48c9-bf1e-41b23dc04eb5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Plugin Tools APIs",
+    "release_date": "2006-05-07T22:31:18Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason van Zyl",
+            "email": "jason@maven.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brett Porter",
+            "email": "brett@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emmanuel Venisse",
+            "email": "evenisse@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Casey",
+            "email": "jdcasey@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kenney Westerhof",
+            "email": "kenney@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Trygve Laugstol",
+            "email": "trygvis@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vincent Massol",
+            "email": "vmassol@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vincent Siveton",
+            "email": "vsiveton@apache.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://maven.apache.org/maven2/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-tools-api/2.0/maven-plugin-tools-api-2.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "988876b4a84e65305d79c11ca142dc3a000df3d4",
+    "sha256": "af12b5de854fb6d39cf811abc4380d49356bcdf6d5ea08b7c632135df9271be5",
+    "sha512": "aa290174409d11a67044273121e092817fff666ebce584fccab6c2b36cf4a74253b91d2dc5bcd8c0b2744b031a41557bc6d736def762d29c668fb49baf0ec63a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven/maven-plugin-tools-api@2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-project@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-descriptor@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven/maven-plugin-tools-api@2.0?classifier=sources&uuid=8f66d320-bfc1-48c9-bf1e-41b23dc04eb5",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven/maven-plugin-tools-api@2.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-tools-api/2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-tools-api/2.0/maven-plugin-tools-api-2.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-tools-api/2.0/maven-plugin-tools-api-2.0.pom",
+    "file_references": []
+}

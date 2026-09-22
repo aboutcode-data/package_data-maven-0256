@@ -1,0 +1,216 @@
+{
+    "type": "maven",
+    "namespace": "com.thoughtworks.xstream",
+    "name": "xstream",
+    "version": "1.4.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "44421aa2-24fd-4f46-bdd8-8e9244508221",
+            "packages": [
+                "pkg:maven/com.thoughtworks.xstream/xstream@1.4.2?uuid=3afcda2a-bbf4-4f50-907c-49c4fa5c8f29",
+                "pkg:maven/com.thoughtworks.xstream/xstream@1.4.2?classifier=sources&uuid=60d9db4f-4a4a-49c3-a9ee-ff6913f7fb96"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "XStream Core",
+    "release_date": "2011-11-03T21:21:55Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "XStream",
+            "email": null,
+            "url": "http://xstream.codehaus.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://codehaus.org/",
+    "download_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3ffcab5525deb05ef41765f9b3ca13e81c0243d7",
+    "sha256": "8c1409025fff3ad1bfab96f385f5966abf2ad1d5f239e59f527e1cbb5940b59f",
+    "sha512": "31a9f46fa298a9ea4c85b51947baa8654b2520464c09ed064597fea76697b16c3b36d9a8e880db604799f05818ce90b43a8845b92b3da2d0203021a47bd412a9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.thoughtworks.xstream/xstream@1.4.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/dom4j/dom4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jdom/jdom",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/stax/stax",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.woodstox/wstx-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/stax/stax-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xom/xom",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xmlpull/xmlpull",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.kxml/kxml2-min",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.kxml/kxml2",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xpp3/xpp3_min",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib-nodep",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json/json",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jettison/jettison",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jmock/jmock",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.megginson.sax/xml-writer",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/oro/oro",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.2?classifier=sources&uuid=60d9db4f-4a4a-49c3-a9ee-ff6913f7fb96",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.2/xstream-1.4.2.pom",
+    "file_references": []
+}

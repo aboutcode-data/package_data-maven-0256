@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.camunda.bpm",
+    "name": "camunda-engine-plugin-spin",
+    "version": "7.7.0-alpha2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "camunda BPM - engine plugins - spin",
+    "release_date": "2017-05-19T08:40:16Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/camunda/bpm/camunda-engine-plugin-spin/7.7.0-alpha2/camunda-engine-plugin-spin-7.7.0-alpha2.jar",
+    "size": 35070,
+    "md5": null,
+    "sha1": "a09418222ed69a0860f874be4b00720ce1fd6cad",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.camunda.bpm/camunda-engine-plugin-spin@7.7.0-alpha2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.camunda.spin/camunda-spin-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.camunda.spin/camunda-spin-dataformat-json-jackson",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.camunda.spin/camunda-spin-dataformat-xml-dom",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.camunda.bpm.model/camunda-bpmn-model",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.skyscreamer/jsonassert",
+            "extracted_requirement": "1.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.python/jython",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jruby/jruby-complete",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.camunda.bpm/camunda-engine-plugin-spin@7.7.0-alpha2?uuid=29eeab53-a003-4a89-be27-db226e48baca",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.camunda.bpm/camunda-engine-plugin-spin@7.7.0-alpha2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/camunda/bpm/camunda-engine-plugin-spin/7.7.0-alpha2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/camunda/bpm/camunda-engine-plugin-spin/7.7.0-alpha2/camunda-engine-plugin-spin-7.7.0-alpha2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/camunda/bpm/camunda-engine-plugin-spin/7.7.0-alpha2/camunda-engine-plugin-spin-7.7.0-alpha2.pom",
+    "file_references": []
+}

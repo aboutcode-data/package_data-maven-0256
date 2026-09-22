@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "jivesoftware",
+    "name": "smack",
+    "version": "3.0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Smack\nSmack is an Open Source XMPP (Jabber) client library for instant messaging and presence. A pure Java library, it can be embedded into your applications to create anything from a full XMPP client to simple XMPP integrations such as sending notification messages.",
+    "release_date": "2008-10-28T01:43:47Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.jivesoftware.org/smack/",
+    "download_url": "https://repo1.maven.org/maven2/jivesoftware/smack/3.0.4/smack-3.0.4.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6c753d9ee1267d5c95f129575963e62ed49860a1",
+    "sha256": "03ce9a149453a4799f90d4660841c5cc862b1b580df8caefb8b8fb40ab57fbb4",
+    "sha512": "31c6c29fbac859073126b8f05a070ddc9126b3e9e71d6c219d9444973d99df027b454eed569b5132848f32dc60c1e6113317fcad7291a014a5d26e2c053de999",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": "svn+http://svn.jivesoftware.org/svn/repos/smack/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d19d6db-5271-9183-f2fe-699732078833",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jivesoftware/smack@3.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/jivesoftware/smack@3.0.4?uuid=250c9759-d9fa-465c-9f29-9cec5e28ed0c",
+    "datasource_id": null,
+    "purl": "pkg:maven/jivesoftware/smack@3.0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jivesoftware/smack/3.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jivesoftware/smack/3.0.4/smack-3.0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jivesoftware/smack/3.0.4/smack-3.0.4.pom",
+    "file_references": []
+}

@@ -1,0 +1,99 @@
+{
+    "type": "maven",
+    "namespace": "jfree",
+    "name": "jfreechart",
+    "version": "1.0.13",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "jfreechart\nJFreeChart is a class library, written in Java, for generating charts. Utilising the Java2D APIs, it currently\n        supports bar charts, pie charts, line charts, XY-plots and time series plots.",
+    "release_date": "2009-09-18T20:39:31Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JFree.org",
+            "email": null,
+            "url": "http://www.jfree.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jfree.org/jfreechart/",
+    "download_url": "https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b5fbdc552c4caec3dac4b4dcbc10d119a194946e",
+    "sha256": "62fc1c7a98fd59b760e4324e95a63ec6aadf10dfc817af808a86b1891776d2ad",
+    "sha512": "bd2c0633f4259f48b45602c99a09f3b2d6833b113d32288d3ba41242af3b359867f880b16075d92730e509a6e372e33d1ba3baa9994b01ee5d105fea9229d8d9",
+    "bug_tracking_url": null,
+    "code_view_url": "http://jfreechart.cvs.sourceforge.net/jfreechart/jfreechart/",
+    "vcs_url": "cvs+pserver:anonymous@jfreechart.cvs.sourceforge.net:/cvsroot/jfreechart:jfreechart",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-3.0 AND lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-3.0-only AND LGPL-2.0-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 27.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-3.0_313.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: GNU Lesser General Public Licence",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 27,
+                    "rule_identifier": "lgpl-3.0_313.RULE",
+                    "license_expression": "lgpl-3.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.0-plus_204.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/lgpl.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.0-plus_204.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                }
+            ],
+            "identifier": "lgpl_3_0_and_lgpl_2_0_plus-9fb66e1a-0161-85fe-4eeb-6217c1ac506d",
+            "license_expression": "lgpl-3.0 AND lgpl-2.0-plus"
+        }
+    ],
+    "other_license_expression": "lgpl-2.0-plus",
+    "other_license_expression_spdx": "LGPL-2.0-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU Lesser General Public Licence\n  url: http://www.gnu.org/licenses/lgpl.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jfree/jfreechart@1.0.13?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jfree/jcommon@1.0.16",
+            "extracted_requirement": "1.0.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/jfree/jfreechart@1.0.13?uuid=9574e5a8-c9ed-41ae-b2ab-663b85994327",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/jfree/jfreechart@1.0.13",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13.pom",
+    "file_references": []
+}

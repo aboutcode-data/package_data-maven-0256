@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "org.duracloud",
+    "name": "storeclient",
+    "version": "4.3.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "StoreClient",
+    "release_date": "2017-05-26T16:17:57Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/duracloud/storeclient/4.3.5/storeclient-4.3.5.jar",
+    "size": 60655,
+    "md5": null,
+    "sha1": "2604c5d9853361f204c123fc8be3f810c4eac624",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.duracloud/storeclient@4.3.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.duracloud/common",
+            "extracted_requirement": "4.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud/storageprovider",
+            "extracted_requirement": "4.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud/storageproviderdata",
+            "extracted_requirement": "4.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud/reportdata",
+            "extracted_requirement": "4.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud/snapshotdata",
+            "extracted_requirement": "4.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.duracloud.db/account-management-db-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jdom/jdom",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.duracloud/storeclient@4.3.5?uuid=2bb68cda-a501-4b9c-a5aa-6f9ce886e54a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.duracloud/storeclient@4.3.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/duracloud/storeclient/4.3.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/duracloud/storeclient/4.3.5/storeclient-4.3.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/duracloud/storeclient/4.3.5/storeclient-4.3.5.pom",
+    "file_references": []
+}

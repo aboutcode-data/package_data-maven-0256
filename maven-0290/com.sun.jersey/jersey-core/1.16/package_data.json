@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.jersey",
+    "name": "jersey-core",
+    "version": "1.16",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b9786578-4718-4f29-ab09-e21e0d0904d5",
+            "packages": [
+                "pkg:maven/com.sun.jersey/jersey-core@1.16?uuid=77b76e67-a2c2-486d-a3c8-083b2fb1d6e5",
+                "pkg:maven/com.sun.jersey/jersey-core@1.16?classifier=sources&uuid=c07e3abb-b5c8-4b67-a645-e6339df0336e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jersey-core",
+    "release_date": "2012-11-28T13:09:40Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corporation",
+            "email": null,
+            "url": "http://www.oracle.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.16/jersey-core-1.16-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e8fcf766219d8cbda64c8ab34001111da47b06fc",
+    "sha256": "4c720b697b4d7edd774c1f7f008772bd2d3ba94e724e196d457751711e8127c4",
+    "sha512": "0686adc624746bb08b75b8a7633b0a841ac31f6147194489a464a2901330627e28bcc14c57528f34185b83145dfa8bf0de2e26726be23ce4b7668eaaf2b3e23f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.1 AND gpl-2.0",
+    "declared_license_expression_spdx": "CDDL-1.1 AND GPL-2.0-only",
+    "license_detections": [],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND cddl-1.0 AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND w3c) AND apache-2.0 AND (cddl-1.1 AND apache-2.0 AND cddl-1.0)",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CDDL-1.0 AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND W3C) AND Apache-2.0 AND (CDDL-1.1 AND Apache-2.0 AND CDDL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.jersey/jersey-core@1.16?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.ws.rs/jsr311-api@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@4.2.0",
+            "extracted_requirement": "4.2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.sun.jersey/jersey-core@1.16?classifier=sources&uuid=c07e3abb-b5c8-4b67-a645-e6339df0336e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.sun.jersey/jersey-core@1.16?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.16/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.16/jersey-core-1.16-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.16/jersey-core-1.16.pom",
+    "file_references": []
+}

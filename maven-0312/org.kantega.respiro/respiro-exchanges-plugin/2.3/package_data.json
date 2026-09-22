@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.kantega.respiro",
+    "name": "respiro-exchanges-plugin",
+    "version": "2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-23T09:05:55Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-exchanges-plugin/2.3/respiro-exchanges-plugin-2.3.jar",
+    "size": 16511,
+    "md5": null,
+    "sha1": "f7317ebef5cc6b2e9c2ed006f9c0a937d5bc3085",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kantega.respiro/respiro-exchanges-plugin@2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.kantega.respiro/respiro-api",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kantega.respiro/respiro-ui-plugin",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kantega.respiro/respiro-cxf-plugin",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kantega.respiro/respiro-message-collector-plugin",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.kantega.respiro/respiro-exchanges-plugin@2.3?uuid=609f8af8-3a1d-49cf-b064-1ec827f43169",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kantega.respiro/respiro-exchanges-plugin@2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-exchanges-plugin/2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-exchanges-plugin/2.3/respiro-exchanges-plugin-2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kantega/respiro/respiro-exchanges-plugin/2.3/respiro-exchanges-plugin-2.3.pom",
+    "file_references": []
+}

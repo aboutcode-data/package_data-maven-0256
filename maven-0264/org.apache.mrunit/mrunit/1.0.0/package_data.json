@@ -1,0 +1,145 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.mrunit",
+    "name": "mrunit",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "MRUnit\nMRUnit is a Java library that helps developers unit test Apache Hadoop map\n    reduce jobs.",
+    "release_date": "2013-04-03T20:27:31Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Aaron Kimball",
+            "email": "kimballa@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Konstantin Boudnik",
+            "email": "cos@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Garrett Wu",
+            "email": "gwu@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eric Sammer",
+            "email": "esammer@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brock Noland",
+            "email": "brock@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim Donofrio",
+            "email": "jdonofrio@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jarek Jarcec Cecho",
+            "email": "jarcec@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dave Beech",
+            "email": "dbeech@apache.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://mrunit.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/mrunit/mrunit/1.0.0/mrunit-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2721615544158756d74118780ac69a689a1318cd",
+    "sha256": "2b7d64d56f040d8abb88394def98d35e4832e4298951fdf1dc3681f2e7ea5a37",
+    "sha512": "1d199174f7de8b3b744bb216264759479981a3d0a5a67b3e0136c84d8b594109d933e92fa675e7bf703e2f5c34e12d0fb662b9e00dbae18522e596c8f59791a5",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/MRUNIT",
+    "code_view_url": "https://git-wip-us.apache.org/repos/asf?p=mrunit.git;a=summary",
+    "vcs_url": "git+http://git-wip-us.apache.org/repos/asf/mrunit.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (mit AND bsd-new AND cpl-1.0 AND apache-2.0)",
+    "other_license_expression_spdx": "Apache-2.0 AND (MIT AND BSD-3-Clause AND CPL-1.0 AND Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.mrunit/mrunit@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all@1.8.5",
+            "extracted_requirement": "1.8.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-common@2.0.0-alpha",
+            "extracted_requirement": "2.0.0-alpha",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-core@2.0.0-alpha",
+            "extracted_requirement": "2.0.0-alpha",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.mrunit/mrunit@1.0.0?classifier=sources&uuid=fd799fc4-ba72-4569-b9eb-bb233b5d28bc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.mrunit/mrunit@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/mrunit/mrunit/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/mrunit/mrunit/1.0.0/mrunit-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/mrunit/mrunit/1.0.0/mrunit-1.0.0.pom",
+    "file_references": []
+}

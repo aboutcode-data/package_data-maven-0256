@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "kg.apc",
+    "name": "jmeter-plugins-lockfile",
+    "version": "0.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Lock file",
+    "release_date": "2016-04-24T08:28:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "jmeter-plugins.org",
+            "email": "jmeter-plugins@googlegroups.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jmeter-plugins.org/",
+    "download_url": "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-lockfile/0.1/jmeter-plugins-lockfile-0.1.jar",
+    "size": 6469,
+    "md5": null,
+    "sha1": "b847f63801fc0138eb1eac46cd0aa54901f6c528",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/kg.apc/jmeter-plugins-lockfile@0.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/kg.apc/jmeter-plugins-cmn-jmeter",
+            "extracted_requirement": "0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/kg.apc/jmeter-plugins-common-io",
+            "extracted_requirement": "0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/kg.apc/jmeter-plugins-emulators",
+            "extracted_requirement": "0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/kg.apc/jmeter-plugins-lockfile@0.1?uuid=1d3fb478-b28a-4a59-9c4c-bce4b3883003",
+    "datasource_id": null,
+    "purl": "pkg:maven/kg.apc/jmeter-plugins-lockfile@0.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-lockfile/0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-lockfile/0.1/jmeter-plugins-lockfile-0.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-lockfile/0.1/jmeter-plugins-lockfile-0.1.pom",
+    "file_references": []
+}

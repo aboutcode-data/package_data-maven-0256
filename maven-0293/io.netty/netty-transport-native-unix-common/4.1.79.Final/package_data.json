@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-transport-native-unix-common",
+    "version": "4.1.79.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "18b46b55-3333-45ef-a188-f4ce91716b37",
+            "packages": [
+                "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.79.Final?uuid=cfe9e9b0-f47e-4916-8ef0-458573d6c49f",
+                "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.79.Final?classifier=sources&uuid=a9e4a491-57a6-4e25-9482-773b477072e6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Transport/Native/Unix/Common\nStatic library which contains common unix utilities.",
+    "release_date": "2022-07-11T21:25:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://netty.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "65ce74c46001f44087b989e27b97662712b4bfba",
+    "sha256": "8ef6f156eb3ff6b18e6c79e83138351bf2ea94dbc2d26b158990ea1350ec1a3d",
+    "sha512": "3e4abff77878444bd2cffb64da4ff93a7f13f3bf8ea642be618b530dbb74d8b5b0b58802f12a5175fbf41bfd07e559fa1e549ea423ba50abc35f356b9b09f95a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.79.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "merge_ancestors: pkg:maven/org.sonatype.oss/oss-parent@9 data not added to package: ancestor package namespace is not contained in pkg:maven/io.netty/netty-transport-native-unix-common@4.1.79.Final namespace",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.79.Final",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.79.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.79.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-jni-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.79.Final",
+            "extracted_requirement": "4.1.79.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.79.Final",
+            "extracted_requirement": "4.1.79.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.79.Final",
+            "extracted_requirement": "4.1.79.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.79.Final?classifier=sources&uuid=a9e4a491-57a6-4e25-9482-773b477072e6",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.79.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.79.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.pom",
+    "file_references": []
+}

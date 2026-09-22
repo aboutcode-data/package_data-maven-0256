@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.dihedron.crypto",
+    "name": "crypto",
+    "version": "0.2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "a. Cryptographic Support Classes\nSet of classes to support cryptography, including smart card detection, encryption, decription and signing.",
+    "release_date": "2014-05-01T09:27:49Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/dihedron/crypto/crypto/0.2.0/crypto-0.2.0.jar",
+    "size": 90099,
+    "md5": null,
+    "sha1": "1e8deea40e38a6f7541c34ad7d239238c6e7c84b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.dihedron.crypto/crypto@0.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.dihedron.commons/base",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcmail-jdk16",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.itextpdf/itextpdf",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.dihedron.crypto/crypto@0.2.0?uuid=69a80b67-07d5-4bda-a9af-7f7ce576cd13",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.dihedron.crypto/crypto@0.2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/dihedron/crypto/crypto/0.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/dihedron/crypto/crypto/0.2.0/crypto-0.2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/dihedron/crypto/crypto/0.2.0/crypto-0.2.0.pom",
+    "file_references": []
+}

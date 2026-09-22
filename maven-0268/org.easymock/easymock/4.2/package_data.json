@@ -1,0 +1,125 @@
+{
+    "type": "maven",
+    "namespace": "org.easymock",
+    "name": "easymock",
+    "version": "4.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7a4cbd1a-5497-4172-9a6c-8cd89cd9d0ed",
+            "packages": [
+                "pkg:maven/org.easymock/easymock@4.2?uuid=b61d94c7-913c-43db-8490-0b9724de1d31",
+                "pkg:maven/org.easymock/easymock@4.2?classifier=sources&uuid=73a3f625-6a1d-4de8-993c-7dea7dfb92e1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "EasyMock\nEasyMock provides an easy way to create Mock Objects for interfaces and classes generating them on the fly",
+    "release_date": "2020-01-29T03:44:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tammo Freese",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Tremblay",
+            "email": null,
+            "url": "http://blog.tremblay.pro/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://easymock.org",
+    "download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/4.2/easymock-4.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0d1fb0bbbe1dcabae391e814b880a5d20c596103",
+    "sha256": "247f21362d66bd73f059288441e818720610735ee009ee54273f7b097dfee01a",
+    "sha512": "63b957d7f19f31b490a9fd5e6907e9813dfc83ccdc5a62553e33a28d3c46216e94d3309c55bf5ac09a995c79e245f38c3f643646173f48db206a93a2f8b7e35b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) http://easymock.org/contributors.html",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.easymock/easymock@4.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.easymock/easymock-parent@4.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.easymock/easymock-parent@4.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.objenesis/objenesis@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.droidparts.dexmaker/dexmaker@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter@5.6.0",
+            "extracted_requirement": "5.6.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.vintage/junit-vintage-engine@5.6.0",
+            "extracted_requirement": "5.6.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13",
+            "extracted_requirement": "4.13",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng@7.1.0",
+            "extracted_requirement": "7.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.easymock/easymock@4.2?classifier=sources&uuid=73a3f625-6a1d-4de8-993c-7dea7dfb92e1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.easymock/easymock@4.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/easymock/easymock/4.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/easymock/easymock/4.2/easymock-4.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/easymock/easymock/4.2/easymock-4.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.asset.display.page.item.selector.api",
+    "version": "2.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f32d6053-a7ed-4351-ab91-287385f731f0",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.asset.display.page.item.selector.api@2.0.0?uuid=cdae5386-08ad-4834-8e28-d43105b1488d",
+                "pkg:maven/com.liferay/com.liferay.asset.display.page.item.selector.api@2.0.0?classifier=sources&uuid=89d1a275-9314-42f8-9988-5131b3447704"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Asset Display Page Item Selector API",
+    "release_date": "2019-04-25T08:38:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.display.page.item.selector.api/2.0.0/com.liferay.asset.display.page.item.selector.api-2.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6e7747390edcefa97221697678b7ce263b6a305d",
+    "sha256": "ac46fb144a1ebadc78040fb51080d6a4c4ec842b70e02275e69a28f3c96e4d18",
+    "sha512": "4290a22320b03d58f7c707df0cb35f97e2838fca3e5e9c8812985ec06e7567faa211bc5c0228018f69319a0d3a6d20d80048c3f412794ab84c8230cb28fcc8c2",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.asset.display.page.item.selector.api@2.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.asset.display.page.item.selector.api@2.0.0?classifier=sources&uuid=89d1a275-9314-42f8-9988-5131b3447704",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.asset.display.page.item.selector.api@2.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.display.page.item.selector.api/2.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.display.page.item.selector.api/2.0.0/com.liferay.asset.display.page.item.selector.api-2.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.asset.display.page.item.selector.api/2.0.0/com.liferay.asset.display.page.item.selector.api-2.0.0.pom",
+    "file_references": []
+}

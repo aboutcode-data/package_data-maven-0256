@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.activiti",
+    "name": "spring-boot-sample-actuator",
+    "version": "6.0.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-25T10:12:40Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/activiti/spring-boot-sample-actuator/6.0.0/spring-boot-sample-actuator-6.0.0.jar",
+    "size": 4102,
+    "md5": null,
+    "sha1": "2f72d5a5103334be6489fdb21df0b4715fce5473",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.activiti/spring-boot-sample-actuator@6.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.activiti/activiti-spring-boot-starter-actuator",
+            "extracted_requirement": "6.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.activiti/spring-boot-sample-actuator@6.0.0?uuid=15012e0a-07ad-4060-9fe2-1aed03828df9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.activiti/spring-boot-sample-actuator@6.0.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/activiti/spring-boot-sample-actuator/6.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/activiti/spring-boot-sample-actuator/6.0.0/spring-boot-sample-actuator-6.0.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/activiti/spring-boot-sample-actuator/6.0.0/spring-boot-sample-actuator-6.0.0.pom",
+    "file_references": []
+}

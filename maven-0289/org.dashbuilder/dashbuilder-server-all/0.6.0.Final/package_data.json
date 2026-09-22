@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.dashbuilder",
+    "name": "dashbuilder-server-all",
+    "version": "0.6.0.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Dashbuilder All Server Libraries",
+    "release_date": "2017-05-18T05:49:16Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-server-all/0.6.0.Final/dashbuilder-server-all-0.6.0.Final.jar",
+    "size": 2628,
+    "md5": null,
+    "sha1": "0a233f823927b69ead0ee8304bef28e41ecfb40a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.dashbuilder/dashbuilder-server-all@0.6.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-sql",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-csv",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-elasticsearch",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-cdi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-navigation-backend",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-services",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.dashbuilder/dashbuilder-server-all@0.6.0.Final?uuid=1eddb909-3576-4a36-8398-fa30e446448c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.dashbuilder/dashbuilder-server-all@0.6.0.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-server-all/0.6.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-server-all/0.6.0.Final/dashbuilder-server-all-0.6.0.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-server-all/0.6.0.Final/dashbuilder-server-all-0.6.0.Final.pom",
+    "file_references": []
+}

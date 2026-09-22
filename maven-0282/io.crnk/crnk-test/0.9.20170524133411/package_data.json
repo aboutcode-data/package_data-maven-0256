@@ -1,0 +1,200 @@
+{
+    "type": "maven",
+    "namespace": "io.crnk",
+    "name": "crnk-test",
+    "version": "0.9.20170524133411",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "crnk-test\nJSON API framework for Java",
+    "release_date": "2017-05-24T13:36:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "crnk.io",
+            "email": "info@crnk.io",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.crnk.io",
+    "download_url": "https://repo1.maven.org/maven2/io/crnk/crnk-test/0.9.20170524133411/crnk-test-0.9.20170524133411.jar",
+    "size": 30513,
+    "md5": null,
+    "sha1": "4a23695d3c87b64b6d97d77cb474e49bc620f1e6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.crnk/crnk-test@0.9.20170524133411?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.crnk/crnk-core",
+            "extracted_requirement": "0.9.20170524133411",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.10.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": "2.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider",
+            "extracted_requirement": "2.8.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-common",
+            "extracted_requirement": "2.25.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.containers/jersey-container-grizzly2-http",
+            "extracted_requirement": "2.25.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2",
+            "extracted_requirement": "2.25.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.test-framework/jersey-test-framework-core",
+            "extracted_requirement": "2.25.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.rest-assured/rest-assured",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "1.1.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j",
+            "extracted_requirement": "1.7.13",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": "4.5.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.ext/jersey-proxy-client",
+            "extracted_requirement": "2.25.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client",
+            "extracted_requirement": "2.25.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.media/jersey-media-json-jackson",
+            "extracted_requirement": "2.25.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp",
+            "extracted_requirement": "3.4.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": "0.9.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.crnk/crnk-test@0.9.20170524133411?uuid=9483ed10-e369-41f1-b019-7d41f67e5434",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.crnk/crnk-test@0.9.20170524133411",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/crnk/crnk-test/0.9.20170524133411/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/crnk/crnk-test/0.9.20170524133411/crnk-test-0.9.20170524133411.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/crnk/crnk-test/0.9.20170524133411/crnk-test-0.9.20170524133411.pom",
+    "file_references": []
+}

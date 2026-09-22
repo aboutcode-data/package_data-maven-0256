@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.servicemix.bundles",
+    "name": "org.apache.servicemix.bundles.snmp4j",
+    "version": "2.2.2_1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3e2a27fa-fd38-4803-82dd-964a1f7510aa",
+            "packages": [
+                "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.snmp4j@2.2.2_1?uuid=7b2889a3-6d33-44ed-8dd7-fc35889f52ba",
+                "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.snmp4j@2.2.2_1?classifier=sources&uuid=10a51ef2-4e03-45f5-8c9d-a9144f6ed799"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache ServiceMix :: Bundles :: snmp4j\nThis OSGi bundle wraps snmp4j 2.2.2 jar file.",
+    "release_date": "2013-07-01T07:08:26Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.snmp4j/2.2.2_1/org.apache.servicemix.bundles.snmp4j-2.2.2_1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e239a4cc877bcfefa54cc99131ffbe3c02daf5b0",
+    "sha256": "5aa85648ce6e16bb27cb54c6f1bed3f43c497ae104c2e6a50e43d9e586bb7b23",
+    "sha512": "1abc1bd2c75c5fe014747183300fdf121f3d4e8a9d4297af886edc0a949b9609209e8c0c0e1c99926c071108757cb73f4d87ead0841d32983f28f3bfd08b2f3d",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.snmp4j-2.2.2_1",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.snmp4j-2.2.2_1",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "free-unknown AND apache-2.0",
+    "other_license_expression_spdx": "LicenseRef-scancode-free-unknown AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.snmp4j@2.2.2_1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@7",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@7"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.snmp4j@2.2.2_1?classifier=sources&uuid=10a51ef2-4e03-45f5-8c9d-a9144f6ed799",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.snmp4j@2.2.2_1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.snmp4j/2.2.2_1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.snmp4j/2.2.2_1/org.apache.servicemix.bundles.snmp4j-2.2.2_1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.snmp4j/2.2.2_1/org.apache.servicemix.bundles.snmp4j-2.2.2_1.pom",
+    "file_references": []
+}

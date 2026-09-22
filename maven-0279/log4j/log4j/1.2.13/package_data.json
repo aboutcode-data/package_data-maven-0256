@@ -1,0 +1,57 @@
+{
+    "type": "maven",
+    "namespace": "log4j",
+    "name": "log4j",
+    "version": "1.2.13",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dc7923d6-94c6-4978-8d9a-fff4815056f9",
+            "packages": [
+                "pkg:maven/log4j/log4j@1.2.13?uuid=05c10d53-68c9-4a8b-b9f5-e6ecedbd678e",
+                "pkg:maven/log4j/log4j@1.2.13?classifier=sources&uuid=bcb717a7-ff10-4def-ab75-ff0fe3a86961"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Log4j",
+    "release_date": "2006-01-10T13:05:06Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://logging.apache.org/log4j/docs/",
+    "download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.13/log4j-1.2.13-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0d77ba5661ca05a5eabdaa38c71d3da595318ee7",
+    "sha256": "1cf9dc1279c948bd4a20d51ec27b3e206574ad525758e2d1ffbf8fefa2c70256",
+    "sha512": "c713837c57bb3765db27ad11ba53c03eb7f4da0ab692468220e287813408c41fbc20f42316709de1921e3360eea9d64de01ee28986c690f8255a69a2caff6dcb",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewcvs.cgi/logging/log4j/tags/v1_2_13/",
+    "vcs_url": "http://svn.apache.org/viewcvs.cgi/logging/log4j/tags/v1_2_13/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/log4j/log4j@1.2.13?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/log4j/log4j@1.2.13?classifier=sources&uuid=bcb717a7-ff10-4def-ab75-ff0fe3a86961",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/log4j/log4j@1.2.13?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.13/",
+    "repository_download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.13/log4j-1.2.13-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.13/log4j-1.2.13.pom",
+    "file_references": []
+}

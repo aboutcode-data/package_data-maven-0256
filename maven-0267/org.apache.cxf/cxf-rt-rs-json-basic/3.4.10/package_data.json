@@ -1,0 +1,94 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-rs-json-basic",
+    "version": "3.4.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bc69a238-87b3-4103-81a8-8b95e91f6362",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.4.10?uuid=b89be798-0bd9-4ff7-b292-0b7204deef70",
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.4.10?classifier=sources&uuid=27f68d26-7f3e-41ea-8ddb-92b6e6620db1",
+                "pkg:github/apache/cxf@cxf-3.4.10?uuid=b25d738e-c753-477b-9ff9-88ca573e5e6c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF JAX-RS Extensions: JSON Basic",
+    "release_date": "2022-12-07T18:46:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "https://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.4.10/cxf-rt-rs-json-basic-3.4.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "45013eede2e4e1c2ffc5c8f9f78e069e23df91dc",
+    "sha256": "78080411b2c87a0610827261caed279f5ddba82025197c5947b4d18d1d54835d",
+    "sha512": "09411d14b229c0cc9ea802e0388f1f2b186cdc0d3166600cd23404aa0787aa16bf5f0cee16aa95568af133780fa5ab389e6ebc878956e6161c5317eb3ca0de45",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND apache-2.0",
+    "other_license_expression_spdx": "BSD-3-Clause AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.4.10?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.4.10",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.4.10"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.4.10?classifier=sources&uuid=27f68d26-7f3e-41ea-8ddb-92b6e6620db1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-json-basic@3.4.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.4.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.4.10/cxf-rt-rs-json-basic-3.4.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-json-basic/3.4.10/cxf-rt-rs-json-basic-3.4.10.pom",
+    "file_references": []
+}

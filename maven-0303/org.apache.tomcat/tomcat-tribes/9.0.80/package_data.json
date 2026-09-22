@@ -1,0 +1,99 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tomcat",
+    "name": "tomcat-tribes",
+    "version": "9.0.80",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "83a9b0e3-bae5-4e8a-a052-270953dc3598",
+            "packages": [
+                "pkg:maven/org.apache.tomcat/tomcat-tribes@9.0.80?uuid=505cf1f3-2d43-4450-8553-8153b2df7be5",
+                "pkg:maven/org.apache.tomcat/tomcat-tribes@9.0.80?classifier=sources&uuid=7b3a5b09-27eb-4e06-823f-4b3dc91f4c61"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Tomcat Group Communication Package",
+    "release_date": null,
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://tomcat.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-tribes/9.0.80/tomcat-tribes-9.0.80-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "73ca851b84270fd330c074eba92b5b126e6d2e65",
+    "sha256": "b37e97ef290058bd7217a6e2c69871184ae3d2b201c538a0d6e7588107ef5b87",
+    "sha512": "6467f0c2a4a12486ab45d29ab1cff8e3c1f0f19da9bc4c0f81a99f8aa807913bbdcf638253331cc5890a3ad2ca70818b2a9d87b22e0e08dfc2a328f4fa362d81",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tomcat/tomcat-tribes@9.0.80?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.80",
+            "extracted_requirement": "9.0.80",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tomcat/tomcat-tribes@9.0.80?classifier=sources&uuid=7b3a5b09-27eb-4e06-823f-4b3dc91f4c61",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.tomcat/tomcat-tribes@9.0.80?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-tribes/9.0.80/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-tribes/9.0.80/tomcat-tribes-9.0.80-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-tribes/9.0.80/tomcat-tribes-9.0.80.pom",
+    "file_references": []
+}

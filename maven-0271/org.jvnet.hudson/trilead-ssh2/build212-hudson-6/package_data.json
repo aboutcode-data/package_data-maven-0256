@@ -1,0 +1,75 @@
+{
+    "type": "maven",
+    "namespace": "org.jvnet.hudson",
+    "name": "trilead-ssh2",
+    "version": "build212-hudson-6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "319bcb3f-d475-4da4-a514-347ae803869f",
+            "packages": [
+                "pkg:maven/org.jvnet.hudson/trilead-ssh2@build212-hudson-6?uuid=3bfe6488-dea0-4c30-b153-b4564e1919b5",
+                "pkg:maven/org.jvnet.hudson/trilead-ssh2@build212-hudson-6?classifier=sources&uuid=3a54ce45-b914-448d-a6bc-98e823999dfa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Ganymed SSH2 for Java\nGanymed SSH2 for Java is a library which implements the SSH-2 protocol in pure Java",
+    "release_date": "2010-08-10T23:01:18Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.ganymed.ethz.ch/ssh2/",
+    "download_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/trilead-ssh2/build212-hudson-6/trilead-ssh2-build212-hudson-6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fc73cdd363e8410f9e6a4193816eb4443e042451",
+    "sha256": "a9fde981d58fa17ad39c339344ea63aeb8fd9a84833488415ebfbbfda73eab01",
+    "sha512": "177e114213aabce1831ac0b1b27264330f87d9d751d43b09648ab7a6fc8dfe0aa1c780b148b23c146faa45bae0dab54314e0cbbf90fc51405705f4cfecedc6b6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 90.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_292.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: BSD style license",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 90,
+                    "rule_identifier": "bsd-new_292.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-e5c36e75-59ce-738c-144d-48028f2e1831",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "mit AND rsa-md5",
+    "other_license_expression_spdx": "MIT AND RSA-MD",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD style license\n  url: http://www.ganymed.ethz.ch/ssh2/LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jvnet.hudson/trilead-ssh2@build212-hudson-6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.jvnet.hudson/trilead-ssh2@build212-hudson-6?classifier=sources&uuid=3a54ce45-b914-448d-a6bc-98e823999dfa",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jvnet.hudson/trilead-ssh2@build212-hudson-6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/trilead-ssh2/build212-hudson-6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/trilead-ssh2/build212-hudson-6/trilead-ssh2-build212-hudson-6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/trilead-ssh2/build212-hudson-6/trilead-ssh2-build212-hudson-6.pom",
+    "file_references": []
+}

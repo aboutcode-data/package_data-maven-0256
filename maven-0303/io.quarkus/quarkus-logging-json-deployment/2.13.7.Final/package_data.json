@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-logging-json-deployment",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6bb02735-36c8-4420-9a01-b2acbbd6d72a",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-logging-json-deployment@2.13.7.Final?uuid=485b77e4-d4cd-45b8-a952-78cf58f752d0",
+                "pkg:maven/io.quarkus/quarkus-logging-json-deployment@2.13.7.Final?classifier=sources&uuid=780f6e8d-1df0-40ac-b5df-5170631dae40"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Logging - JSON - Deployment",
+    "release_date": "2023-01-19T10:10:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-logging-json-deployment/2.13.7.Final/quarkus-logging-json-deployment-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0f950607c937a6edcdd00397d8a350ceb3cd429f",
+    "sha256": "998fee88da1dfeab0ba8e916231a40a4f1119d3fcc41c4c7d83d9d16083122da",
+    "sha512": "8830e64f79cc5a301420b61f5e11498001b0b725ecd966b60195f5d236b457cc4ada62a9da3d27d812f8706119ec013bc667d23a1df528cf216bc015d5e7b77f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-logging-json-deployment@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-jsonp-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-logging-json",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-junit5-internal",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-junit5",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc-deployment",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-jackson-deployment",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-logging-json-deployment@2.13.7.Final?classifier=sources&uuid=780f6e8d-1df0-40ac-b5df-5170631dae40",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-logging-json-deployment@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

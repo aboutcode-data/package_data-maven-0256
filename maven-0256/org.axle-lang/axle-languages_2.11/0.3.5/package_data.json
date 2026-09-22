@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.axle-lang",
+    "name": "axle-languages_2.11",
+    "version": "0.3.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "axle-languages",
+    "release_date": "2017-05-23T05:40:12Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Adam Pingel",
+            "email": null,
+            "url": "https://github.com/adampingel"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.axle-lang",
+            "email": null,
+            "url": "http://axle-lang.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://axle-lang.org",
+    "download_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-languages_2.11/0.3.5/axle-languages_2.11-0.3.5.jar",
+    "size": 33875,
+    "md5": null,
+    "sha1": "1fdf1ee1a320402445e857023485f2523d0567b6",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://opensource.org/licenses/Apache-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.axle-lang/axle-languages_2.11@0.3.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.typelevel/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.axle-lang/axle-core_2.11",
+            "extracted_requirement": "0.3.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.11",
+            "extracted_requirement": "2.8.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.11",
+            "extracted_requirement": "1.12.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.axle-lang/axle-languages_2.11@0.3.5?uuid=166a7d7d-792b-4a90-80ed-2bf578da33af",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.axle-lang/axle-languages_2.11@0.3.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-languages_2.11/0.3.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-languages_2.11/0.3.5/axle-languages_2.11-0.3.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/axle-lang/axle-languages_2.11/0.3.5/axle-languages_2.11-0.3.5.pom",
+    "file_references": []
+}

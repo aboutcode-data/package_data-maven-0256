@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.cloud",
+    "name": "spring-cloud-starter-zookeeper-config",
+    "version": "1.1.1.RELEASE",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring Cloud Starter Zookeeper Config",
+    "release_date": "2017-05-22T19:50:32Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "https://www.spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://projects.spring.io/spring-cloud",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-starter-zookeeper-config/1.1.1.RELEASE/spring-cloud-starter-zookeeper-config-1.1.1.RELEASE.jar",
+    "size": 2370,
+    "md5": null,
+    "sha1": "a31144d3bcf6c51304f3ee17b3ca05f3aebccd81",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.cloud/spring-cloud-starter-zookeeper-config@1.1.1.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-starter-zookeeper",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-zookeeper-config",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.cloud/spring-cloud-context",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.curator/curator-recipes",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.cloud/spring-cloud-starter-zookeeper-config@1.1.1.RELEASE?uuid=0c9e0897-2feb-435d-89af-18a8e7769df0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.cloud/spring-cloud-starter-zookeeper-config@1.1.1.RELEASE",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-starter-zookeeper-config/1.1.1.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-starter-zookeeper-config/1.1.1.RELEASE/spring-cloud-starter-zookeeper-config-1.1.1.RELEASE.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-starter-zookeeper-config/1.1.1.RELEASE/spring-cloud-starter-zookeeper-config-1.1.1.RELEASE.pom",
+    "file_references": []
+}

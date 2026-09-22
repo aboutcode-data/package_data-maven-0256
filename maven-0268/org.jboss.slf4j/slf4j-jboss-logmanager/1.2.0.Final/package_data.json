@@ -1,0 +1,134 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.slf4j",
+    "name": "slf4j-jboss-logmanager",
+    "version": "1.2.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5444be92-148f-47fb-b9ba-2f63c5015a4b",
+            "packages": [
+                "pkg:maven/org.jboss.slf4j/slf4j-jboss-logmanager@1.2.0.Final?uuid=38e84e2e-8cb2-450b-a7b6-e85d7d903737",
+                "pkg:maven/org.jboss.slf4j/slf4j-jboss-logmanager@1.2.0.Final?classifier=sources&uuid=bb87ae06-d168-46d8-b670-8d7124e5e399"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J: JBoss Log Manager",
+    "release_date": "2022-07-19T20:25:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/slf4j/slf4j-jboss-logmanager/1.2.0.Final/slf4j-jboss-logmanager-1.2.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2f5bde24075d76e69ada17f99cf0ee241c617943",
+    "sha256": "bad39da436b4fb85dc60202e1a94ec9c2d8abe6b421a5ed940b07aaefceeb597",
+    "sha512": "b7ee84e8864c75e6da46acf8879b1a11095cf386ab67fa2c0bd4e80b112427d594ce6c3a3430cc2fcbb05e2fc72396188f183792a532e037e2a3e65ce6f04aea",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Red Hat, Inc., and individual contributors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 50,
+                    "rule_identifier": "apache-2.0_3.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-f5c95478-417b-051d-2a73-0f3b1cc66568",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1086.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://repository.jboss.org/licenses/apache-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1086.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-37a842a5-6720-f12b-ea44-fccc24653fcf",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: https://repository.jboss.org/licenses/apache-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.slf4j/slf4j-jboss-logmanager@1.2.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.18.Final",
+            "extracted_requirement": "2.1.18.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+            "extracted_requirement": "1.7.36",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.slf4j/slf4j-jboss-logmanager@1.2.0.Final?classifier=sources&uuid=bb87ae06-d168-46d8-b670-8d7124e5e399",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.slf4j/slf4j-jboss-logmanager@1.2.0.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

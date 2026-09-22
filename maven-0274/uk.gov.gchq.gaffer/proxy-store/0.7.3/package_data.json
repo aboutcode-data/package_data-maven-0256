@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "uk.gov.gchq.gaffer",
+    "name": "proxy-store",
+    "version": "0.7.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-23T15:35:10Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/proxy-store/0.7.3/proxy-store-0.7.3.jar",
+    "size": 13085,
+    "md5": null,
+    "sha1": "bab47ed6a88d131c586005dc1eca45a5efb32b20",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/uk.gov.gchq.gaffer/proxy-store@0.7.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/graph",
+            "extracted_requirement": "0.7.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.core/jersey-client",
+            "extracted_requirement": "${jersey.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/store",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/common-util",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/integration-test",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2",
+            "extracted_requirement": "${jersey.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/core-rest",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/accumulo-store",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/uk.gov.gchq.gaffer/proxy-store@0.7.3?uuid=fef73d34-9bbb-44fe-b1f2-622f42295b48",
+    "datasource_id": null,
+    "purl": "pkg:maven/uk.gov.gchq.gaffer/proxy-store@0.7.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/proxy-store/0.7.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/proxy-store/0.7.3/proxy-store-0.7.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/proxy-store/0.7.3/proxy-store-0.7.3.pom",
+    "file_references": []
+}

@@ -1,0 +1,132 @@
+{
+    "type": "maven",
+    "namespace": "log4j",
+    "name": "log4j",
+    "version": "1.2.15",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7d31308e-be79-4a2f-ace6-959e0c0def6a",
+            "packages": [
+                "pkg:maven/log4j/log4j@1.2.15?uuid=5e4608d3-c216-4147-be6e-6d4c5e270c60",
+                "pkg:maven/log4j/log4j@1.2.15?classifier=sources&uuid=b47c1fe1-dfbd-4dcf-9794-ba96ace2a165"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Log4j\nApache Log4j 1.2",
+    "release_date": "2007-08-30T17:41:16Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://logging.apache.org:80/log4j/1.2/",
+    "download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "adb444f39d8885f2d26f1d8f87dce9da1ecda049",
+    "sha256": "23f8fdedc16ab857767b981fd5881843a75655c284ae8ee00ef9ecbf6ae47b16",
+    "sha512": "7d2bd0c9481d193032a629e2d15486d7e1296b87493677c883e4c27ffca429c43af549725284edc45b9757295535763f975a9c063e8eb3b75198520743811681",
+    "bug_tracking_url": "http://issues.apache.org/bugzilla/",
+    "code_view_url": "http://svn.apache.org/viewcvs.cgi/logging/log4j/tags/v1_2_15_rc6",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/logging/log4j/tags/v1_2_15_rc6",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/log4j/log4j@1.2.15?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.mail/mail@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.jms/jms@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.jdmk/jmxtools@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.jmx/jmxri@1.2.1",
+            "extracted_requirement": "1.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/oro/oro@2.0.8",
+            "extracted_requirement": "2.0.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/log4j/log4j@1.2.15?classifier=sources&uuid=b47c1fe1-dfbd-4dcf-9794-ba96ace2a165",
+    "datasource_id": null,
+    "purl": "pkg:maven/log4j/log4j@1.2.15?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.15/",
+    "repository_download_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/log4j/log4j/1.2.15/log4j-1.2.15.pom",
+    "file_references": []
+}

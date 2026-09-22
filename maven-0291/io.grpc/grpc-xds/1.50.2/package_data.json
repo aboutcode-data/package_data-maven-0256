@@ -1,0 +1,186 @@
+{
+    "type": "maven",
+    "namespace": "io.grpc",
+    "name": "grpc-xds",
+    "version": "1.50.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "67444b00-eff9-48d7-adf4-a77f020b6433",
+            "packages": [
+                "pkg:maven/io.grpc/grpc-xds@1.50.2?uuid=66fb7bb5-dfe8-4737-a3e8-5f55cb02e6f8",
+                "pkg:maven/io.grpc/grpc-xds@1.50.2?classifier=sources&uuid=1dbb6f96-4c7b-403d-9789-dafacc578465",
+                "pkg:github/grpc/grpc-java@v1.50.2?uuid=0f174460-d3bc-4cbd-8a9c-53b0b1680265"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "io.grpc:grpc-xds\ngRPC: XDS plugin",
+    "release_date": "2022-10-19T23:39:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "gRPC Contributors",
+            "email": "grpc-io@googlegroups.com",
+            "url": "https://grpc.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/grpc/grpc-java",
+    "download_url": "https://repo1.maven.org/maven2/io/grpc/grpc-xds/1.50.2/grpc-xds-1.50.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d4048d36ebd2e68af6f870fff104efacecc40d15",
+    "sha256": "20ed942ea882d3fa6ea3a8425132c833db6f1fd7b7ccf9b0113a22a12eaa5641",
+    "sha512": "b676f157de73f04b6b65affb5513541584140b1f5339426ac8c3ca5298fc2c8ed72f4cfaccfcc269e5cb19348b030cb902520945abb1334abe45d851960b6bac",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/grpc/grpc-java",
+    "vcs_url": "git+https://github.com/grpc/grpc-java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1314.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache 2.0\n  url: https://opensource.org/licenses/Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1314.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-8151c493-87af-4fae-f44a-22cbb244e920",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2.0\n  url: https://opensource.org/licenses/Apache-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.grpc/grpc-xds@1.50.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.grpc/grpc-protobuf@1.50.2",
+            "extracted_requirement": "1.50.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-stub@1.50.2",
+            "extracted_requirement": "1.50.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.opencensus/opencensus-proto@0.2.0",
+            "extracted_requirement": "0.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-core@1.50.2",
+            "extracted_requirement": "1.50.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-services@1.50.2",
+            "extracted_requirement": "1.50.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-auth@1.50.2",
+            "extracted_requirement": "1.50.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-alts@1.50.2",
+            "extracted_requirement": "1.50.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson@2.9.0",
+            "extracted_requirement": "2.9.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.re2j/re2j@1.6",
+            "extracted_requirement": "1.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.auto.value/auto-value-annotations@1.9",
+            "extracted_requirement": "1.9",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java-util@3.21.7",
+            "extracted_requirement": "3.21.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-netty-shaded",
+            "extracted_requirement": "[1.50.2]",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.grpc/grpc-xds@1.50.2?classifier=sources&uuid=1dbb6f96-4c7b-403d-9789-dafacc578465",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.grpc/grpc-xds@1.50.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/grpc/grpc-xds/1.50.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/grpc/grpc-xds/1.50.2/grpc-xds-1.50.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/grpc/grpc-xds/1.50.2/grpc-xds-1.50.2.pom",
+    "file_references": []
+}

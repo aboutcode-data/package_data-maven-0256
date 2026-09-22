@@ -1,0 +1,99 @@
+{
+    "type": "maven",
+    "namespace": "jline",
+    "name": "jline",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "44868d95-0fa0-4bd1-83ec-47efecaf6a84",
+            "packages": [
+                "pkg:maven/jline/jline@1.0?uuid=dad8ec5b-35c8-47d1-aa43-307317dd599f",
+                "pkg:maven/jline/jline@1.0?classifier=sources&uuid=e2801ca2-42f7-460d-90ad-12ef07e49698"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JLine\nJLine is a java library for reading and editing user input in console applications. It features\n        tab-completion, command history, password masking, customizable keybindings, and pass-through handlers to use to\n        chain to other console applications.",
+    "release_date": "2011-10-28T01:53:10Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc Prud'hommeaux",
+            "email": "mwp1@cornell.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Charles Oliver Nutter",
+            "email": "headius@headius.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jline.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6c1743fac3ce292eff59a89d23cf8368e8c531dd",
+    "sha256": "8e4fd7c20966553a8fff4c639cc3e9e8b41986c816a330ab829dd7dd738004cc",
+    "sha512": "e5aafde2c1e05aba8d440d0bb62bc140db8a3c4a8e29234bbbebdaafd1a0c9e116501a85014a04588d48788f28894bcd8c6e61890b10110b7bf898ac246f341d",
+    "bug_tracking_url": "http://sourceforge.net/tracker/?group_id=64033&atid=506056",
+    "code_view_url": "https://github.com/jline/jline",
+    "vcs_url": "git://github.com/jline/jline.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-eafb9f9a520053d20ae50d15abd0c82e3acf0376",
+                    "start_line": 1,
+                    "matched_text": "license - name: BSD\n  url: LICENSE.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-eafb9f9a520053d20ae50d15abd0c82e3acf0376",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-574922a1-3bba-921b-ea70-ca739be88b73",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD\n  url: LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/jline/jline@1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/jline/jline@1.0?classifier=sources&uuid=e2801ca2-42f7-460d-90ad-12ef07e49698",
+    "datasource_id": null,
+    "purl": "pkg:maven/jline/jline@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/jline/jline/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/jline/jline/1.0/jline-1.0.pom",
+    "file_references": []
+}

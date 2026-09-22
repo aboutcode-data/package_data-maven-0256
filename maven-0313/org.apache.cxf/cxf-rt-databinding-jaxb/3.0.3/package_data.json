@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-databinding-jaxb",
+    "version": "3.0.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e55e5229-517a-476a-89da-2643a2c1535d",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-databinding-jaxb@3.0.3?uuid=5af4d4b8-eb6d-4c31-ac69-37451696a690",
+                "pkg:maven/org.apache.cxf/cxf-rt-databinding-jaxb@3.0.3?classifier=sources&uuid=315e4380-0733-40ef-8a0d-6a1bfc2d51f7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF Runtime JAXB DataBinding",
+    "release_date": "2014-12-03T02:18:06Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/3.0.3/cxf-rt-databinding-jaxb-3.0.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9b5f2c99e520b08a815fb6bd75f5be65e0b4980d",
+    "sha256": "2a95c0b418fb989383bf22e87c28197799b88ce63585177a7327d3e57fea8b95",
+    "sha512": "0a88e21721fd952db7dbd42897ae5670e7c00f11d37ac5164cbcba0799110376f24bd8139e52501087d677a7de861cc93dbb987016c179601a7c71d6b02431ae",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "cpl-1.0 AND apache-2.0 AND bsd-new AND (cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND cddl-1.0",
+    "other_license_expression_spdx": "CPL-1.0 AND Apache-2.0 AND BSD-3-Clause AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CDDL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-databinding-jaxb@3.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-wsdl@3.0.3",
+            "extracted_requirement": "3.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bcxf.asm.groupId%7D/%24%7Bcxf.asm.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-databinding-jaxb@3.0.3?classifier=sources&uuid=315e4380-0733-40ef-8a0d-6a1bfc2d51f7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding-jaxb@3.0.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/3.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/3.0.3/cxf-rt-databinding-jaxb-3.0.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-jaxb/3.0.3/cxf-rt-databinding-jaxb-3.0.3.pom",
+    "file_references": []
+}

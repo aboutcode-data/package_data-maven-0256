@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.mobicents.diameter",
+    "name": "jdiameter-impl",
+    "version": "1.7.0.177",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Restcomm :: Diameter Stack :: jdiameter-impl",
+    "release_date": "2017-05-23T17:52:49Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/mobicents/diameter/jdiameter-impl/1.7.0.177/jdiameter-impl-1.7.0.177.jar",
+    "size": 1089652,
+    "md5": null,
+    "sha1": "543e834f89351ed3ee88a6b1a9fcf2e4bf0790a2",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mobicents.diameter/jdiameter-impl@1.7.0.177?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.mobicents.diameter/jdiameter-api",
+            "extracted_requirement": "1.7.0.177",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.picocontainer/picocontainer",
+            "extracted_requirement": "${picocontainer.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "${slf4j.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": "${slf4j.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-pool/commons-pool",
+            "extracted_requirement": "${commons-pool.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.protocols.sctp/sctp-impl",
+            "extracted_requirement": "1.8.15",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.protocols.sctp/sctp-api",
+            "extracted_requirement": "1.8.15",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-all",
+            "extracted_requirement": "4.0.36.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mobicents.diameter/jdiameter-impl@1.7.0.177?uuid=574d65c6-0e36-4b56-ab09-b1152af127dc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mobicents.diameter/jdiameter-impl@1.7.0.177",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mobicents/diameter/jdiameter-impl/1.7.0.177/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mobicents/diameter/jdiameter-impl/1.7.0.177/jdiameter-impl-1.7.0.177.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mobicents/diameter/jdiameter-impl/1.7.0.177/jdiameter-impl-1.7.0.177.pom",
+    "file_references": []
+}

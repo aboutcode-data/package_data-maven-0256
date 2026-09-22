@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "net.sf.ehcache",
+    "name": "management-ehcache",
+    "version": "2.8.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "139a795d-f242-453f-949c-2119ff423090",
+            "packages": [
+                "pkg:maven/net.sf.ehcache/management-ehcache@2.8.3?uuid=881eea96-f353-49a2-9a21-f0f6e0edc84e",
+                "pkg:maven/net.sf.ehcache/management-ehcache@2.8.3?classifier=sources&uuid=1799b7db-efb0-4b38-aabd-effbcd0f4e70"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "management-ehcache\nA library defining the ehcache management resource service interfaces and resource entities.",
+    "release_date": "2014-06-06T11:32:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Luck",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Surya Suravarapu",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Gavin King",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mauro Talevi",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adam Murdoch",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Ben Houston",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Claus Ibsen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jody Brownell",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Terracotta, Inc.",
+            "email": null,
+            "url": "http://www.terracotta.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://ehcache.org",
+    "download_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache/2.8.3/management-ehcache-2.8.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "065722f432b52f36373919dcd32cc7c0794652b3",
+    "sha256": "4ce4abb6d23cfc8e45e7e5d8a51cf85af383708f9be4764828f332d9694b8f85",
+    "sha512": "50a83a089ed7c7a037299bce33ae64dbd34d1095d74b2c20ef167d9235c88a8845b51eb40a02349044d501ac6b72de05fadc601dd7bd89f8e4aa7ae8a8a66999",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sf.ehcache/management-ehcache@2.8.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.terracotta/management-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache.internal/ehcache-core@2.8.3",
+            "extracted_requirement": "2.8.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.sf.ehcache/management-ehcache@2.8.3?classifier=sources&uuid=1799b7db-efb0-4b38-aabd-effbcd0f4e70",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.sf.ehcache/management-ehcache@2.8.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache/2.8.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache/2.8.3/management-ehcache-2.8.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sf/ehcache/management-ehcache/2.8.3/management-ehcache-2.8.3.pom",
+    "file_references": []
+}

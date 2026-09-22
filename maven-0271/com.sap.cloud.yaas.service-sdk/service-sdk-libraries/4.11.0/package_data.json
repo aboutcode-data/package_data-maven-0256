@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "com.sap.cloud.yaas.service-sdk",
+    "name": "service-sdk-libraries",
+    "version": "4.11.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "service-sdk-libraries\nAll dependencies convenient to use in services aggregated into one pom descriptor",
+    "release_date": "2016-08-24T10:59:28Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/sap/cloud/yaas/service-sdk/service-sdk-libraries/4.11.0/service-sdk-libraries-4.11.0.jar",
+    "size": 2595,
+    "md5": null,
+    "sha1": "d91d754376767d48bf826139a1c34c919ad926d3",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-libraries@4.11.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-logging",
+            "extracted_requirement": "4.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-logging-filters",
+            "extracted_requirement": "4.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-pattern-support",
+            "extracted_requirement": "4.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-jersey-support",
+            "extracted_requirement": "4.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-ping",
+            "extracted_requirement": "4.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-security",
+            "extracted_requirement": "4.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-api-console",
+            "extracted_requirement": "4.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-libraries@4.11.0?uuid=ffe1f622-2a57-4efe-a51c-9c690593eb52",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.sap.cloud.yaas.service-sdk/service-sdk-libraries@4.11.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sap/cloud/yaas/service-sdk/service-sdk-libraries/4.11.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sap/cloud/yaas/service-sdk/service-sdk-libraries/4.11.0/service-sdk-libraries-4.11.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sap/cloud/yaas/service-sdk/service-sdk-libraries/4.11.0/service-sdk-libraries-4.11.0.pom",
+    "file_references": []
+}
